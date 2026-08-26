@@ -69,7 +69,17 @@ function renderDashboard(data) {
   const stocks = data.stocks || [];
 
   // Header Meta
-  document.getElementById("briefing-date").textContent = meta.date_str || meta.updated_at || "최신 데이터";
+  document.getElementById("briefing-date").textContent = meta.date_str || "최신 데이터";
+  
+  const updatedTime = meta.updated_at || "";
+  let timeStr = "05:00 KST";
+  if (updatedTime.includes(" ")) {
+    timeStr = updatedTime.split(" ")[1] + " KST";
+  } else if (updatedTime) {
+    timeStr = updatedTime;
+  }
+  document.getElementById("briefing-time").textContent = `⏰ ${timeStr} 갱신`;
+
   document.getElementById("header-stock-count").textContent = stocks.length;
   document.getElementById("ai-engine-badge").textContent = `🧠 ${meta.ai_mode || "AI Engine"}`;
 
