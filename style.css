@@ -361,6 +361,13 @@ body {
   border-bottom: none;
 }
 
+.matrix-summary-cell {
+  color: #0F172A !important; /* 선명한 블랙 텍스트 */
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  white-space: nowrap;
+}
+
 .table-loading {
   text-align: center;
   color: var(--text-dim);

@@ -198,7 +198,7 @@ function renderFilteredContent(data) {
             ${sentLabel}
           </span>
         </td>
-        <td style="color: #CBD5E1; font-size: 12.5px;">
+        <td class="matrix-summary-cell">
           ${ai.one_line_summary || "요약 정보 없음"}
         </td>
       `;
@@ -468,14 +468,20 @@ function setupModalEvents() {
       return;
     }
 
+    let detectedAccount = acc;
+    const isEtf = /KODEX|TIGER|ACE|SOL|PLUS|RISE|KOSEF|KBSTAR|HANARO|ETF|리츠|선물/i.test(name) || /T0|A0|L0/i.test(ticker);
+    if (isEtf) {
+      detectedAccount = "pension";
+    }
+
     currentStocksList.push({
       ticker: ticker,
       name: name,
-      market: ticker.match(/^\d+$/) ? "KR" : "US",
-      account_type: acc,
-      account_name: acc === "pension" ? "연금저축" : "일반계좌",
+      market: ticker.match(/^\d+$/) ? "KR" : (isEtf ? "KR" : "US"),
+      account_type: detectedAccount,
+      account_name: detectedAccount === "pension" ? "연금저축" : "일반계좌",
       sector: sector,
-      category: acc === "pension" ? "연금저축 ETF/리츠" : "일반주식"
+      category: detectedAccount === "pension" ? "연금저축 ETF/리츠" : "일반주식"
     });
 
     document.getElementById("new-stock-ticker").value = "";
