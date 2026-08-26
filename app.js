@@ -311,6 +311,49 @@ function renderFilteredContent(data) {
       `;
     }
 
+    // [제안 2] ETF Metrics HTML
+    let etfHtml = "";
+    const etf = s.etf_metrics || {};
+    if (isPension && etf.nav) {
+      etfHtml = `
+        <div class="card-etf-bar">
+          <div class="earnings-header-label">
+            <span>💰 <b>ETF 순자산가치(NAV) & 괴리율 분석:</b></span>
+          </div>
+          <div class="etf-chips-group">
+            <span class="etf-metric-chip"><span class="etf-metric-label">NAV(순자산가치):</span> <b>${etf.nav_str}</b></span>
+            <span class="etf-metric-chip"><span class="etf-metric-label">괴리율:</span> <span class="disp-badge ${etf.disparity_status || 'good'}">${etf.disparity_badge}</span></span>
+            <span class="etf-metric-chip"><span class="etf-metric-label">최근 3개월:</span> <b style="color:${etf.three_month_return >= 0 ? 'var(--accent-red)' : 'var(--accent-fall)'}">${etf.three_month_str}</b></span>
+            <span class="etf-metric-chip"><span class="etf-metric-label">분배 주기:</span> <b>${etf.distribution_cycle}</b></span>
+            <span class="etf-metric-chip"><span class="etf-metric-label">시가총액:</span> <b>${etf.market_cap_str}</b></span>
+          </div>
+        </div>
+      `;
+    }
+
+    // [제안 3] Upcoming Events HTML
+    let eventsHtml = "";
+    const events = s.upcoming_events || [];
+    if (events.length > 0) {
+      let eventChips = "";
+      events.forEach((ev) => {
+        eventChips += `
+          <div class="event-chip">
+            <span class="event-badge-tag">${ev.badge}</span>
+            <span><b>${ev.title}</b>: <span style="color:var(--text-muted);">${ev.date_desc}</span></span>
+          </div>
+        `;
+      });
+      eventsHtml = `
+        <div class="card-events-bar">
+          <div class="events-label">📅 <b>다가오는 주요 일정 & 캘린더:</b></div>
+          <div class="events-chips">
+            ${eventChips}
+          </div>
+        </div>
+      `;
+    }
+
     const card = document.createElement("article");
     card.className = "stock-card";
     card.id = `card-${item.ticker}`;
@@ -338,27 +381,34 @@ function renderFilteredContent(data) {
         ${flowChipsHtml}
       </div>
 
+      <!-- [제안 2] ETF 순자산가치 & 괴리율 바 (연금저축 종목) -->
+      ${etfHtml}
+
       <!-- 최근 3개 분기 실적 변화 (일반계좌 종목) -->
       ${earningsHtml}
 
       <div class="card-body">
         <div class="brief-block">
           <div class="brief-label label-fact">📰 핵심 뉴스 (Fact)</div>
-          <div class="brief-text">${ai.fact || "수집된 핵심 뉴스 내용이 없습니다."}</div>
+          <p class="brief-text">${ai.fact || "수집된 최신 뉴스가 없습니다."}</p>
         </div>
         <div class="brief-block">
-          <div class="brief-label label-reaction">💬 시장 & 증권사 반응</div>
-          <div class="brief-text">${ai.reaction || "시장 및 증권사 투자의견을 종합 중입니다."}</div>
+          <div class="brief-label label-reaction">💬 시장 & 수급 반응</div>
+          <p class="brief-text">${ai.reaction || "시장 반응 데이터를 종합 중입니다."}</p>
         </div>
         <div class="brief-block">
-          <div class="brief-label label-upside">🚀 주가 상승 여력 (Upside)</div>
-          <div class="brief-text">${ai.upside || "실적 개선 및 신규 모멘텀 점검 중입니다."}</div>
+          <div class="brief-label label-upside">🚀 상승 여력 (Upside)</div>
+          <p class="brief-text">${ai.upside || "상승 모멘텀 분석 중입니다."}</p>
         </div>
         <div class="brief-block">
           <div class="brief-label label-downside">⚠️ 하락 리스크 (Downside)</div>
-          <div class="brief-text">${ai.downside || "거시 경제 및 업황 리스크 요인 점검 중입니다."}</div>
+          <p class="brief-text">${ai.downside || "리스크 요인을 점검 중입니다."}</p>
         </div>
       </div>
+
+      <!-- [제안 3] 다가오는 주요 일정 & 캘린더 -->
+      ${eventsHtml}
+
       <div class="card-footer">
         <span>🔗 관련 언론사 & 리포트 원문:</span>
         <div class="source-chips">

@@ -1,10 +1,12 @@
 """
-Stock Market Price, Flow (Foreign, Inst, Retail, Program), Volume Surge, Analyst Consensus
-& Recent 3-Quarter Financial Earnings (Operating Profit / Net Income) Collector.
+Stock Market Price, Flow (Foreign, Inst, Retail, Program), Volume Surge, Analyst Consensus,
+Recent 3-Quarter Financial Earnings, ETF NAV/Disparity Metrics & Upcoming Event Calendar Collector.
 """
 
 import re
 import json
+import datetime
+from datetime import timezone, timedelta
 import requests
 from bs4 import BeautifulSoup
 
@@ -98,14 +100,12 @@ def fetch_kr_earnings_history(code: str) -> list:
                                     "net_income_str": f"{net_val:,}억원"
                                 })
 
-                    # Filter out purely future (E) estimates if we have enough reported quarters
                     reported = [q for q in valid_quarters if not q.get("is_estimate")]
                     if len(reported) >= 3:
                         target_quarters = reported[-3:]
                     else:
                         target_quarters = valid_quarters[-3:] if len(valid_quarters) >= 3 else valid_quarters
 
-                    # Calculate QoQ change rates
                     for i in range(len(target_quarters)):
                         curr = target_quarters[i]
                         if i > 0:
@@ -142,8 +142,54 @@ def fetch_kr_earnings_history(code: str) -> list:
     return earnings_list
 
 
+def generate_upcoming_events(stock_info: dict) -> list:
+    """Generate intelligent upcoming events and calendar for stocks & ETFs."""
+    events = []
+    is_etf = bool(stock_info.get("etf_metrics")) or stock_info.get("account_type") == "pension"
+    name = stock_info.get("name", "")
+
+    # 1. Earnings Season Schedule
+    if not is_etf:
+        events.append({
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+        })
+        events.append({
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+        })
+    else:
+        # ETF distribution cycle
+        if any(k in name for k in ["미국배당", "초단기", "국채", "화장품", "월"]):
+            events.append({
+                "type": "etf_dist",
+                "title": "💵 월말 분배금 지급 기준일",
+                "date_desc": "매월 마지막 영업일 (월분배)",
+                "badge": "월분배금"
+            })
+        else:
+            events.append({
+                "type": "etf_dist",
+                "title": "💵 분기 분배금 지급 기준일",
+                "date_desc": "1/4/7/10월 마지막 영업일",
+                "badge": "분기분배"
+            })
+        events.append({
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+        })
+
+    return events
+
+
 def fetch_kr_stock_data(ticker: str, name: str) -> dict:
-    """Fetch Korean stock/ETF price, volume surge, investor flows & earnings history."""
+    """Fetch Korean stock/ETF price, volume surge, investor flows, earnings, ETF metrics & events."""
     code = ticker.strip()
     result = {
         "ticker": code,
@@ -187,7 +233,9 @@ def fetch_kr_stock_data(ticker: str, name: str) -> dict:
             "upside_potential": 0.0,
             "analyst_count": 0
         },
-        "earnings_history": []
+        "earnings_history": [],
+        "etf_metrics": {}, # 제안 2: ETF 전용 지표
+        "upcoming_events": [] # 제안 3: 주요 일정 캘린더
     }
 
     # 1. Check ETF Master API first if ETF
@@ -197,6 +245,9 @@ def fetch_kr_stock_data(ticker: str, name: str) -> dict:
         diff_p = parse_clean_int(etf_info.get("changeVal"))
         rate_p = float(etf_info.get("changeRate", 0.0))
         vol_p = parse_clean_int(etf_info.get("quant"))
+        nav_p = float(etf_info.get("nav", 0.0))
+        three_month = float(etf_info.get("threeMonthEarnRate", 0.0))
+        market_sum = parse_clean_int(etf_info.get("marketSum"))
 
         if now_p > 0:
             result["current_price"] = now_p
@@ -217,6 +268,32 @@ def fetch_kr_stock_data(ticker: str, name: str) -> dict:
                 result["status"] = "same"
                 result["display_change"] = "0 (0.00%)"
 
+            # [제안 2] ETF Metrics Calculation
+            if nav_p > 0:
+                disparity = ((now_p - nav_p) / nav_p) * 100
+                disp_abs = abs(disparity)
+                if disp_abs <= 0.5:
+                    disp_badge = f"적정 수준 ({disparity:+.2f}%)"
+                    disp_status = "good"
+                elif disparity > 0.5:
+                    disp_badge = f"고평가 주의 ({disparity:+.2f}%)"
+                    disp_status = "high"
+                else:
+                    disp_badge = f"저평가 기회 ({disparity:+.2f}%)"
+                    disp_status = "low"
+
+                result["etf_metrics"] = {
+                    "nav": round(nav_p, 1),
+                    "nav_str": f"{nav_p:,.1f}원",
+                    "disparity_rate": round(disparity, 2),
+                    "disparity_badge": disp_badge,
+                    "disparity_status": disp_status,
+                    "three_month_return": round(three_month, 2),
+                    "three_month_str": f"{three_month:+.2f}%",
+                    "market_cap_str": f"{market_sum:,}억원" if market_sum else "-",
+                    "distribution_cycle": "월분배" if any(k in name for k in ["미국배당", "초단기", "국채", "화장품"]) else "분기/결산분배"
+                }
+
     # 2. Integration API for Regular Stocks & Flows
     try:
         api_url = f"https://m.stock.naver.com/api/stock/{code}/integration"
@@ -235,7 +312,7 @@ def fetch_kr_stock_data(ticker: str, name: str) -> dict:
                 inst_quant = parse_clean_int(latest.get("organPureBuyQuant"))
                 ret_quant = parse_clean_int(latest.get("individualPureBuyQuant"))
 
-                if close_p > 0:
+                if close_p > 0 and result["current_price"] == 0:
                     result["current_price"] = close_p
                     result["display_price"] = f"{close_p:,}원"
                     result["change_val"] = diff_p
@@ -257,6 +334,7 @@ def fetch_kr_stock_data(ticker: str, name: str) -> dict:
                     sign = "▲" if result["status"] == "up" else ("▼" if result["status"] == "down" else "─")
                     result["display_change"] = f"{sign} {abs(result['change_val']):,} ({rate:+.2f}%)"
 
+                if close_p > 0:
                     result["investor_flow"]["foreign"] = format_krw_amount(frgn_quant, close_p)
                     result["investor_flow"]["institutional"] = format_krw_amount(inst_quant, close_p)
                     result["investor_flow"]["retail"] = format_krw_amount(ret_quant, close_p)
@@ -327,11 +405,14 @@ def fetch_kr_stock_data(ticker: str, name: str) -> dict:
     if not etf_info:
         result["earnings_history"] = fetch_kr_earnings_history(code)
 
+    # 5. [제안 3] Generate Upcoming Events Calendar
+    result["upcoming_events"] = generate_upcoming_events(result)
+
     return result
 
 
 def fetch_us_stock_data(ticker: str, name: str) -> dict:
-    """Fetch US stock price, volume surge, institutional ownership and Wall Street consensus."""
+    """Fetch US stock price, volume surge, institutional ownership, Wall Street consensus & events."""
     code = ticker.strip().upper()
     result = {
         "ticker": code,
@@ -377,7 +458,16 @@ def fetch_us_stock_data(ticker: str, name: str) -> dict:
             "upside_potential": 0.0,
             "analyst_count": 0
         },
-        "earnings_history": []
+        "earnings_history": [],
+        "etf_metrics": {},
+        "upcoming_events": [
+            {
+                "type": "earnings",
+                "title": "📊 Wall Street Q3 Earnings Release",
+                "date_desc": "2026.10월 하순 예정",
+                "badge": "실적 발표"
+            }
+        ]
     }
 
     # 1. Price and Volume History from Yahoo Chart API

@@ -1,7 +1,7 @@
 window.BRIEFING_DATA = {
   "metadata": {
     "title": "보유/관심 종목 모닝 스마트 브리핑",
-    "updated_at": "2026-08-26 23:27:06",
+    "updated_at": "2026-08-26 23:41:21",
     "date_str": "2026년 08월 26일 (수)",
     "stock_count": 45,
     "ai_mode": "Gemini AI"
@@ -87,6 +87,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 660.2,
             "op_change_str": "+660.2%",
             "op_status": "up"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -245,6 +260,21 @@ window.BRIEFING_DATA = {
             "op_status": "up"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "2차전지·소재"
@@ -399,6 +429,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 24.4,
             "op_change_str": "+24.4%",
             "op_status": "up"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -557,6 +602,21 @@ window.BRIEFING_DATA = {
             "op_status": "up"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "유통·편의점"
@@ -713,6 +773,21 @@ window.BRIEFING_DATA = {
             "op_status": "up"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "자동차부품·전기차"
@@ -770,19 +845,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "'명신산업' 52주 신고가 경신, 기회와 리스크의 공존 - 대신증권, BUY",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YX3BTbVltY0gwc0F2aHg5TENKRkVrYTI1T2lpUXlnY3Rjdm9kOHF5QVJVWUJyajFBSVRkQk8tV2hmTTBjQTQzN1g1NW5zLVY2ZzVad2Y4Q0c2Zw?oc=5",
-          "publisher": "한국경제",
-          "date": "Thu, 23 Apr 2026",
-          "summary": "'명신산업' 52주 신고가 경신, 기회와 리스크의 공존 - 대신증권, BUY",
-          "is_report": false
-        },
-        {
           "title": "명신산업, 작년 연간 연결 영업이익 1007억...전년비 31%↓",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1EUVFxTERJbXRpc01DLU40MUY2ZzBIeTl5a0h1NVA2Ukx5UlpXejBfYmdOSHhydEZVSzlqbDVkbFhHQXE5Xy1xX1NQUXExVlFtRUxTeFJxZ0R6NF84MHBXdjYtblJFcVRGR2hwSVozV1hiZmM?oc=5",
           "publisher": "데이터투자",
           "date": "Wed, 25 Feb 2026",
           "summary": "명신산업, 작년 연간 연결 영업이익 1007억...전년비 31%↓",
+          "is_report": false
+        },
+        {
+          "title": "'명신산업' 52주 신고가 경신, 기회와 리스크의 공존 - 대신증권, BUY",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YX3BTbVltY0gwc0F2aHg5TENKRkVrYTI1T2lpUXlnY3Rjdm9kOHF5QVJVWUJyajFBSVRkQk8tV2hmTTBjQTQzN1g1NW5zLVY2ZzVad2Y4Q0c2Zw?oc=5",
+          "publisher": "한국경제",
+          "date": "Thu, 23 Apr 2026",
+          "summary": "'명신산업' 52주 신고가 경신, 기회와 리스크의 공존 - 대신증권, BUY",
           "is_report": false
         }
       ]
@@ -867,6 +942,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 167.6,
             "op_change_str": "+167.6%",
             "op_status": "up"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -1025,6 +1115,21 @@ window.BRIEFING_DATA = {
             "op_status": "down"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "자동차부품·커넥터"
@@ -1036,7 +1141,7 @@ window.BRIEFING_DATA = {
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": -10,
+        "sentiment_score": -20,
         "one_line_summary": "한국단자, 기다림의 시기...내년 실적 회복 기대",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -1082,19 +1187,19 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "한국단자, 실적 회복 기대에 배당 매력 부각...로봇 커넥터 성장 가능성-하나",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RUjZ2dURGOERFNjJYOTlVdm5HX01adnpOWmxkcHBLZFlXZHZ1VFMyNkFEb0RIbEF3Y0kteDNLYUNPcUVhTlhsbGU5NjBncmNJd1Mxa1ZrYlNNQ1E3dTM3SXBnaEZBZENaTi02NlRfR1BUOE0?oc=5",
-          "publisher": "마켓인",
-          "date": "Mon, 16 Mar 2026",
-          "summary": "한국단자, 실적 회복 기대에 배당 매력 부각...로봇 커넥터 성장 가능성-하나",
-          "is_report": true
-        },
-        {
           "title": "한국단자, 파격 배당·정관 손질…쿼드운용 방어전선 구축",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84djdxRGNrT25sSzZGbzhzZ1RYaFU4aUtLNTRkcklYdXFoRWw4bmJOVWFDekVUWDhOYzM4bmlDbDdwN2dEMWtfdUszenpwb3M?oc=5",
           "publisher": "딜사이트",
           "date": "Tue, 10 Mar 2026",
           "summary": "한국단자, 파격 배당·정관 손질…쿼드운용 방어전선 구축",
+          "is_report": false
+        },
+        {
+          "title": "한국단자 투자분석 2026. 08. 23",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YaFhMZXNJbzdKcjVXWVNya1BaX2tnSkRQV0dTUm9paHBhWkE4WWFtTjhRd3YyQlAyUUlEYmtITDVqM2hSdnJad0hOVHVPRzdmMHBoMldzTnM5ekh6dW56TjZCY2pmZHBlbU1ucm0yNmFNa1U?oc=5",
+          "publisher": "주달",
+          "date": "Sun, 23 Aug 2026",
+          "summary": "한국단자 투자분석 2026. 08. 23",
           "is_report": false
         }
       ]
@@ -1181,22 +1286,45 @@ window.BRIEFING_DATA = {
             "op_status": "loss_cont"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "제약·바이오"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 'HLB제약, 상반기 매출 1279억…반기 최대 실적 - 조선비즈' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성' 관련 이슈가 함께 거론되고 있습니다.",
+        "fact": "최근 주요 소식으로 'HLB제약, 상반기 매출 1279억 달성…역대 최대 반기 실적 - 머니투데이' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'HLB제약, 상반기 매출 1279억…반기 최대 실적 - 조선비즈' 관련 이슈가 함께 거론되고 있습니다.",
         "reaction": "금일 주가는 ▼ 1,800 (-4.70%) 흐름을 기록했습니다. 수급은 외국인(-12.4억), 기관(-91.2억, 연기금(장기 스마트머니)), 개인(+103.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
         "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
         "sentiment": "bear",
         "sentiment_label": "리스크 주의",
         "sentiment_score": -45,
-        "one_line_summary": "HLB제약, 상반기 매출 1279억…반기 최대 실적 - 조선비즈",
+        "one_line_summary": "HLB제약, 상반기 매출 1279억 달성…역대 최대 반기 실적 - 머니투데이",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
+        {
+          "title": "HLB제약, 상반기 매출 1279억 달성…역대 최대 반기 실적 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9maDVWRk5BaTBDN1VueWpPWTZMVVJjSlBBR05TcWZ5S2NuOG1zTXZZeFBQbjZtRlk3VmNzVUpyUUVkZWp1Sm0yZTZoMjhyeEpmTXNsXzhRQVltZ09FWU5NNVJBbjgzcVd30gFuQVVfeXFMTk9PcFA5b3lZSEl0Q1RnYmFzTTFwOXl3MzRCZGNIZFJWYW01UndTNXBYWEp3NDVFenpPOUFZbVpQaTg5RmxVTHNjZ1dxY3cyaElldG54X3Ztb1J6WHQ0MkxoSWE0ZTNka040RXN5WUE?oc=5",
+          "publisher": "머니투데이",
+          "date": "Fri, 14 Aug 2026",
+          "summary": "HLB제약, 상반기 매출 1279억 달성…역대 최대 반기 실적 - 머니투데이",
+          "is_report": true
+        },
         {
           "title": "HLB제약, 상반기 매출 1279억…반기 최대 실적 - 조선비즈",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYVJmOTBESkp1Ukhndm50cm9iVXdMbUdLU3hVWW1TVGVEUFd6eFpYMzE0VHVWVzI4Nkx1WjBFenVyNmFKYnVsbTctWXAxMmphRzExVWR2bFlBYUJuU0VDZ3gyT3BvYXBoTzJsc2VGYV9NV3N3clh4TWdSTHVOV3Z1bjFBTmlXNWPSAZsBQVVfeXFMTm9WVy1leWVUdS1rZl9PZUUwNF9HLVMxcmkzV0VaeG5Rckc2ZjZRNkUyOEJLUWtCbmc5LV92enI2Ul9ScDR5VXFSOUg4eFdjMENpaTAxVklKY1F2bWxpT2t0cE9ZTk5KMlVxWHUzSi1MVzY4T0xRc1JsVG1qcEkyWEJwQjZXak93ZXRGQVo0b0JrU1pjSTRlb29VRmM?oc=5",
@@ -1211,14 +1339,6 @@ window.BRIEFING_DATA = {
           "publisher": "MEDI:GATE NEWS",
           "date": "Fri, 14 Aug 2026",
           "summary": "HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성",
-          "is_report": true
-        },
-        {
-          "title": "HLB제약, 상반기 매출 1279억 달성…역대 최대 반기 실적 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9maDVWRk5BaTBDN1VueWpPWTZMVVJjSlBBR05TcWZ5S2NuOG1zTXZZeFBQbjZtRlk3VmNzVUpyUUVkZWp1Sm0yZTZoMjhyeEpmTXNsXzhRQVltZ09FWU5NNVJBbjgzcVd30gFuQVVfeXFMTk9PcFA5b3lZSEl0Q1RnYmFzTTFwOXl3MzRCZGNIZFJWYW01UndTNXBYWEp3NDVFenpPOUFZbVpQaTg5RmxVTHNjZ1dxY3cyaElldG54X3Ztb1J6WHQ0MkxoSWE0ZTNka040RXN5WUE?oc=5",
-          "publisher": "머니투데이",
-          "date": "Fri, 14 Aug 2026",
-          "summary": "HLB제약, 상반기 매출 1279억 달성…역대 최대 반기 실적 - 머니투데이",
           "is_report": true
         },
         {
@@ -1335,6 +1455,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 75.0,
             "op_change_str": "+75.0%",
             "op_status": "up"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -1493,6 +1628,21 @@ window.BRIEFING_DATA = {
             "op_status": "down"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "엔터·미디어"
@@ -1647,6 +1797,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": -75.0,
             "op_change_str": "-75.0%",
             "op_status": "down"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -1805,6 +1970,21 @@ window.BRIEFING_DATA = {
             "op_status": "up"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "OLED·디스플레이"
@@ -1816,7 +1996,7 @@ window.BRIEFING_DATA = {
         "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
         "sentiment": "bear",
         "sentiment_label": "리스크 주의",
-        "sentiment_score": -25,
+        "sentiment_score": -35,
         "one_line_summary": "IBK증권, 덕산네오룩스 목표가↑…\"하반기 최대 실적 전망\"",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -1846,12 +2026,12 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "덕산네오룩스, 증권사 목표가 상향에 강세…3.37%",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SdkROZ3BhUDRIVzdGTnVTNm9SRF9ubElFV082M0p6OFFXNjlXSWFNRG13RkRxS0hrN3NTaDJvS2l1REJVLVFVY3Ffc2tSNVhpV2c?oc=5",
-          "publisher": "매일경제 마켓",
-          "date": "Fri, 22 May 2026",
-          "summary": "덕산네오룩스, 증권사 목표가 상향에 강세…3.37%",
-          "is_report": true
+          "title": "EZ",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXa3Z3aDY4c1FqN3B2VlNORGU3U3o5N1l5U05zNWFZT3pLcXRMNkM4TEU2SHBEdWtTbnBHTlRodjVvSjRKV3QzU1dSWDJGZVJuTlZ5SHRkM1dYU1liaVNSTGJWNWNqV0dMRE8tUm9ySQ?oc=5",
+          "publisher": "프라임경제",
+          "date": "Sat, 22 Aug 2026",
+          "summary": "EZ",
+          "is_report": false
         },
         {
           "title": "iM證 “덕산네오룩스, 과도한 저평가 상황⋯적극 비중확대 추천”",
@@ -1870,11 +2050,11 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "덕산네오룩스, OLED 고부가 소재로 수익성 증명…밸류 저평가-IBK",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HUW53eXlVV19KQjQ5T3JuTEEya25SdXYxcEpsT3drdng4bWgxTFFBZnVyVFlfTWcyQVhQOGR4QW9Rd0pYUXMxbWgyVUJlS2w4S3NJU0NkZ1M2VXNhLXZEZFI2YVNRVnhTNUhnR1dZX0ZjS0E?oc=5",
-          "publisher": "마켓인",
-          "date": "Wed, 12 Aug 2026",
-          "summary": "덕산네오룩스, OLED 고부가 소재로 수익성 증명…밸류 저평가-IBK",
+          "title": "덕산네오룩스, 2Q 연결 영업이익 185억...전년비 79%↑",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yR185UE1zTWhYM1dRUHc2RHFhVXNfMVVadDdYeEZlN3R4TXRUTW9TX0U3a0FMWXBXYTVhbmg4dm1YaDdvZ2gwVVgwQm1MUWZ1ckIyNm1xZWlPNHZjR1l0UXVUTGFWZFBwbGo0OV85R0tyYTA?oc=5",
+          "publisher": "데이터투자",
+          "date": "Thu, 06 Aug 2026",
+          "summary": "덕산네오룩스, 2Q 연결 영업이익 185억...전년비 79%↑",
           "is_report": false
         }
       ]
@@ -1959,6 +2139,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 52.1,
             "op_change_str": "+52.1%",
             "op_status": "up"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -2117,6 +2312,21 @@ window.BRIEFING_DATA = {
             "op_status": "down"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "웹툰·콘텐츠"
@@ -2271,6 +2481,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 0.0,
             "op_change_str": "적자지속",
             "op_status": "loss_cont"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -2429,6 +2654,21 @@ window.BRIEFING_DATA = {
             "op_status": "up"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "인터넷은행·금융"
@@ -2583,6 +2823,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 100.0,
             "op_change_str": "흑자전환 🟢",
             "op_status": "turn_profit"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -2741,6 +2996,21 @@ window.BRIEFING_DATA = {
             "op_status": "loss_cont"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "산업용PDA·IT기기"
@@ -2895,6 +3165,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 8.6,
             "op_change_str": "+8.6%",
             "op_status": "up"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -3053,6 +3338,21 @@ window.BRIEFING_DATA = {
             "op_status": "loss_cont"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "동박·전자소재"
@@ -3207,6 +3507,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 100.0,
             "op_change_str": "흑자전환 🟢",
             "op_status": "turn_profit"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -3365,6 +3680,21 @@ window.BRIEFING_DATA = {
             "op_status": "loss_cont"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "2차전지·분리막"
@@ -3398,6 +3728,14 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
+          "title": "IBK투자, SK아이이테크놀로지 목표가↓…\"연내 적자지속 전망\"",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPMVJwakJCbDFfbmw5Vi1wS2pQd21GZVZvUDBwTzV5X3hKd3NzR2Y4aGUzWERvZDNDMk1yWXVDSkZjX1FTUUF3elJrSjd2cnpZbU5RbGNJcE1rUUXSAWBBVV95cUxOUExrVjV4V0Jtd0pZaDhLc1ptYUpFUVlSWkNGRGxMRVB4MWNJbkVSNjMyaDNIVmxkZ0lPVXdZYUZuRGJoa1pmcGdyWVpiVXhOUVFoV2ZIb0IybTRBODZPd2o?oc=5",
+          "publisher": "연합뉴스",
+          "date": "Fri, 15 May 2026",
+          "summary": "IBK투자, SK아이이테크놀로지 목표가↓…\"연내 적자지속 전망\"",
+          "is_report": true
+        },
+        {
           "title": "SK이노베이션, SK아이이테크놀로지 흡수합병…분리막 사업 편입",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iMlFjYnpfM1dicnBWRnpfblBvaE4tUm85eThabE1RMnpLSkRZOHpiNDgxc0pqNnhydTJpMFVBM1BsQU1aTENUM21JQVJXZzhlMWdOVUlKSnJTRE1h?oc=5",
           "publisher": "뉴스핌",
@@ -3427,14 +3765,6 @@ window.BRIEFING_DATA = {
           "publisher": "한국경제",
           "date": "Tue, 04 Aug 2026",
           "summary": "\"SK아이이테크놀로지, 2Q 635억원 적자…3Q도 영업손 전망\"-SK",
-          "is_report": false
-        },
-        {
-          "title": "SK아이이테크놀로지, 2Q 연결 영업손실 634억...적자지속",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9keUNzZDFzR0IzQ2tiN1BfTG9oRXk1LTZlNWVMa1pWd1BoWFUyUG96MEYyM0VESXdnS1hLVU5fQ1lkVnQ4SHBYZWU4TGtDSjNMc08xUW5XV2xqWW91YmdrdDVWckJ1YVdRTWJ3Z1d0Q2xzOU0?oc=5",
-          "publisher": "데이터투자",
-          "date": "Thu, 30 Jul 2026",
-          "summary": "SK아이이테크놀로지, 2Q 연결 영업손실 634억...적자지속",
           "is_report": false
         }
       ]
@@ -3519,6 +3849,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 0.0,
             "op_change_str": "적자지속",
             "op_status": "loss_cont"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -3677,6 +4022,21 @@ window.BRIEFING_DATA = {
             "op_status": "turn_profit"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "2차전지·배터리"
@@ -3831,6 +4191,21 @@ window.BRIEFING_DATA = {
             "op_change_rate": 117.4,
             "op_change_str": "+117.4%",
             "op_status": "up"
+          }
+        ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
           }
         ],
         "category": "일반주식",
@@ -3989,6 +4364,21 @@ window.BRIEFING_DATA = {
             "op_status": "loss_cont"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "팹리스·통신반도체"
@@ -4145,6 +4535,21 @@ window.BRIEFING_DATA = {
             "op_status": "turn_loss"
           }
         ],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "일반주식",
         "account_type": "general",
         "sector": "친환경·울트라커패시터"
@@ -4267,6 +4672,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 19788.0,
+          "nav_str": "19,788.0원",
+          "disparity_rate": -0.22,
+          "disparity_badge": "적정 수준 (-0.22%)",
+          "disparity_status": "good",
+          "three_month_return": 33.99,
+          "three_month_str": "+33.99%",
+          "market_cap_str": "997억원",
+          "distribution_cycle": "월분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 월말 분배금 지급 기준일",
+            "date_desc": "매월 마지막 영업일 (월분배)",
+            "badge": "월분배금"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "K-뷰티·화장품 ETF"
@@ -4389,6 +4819,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 14750.0,
+          "nav_str": "14,750.0원",
+          "disparity_rate": -0.07,
+          "disparity_badge": "적정 수준 (-0.07%)",
+          "disparity_status": "good",
+          "three_month_return": -19.95,
+          "three_month_str": "-19.95%",
+          "market_cap_str": "2,801억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "글로벌 로봇·AI ETF"
@@ -4511,6 +4966,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 9588.0,
+          "nav_str": "9,588.0원",
+          "disparity_rate": 0.02,
+          "disparity_badge": "적정 수준 (+0.02%)",
+          "disparity_status": "good",
+          "three_month_return": -8.04,
+          "three_month_str": "-8.04%",
+          "market_cap_str": "3,481억원",
+          "distribution_cycle": "월분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 월말 분배금 지급 기준일",
+            "date_desc": "매월 마지막 영업일 (월분배)",
+            "badge": "월분배금"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "미국 단기채권·달러 ETF"
@@ -4633,6 +5113,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 9728.0,
+          "nav_str": "9,728.0원",
+          "disparity_rate": -0.19,
+          "disparity_badge": "적정 수준 (-0.19%)",
+          "disparity_status": "good",
+          "three_month_return": -31.66,
+          "three_month_str": "-31.66%",
+          "market_cap_str": "2,602억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "중국 로봇·AI ETF"
@@ -4644,7 +5149,7 @@ window.BRIEFING_DATA = {
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": 0,
+        "sentiment_score": -10,
         "one_line_summary": "'피지컬 AI 시대' 본격화… ‘TIGER 휴머노이드로봇 ETF’ 2종 순자산 9...",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -4674,14 +5179,6 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "[주末머니] 휴머노이드 ETF에선 미국이 중국 이겼다",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CUFBpUXNyck9jS2NoVFZCb2dBTE5DMFVSRE1OWF9NS3dSUmxVTXprTVJuUTZxRXN5OGhrak8yQnJZS0N3R0RUTzdXb1N1Z0p1cEo1NkNyckpRNUt0TXBXM2lR?oc=5",
-          "publisher": "아시아경제",
-          "date": "Wed, 29 Apr 2026",
-          "summary": "[주末머니] 휴머노이드 ETF에선 미국이 중국 이겼다",
-          "is_report": false
-        },
-        {
           "title": "사람처럼 걷네…휴머노이드 로봇 본 투심, ETF에 주목",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BeVRQX0VGUTF3dlpEeC1NVHVJbGxRS1hJWlpfZ3BGZW5FSnFBbG9uaEN5bkZFUEVxMkdvUmx3RUo0eG93TmFiUVdMajNLR0hHNnl4bEplSVV0bVloZDlSOFZ6ZXlKLTZ3dW9ja1RR0gFzQVVfeXFMTm4zcnV0emN0U1k5dW04MEpLQVR5WDE4MS1DcnpsblBFTGRYNWNGbkh4TjJZUTZYR0kyY09sZ2hOY1JwWnY1QW0yVDRJYnl5MktaUFRGSHM5dUJJSEg2UFhZdkxEQzR0QkVLV3lzWVRfYTk2TQ?oc=5",
           "publisher": "한국일보",
@@ -4703,6 +5200,14 @@ window.BRIEFING_DATA = {
           "publisher": "스마트투데이",
           "date": "Thu, 18 Dec 2025",
           "summary": "치열해지는 휴머노이드 ETF 경쟁…미래에셋, '한국 버전' 내놓는다",
+          "is_report": false
+        },
+        {
+          "title": "휴머노이드 ETF 4% 오를 때 태양광 19% 급락…테마 순환매 [ETF스퀘어]",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90N0ZFTWV0c3RROGlZSWZLZUF4a1BFZTgzekx2WEdrdmxqeXMxNzltMUdQV3Njc2xNXzJtUFh0NjNFOFFNSHU3OEIyc3lXNW5jZ2Y1MUY5eTV3UQ?oc=5",
+          "publisher": "파이낸셜뉴스",
+          "date": "Sun, 02 Aug 2026",
+          "summary": "휴머노이드 ETF 4% 오를 때 태양광 19% 급락…테마 순환매 [ETF스퀘어]",
           "is_report": false
         }
       ]
@@ -4727,11 +5232,11 @@ window.BRIEFING_DATA = {
         "low_52w": 4920,
         "volume": 13012,
         "display_volume": "13,012주",
-        "avg_volume_20d": 15970,
+        "avg_volume_20d": 15977,
         "volume_surge": {
-          "ratio": 81.5,
+          "ratio": 81.4,
           "status": "normal",
-          "badge": "거래량 평이 (81.5%)",
+          "badge": "거래량 평이 (81.4%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
@@ -4755,6 +5260,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 5773.0,
+          "nav_str": "5,773.0원",
+          "disparity_rate": -0.05,
+          "disparity_badge": "적정 수준 (-0.05%)",
+          "disparity_status": "good",
+          "three_month_return": 3.46,
+          "three_month_str": "+3.46%",
+          "market_cap_str": "133억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "원자재·농산물 ETF"
@@ -4849,11 +5379,11 @@ window.BRIEFING_DATA = {
         "low_52w": 11610,
         "volume": 74056,
         "display_volume": "74,056주",
-        "avg_volume_20d": 68830,
+        "avg_volume_20d": 68881,
         "volume_surge": {
-          "ratio": 107.6,
+          "ratio": 107.5,
           "status": "normal",
-          "badge": "거래량 평이 (107.6%)",
+          "badge": "거래량 평이 (107.5%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
@@ -4877,6 +5407,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 16512.0,
+          "nav_str": "16,512.0원",
+          "disparity_rate": 1.35,
+          "disparity_badge": "고평가 주의 (+1.35%)",
+          "disparity_status": "high",
+          "three_month_return": -4.33,
+          "three_month_str": "-4.33%",
+          "market_cap_str": "1,707억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "원자재·구리실물 ETF"
@@ -4999,6 +5554,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 14527.0,
+          "nav_str": "14,527.0원",
+          "disparity_rate": -0.32,
+          "disparity_badge": "적정 수준 (-0.32%)",
+          "disparity_status": "good",
+          "three_month_return": -27.68,
+          "three_month_str": "-27.68%",
+          "market_cap_str": "13,490억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "국내 성장주·코스닥 ETF"
@@ -5121,6 +5701,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 18070.0,
+          "nav_str": "18,070.0원",
+          "disparity_rate": -0.28,
+          "disparity_badge": "적정 수준 (-0.28%)",
+          "disparity_status": "good",
+          "three_month_return": -25.28,
+          "three_month_str": "-25.28%",
+          "market_cap_str": "8,974억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "2차전지·배터리 ETF"
@@ -5243,6 +5848,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 23949.0,
+          "nav_str": "23,949.0원",
+          "disparity_rate": -0.12,
+          "disparity_badge": "적정 수준 (-0.12%)",
+          "disparity_status": "good",
+          "three_month_return": -5.98,
+          "three_month_str": "-5.98%",
+          "market_cap_str": "100,452억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "미국 대형주·S&P500 ETF"
@@ -5365,6 +5995,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 26761.0,
+          "nav_str": "26,761.0원",
+          "disparity_rate": -0.21,
+          "disparity_badge": "적정 수준 (-0.21%)",
+          "disparity_status": "good",
+          "three_month_return": -9.44,
+          "three_month_str": "-9.44%",
+          "market_cap_str": "92,413억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "미국 빅테크·나스닥 ETF"
@@ -5487,6 +6142,21 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {},
+        "upcoming_events": [
+          {
+            "type": "earnings",
+            "title": "📊 3분기 실적 발표 예정",
+            "date_desc": "2026.10월 말 ~ 11월 중순",
+            "badge": "실적 공시"
+          },
+          {
+            "type": "dividend",
+            "title": "💰 2026년 결산 배당 기준일",
+            "date_desc": "2026.12월 말 (주주명부 폐쇄)",
+            "badge": "배당 일정"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "부동산·상장리츠"
@@ -5609,6 +6279,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 28959.0,
+          "nav_str": "28,959.0원",
+          "disparity_rate": 0.31,
+          "disparity_badge": "적정 수준 (+0.31%)",
+          "disparity_status": "good",
+          "three_month_return": -3.96,
+          "three_month_str": "-3.96%",
+          "market_cap_str": "42,965억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "귀금속·금현물 ETF"
@@ -5731,6 +6426,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 11909.0,
+          "nav_str": "11,909.0원",
+          "disparity_rate": 0.18,
+          "disparity_badge": "적정 수준 (+0.18%)",
+          "disparity_status": "good",
+          "three_month_return": -18.23,
+          "three_month_str": "-18.23%",
+          "market_cap_str": "256억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "자율주행·모빌리티 ETF"
@@ -5853,6 +6573,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 52867.0,
+          "nav_str": "52,867.0원",
+          "disparity_rate": -0.0,
+          "disparity_badge": "적정 수준 (-0.00%)",
+          "disparity_status": "good",
+          "three_month_return": -0.84,
+          "three_month_str": "-0.84%",
+          "market_cap_str": "10,180억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "국내 우량채권 ETF"
@@ -5975,6 +6720,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 7254.0,
+          "nav_str": "7,254.0원",
+          "disparity_rate": -0.4,
+          "disparity_badge": "적정 수준 (-0.40%)",
+          "disparity_status": "good",
+          "three_month_return": -1.05,
+          "three_month_str": "-1.05%",
+          "market_cap_str": "15,173억원",
+          "distribution_cycle": "월분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 월말 분배금 지급 기준일",
+            "date_desc": "매월 마지막 영업일 (월분배)",
+            "badge": "월분배금"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "미국 초장기채권 ETF"
@@ -6097,6 +6867,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 18600.0,
+          "nav_str": "18,600.0원",
+          "disparity_rate": -0.03,
+          "disparity_badge": "적정 수준 (-0.03%)",
+          "disparity_status": "good",
+          "three_month_return": -24.62,
+          "three_month_str": "-24.62%",
+          "market_cap_str": "7,670억원",
+          "distribution_cycle": "분기/결산분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 분기 분배금 지급 기준일",
+            "date_desc": "1/4/7/10월 마지막 영업일",
+            "badge": "분기분배"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "전기차·테슬라 생태계 ETF"
@@ -6219,6 +7014,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 15381.0,
+          "nav_str": "15,381.0원",
+          "disparity_rate": 0.16,
+          "disparity_badge": "적정 수준 (+0.16%)",
+          "disparity_status": "good",
+          "three_month_return": -0.17,
+          "three_month_str": "-0.17%",
+          "market_cap_str": "43,681억원",
+          "distribution_cycle": "월분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 월말 분배금 지급 기준일",
+            "date_desc": "매월 마지막 영업일 (월분배)",
+            "badge": "월분배금"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "미국 고배당·배당성장 ETF"
@@ -6341,6 +7161,31 @@ window.BRIEFING_DATA = {
           "analyst_count": 0
         },
         "earnings_history": [],
+        "etf_metrics": {
+          "nav": 9214.0,
+          "nav_str": "9,214.0원",
+          "disparity_rate": -0.04,
+          "disparity_badge": "적정 수준 (-0.04%)",
+          "disparity_status": "good",
+          "three_month_return": -8.68,
+          "three_month_str": "-8.68%",
+          "market_cap_str": "203억원",
+          "distribution_cycle": "월분배"
+        },
+        "upcoming_events": [
+          {
+            "type": "etf_dist",
+            "title": "💵 월말 분배금 지급 기준일",
+            "date_desc": "매월 마지막 영업일 (월분배)",
+            "badge": "월분배금"
+          },
+          {
+            "type": "rebalancing",
+            "title": "⚖️ 기초지수 정기 리밸런싱",
+            "date_desc": "연 2회 (6월/12월 정기변경)",
+            "badge": "지수변경"
+          }
+        ],
         "category": "연금저축 ETF/리츠",
         "account_type": "pension",
         "sector": "엔화·일본 국채 ETF"
