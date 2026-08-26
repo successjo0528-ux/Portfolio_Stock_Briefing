@@ -90,15 +90,39 @@ function renderDashboard(data) {
   document.getElementById("count-all").textContent = stocks.length;
   document.getElementById("count-general").textContent = genCount;
   document.getElementById("count-pension").textContent = penCount;
-
   renderFilteredContent(data);
 }
 
 function renderFilteredContent(data) {
   const allStocks = data.stocks || [];
+  
+  // Calculate Counts
+  const generalStocks = allStocks.filter(s => {
+    const isEtf = /KODEX|TIGER|ACE|SOL|PLUS|RISE|KOSEF|KBSTAR|HANARO|ETF|리츠|선물/i.test(s.name || "") || /T0|A0|L0/i.test(s.ticker || "");
+    return s.account_type === "general" && !isEtf;
+  });
+  const pensionStocks = allStocks.filter(s => {
+    const isEtf = /KODEX|TIGER|ACE|SOL|PLUS|RISE|KOSEF|KBSTAR|HANARO|ETF|리츠|선물/i.test(s.name || "") || /T0|A0|L0/i.test(s.ticker || "");
+    return s.account_type === "pension" || isEtf;
+  });
+
+  const countAllEl = document.getElementById("count-all");
+  const countGenEl = document.getElementById("count-general");
+  const countPenEl = document.getElementById("count-pension");
+
+  if (countAllEl) countAllEl.textContent = allStocks.length;
+  if (countGenEl) countGenEl.textContent = generalStocks.length;
+  if (countPenEl) countPenEl.textContent = pensionStocks.length;
+
+  // Filter stocks based on currentAccountFilter
   const stocks = allStocks.filter((s) => {
+    const isEtf = /KODEX|TIGER|ACE|SOL|PLUS|RISE|KOSEF|KBSTAR|HANARO|ETF|리츠|선물/i.test(s.name || "") || /T0|A0|L0/i.test(s.ticker || "");
+    const isPen = s.account_type === "pension" || isEtf;
+    
     if (currentAccountFilter === "all") return true;
-    return (s.account_type || "general") === currentAccountFilter;
+    if (currentAccountFilter === "pension") return isPen;
+    if (currentAccountFilter === "general") return !isPen;
+    return true;
   });
 
   // 1. Render Matrix Table

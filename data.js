@@ -1,7 +1,7 @@
 window.BRIEFING_DATA = {
   "metadata": {
     "title": "보유/관심 종목 모닝 스마트 브리핑",
-    "updated_at": "2026-08-26 23:41:21",
+    "updated_at": "2026-08-26 23:49:46",
     "date_str": "2026년 08월 26일 (수)",
     "stock_count": 45,
     "ai_mode": "Gemini AI"
@@ -11,7 +11,10 @@ window.BRIEFING_DATA = {
       "ticker": "000100",
       "name": "유한양행",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "제약·바이오",
       "price_info": {
         "ticker": "000100",
         "name": "유한양행",
@@ -27,11 +30,11 @@ window.BRIEFING_DATA = {
         "low_52w": 65000,
         "volume": 314903,
         "display_volume": "314,903주",
-        "avg_volume_20d": 294669,
+        "avg_volume_20d": 294154,
         "volume_surge": {
-          "ratio": 106.9,
+          "ratio": 107.1,
           "status": "normal",
-          "badge": "거래량 평이 (106.9%)",
+          "badge": "거래량 평이 (107.1%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
@@ -182,7 +185,10 @@ window.BRIEFING_DATA = {
       "ticker": "005070",
       "name": "코스모신소재",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "2차전지·소재",
       "price_info": {
         "ticker": "005070",
         "name": "코스모신소재",
@@ -198,11 +204,11 @@ window.BRIEFING_DATA = {
         "low_52w": 26600,
         "volume": 60662,
         "display_volume": "60,662주",
-        "avg_volume_20d": 98798,
+        "avg_volume_20d": 98694,
         "volume_surge": {
-          "ratio": 61.4,
+          "ratio": 61.5,
           "status": "normal",
-          "badge": "거래량 평이 (61.4%)",
+          "badge": "거래량 평이 (61.5%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
@@ -353,7 +359,10 @@ window.BRIEFING_DATA = {
       "ticker": "006360",
       "name": "GS건설",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "건설·인프라",
       "price_info": {
         "ticker": "006360",
         "name": "GS건설",
@@ -369,11 +378,11 @@ window.BRIEFING_DATA = {
         "low_52w": 17790,
         "volume": 5391520,
         "display_volume": "5,391,520주",
-        "avg_volume_20d": 3378942,
+        "avg_volume_20d": 3376586,
         "volume_surge": {
-          "ratio": 159.6,
+          "ratio": 159.7,
           "status": "normal",
-          "badge": "거래량 평이 (159.6%)",
+          "badge": "거래량 평이 (159.7%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
@@ -524,7 +533,10 @@ window.BRIEFING_DATA = {
       "ticker": "007070",
       "name": "GS리테일",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "유통·편의점",
       "price_info": {
         "ticker": "007070",
         "name": "GS리테일",
@@ -540,7 +552,7 @@ window.BRIEFING_DATA = {
         "low_52w": 15950,
         "volume": 94618,
         "display_volume": "94,618주",
-        "avg_volume_20d": 217759,
+        "avg_volume_20d": 217593,
         "volume_surge": {
           "ratio": 43.5,
           "status": "low",
@@ -695,7 +707,10 @@ window.BRIEFING_DATA = {
       "ticker": "009900",
       "name": "명신산업",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "자동차부품·전기차",
       "price_info": {
         "ticker": "009900",
         "name": "명신산업",
@@ -711,7 +726,7 @@ window.BRIEFING_DATA = {
         "low_52w": 5390,
         "volume": 91196,
         "display_volume": "91,196주",
-        "avg_volume_20d": 187064,
+        "avg_volume_20d": 186982,
         "volume_surge": {
           "ratio": 48.8,
           "status": "low",
@@ -866,7 +881,10 @@ window.BRIEFING_DATA = {
       "ticker": "022100",
       "name": "포스코DX",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "IT서비스·스마트팩토리",
       "price_info": {
         "ticker": "022100",
         "name": "포스코DX",
@@ -882,7 +900,7 @@ window.BRIEFING_DATA = {
         "low_52w": 16510,
         "volume": 128535,
         "display_volume": "128,535주",
-        "avg_volume_20d": 285039,
+        "avg_volume_20d": 284823,
         "volume_surge": {
           "ratio": 45.1,
           "status": "low",
@@ -1037,7 +1055,10 @@ window.BRIEFING_DATA = {
       "ticker": "025540",
       "name": "한국단자",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "자동차부품·커넥터",
       "price_info": {
         "ticker": "025540",
         "name": "한국단자",
@@ -1053,7 +1074,7 @@ window.BRIEFING_DATA = {
         "low_52w": 54100,
         "volume": 17414,
         "display_volume": "17,414주",
-        "avg_volume_20d": 25879,
+        "avg_volume_20d": 25868,
         "volume_surge": {
           "ratio": 67.3,
           "status": "normal",
@@ -1208,7 +1229,10 @@ window.BRIEFING_DATA = {
       "ticker": "028300",
       "name": "HLB",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "제약·바이오",
       "price_info": {
         "ticker": "028300",
         "name": "HLB",
@@ -1379,7 +1403,10 @@ window.BRIEFING_DATA = {
       "ticker": "121600",
       "name": "나노신소재",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "2차전지·소재",
       "price_info": {
         "ticker": "121600",
         "name": "나노신소재",
@@ -1550,7 +1577,10 @@ window.BRIEFING_DATA = {
       "ticker": "122870",
       "name": "와이지엔터테인먼트",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "엔터·미디어",
       "price_info": {
         "ticker": "122870",
         "name": "와이지엔터테인먼트",
@@ -1721,7 +1751,10 @@ window.BRIEFING_DATA = {
       "ticker": "192650",
       "name": "드림텍",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "IT부품·센서",
       "price_info": {
         "ticker": "192650",
         "name": "드림텍",
@@ -1892,7 +1925,10 @@ window.BRIEFING_DATA = {
       "ticker": "213420",
       "name": "덕산네오룩스",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "OLED·디스플레이",
       "price_info": {
         "ticker": "213420",
         "name": "덕산네오룩스",
@@ -2063,7 +2099,10 @@ window.BRIEFING_DATA = {
       "ticker": "257720",
       "name": "실리콘투",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "K-뷰티·이커머스",
       "price_info": {
         "ticker": "257720",
         "name": "실리콘투",
@@ -2161,7 +2200,7 @@ window.BRIEFING_DATA = {
         "sector": "K-뷰티·이커머스"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[클릭 e종목]실리콘투, 넘치는 수요…실적 기대감 커진다' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[잠정실적]실리콘투, 올해 2Q 매출액 급증 4026억원... 전년동기比 52%↑ (연결)' 관련 이슈가 함께 거론되고 있습니다.",
+        "fact": "최근 주요 소식으로 '[클릭 e종목]실리콘투, 넘치는 수요…실적 기대감 커진다' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[클릭 e종목]실리콘투, 넘치는 수요…실적 기대감 커진다' 관련 이슈가 함께 거론되고 있습니다.",
         "reaction": "금일 주가는 ▼ 100 (-0.19%) 흐름을 기록했습니다. 수급은 외국인(+49.7억), 기관(+23.5억, 연기금(장기 스마트머니)), 개인(-73.8억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 58,250원) 흐름입니다.",
         "upside": "실리콘투의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
         "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
@@ -2181,19 +2220,19 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "[잠정실적]실리콘투, 올해 2Q 매출액 급증 4026억원... 전년동기比 52%↑ (연결)",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LQ3lnVFdJUXFBV2xFV21Nck85bk9HajQ4Zm52dFBBWUU1bjNuMHJtY3h4RUpkTkhNOFZGSnU5R0oxZVhldTZiRE1BaUdacHR5X18zVk9wZk12dXRNU1pMcGVFMEFYek1o?oc=5",
-          "publisher": "씽크풀 AI",
-          "date": "Tue, 25 Aug 2026",
-          "summary": "[잠정실적]실리콘투, 올해 2Q 매출액 급증 4026억원... 전년동기比 52%↑ (연결)",
-          "is_report": true
-        },
-        {
           "title": "[클릭 e종목]실리콘투, 넘치는 수요…실적 기대감 커진다",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYNjRJblBXODhzazFJbXltcVo1eW9sQk96U2ZxTk56b1JJTGdURXlSaTFaTmlGLURrcjJqYTlscU54ak1fQVdwNWdOS3RmRC1WZldEbw?oc=5",
           "publisher": "v.daum.net",
           "date": "Mon, 24 Aug 2026",
           "summary": "[클릭 e종목]실리콘투, 넘치는 수요…실적 기대감 커진다",
+          "is_report": true
+        },
+        {
+          "title": "[잠정실적]실리콘투, 올해 2Q 매출액 급증 4026억원... 전년동기比 52%↑ (연결)",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LQ3lnVFdJUXFBV2xFV21Nck85bk9HajQ4Zm52dFBBWUU1bjNuMHJtY3h4RUpkTkhNOFZGSnU5R0oxZVhldTZiRE1BaUdacHR5X18zVk9wZk12dXRNU1pMcGVFMEFYek1o?oc=5",
+          "publisher": "씽크풀 AI",
+          "date": "Tue, 25 Aug 2026",
+          "summary": "[잠정실적]실리콘투, 올해 2Q 매출액 급증 4026억원... 전년동기比 52%↑ (연결)",
           "is_report": true
         },
         {
@@ -2234,7 +2273,10 @@ window.BRIEFING_DATA = {
       "ticker": "263720",
       "name": "디앤씨미디어",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "웹툰·콘텐츠",
       "price_info": {
         "ticker": "263720",
         "name": "디앤씨미디어",
@@ -2405,7 +2447,10 @@ window.BRIEFING_DATA = {
       "ticker": "278280",
       "name": "천보",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "2차전지·전해질",
       "price_info": {
         "ticker": "278280",
         "name": "천보",
@@ -2576,7 +2621,10 @@ window.BRIEFING_DATA = {
       "ticker": "279570",
       "name": "케이뱅크",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "인터넷은행·금융",
       "price_info": {
         "ticker": "279570",
         "name": "케이뱅크",
@@ -2747,7 +2795,10 @@ window.BRIEFING_DATA = {
       "ticker": "298830",
       "name": "슈어소프트테크",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "SW·검증솔루션",
       "price_info": {
         "ticker": "298830",
         "name": "슈어소프트테크",
@@ -2918,7 +2969,10 @@ window.BRIEFING_DATA = {
       "ticker": "317690",
       "name": "포인트모바일",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "산업용PDA·IT기기",
       "price_info": {
         "ticker": "317690",
         "name": "포인트모바일",
@@ -3089,7 +3143,10 @@ window.BRIEFING_DATA = {
       "ticker": "323410",
       "name": "카카오뱅크",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "인터넷은행·금융",
       "price_info": {
         "ticker": "323410",
         "name": "카카오뱅크",
@@ -3260,7 +3317,10 @@ window.BRIEFING_DATA = {
       "ticker": "336370",
       "name": "솔루스첨단소재",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "동박·전자소재",
       "price_info": {
         "ticker": "336370",
         "name": "솔루스첨단소재",
@@ -3386,11 +3446,11 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "솔루스첨단소재 투자분석 2026. 08. 25",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtczM2dVdVUUk1dC1QQkxKaXlkZkpWSXVfQmlTdEdFdHNWTFRoMUpQNGxtdEY0dlVfazlyQjRGUEZpcUVTX0lPaV9UQkhrLVlQR0loVFZYdkxRZi1vY0l3WDhrVURRTVJWQ1Zkdzl1RHBMN3c?oc=5",
+          "title": "솔루스첨단소재1우 투자분석 2026. 08. 25",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80ZkhPUkdaWUwtNlV6c0RkYV92T3lUZVNrRl9VZmZVMTdENThnay1PTVpvZG1GdFBUU3JSdnZ1dVpaNXJVZG9IN182N1Bjbk1PVXlYUTdRem9jNEhKdVQ0czZ2QVZwai1EWFFpelc2Q216ZXM?oc=5",
           "publisher": "주달",
           "date": "Tue, 25 Aug 2026",
-          "summary": "솔루스첨단소재 투자분석 2026. 08. 25",
+          "summary": "솔루스첨단소재1우 투자분석 2026. 08. 25",
           "is_report": false
         },
         {
@@ -3431,7 +3491,10 @@ window.BRIEFING_DATA = {
       "ticker": "344820",
       "name": "KCC글라스",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "유리·인테리어",
       "price_info": {
         "ticker": "344820",
         "name": "KCC글라스",
@@ -3602,7 +3665,10 @@ window.BRIEFING_DATA = {
       "ticker": "361610",
       "name": "SK아이이테크놀로지",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "2차전지·분리막",
       "price_info": {
         "ticker": "361610",
         "name": "SK아이이테크놀로지",
@@ -3728,14 +3794,6 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "IBK투자, SK아이이테크놀로지 목표가↓…\"연내 적자지속 전망\"",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPMVJwakJCbDFfbmw5Vi1wS2pQd21GZVZvUDBwTzV5X3hKd3NzR2Y4aGUzWERvZDNDMk1yWXVDSkZjX1FTUUF3elJrSjd2cnpZbU5RbGNJcE1rUUXSAWBBVV95cUxOUExrVjV4V0Jtd0pZaDhLc1ptYUpFUVlSWkNGRGxMRVB4MWNJbkVSNjMyaDNIVmxkZ0lPVXdZYUZuRGJoa1pmcGdyWVpiVXhOUVFoV2ZIb0IybTRBODZPd2o?oc=5",
-          "publisher": "연합뉴스",
-          "date": "Fri, 15 May 2026",
-          "summary": "IBK투자, SK아이이테크놀로지 목표가↓…\"연내 적자지속 전망\"",
-          "is_report": true
-        },
-        {
           "title": "SK이노베이션, SK아이이테크놀로지 흡수합병…분리막 사업 편입",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iMlFjYnpfM1dicnBWRnpfblBvaE4tUm85eThabE1RMnpLSkRZOHpiNDgxc0pqNnhydTJpMFVBM1BsQU1aTENUM21JQVJXZzhlMWdOVUlKSnJTRE1h?oc=5",
           "publisher": "뉴스핌",
@@ -3766,6 +3824,14 @@ window.BRIEFING_DATA = {
           "date": "Tue, 04 Aug 2026",
           "summary": "\"SK아이이테크놀로지, 2Q 635억원 적자…3Q도 영업손 전망\"-SK",
           "is_report": false
+        },
+        {
+          "title": "SK아이이테크놀로지, 2Q 연결 영업손실 634억...적자지속",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9keUNzZDFzR0IzQ2tiN1BfTG9oRXk1LTZlNWVMa1pWd1BoWFUyUG96MEYyM0VESXdnS1hLVU5fQ1lkVnQ4SHBYZWU4TGtDSjNMc08xUW5XV2xqWW91YmdrdDVWckJ1YVdRTWJ3Z1d0Q2xzOU0?oc=5",
+          "publisher": "데이터투자",
+          "date": "Thu, 30 Jul 2026",
+          "summary": "SK아이이테크놀로지, 2Q 연결 영업손실 634억...적자지속",
+          "is_report": false
         }
       ]
     },
@@ -3773,7 +3839,10 @@ window.BRIEFING_DATA = {
       "ticker": "371950",
       "name": "풍원정밀",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "OLED소재·FMM",
       "price_info": {
         "ticker": "371950",
         "name": "풍원정밀",
@@ -3944,7 +4013,10 @@ window.BRIEFING_DATA = {
       "ticker": "373220",
       "name": "LG에너지솔루션",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "2차전지·배터리",
       "price_info": {
         "ticker": "373220",
         "name": "LG에너지솔루션",
@@ -4115,7 +4187,10 @@ window.BRIEFING_DATA = {
       "ticker": "383310",
       "name": "에코프로에이치엔",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "친환경·소재",
       "price_info": {
         "ticker": "383310",
         "name": "에코프로에이치엔",
@@ -4286,7 +4361,10 @@ window.BRIEFING_DATA = {
       "ticker": "389020",
       "name": "자람테크놀로지",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "팹리스·통신반도체",
       "price_info": {
         "ticker": "389020",
         "name": "자람테크놀로지",
@@ -4412,19 +4490,19 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "자람테크놀로지, 상반기 매출 113억…지난해 연간 실적 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzWkZIalRHSmY5REhWZVZZTmNaakgwUm1ZS2Flc1hjcU5hYjRoZWlvNlBCM0dLMDFINVRGajdMUzhZZHJUaThnRlZYQkdzdFA1Q0lOUzMzNXVmNEVXOGZ5QtIBeEFVX3lxTE5fQVlLMDRzdXc3QTFRa0tqMXB1OU9VOWd5NUs4QWtJQVVvR0U4MzVwbFhZR0txVi1jbFB4MUJVdVFrdlBPMG03VjBUODNzNUdSdFRBT3RucjRPcHNodmZRNTd0c2hTWkhnSkZDbjdmaGk3ZHNrcW8tdQ?oc=5",
-          "publisher": "뉴시스",
-          "date": "Fri, 14 Aug 2026",
-          "summary": "자람테크놀로지, 상반기 매출 113억…지난해 연간 실적 돌파",
-          "is_report": true
-        },
-        {
           "title": "자람테크놀로지, 상반기 매출 113억…지난해 연간 실적 넘어",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPempLUHVxNnJfS0NwUlNDQ0xnU1lvWkU3cVlqaEEtQ3NhMVNYczNHNUVhS1c5dTVtZ3FpbzB6QVpkRXphd1RwYVZNMkxTT1E4Mk9hc3VBRTVySi1RMUVUT2VpYkQ4b1R1b0FwdVZqVmdQbjlUSFdlTWtfd05fbUlCTw?oc=5",
           "publisher": "edaily.co.kr",
           "date": "Fri, 14 Aug 2026",
           "summary": "자람테크놀로지, 상반기 매출 113억…지난해 연간 실적 넘어",
+          "is_report": true
+        },
+        {
+          "title": "자람테크놀로지, 상반기 매출 113억…지난해 연간 실적 돌파",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzWkZIalRHSmY5REhWZVZZTmNaakgwUm1ZS2Flc1hjcU5hYjRoZWlvNlBCM0dLMDFINVRGajdMUzhZZHJUaThnRlZYQkdzdFA1Q0lOUzMzNXVmNEVXOGZ5QtIBeEFVX3lxTE5fQVlLMDRzdXc3QTFRa0tqMXB1OU9VOWd5NUs4QWtJQVVvR0U4MzVwbFhZR0txVi1jbFB4MUJVdVFrdlBPMG03VjBUODNzNUdSdFRBT3RucjRPcHNodmZRNTd0c2hTWkhnSkZDbjdmaGk3ZHNrcW8tdQ?oc=5",
+          "publisher": "뉴시스",
+          "date": "Fri, 14 Aug 2026",
+          "summary": "자람테크놀로지, 상반기 매출 113억…지난해 연간 실적 돌파",
           "is_report": true
         },
         {
@@ -4457,7 +4535,10 @@ window.BRIEFING_DATA = {
       "ticker": "417200",
       "name": "LS머트리얼즈",
       "market": "KR",
+      "account_type": "general",
+      "account_name": "일반계좌",
       "category": "일반주식",
+      "sector": "친환경·울트라커패시터",
       "price_info": {
         "ticker": "417200",
         "name": "LS머트리얼즈",
@@ -4628,7 +4709,10 @@ window.BRIEFING_DATA = {
       "ticker": "0008T0",
       "name": "SOL 화장품TOP3플러스",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "K-뷰티·화장품 ETF",
       "price_info": {
         "ticker": "0008T0",
         "name": "SOL 화장품TOP3플러스",
@@ -4775,7 +4859,10 @@ window.BRIEFING_DATA = {
       "ticker": "0038A0",
       "name": "KODEX 미국휴머노이드로봇",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "글로벌 로봇·AI ETF",
       "price_info": {
         "ticker": "0038A0",
         "name": "KODEX 미국휴머노이드로봇",
@@ -4922,7 +5009,10 @@ window.BRIEFING_DATA = {
       "ticker": "0046A0",
       "name": "TIGER 미국초단기(3개월이하)국채",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "미국 단기채권·달러 ETF",
       "price_info": {
         "ticker": "0046A0",
         "name": "TIGER 미국초단기(3개월이하)국채",
@@ -4996,25 +5086,17 @@ window.BRIEFING_DATA = {
         "sector": "미국 단기채권·달러 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 'TIGER 미국초단기 국채 ETF, 개인 누적 순매수 1000억 돌파' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '‘유일한 안전자산’ 입증한 달러···달러 파킹형 ETF는 ‘고공행진’' 관련 이슈가 함께 거론되고 있습니다.",
+        "fact": "최근 주요 소식으로 '‘유일한 안전자산’ 입증한 달러···달러 파킹형 ETF는 ‘고공행진’' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '미래에셋자산운용, ‘TIGER 미국초단기국채 ETF’ 개인 순매수 1000억 돌파' 관련 이슈가 함께 거론되고 있습니다.",
         "reaction": "금일 주가는 ▼ 5 (-0.05%) 흐름을 기록했습니다. 수급은 외국인(-2,796만), 기관(-6.9억, 연기금(장기 스마트머니)), 개인(+7.0억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
         "sentiment_score": -10,
-        "one_line_summary": "TIGER 미국초단기 국채 ETF, 개인 누적 순매수 1000억 돌파",
+        "one_line_summary": "‘유일한 안전자산’ 입증한 달러···달러 파킹형 ETF는 ‘고공행진’",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
-        {
-          "title": "TIGER 미국초단기 국채 ETF, 개인 누적 순매수 1000억 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9tM3BLNjNkc29oZl9mSEtjdlVPdnQ0YWozOThmY1FxendzRktTaXdFOUlWTFhTV19VZjdIejRNOXhESVE5U3c?oc=5",
-          "publisher": "v.daum.net",
-          "date": "Wed, 10 Dec 2025",
-          "summary": "TIGER 미국초단기 국채 ETF, 개인 누적 순매수 1000억 돌파",
-          "is_report": false
-        },
         {
           "title": "‘유일한 안전자산’ 입증한 달러···달러 파킹형 ETF는 ‘고공행진’",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5SU9Ec2xWWS1rZ3c2d0R3QTVrUzJnNWdRQ19Ic0pGeHJVU1RBYUJoVUlMRElRUXBCMDVwdWpua2Uxc3hMN2FzbHIzbkNSRDR2V0ZUajVYaWNxU3dTWHFKcXJMaS1JZXpuV3o5MDd0N0YyUdIBdkFVX3lxTE1pRHVERkdZdm9na2F6WXFrTEs1N2JWbWFwejFCeVZDa3dDNTNMdmU4UU0tSzM4WnFfbXY0Y1FZMG41UW9CWXgxY1plRUNwcC1NMzM3dUZZTk8wSzNXYkhjck15UkpCRjRMajNmdkxIeVp3bDlyREE?oc=5",
@@ -5029,6 +5111,22 @@ window.BRIEFING_DATA = {
           "publisher": "더밸류뉴스",
           "date": "Wed, 10 Dec 2025",
           "summary": "미래에셋자산운용, ‘TIGER 미국초단기국채 ETF’ 개인 순매수 1000억 돌파",
+          "is_report": false
+        },
+        {
+          "title": "‘한국판 SGOV’ 미래에셋, ‘TIGER 미국초단기(3개월이하)국채 ETF’ 개인 누적 순매수 1000억원 돌파",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WT2hqMnZYRV9UUWgtcExVV1VOYlVSQzB3Z2xXekZxUVpoU21JT2Z2T0NZdThEVFZNSkt6dDROc3pEN3p6RFhzU2ZlOGdvUDBt?oc=5",
+          "publisher": "매일경제 마켓",
+          "date": "Wed, 10 Dec 2025",
+          "summary": "‘한국판 SGOV’ 미래에셋, ‘TIGER 미국초단기(3개월이하)국채 ETF’ 개인 누적 순매수 1000억원 돌파",
+          "is_report": false
+        },
+        {
+          "title": "미래에셋, '미국초단기(3개월이하)국채 ETF' 개인 순매수 1000억 넘어",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0N3ptZHN0VUFONzlhOXctemV0c29ISVhYZHZyc2V4ZjNjR2JIdFJlUHZhT1NINzFFUnhVRHJPM2FRVElNcE41b3J0ZUNoeTJqZE04SWN2bVphV1lFeVFSMdIBeEFVX3lxTE1VckpyNS1rUTJrZk1DZUs1a1RsT1ZaalozcVN2UWtxLWY3LXhGc2ptLThvMVJlT3lveU5MRjZzSWhacG81NktmeUhsTmVyY2lmV2g0MXEyWmFvaWhybll4Z1pBY3JoTGRSMEwxWm5TaVlfRU9vak9EMQ?oc=5",
+          "publisher": "뉴시스",
+          "date": "Wed, 10 Dec 2025",
+          "summary": "미래에셋, '미국초단기(3개월이하)국채 ETF' 개인 순매수 1000억 넘어",
           "is_report": false
         },
         {
@@ -5054,14 +5152,6 @@ window.BRIEFING_DATA = {
           "date": "Mon, 22 Dec 2025",
           "summary": "환율 고공행진에…'달러 파킹' 꽂힌 개미",
           "is_report": false
-        },
-        {
-          "title": "개미는 미 증시 ETF '사자', 외국인은 '팔자'…엇갈린 투자 전략",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhd1JHclJLZU94Rk0tMXlrcHBFZ0JIOGt3RmRjbUE5NzY5YVpuTnpoTUpoZlp0cmdQNkhONGpBQnRFT0RaRXUyN1lTSTg4SDN5RXlsVlhzdEs0dXBRazVvdzJpcWNrUG1x?oc=5",
-          "publisher": "매일경제TV",
-          "date": "Sat, 27 Dec 2025",
-          "summary": "개미는 미 증시 ETF '사자', 외국인은 '팔자'…엇갈린 투자 전략",
-          "is_report": false
         }
       ]
     },
@@ -5069,7 +5159,10 @@ window.BRIEFING_DATA = {
       "ticker": "0053L0",
       "name": "TIGER 차이나휴머노이드로봇",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "중국 로봇·AI ETF",
       "price_info": {
         "ticker": "0053L0",
         "name": "TIGER 차이나휴머노이드로봇",
@@ -5216,7 +5309,10 @@ window.BRIEFING_DATA = {
       "ticker": "137610",
       "name": "TIGER 농산물선물Enhanced(H)",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "원자재·농산물 ETF",
       "price_info": {
         "ticker": "137610",
         "name": "TIGER 농산물선물Enhanced(H)",
@@ -5232,11 +5328,11 @@ window.BRIEFING_DATA = {
         "low_52w": 4920,
         "volume": 13012,
         "display_volume": "13,012주",
-        "avg_volume_20d": 15977,
+        "avg_volume_20d": 15970,
         "volume_surge": {
-          "ratio": 81.4,
+          "ratio": 81.5,
           "status": "normal",
-          "badge": "거래량 평이 (81.4%)",
+          "badge": "거래량 평이 (81.5%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
@@ -5363,7 +5459,10 @@ window.BRIEFING_DATA = {
       "ticker": "160580",
       "name": "TIGER 구리실물",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "원자재·구리실물 ETF",
       "price_info": {
         "ticker": "160580",
         "name": "TIGER 구리실물",
@@ -5379,11 +5478,11 @@ window.BRIEFING_DATA = {
         "low_52w": 11610,
         "volume": 74056,
         "display_volume": "74,056주",
-        "avg_volume_20d": 68881,
+        "avg_volume_20d": 68830,
         "volume_surge": {
-          "ratio": 107.5,
+          "ratio": 107.6,
           "status": "normal",
-          "badge": "거래량 평이 (107.5%)",
+          "badge": "거래량 평이 (107.6%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
@@ -5510,7 +5609,10 @@ window.BRIEFING_DATA = {
       "ticker": "232080",
       "name": "TIGER 코스닥150",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "국내 성장주·코스닥 ETF",
       "price_info": {
         "ticker": "232080",
         "name": "TIGER 코스닥150",
@@ -5526,7 +5628,7 @@ window.BRIEFING_DATA = {
         "low_52w": 10625,
         "volume": 8103313,
         "display_volume": "8,103,313주",
-        "avg_volume_20d": 4099768,
+        "avg_volume_20d": 4099420,
         "volume_surge": {
           "ratio": 197.7,
           "status": "normal",
@@ -5584,13 +5686,13 @@ window.BRIEFING_DATA = {
         "sector": "국내 성장주·코스닥 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[단독] ‘코스닥150 복귀’ 코미코, 상한가 찍었는데…TIGER·RISE ETF엔 ‘없었다’' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '21일, 기관 거래소에서 KODEX 코스닥150레버리지(-11.02%), 삼성전기(-5.73%) 등 순매도' 관련 이슈가 함께 거론되고 있습니다.",
+        "fact": "최근 주요 소식으로 '[단독] ‘코스닥150 복귀’ 코미코, 상한가 찍었는데…TIGER·RISE ETF엔 ‘없었다’' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '순환매 장세에서 이달 '코스닥·우주·방산' ETF 웃었다' 관련 이슈가 함께 거론되고 있습니다.",
         "reaction": "금일 주가는 ▼ 115 (-0.79%) 흐름을 기록했습니다. 수급은 외국인(-28.0억), 기관(+35.0억, 연기금(장기 스마트머니)), 개인(-6.9억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": -20,
+        "sentiment_score": 0,
         "one_line_summary": "[단독] ‘코스닥150 복귀’ 코미코, 상한가 찍었는데…TIGER·RISE ETF...",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -5604,33 +5706,9 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "21일, 기관 거래소에서 KODEX 코스닥150레버리지(-11.02%), 삼성전기(-5.73%) 등 순매도",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56bThMREpXNEZjOU1vdng5RExPdGg0bGdYbGNVek43Tmk3bHd2S0lNUWxDdDFialZicHdrQ2NIbk5FNC0zbDQ4aFRKZHVZOWNwYklDODB0VXNWQQ?oc=5",
-          "publisher": "한국경제",
-          "date": "Fri, 21 Aug 2026",
-          "summary": "21일, 기관 거래소에서 KODEX 코스닥150레버리지(-11.02%), 삼성전기(-5.73%) 등 순매도",
-          "is_report": false
-        },
-        {
-          "title": "코미코는 펀드에 있는데 ETF 명단엔 없다?…'하루 이상 시차'",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vc0kwQnRsS2ViaVJuX2pEY2ZlMDBDR1ZHeHBvV3pKSUlzYjB0TUUzUlIweGpiVmZ1S0thb3p1SHAyekdzQXlqYjVNWmtwOENGVkx4cm5CdUNYNDFVNUM1TnpQclJoSmdt?oc=5",
-          "publisher": "ebn.co.kr",
-          "date": "Fri, 21 Aug 2026",
-          "summary": "코미코는 펀드에 있는데 ETF 명단엔 없다?…'하루 이상 시차'",
-          "is_report": false
-        },
-        {
-          "title": "순환매 장세에 이달 반도체 아닌 '코스닥·우주·방산' ETF 활짝(종합)",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RNVhwWWRIRU84a0FFTWJkWDVyaEdNYjRhSzFxX01STVRfX19odG9vY0JVMi12M1BhNElkazh2QmhnVm5VM3dEb3FWMmM4eWtXVHc1U20tVl9TTnfSAWBBVV95cUxQakRPanJvcnNHMkFGdmlJdFFzMUlZdFJyaXRhZk1LVksxdmQzNm1oaGZ6Y0toekRVclpmVXFaSm5TYlZBWHA2NlZzR2RyQWZfU24tNnM2bXg0enhYV0xSN0g?oc=5",
-          "publisher": "연합뉴스",
-          "date": "Fri, 14 Aug 2026",
-          "summary": "순환매 장세에 이달 반도체 아닌 '코스닥·우주·방산' ETF 활짝(종합)",
-          "is_report": false
-        },
-        {
           "title": "순환매 장세에서 이달 '코스닥·우주·방산' ETF 웃었다",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XWXZVdnBBbzNCaTNKRTlJQ1dFbjFaaHhqSHRVU1NZWmROLVFFTFNFRFNmY1ItSS1PVzlURjl3Vm4wMGlabFZjNXJKWFdoZGI5WlE?oc=5",
-          "publisher": "매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xdGRzQnZMaUlERm5DU01UNlktZjJlUC1lMm5yUGR2clp5OGxDRnJQdTZPS0Z6LUF0c1AyV1pLV0lQek4xY0J2VGdlX21fenI5ZU1UWlhJYVRWcE3SAWBBVV95cUxOd19LRHlpU1ZPcHU1TC12VkljQng2dlNBb0VidjI1ZFBNT2FiNTFXejB6d3hOUjRZbmNKZjJ5TGxIZXA2RkViUXpEUTNEMzEtcjJObG5MaUQ3T2NlOEgwYWY?oc=5",
+          "publisher": "연합뉴스",
           "date": "Fri, 14 Aug 2026",
           "summary": "순환매 장세에서 이달 '코스닥·우주·방산' ETF 웃었다",
           "is_report": false
@@ -5644,11 +5722,35 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "코스닥 살아나자 ETF 날았다…수익률 상위권 휩쓸어",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NWWRvSzROamRJNDNrZTVadk0xa1N6bnY3TEVxR0VXVzhXdVMzQzU0eG1QYlN2a08zcUEzcUIwUU5KMWo0dU5NM3VhOW1na2xDOVpWZENOWUcxcXdEb0hvVl85T1JKU1V0aWFweVNselhzRzUxckJFaNIBeEFVX3lxTE1NWWRvSzROamRJNDNrZTVadk0xa1N6bnY3TEVxR0VXVzhXdVMzQzU0eG1QYlN2a08zcUEzcUIwUU5KMWo0dU5NM3VhOW1na2xDOVpWZENOWUcxcXdEb0hvVl85T1JKU1V0aWFweVNselhzRzUxckJFaA?oc=5",
-          "publisher": "뉴시스",
-          "date": "Sat, 08 Aug 2026",
-          "summary": "코스닥 살아나자 ETF 날았다…수익률 상위권 휩쓸어",
+          "title": "‘천스닥’ 넘어 3000까지…미래에셋 ‘TIGER 코스닥150 ETF’ 순자산 1조원 돌파",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wQlBCVTNMTjUxMXFVM2VzOEZkcU5TSGFrNU1tTWF2R21lN0dYOGl3Q3o2Wm4ta2RUaWt4THFQak5YblltVnFtY2xZYTlFMTlMb1lROEhReHhEaEtUTkt2MlR0d2NVNjY5TXc?oc=5",
+          "publisher": "intn.co.kr",
+          "date": "Fri, 30 Jan 2026",
+          "summary": "‘천스닥’ 넘어 3000까지…미래에셋 ‘TIGER 코스닥150 ETF’ 순자산 1조원 돌파",
+          "is_report": false
+        },
+        {
+          "title": "“코스피 때문에 박탈감이 심하네요”…개미들 ‘탈코스닥’ 봇물",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92TUlkMFJ5dnBPSFRyVVYtZjhrV1lmeGEtSzBia3FfWWVSTDU0b3NDa2tXMmVhb0M4OGY5cTM1YkRweEplMFQtelN5a1M5Qkc0U2c?oc=5",
+          "publisher": "매일경제 마켓",
+          "date": "Wed, 13 May 2026",
+          "summary": "“코스피 때문에 박탈감이 심하네요”…개미들 ‘탈코스닥’ 봇물",
+          "is_report": false
+        },
+        {
+          "title": "미래에셋 ‘TIGER 코스닥150 ETF’ 2조 돌파",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2NElYcERBcTlNaWlSQ1p2STkzbmFYMHN1SUhzd3NtRzQ4NWJnNEl6RE5IOUE0ejVtelZDeG9uOG16NkY3amE1aThVR1FwNkdweWZRX05PbUJlcWZibEtTUEdrLUtwR2xESW84T2ItdjRXXzTSAXdBVV95cUxQZWpnSHFqYjFCSUN5VUlZeXJ5cE5hcFdVZU1VUlVHY014MVhnU2xUMFhwcG5zSERLNVZfYTlud0RmVTk2ZEhaTXBOWC1BZmozWlptZGEzdXpYSmxjTTIwMjhoQzFxd1VQZkdyRTVVN0hPYjR0NDZ4OA?oc=5",
+          "publisher": "스트레이트뉴스",
+          "date": "Fri, 27 Feb 2026",
+          "summary": "미래에셋 ‘TIGER 코스닥150 ETF’ 2조 돌파",
+          "is_report": false
+        },
+        {
+          "title": "바닥인 줄 알고 3000억 줍줍했더니…돈 번 ETF 0개 '쇼크'",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FRWZQNEl4Z29RQUNiTVdjVHZQdHdSTkFXSDJCcVZ4dkJ0YjAwbDdUZ1VaMWRPdVpZVkRkcEZRanZNbGV3R2E4RnlQY2x4MWZRZUlZMnF4dlNwZw?oc=5",
+          "publisher": "한국경제",
+          "date": "Tue, 21 Jul 2026",
+          "summary": "바닥인 줄 알고 3000억 줍줍했더니…돈 번 ETF 0개 '쇼크'",
           "is_report": false
         }
       ]
@@ -5657,7 +5759,10 @@ window.BRIEFING_DATA = {
       "ticker": "305540",
       "name": "TIGER 2차전지테마",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "2차전지·배터리 ETF",
       "price_info": {
         "ticker": "305540",
         "name": "TIGER 2차전지테마",
@@ -5673,7 +5778,7 @@ window.BRIEFING_DATA = {
         "low_52w": 14015,
         "volume": 490672,
         "display_volume": "490,672주",
-        "avg_volume_20d": 459026,
+        "avg_volume_20d": 459001,
         "volume_surge": {
           "ratio": 106.9,
           "status": "normal",
@@ -5731,7 +5836,7 @@ window.BRIEFING_DATA = {
         "sector": "2차전지·배터리 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[ETF 시황] 2차전지 ETF 강세…삼성전자 레버리지 '급락'' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'ESS 바람 타고 … 2차전지ETF 재충전' 관련 이슈가 함께 거론되고 있습니다.",
+        "fact": "최근 주요 소식으로 '[ETF 시황] 2차전지 ETF 강세…삼성전자 레버리지 '급락'' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[ETF 매치업] 로봇엔진 급반등 2차전지…신한 40% vs 미래 27%' 관련 이슈가 함께 거론되고 있습니다.",
         "reaction": "금일 주가는 ▼ 260 (-1.42%) 흐름을 기록했습니다. 수급은 외국인(+7.3억), 기관(-8.3억, 연기금(장기 스마트머니)), 개인(-1.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
@@ -5751,6 +5856,30 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
+          "title": "[ETF 매치업] 로봇엔진 급반등 2차전지…신한 40% vs 미래 27%",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aMWNqRXprTmJsalZDZWNFZnRmeVlZZ24xdHZORGNTTHBlUlBfM2hnYjdnblpKb2hXRDQzZGI5bGtMZGN4RTFXNEJoTXBvbUk?oc=5",
+          "publisher": "딜사이트",
+          "date": "Fri, 30 Jan 2026",
+          "summary": "[ETF 매치업] 로봇엔진 급반등 2차전지…신한 40% vs 미래 27%",
+          "is_report": false
+        },
+        {
+          "title": "\"로봇에 배터리 탑재\"…2차전지 ETF 불 뿜다",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xWHFjdDJsTTdNQU5UOWpFTFd2QmxYdi16OWU2NlYycWQ1ajhrNVBBZktwd29TTU96WEZQLXpObEU5NmpRZFFsMkxHSkQ2cC02U0ZHaXQyWWNHZw?oc=5",
+          "publisher": "한국경제",
+          "date": "Sun, 25 Jan 2026",
+          "summary": "\"로봇에 배터리 탑재\"…2차전지 ETF 불 뿜다",
+          "is_report": false
+        },
+        {
+          "title": "한달새 수익률 11%대 ↑… 재충전 시작하는 이차전지 ETF - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44X2JSVGJId1FKUE9DbHEwZVVHS3Fmdmt1aFhuME5DdjBCUlNmNnlxUGxZT1U1N1R0ejZlMTBQMUlhSmkzRnJLZFIwRFY5TzNyVWR2cy0yNUtieV9CaXVaaVpxdlViWTZN0gFuQVVfeXFMUFBYWldsUVZ3dmppckdNZXRSUlNRMzVud2hVMlh5bHlfcUlKbGFvSDl5NUgtQnRjRGtrSUszVFFCLU45TzlxV0d6cmFteVdlQjI5M2NZUUdQWW4tNjRGVDg1cjloZlB3YlAyeVRrSHc?oc=5",
+          "publisher": "머니투데이",
+          "date": "Tue, 14 Apr 2026",
+          "summary": "한달새 수익률 11%대 ↑… 재충전 시작하는 이차전지 ETF - 머니투데이",
+          "is_report": false
+        },
+        {
           "title": "ESS 바람 타고 … 2차전지ETF 재충전",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WYjJKeXNsZ0lmbTdjLV9aQjI3dVY0QllnejgtVWdxc3EyZGNPaDV5ZDF3RjU0ekhwbEZmTUhqbTBQT3FYVVFKNDloOWxfTk5FM2c?oc=5",
           "publisher": "매일경제",
@@ -5767,30 +5896,6 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "[ETF 매치업] 로봇엔진 급반등 2차전지…신한 40% vs 미래 27%",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aMWNqRXprTmJsalZDZWNFZnRmeVlZZ24xdHZORGNTTHBlUlBfM2hnYjdnblpKb2hXRDQzZGI5bGtMZGN4RTFXNEJoTXBvbUk?oc=5",
-          "publisher": "딜사이트",
-          "date": "Fri, 30 Jan 2026",
-          "summary": "[ETF 매치업] 로봇엔진 급반등 2차전지…신한 40% vs 미래 27%",
-          "is_report": false
-        },
-        {
-          "title": "한달새 수익률 11%대 ↑… 재충전 시작하는 이차전지 ETF - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44X2JSVGJId1FKUE9DbHEwZVVHS3Fmdmt1aFhuME5DdjBCUlNmNnlxUGxZT1U1N1R0ejZlMTBQMUlhSmkzRnJLZFIwRFY5TzNyVWR2cy0yNUtieV9CaXVaaVpxdlViWTZN0gFuQVVfeXFMUFBYWldsUVZ3dmppckdNZXRSUlNRMzVud2hVMlh5bHlfcUlKbGFvSDl5NUgtQnRjRGtrSUszVFFCLU45TzlxV0d6cmFteVdlQjI5M2NZUUdQWW4tNjRGVDg1cjloZlB3YlAyeVRrSHc?oc=5",
-          "publisher": "머니투데이",
-          "date": "Tue, 14 Apr 2026",
-          "summary": "한달새 수익률 11%대 ↑… 재충전 시작하는 이차전지 ETF - 머니투데이",
-          "is_report": false
-        },
-        {
-          "title": "\"로봇에 배터리 탑재\"…2차전지 ETF 불 뿜다",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xWHFjdDJsTTdNQU5UOWpFTFd2QmxYdi16OWU2NlYycWQ1ajhrNVBBZktwd29TTU96WEZQLXpObEU5NmpRZFFsMkxHSkQ2cC02U0ZHaXQyWWNHZw?oc=5",
-          "publisher": "한국경제",
-          "date": "Sun, 25 Jan 2026",
-          "summary": "\"로봇에 배터리 탑재\"…2차전지 ETF 불 뿜다",
-          "is_report": false
-        },
-        {
           "title": "급락장 속 2차전지 ‘역주행’…ETF 주간수익률 상위권 휩쓸어",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aNVVGODZtQ3VLdUJQVDFDTDBPczdRQ1FuVjlBRTdaaXJ5VWNRblQyOTBfLURvYmt3dl9rNGw5NWItcFoyY2JiaXBXcjZTLUpBcW8tLUF5OTVaUkdZdDRuYm5UcUFDcXdxM3R6TWE2WjdUREE?oc=5",
           "publisher": "마켓인",
@@ -5804,7 +5909,10 @@ window.BRIEFING_DATA = {
       "ticker": "379800",
       "name": "KODEX 미국S&P500",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "미국 대형주·S&P500 ETF",
       "price_info": {
         "ticker": "379800",
         "name": "KODEX 미국S&P500",
@@ -5820,7 +5928,7 @@ window.BRIEFING_DATA = {
         "low_52w": 20375,
         "volume": 22205390,
         "display_volume": "22,205,390주",
-        "avg_volume_20d": 21169357,
+        "avg_volume_20d": 21165798,
         "volume_surge": {
           "ratio": 104.9,
           "status": "normal",
@@ -5951,7 +6059,10 @@ window.BRIEFING_DATA = {
       "ticker": "379810",
       "name": "KODEX 미국나스닥100",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "미국 빅테크·나스닥 ETF",
       "price_info": {
         "ticker": "379810",
         "name": "KODEX 미국나스닥100",
@@ -5967,7 +6078,7 @@ window.BRIEFING_DATA = {
         "low_52w": 21595,
         "volume": 32277153,
         "display_volume": "32,277,153주",
-        "avg_volume_20d": 16734830,
+        "avg_volume_20d": 16734231,
         "volume_surge": {
           "ratio": 192.9,
           "status": "normal",
@@ -6098,7 +6209,10 @@ window.BRIEFING_DATA = {
       "ticker": "395400",
       "name": "SK리츠",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "부동산·상장리츠",
       "price_info": {
         "ticker": "395400",
         "name": "SK리츠",
@@ -6235,7 +6349,10 @@ window.BRIEFING_DATA = {
       "ticker": "411060",
       "name": "ACE KRX금현물",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "귀금속·금현물 ETF",
       "price_info": {
         "ticker": "411060",
         "name": "ACE KRX금현물",
@@ -6251,7 +6368,7 @@ window.BRIEFING_DATA = {
         "low_52w": 21325,
         "volume": 1166110,
         "display_volume": "1,166,110주",
-        "avg_volume_20d": 1100522,
+        "avg_volume_20d": 1100233,
         "volume_surge": {
           "ratio": 106.0,
           "status": "normal",
@@ -6382,7 +6499,10 @@ window.BRIEFING_DATA = {
       "ticker": "414270",
       "name": "ACE 글로벌자율주행액티브",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "자율주행·모빌리티 ETF",
       "price_info": {
         "ticker": "414270",
         "name": "ACE 글로벌자율주행액티브",
@@ -6398,7 +6518,7 @@ window.BRIEFING_DATA = {
         "low_52w": 11675,
         "volume": 1585,
         "display_volume": "1,585주",
-        "avg_volume_20d": 104656,
+        "avg_volume_20d": 104655,
         "volume_surge": {
           "ratio": 1.5,
           "status": "low",
@@ -6529,7 +6649,10 @@ window.BRIEFING_DATA = {
       "ticker": "451540",
       "name": "TIGER 종합채권(AA-이상)액티브",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "국내 우량채권 ETF",
       "price_info": {
         "ticker": "451540",
         "name": "TIGER 종합채권(AA-이상)액티브",
@@ -6676,7 +6799,10 @@ window.BRIEFING_DATA = {
       "ticker": "453850",
       "name": "ACE 미국30년국채액티브(H)",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "미국 초장기채권 ETF",
       "price_info": {
         "ticker": "453850",
         "name": "ACE 미국30년국채액티브(H)",
@@ -6692,7 +6818,7 @@ window.BRIEFING_DATA = {
         "low_52w": 7050,
         "volume": 746306,
         "display_volume": "746,306주",
-        "avg_volume_20d": 926036,
+        "avg_volume_20d": 925738,
         "volume_surge": {
           "ratio": 80.6,
           "status": "normal",
@@ -6823,7 +6949,10 @@ window.BRIEFING_DATA = {
       "ticker": "457480",
       "name": "ACE 테슬라밸류체인액티브",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "전기차·테슬라 생태계 ETF",
       "price_info": {
         "ticker": "457480",
         "name": "ACE 테슬라밸류체인액티브",
@@ -6839,7 +6968,7 @@ window.BRIEFING_DATA = {
         "low_52w": 15520,
         "volume": 174054,
         "display_volume": "174,054주",
-        "avg_volume_20d": 401009,
+        "avg_volume_20d": 400972,
         "volume_surge": {
           "ratio": 43.4,
           "status": "low",
@@ -6970,7 +7099,10 @@ window.BRIEFING_DATA = {
       "ticker": "458730",
       "name": "TIGER 미국배당다우존스",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "미국 고배당·배당성장 ETF",
       "price_info": {
         "ticker": "458730",
         "name": "TIGER 미국배당다우존스",
@@ -6986,7 +7118,7 @@ window.BRIEFING_DATA = {
         "low_52w": 11960,
         "volume": 1839723,
         "display_volume": "1,839,723주",
-        "avg_volume_20d": 2184975,
+        "avg_volume_20d": 2184754,
         "volume_surge": {
           "ratio": 84.2,
           "status": "normal",
@@ -7117,7 +7249,10 @@ window.BRIEFING_DATA = {
       "ticker": "489000",
       "name": "PLUS 일본엔화초단기국채(합성)",
       "market": "KR",
+      "account_type": "pension",
+      "account_name": "연금저축",
       "category": "연금저축 ETF/리츠",
+      "sector": "엔화·일본 국채 ETF",
       "price_info": {
         "ticker": "489000",
         "name": "PLUS 일본엔화초단기국채(합성)",
@@ -7133,7 +7268,7 @@ window.BRIEFING_DATA = {
         "low_52w": 9170,
         "volume": 16414,
         "display_volume": "16,414주",
-        "avg_volume_20d": 44109,
+        "avg_volume_20d": 44084,
         "volume_surge": {
           "ratio": 37.2,
           "status": "low",
