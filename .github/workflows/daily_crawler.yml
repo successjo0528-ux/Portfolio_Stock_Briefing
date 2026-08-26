@@ -38,5 +38,5 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/briefing_data.json data.js
+          git add data/briefing_data.json data.js briefing_data.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 [Auto] Daily stock briefing updated ($(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M KST'))" && git push)
