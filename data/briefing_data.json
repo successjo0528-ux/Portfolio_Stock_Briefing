@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "보유/관심 종목 모닝 스마트 브리핑",
-    "updated_at": "2026-08-26 23:49:46",
-    "date_str": "2026년 08월 26일 (수)",
+    "updated_at": "2026-08-27 00:07:00",
+    "date_str": "2026년 08월 27일 (목)",
     "stock_count": 45,
     "ai_mode": "Gemini AI"
   },
@@ -30,11 +30,11 @@
         "low_52w": 65000,
         "volume": 314903,
         "display_volume": "314,903주",
-        "avg_volume_20d": 294154,
+        "avg_volume_20d": 294669,
         "volume_surge": {
-          "ratio": 107.1,
+          "ratio": 106.9,
           "status": "normal",
-          "badge": "거래량 평이 (107.1%)",
+          "badge": "거래량 평이 (106.9%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
@@ -93,6 +93,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "600원 / 1주당",
+          "yield_rate": "0.69%",
+          "desc": "2026.02. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -204,11 +210,11 @@
         "low_52w": 26600,
         "volume": 60662,
         "display_volume": "60,662주",
-        "avg_volume_20d": 98694,
+        "avg_volume_20d": 98798,
         "volume_surge": {
-          "ratio": 61.5,
+          "ratio": 61.4,
           "status": "normal",
-          "badge": "거래량 평이 (61.5%)",
+          "badge": "거래량 평이 (61.4%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
@@ -267,6 +273,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -378,11 +390,11 @@
         "low_52w": 17790,
         "volume": 5391520,
         "display_volume": "5,391,520주",
-        "avg_volume_20d": 3376586,
+        "avg_volume_20d": 3378942,
         "volume_surge": {
-          "ratio": 159.7,
+          "ratio": 159.6,
           "status": "normal",
-          "badge": "거래량 평이 (159.7%)",
+          "badge": "거래량 평이 (159.6%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
@@ -441,6 +453,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "500원 / 1주당",
+          "yield_rate": "1.32%",
+          "desc": "2026.02. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -552,7 +570,7 @@
         "low_52w": 15950,
         "volume": 94618,
         "display_volume": "94,618주",
-        "avg_volume_20d": 217593,
+        "avg_volume_20d": 217759,
         "volume_surge": {
           "ratio": 43.5,
           "status": "low",
@@ -615,6 +633,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "600원 / 1주당",
+          "yield_rate": "2.20%",
+          "desc": "2026.02. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -726,7 +750,7 @@
         "low_52w": 5390,
         "volume": 91196,
         "display_volume": "91,196주",
-        "avg_volume_20d": 186982,
+        "avg_volume_20d": 187064,
         "volume_surge": {
           "ratio": 48.8,
           "status": "low",
@@ -789,6 +813,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "100원 / 1주당",
+          "yield_rate": "1.24%",
+          "desc": "2026.04. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -810,11 +840,11 @@
       "ai_brief": {
         "fact": "최근 주요 소식으로 '[리포트 브리핑]명신산업, '실적은 반등, 밸류에이션은 지배구조에 할인' Not Rated - 하나증권' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[파워 e종목] 명신산업, 올해 고객사 로보택시 양산 등으로 실적↑…주가 상향각?' 관련 이슈가 함께 거론되고 있습니다.",
         "reaction": "금일 주가는 ▼ 10 (-0.12%) 흐름을 기록했습니다. 수급은 외국인(+4,559만), 기관(-366만, 연기금(장기 스마트머니)), 개인(-4,201만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 13,000원) 흐름입니다.",
-        "upside": "명신산업의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 30,
+        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
+        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
+        "sentiment": "neutral",
+        "sentiment_label": "중립·관망",
+        "sentiment_score": 10,
         "one_line_summary": "[리포트 브리핑]명신산업, '실적은 반등, 밸류에이션은 지배구조에 할인' Not ...",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -868,11 +898,11 @@
           "is_report": false
         },
         {
-          "title": "'명신산업' 52주 신고가 경신, 기회와 리스크의 공존 - 대신증권, BUY",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YX3BTbVltY0gwc0F2aHg5TENKRkVrYTI1T2lpUXlnY3Rjdm9kOHF5QVJVWUJyajFBSVRkQk8tV2hmTTBjQTQzN1g1NW5zLVY2ZzVad2Y4Q0c2Zw?oc=5",
-          "publisher": "한국경제",
-          "date": "Thu, 23 Apr 2026",
-          "summary": "'명신산업' 52주 신고가 경신, 기회와 리스크의 공존 - 대신증권, BUY",
+          "title": "[K-자동차 밸류업 체크] 테슬라의 명신산업, 버티며 준비한다",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uVVZ1Z3dLa3Q1bHV1TURaeVU2TllXZDJJTFp3X00yM2gxZnVKUk8wZUxYN2RRNE91ZmV5M3lrTjF2aWF5MlpLd0hHRy1SS2REX3JKaEZNMUhTLTkyOXRfOE16OV9IRENuUS13RQ?oc=5",
+          "publisher": "생생비즈플러스",
+          "date": "Tue, 17 Mar 2026",
+          "summary": "[K-자동차 밸류업 체크] 테슬라의 명신산업, 버티며 준비한다",
           "is_report": false
         }
       ]
@@ -900,7 +930,7 @@
         "low_52w": 16510,
         "volume": 128535,
         "display_volume": "128,535주",
-        "avg_volume_20d": 284823,
+        "avg_volume_20d": 285039,
         "volume_surge": {
           "ratio": 45.1,
           "status": "low",
@@ -963,6 +993,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "125원 / 1주당",
+          "yield_rate": "0.60%",
+          "desc": "2026.03. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -1074,7 +1110,7 @@
         "low_52w": 54100,
         "volume": 17414,
         "display_volume": "17,414주",
-        "avg_volume_20d": 25868,
+        "avg_volume_20d": 25879,
         "volume_surge": {
           "ratio": 67.3,
           "status": "normal",
@@ -1137,6 +1173,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "3,200원 / 1주당",
+          "yield_rate": "5.67%",
+          "desc": "2025.12. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -1311,6 +1353,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -1485,6 +1533,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "250원 / 1주당",
+          "yield_rate": "0.52%",
+          "desc": "2025.12. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -1659,6 +1713,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "300원 / 1주당",
+          "yield_rate": "0.74%",
+          "desc": "2025.12. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -1833,6 +1893,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "226원 / 1주당",
+          "yield_rate": "4.31%",
+          "desc": "2025.12. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -2007,6 +2073,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -2181,6 +2253,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "306원 / 1주당",
+          "yield_rate": "0.59%",
+          "desc": "2026.03. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -2355,6 +2433,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -2529,6 +2613,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -2703,6 +2793,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -2877,6 +2973,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -3051,6 +3153,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -3225,6 +3333,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "460원 / 1주당",
+          "yield_rate": "2.14%",
+          "desc": "2026.02. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -3399,6 +3513,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "10원 / 1주당",
+          "yield_rate": "0.13%",
+          "desc": "2025.12. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -3573,6 +3693,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "1,600원 / 1주당",
+          "yield_rate": "6.35%",
+          "desc": "2026.02. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -3747,6 +3873,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -3794,19 +3926,19 @@
           "is_report": true
         },
         {
-          "title": "SK이노베이션, SK아이이테크놀로지 흡수합병…분리막 사업 편입",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iMlFjYnpfM1dicnBWRnpfblBvaE4tUm85eThabE1RMnpLSkRZOHpiNDgxc0pqNnhydTJpMFVBM1BsQU1aTENUM21JQVJXZzhlMWdOVUlKSnJTRE1h?oc=5",
-          "publisher": "뉴스핌",
-          "date": "Tue, 25 Aug 2026",
-          "summary": "SK이노베이션, SK아이이테크놀로지 흡수합병…분리막 사업 편입",
-          "is_report": false
-        },
-        {
           "title": "SK이노베이션, \"자금난 방치하면 주주 부담\"..SK아이이테크놀로지 품는다",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhazJzei1tRTJoaEpKYXVPUEZtYXgtSkdxUjN2QWlGTmItSjllQllCZ0FSbUx3MkZLbG80NWNfZzZqbFJNcGk4WGx2UWxOX3FVM1E?oc=5",
           "publisher": "한국정경신문",
           "date": "Wed, 26 Aug 2026",
           "summary": "SK이노베이션, \"자금난 방치하면 주주 부담\"..SK아이이테크놀로지 품는다",
+          "is_report": false
+        },
+        {
+          "title": "SK이노베이션, SK아이이테크놀로지 흡수합병…분리막 사업 편입",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iMlFjYnpfM1dicnBWRnpfblBvaE4tUm85eThabE1RMnpLSkRZOHpiNDgxc0pqNnhydTJpMFVBM1BsQU1aTENUM21JQVJXZzhlMWdOVUlKSnJTRE1h?oc=5",
+          "publisher": "뉴스핌",
+          "date": "Tue, 25 Aug 2026",
+          "summary": "SK이노베이션, SK아이이테크놀로지 흡수합병…분리막 사업 편입",
           "is_report": false
         },
         {
@@ -3921,6 +4053,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -4095,6 +4233,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -4150,19 +4294,19 @@
           "is_report": true
         },
         {
-          "title": "LG에너지솔루션(373220)",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS3NzdlNWZGxHelV3dlpRQTNiRDZPX25yT3VkXzFMbVNFTnIwTVZSai0zc0ZiY29nWmlWTGFlMGhrcXpIRkZCNjlFdTl3cTZENUpsSzlPa0QyUmRjZVJHdlFRYnhIUTB6bTRZMmpoTjQ0NTRaMGtWYlRzTm0yYURCOWN6MjFETExpQl9TeVZraVZSaTJHQlBJ?oc=5",
-          "publisher": "매일경제 마켓",
-          "date": "Tue, 25 Aug 2026",
-          "summary": "LG에너지솔루션(373220)",
-          "is_report": false
-        },
-        {
           "title": "[Who Is ?] 김동명 LG에너지솔루션 대표이사 사장",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFByVWgzX3hodjZSNXB6dEJwb29WYW4tX2ZlN0RoSTlKN3dLSDlZM0V6SXBZVGp5VnlzMDdzTW1yMEVMZTk3bWc5MElJc3gzNGFXaE03WndwdEE0dlI2RWVkWV9yVENFWG43VzNjdS1yekRVNnc?oc=5",
           "publisher": "비즈니스포스트",
           "date": "Wed, 05 Aug 2026",
           "summary": "[Who Is ?] 김동명 LG에너지솔루션 대표이사 사장",
+          "is_report": false
+        },
+        {
+          "title": "LG에너지솔루션(373220)",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS3NzdlNWZGxHelV3dlpRQTNiRDZPX25yT3VkXzFMbVNFTnIwTVZSai0zc0ZiY29nWmlWTGFlMGhrcXpIRkZCNjlFdTl3cTZENUpsSzlPa0QyUmRjZVJHdlFRYnhIUTB6bTRZMmpoTjQ0NTRaMGtWYlRzTm0yYURCOWN6MjFETExpQl9TeVZraVZSaTJHQlBJ?oc=5",
+          "publisher": "매일경제 마켓",
+          "date": "Tue, 25 Aug 2026",
+          "summary": "LG에너지솔루션(373220)",
           "is_report": false
         },
         {
@@ -4269,6 +4413,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "200원 / 1주당",
+          "yield_rate": "0.85%",
+          "desc": "2026.03. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -4443,6 +4593,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "N/A / 1주당",
+          "yield_rate": "N/A",
+          "desc": "최근 결산 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -4617,6 +4773,12 @@
           }
         ],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "22원 / 1주당",
+          "yield_rate": "0.20%",
+          "desc": "2026.03. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -4765,7 +4927,16 @@
           "three_month_return": 33.99,
           "three_month_str": "+33.99%",
           "market_cap_str": "997억원",
-          "distribution_cycle": "월분배"
+          "distribution_cycle": "월분배",
+          "last_dps": "15원",
+          "dps_str": "지난 분배금: 15원 / 1주당 (월분배)",
+          "yield_str": "연 1.2%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "15원 / 1주당",
+          "yield_rate": "연 1.2%",
+          "desc": "ETF 분배금 (월분배)"
         },
         "upcoming_events": [
           {
@@ -4915,7 +5086,16 @@
           "three_month_return": -19.95,
           "three_month_str": "-19.95%",
           "market_cap_str": "2,801억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "분기/결산",
+          "last_dps": "분배금 재투자",
+          "dps_str": "지난 분배금: 분배금 재투자 / 1주당 (분기/결산)",
+          "yield_str": "성장형"
+        },
+        "dividend_info": {
+          "has_dividend": false,
+          "dps_str": "분배금 재투자 / 1주당",
+          "yield_rate": "성장형",
+          "desc": "ETF 분배금 (분기/결산)"
         },
         "upcoming_events": [
           {
@@ -5065,7 +5245,16 @@
           "three_month_return": -8.04,
           "three_month_str": "-8.04%",
           "market_cap_str": "3,481억원",
-          "distribution_cycle": "월분배"
+          "distribution_cycle": "월분배",
+          "last_dps": "32원",
+          "dps_str": "지난 분배금: 32원 / 1주당 (월분배)",
+          "yield_str": "연 4.2%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "32원 / 1주당",
+          "yield_rate": "연 4.2%",
+          "desc": "ETF 분배금 (월분배)"
         },
         "upcoming_events": [
           {
@@ -5215,7 +5404,16 @@
           "three_month_return": -31.66,
           "three_month_str": "-31.66%",
           "market_cap_str": "2,602억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "분기/결산",
+          "last_dps": "분배금 재투자",
+          "dps_str": "지난 분배금: 분배금 재투자 / 1주당 (분기/결산)",
+          "yield_str": "성장형"
+        },
+        "dividend_info": {
+          "has_dividend": false,
+          "dps_str": "분배금 재투자 / 1주당",
+          "yield_rate": "성장형",
+          "desc": "ETF 분배금 (분기/결산)"
         },
         "upcoming_events": [
           {
@@ -5365,7 +5563,16 @@
           "three_month_return": 3.46,
           "three_month_str": "+3.46%",
           "market_cap_str": "133억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "결산",
+          "last_dps": "분배금 없음",
+          "dps_str": "지난 분배금: 분배금 없음 / 1주당 (결산)",
+          "yield_str": "선물 롤오버"
+        },
+        "dividend_info": {
+          "has_dividend": false,
+          "dps_str": "분배금 없음 / 1주당",
+          "yield_rate": "선물 롤오버",
+          "desc": "ETF 분배금 (결산)"
         },
         "upcoming_events": [
           {
@@ -5515,7 +5722,16 @@
           "three_month_return": -4.33,
           "three_month_str": "-4.33%",
           "market_cap_str": "1,707억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "결산",
+          "last_dps": "분배금 없음",
+          "dps_str": "지난 분배금: 분배금 없음 / 1주당 (결산)",
+          "yield_str": "원자재 실물"
+        },
+        "dividend_info": {
+          "has_dividend": false,
+          "dps_str": "분배금 없음 / 1주당",
+          "yield_rate": "원자재 실물",
+          "desc": "ETF 분배금 (결산)"
         },
         "upcoming_events": [
           {
@@ -5665,7 +5881,16 @@
           "three_month_return": -27.68,
           "three_month_str": "-27.68%",
           "market_cap_str": "13,490억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "분기분배",
+          "last_dps": "25원",
+          "dps_str": "지난 분배금: 25원 / 1주당 (분기분배)",
+          "yield_str": "연 0.8%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "25원 / 1주당",
+          "yield_rate": "연 0.8%",
+          "desc": "ETF 분배금 (분기분배)"
         },
         "upcoming_events": [
           {
@@ -5686,13 +5911,13 @@
         "sector": "국내 성장주·코스닥 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[단독] ‘코스닥150 복귀’ 코미코, 상한가 찍었는데…TIGER·RISE ETF엔 ‘없었다’' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '순환매 장세에서 이달 '코스닥·우주·방산' ETF 웃었다' 관련 이슈가 함께 거론되고 있습니다.",
+        "fact": "최근 주요 소식으로 '[단독] ‘코스닥150 복귀’ 코미코, 상한가 찍었는데…TIGER·RISE ETF엔 ‘없었다’' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '21일, 기관 거래소에서 KODEX 코스닥150레버리지(-11.02%), 삼성전기(-5.73%) 등 순매도' 관련 이슈가 함께 거론되고 있습니다.",
         "reaction": "금일 주가는 ▼ 115 (-0.79%) 흐름을 기록했습니다. 수급은 외국인(-28.0억), 기관(+35.0억, 연기금(장기 스마트머니)), 개인(-6.9억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": 0,
+        "sentiment_score": -20,
         "one_line_summary": "[단독] ‘코스닥150 복귀’ 코미코, 상한가 찍었는데…TIGER·RISE ETF...",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -5706,9 +5931,33 @@
           "is_report": false
         },
         {
-          "title": "순환매 장세에서 이달 '코스닥·우주·방산' ETF 웃었다",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xdGRzQnZMaUlERm5DU01UNlktZjJlUC1lMm5yUGR2clp5OGxDRnJQdTZPS0Z6LUF0c1AyV1pLV0lQek4xY0J2VGdlX21fenI5ZU1UWlhJYVRWcE3SAWBBVV95cUxOd19LRHlpU1ZPcHU1TC12VkljQng2dlNBb0VidjI1ZFBNT2FiNTFXejB6d3hOUjRZbmNKZjJ5TGxIZXA2RkViUXpEUTNEMzEtcjJObG5MaUQ3T2NlOEgwYWY?oc=5",
+          "title": "21일, 기관 거래소에서 KODEX 코스닥150레버리지(-11.02%), 삼성전기(-5.73%) 등 순매도",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56bThMREpXNEZjOU1vdng5RExPdGg0bGdYbGNVek43Tmk3bHd2S0lNUWxDdDFialZicHdrQ2NIbk5FNC0zbDQ4aFRKZHVZOWNwYklDODB0VXNWQQ?oc=5",
+          "publisher": "한국경제",
+          "date": "Fri, 21 Aug 2026",
+          "summary": "21일, 기관 거래소에서 KODEX 코스닥150레버리지(-11.02%), 삼성전기(-5.73%) 등 순매도",
+          "is_report": false
+        },
+        {
+          "title": "코미코는 펀드에 있는데 ETF 명단엔 없다?…'하루 이상 시차'",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vc0kwQnRsS2ViaVJuX2pEY2ZlMDBDR1ZHeHBvV3pKSUlzYjB0TUUzUlIweGpiVmZ1S0thb3p1SHAyekdzQXlqYjVNWmtwOENGVkx4cm5CdUNYNDFVNUM1TnpQclJoSmdt?oc=5",
+          "publisher": "ebn.co.kr",
+          "date": "Fri, 21 Aug 2026",
+          "summary": "코미코는 펀드에 있는데 ETF 명단엔 없다?…'하루 이상 시차'",
+          "is_report": false
+        },
+        {
+          "title": "순환매 장세에 이달 반도체 아닌 '코스닥·우주·방산' ETF 활짝(종합)",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RNVhwWWRIRU84a0FFTWJkWDVyaEdNYjRhSzFxX01STVRfX19odG9vY0JVMi12M1BhNElkazh2QmhnVm5VM3dEb3FWMmM4eWtXVHc1U20tVl9TTnfSAWBBVV95cUxQakRPanJvcnNHMkFGdmlJdFFzMUlZdFJyaXRhZk1LVksxdmQzNm1oaGZ6Y0toekRVclpmVXFaSm5TYlZBWHA2NlZzR2RyQWZfU24tNnM2bXg0enhYV0xSN0g?oc=5",
           "publisher": "연합뉴스",
+          "date": "Fri, 14 Aug 2026",
+          "summary": "순환매 장세에 이달 반도체 아닌 '코스닥·우주·방산' ETF 활짝(종합)",
+          "is_report": false
+        },
+        {
+          "title": "순환매 장세에서 이달 '코스닥·우주·방산' ETF 웃었다",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XWXZVdnBBbzNCaTNKRTlJQ1dFbjFaaHhqSHRVU1NZWmROLVFFTFNFRFNmY1ItSS1PVzlURjl3Vm4wMGlabFZjNXJKWFdoZGI5WlE?oc=5",
+          "publisher": "매일경제 마켓",
           "date": "Fri, 14 Aug 2026",
           "summary": "순환매 장세에서 이달 '코스닥·우주·방산' ETF 웃었다",
           "is_report": false
@@ -5722,35 +5971,11 @@
           "is_report": false
         },
         {
-          "title": "‘천스닥’ 넘어 3000까지…미래에셋 ‘TIGER 코스닥150 ETF’ 순자산 1조원 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wQlBCVTNMTjUxMXFVM2VzOEZkcU5TSGFrNU1tTWF2R21lN0dYOGl3Q3o2Wm4ta2RUaWt4THFQak5YblltVnFtY2xZYTlFMTlMb1lROEhReHhEaEtUTkt2MlR0d2NVNjY5TXc?oc=5",
-          "publisher": "intn.co.kr",
-          "date": "Fri, 30 Jan 2026",
-          "summary": "‘천스닥’ 넘어 3000까지…미래에셋 ‘TIGER 코스닥150 ETF’ 순자산 1조원 돌파",
-          "is_report": false
-        },
-        {
-          "title": "“코스피 때문에 박탈감이 심하네요”…개미들 ‘탈코스닥’ 봇물",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92TUlkMFJ5dnBPSFRyVVYtZjhrV1lmeGEtSzBia3FfWWVSTDU0b3NDa2tXMmVhb0M4OGY5cTM1YkRweEplMFQtelN5a1M5Qkc0U2c?oc=5",
-          "publisher": "매일경제 마켓",
-          "date": "Wed, 13 May 2026",
-          "summary": "“코스피 때문에 박탈감이 심하네요”…개미들 ‘탈코스닥’ 봇물",
-          "is_report": false
-        },
-        {
-          "title": "미래에셋 ‘TIGER 코스닥150 ETF’ 2조 돌파",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2NElYcERBcTlNaWlSQ1p2STkzbmFYMHN1SUhzd3NtRzQ4NWJnNEl6RE5IOUE0ejVtelZDeG9uOG16NkY3amE1aThVR1FwNkdweWZRX05PbUJlcWZibEtTUEdrLUtwR2xESW84T2ItdjRXXzTSAXdBVV95cUxQZWpnSHFqYjFCSUN5VUlZeXJ5cE5hcFdVZU1VUlVHY014MVhnU2xUMFhwcG5zSERLNVZfYTlud0RmVTk2ZEhaTXBOWC1BZmozWlptZGEzdXpYSmxjTTIwMjhoQzFxd1VQZkdyRTVVN0hPYjR0NDZ4OA?oc=5",
-          "publisher": "스트레이트뉴스",
-          "date": "Fri, 27 Feb 2026",
-          "summary": "미래에셋 ‘TIGER 코스닥150 ETF’ 2조 돌파",
-          "is_report": false
-        },
-        {
-          "title": "바닥인 줄 알고 3000억 줍줍했더니…돈 번 ETF 0개 '쇼크'",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FRWZQNEl4Z29RQUNiTVdjVHZQdHdSTkFXSDJCcVZ4dkJ0YjAwbDdUZ1VaMWRPdVpZVkRkcEZRanZNbGV3R2E4RnlQY2x4MWZRZUlZMnF4dlNwZw?oc=5",
-          "publisher": "한국경제",
-          "date": "Tue, 21 Jul 2026",
-          "summary": "바닥인 줄 알고 3000억 줍줍했더니…돈 번 ETF 0개 '쇼크'",
+          "title": "코스닥 살아나자 ETF 날았다…수익률 상위권 휩쓸어",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NWWRvSzROamRJNDNrZTVadk0xa1N6bnY3TEVxR0VXVzhXdVMzQzU0eG1QYlN2a08zcUEzcUIwUU5KMWo0dU5NM3VhOW1na2xDOVpWZENOWUcxcXdEb0hvVl85T1JKU1V0aWFweVNselhzRzUxckJFaNIBeEFVX3lxTE1NWWRvSzROamRJNDNrZTVadk0xa1N6bnY3TEVxR0VXVzhXdVMzQzU0eG1QYlN2a08zcUEzcUIwUU5KMWo0dU5NM3VhOW1na2xDOVpWZENOWUcxcXdEb0hvVl85T1JKU1V0aWFweVNselhzRzUxckJFaA?oc=5",
+          "publisher": "뉴시스",
+          "date": "Sat, 08 Aug 2026",
+          "summary": "코스닥 살아나자 ETF 날았다…수익률 상위권 휩쓸어",
           "is_report": false
         }
       ]
@@ -5815,7 +6040,16 @@
           "three_month_return": -25.28,
           "three_month_str": "-25.28%",
           "market_cap_str": "8,974억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "결산",
+          "last_dps": "분배금 재투자",
+          "dps_str": "지난 분배금: 분배금 재투자 / 1주당 (결산)",
+          "yield_str": "성장형"
+        },
+        "dividend_info": {
+          "has_dividend": false,
+          "dps_str": "분배금 재투자 / 1주당",
+          "yield_rate": "성장형",
+          "desc": "ETF 분배금 (결산)"
         },
         "upcoming_events": [
           {
@@ -5965,7 +6199,16 @@
           "three_month_return": -5.98,
           "three_month_str": "-5.98%",
           "market_cap_str": "100,452억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "분기분배",
+          "last_dps": "65원",
+          "dps_str": "지난 분배금: 65원 / 1주당 (분기분배)",
+          "yield_str": "연 1.4%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "65원 / 1주당",
+          "yield_rate": "연 1.4%",
+          "desc": "ETF 분배금 (분기분배)"
         },
         "upcoming_events": [
           {
@@ -6115,7 +6358,16 @@
           "three_month_return": -9.44,
           "three_month_str": "-9.44%",
           "market_cap_str": "92,413억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "분기분배",
+          "last_dps": "40원",
+          "dps_str": "지난 분배금: 40원 / 1주당 (분기분배)",
+          "yield_str": "연 0.8%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "40원 / 1주당",
+          "yield_rate": "연 0.8%",
+          "desc": "ETF 분배금 (분기분배)"
         },
         "upcoming_events": [
           {
@@ -6257,6 +6509,12 @@
         },
         "earnings_history": [],
         "etf_metrics": {},
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "266원 / 1주당",
+          "yield_rate": "4.70%",
+          "desc": "2026.03. 결산 배당"
+        },
         "upcoming_events": [
           {
             "type": "earnings",
@@ -6405,7 +6663,16 @@
           "three_month_return": -3.96,
           "three_month_str": "-3.96%",
           "market_cap_str": "42,965억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "결산",
+          "last_dps": "분배금 없음",
+          "dps_str": "지난 분배금: 분배금 없음 / 1주당 (결산)",
+          "yield_str": "금현물 무배당"
+        },
+        "dividend_info": {
+          "has_dividend": false,
+          "dps_str": "분배금 없음 / 1주당",
+          "yield_rate": "금현물 무배당",
+          "desc": "ETF 분배금 (결산)"
         },
         "upcoming_events": [
           {
@@ -6555,7 +6822,16 @@
           "three_month_return": -18.23,
           "three_month_str": "-18.23%",
           "market_cap_str": "256억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "분기분배",
+          "last_dps": "20원",
+          "dps_str": "지난 분배금: 20원 / 1주당 (분기분배)",
+          "yield_str": "연 0.9%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "20원 / 1주당",
+          "yield_rate": "연 0.9%",
+          "desc": "ETF 분배금 (분기분배)"
         },
         "upcoming_events": [
           {
@@ -6705,7 +6981,16 @@
           "three_month_return": -0.84,
           "three_month_str": "-0.84%",
           "market_cap_str": "10,180억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "월분배",
+          "last_dps": "145원",
+          "dps_str": "지난 분배금: 145원 / 1주당 (월분배)",
+          "yield_str": "연 3.5%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "145원 / 1주당",
+          "yield_rate": "연 3.5%",
+          "desc": "ETF 분배금 (월분배)"
         },
         "upcoming_events": [
           {
@@ -6726,7 +7011,7 @@
         "sector": "국내 우량채권 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '채권형 ETF도 분배금 지급… 분배락·종합과세 ‘주의보’ - 조선비즈' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '중동발 쇼크 피난처로…안전추구형 ETF·MMF로 '우르르'' 관련 이슈가 함께 거론되고 있습니다.",
+        "fact": "최근 주요 소식으로 '채권형 ETF도 분배금 지급… 분배락·종합과세 ‘주의보’ - 조선비즈' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '미래에셋운용, 국내 채권형 TIGER ETF 순자산 10조 돌파 - 머니투데이' 관련 이슈가 함께 거론되고 있습니다.",
         "reaction": "금일 주가는 ▲ 105 (+0.20%) 흐름을 기록했습니다. 수급은 외국인(0), 기관(-1,073만, 연기금(장기 스마트머니)), 개인(+1,073만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
@@ -6746,11 +7031,11 @@
           "is_report": false
         },
         {
-          "title": "중동발 쇼크 피난처로…안전추구형 ETF·MMF로 '우르르'",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rdGhySlE0czQyck40UVN2SHVhSVpvak9oY1VMeThTUmZtb2hIUnc2WU9vd2JoaHNtV1pQbExiSldTanNrZ1VRcVdTU2JvaE0?oc=5",
-          "publisher": "v.daum.net",
-          "date": "Sat, 28 Mar 2026",
-          "summary": "중동발 쇼크 피난처로…안전추구형 ETF·MMF로 '우르르'",
+          "title": "미래에셋운용, 국내 채권형 TIGER ETF 순자산 10조 돌파 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14bFM4djRxR1JCQjVmcjN3WUpYa2J4eWhIcHdicEFSMlpFa214QnRJS1VqeFEyZEsta0F3YmhQV2VUa0ZMQzZzdDZqcFRZRGxoY19naHJycDF0ak9tdW0xSVp2MUlydVFf0gFuQVVfeXFMTlAzR05YMmxsNDB4SnM2RXNTR2YyMWJwb0FNcXRRQUZOMHBuV0puWUtyUERYTnRWTlpRZnZ4ZkMxekd4bWZYX1dnc25wNDZyOGJsRDFKZGJGaWdHMkJjRDNFZXRhbWh5V3FsZmxNZGc?oc=5",
+          "publisher": "머니투데이",
+          "date": "Fri, 10 Oct 2025",
+          "summary": "미래에셋운용, 국내 채권형 TIGER ETF 순자산 10조 돌파 - 머니투데이",
           "is_report": false
         },
         {
@@ -6762,14 +7047,6 @@
           "is_report": false
         },
         {
-          "title": "미래에셋운용, 국내 채권형 TIGER ETF 순자산 10조 돌파 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14bFM4djRxR1JCQjVmcjN3WUpYa2J4eWhIcHdicEFSMlpFa214QnRJS1VqeFEyZEsta0F3YmhQV2VUa0ZMQzZzdDZqcFRZRGxoY19naHJycDF0ak9tdW0xSVp2MUlydVFf0gFuQVVfeXFMTlAzR05YMmxsNDB4SnM2RXNTR2YyMWJwb0FNcXRRQUZOMHBuV0puWUtyUERYTnRWTlpRZnZ4ZkMxekd4bWZYX1dnc25wNDZyOGJsRDFKZGJGaWdHMkJjRDNFZXRhbWh5V3FsZmxNZGc?oc=5",
-          "publisher": "머니투데이",
-          "date": "Fri, 10 Oct 2025",
-          "summary": "미래에셋운용, 국내 채권형 TIGER ETF 순자산 10조 돌파 - 머니투데이",
-          "is_report": false
-        },
-        {
           "title": "12월 신규ETF 16개…카카오·조선기자재·드론 [ETF 리그테이블]",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54bEhKRmlVdjBGcElIMmtlTWNTcF9zT1RiRDVQTVBRd0hyeExRZVBsSGE1SUFVcGU4cENucTFDRjBQd05wZmpZTTA1M0ZqTGNib3EtV1lxdmpJTVhGVXRN?oc=5",
           "publisher": "스마트투데이",
@@ -6778,19 +7055,27 @@
           "is_report": false
         },
         {
-          "title": "미래에셋 '국내 채권형 TIGER ETF' 순자산 10조 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvWE5iM2FfR2R5WHNtQXRkVU01TTU0V0NaTU1DQzdPN3hXR2xHTUlhTS1DaVpKd0RHQmJydHZvWjNXSkNTNTBXMWtqd1NGcWVxS19BVktLUW1tZ9IBVEFVX3lxTE5xOUItbE5yX3FHUmNPMzZSOVBfOHFoSHZxMHNVUi1kdHhvUmZ6VnN5ZF9JZk5qRm1LWEV6dUJKZnJ6bFhTMnNUTy00SEJhUnBndlFGdg?oc=5",
-          "publisher": "더팩트",
-          "date": "Fri, 10 Oct 2025",
-          "summary": "미래에셋 '국내 채권형 TIGER ETF' 순자산 10조 돌파",
-          "is_report": false
-        },
-        {
           "title": "2년4개월 만에 순자산 10배 커졌지만…미래에셋 \"채권ETF 더 담아라\"",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBFenM1S2F4U0w1VXVBVExOZDk5ZkZ3OFNnanN3bUwtYXUyTmdJd2Y0cGNKRnVFWWswQjdrNUF0eERQaktZM3NRSGllYV9JeEVZY1d1SVQ5VXZudDFZVnNN0gFkQVVfeXFMTUNiTlRqT0Y2dmNYazBHbERPR0Y2d1ZLdTVfMi1VcE9JWnFGMnNUNVktdVZEZGNuOEQ1QkFKQlNMV0xHOWl4aG5sMVlPZ3NCVDFyS0RmdGhZMDRhR2lMN1RXUDBwMw?oc=5",
           "publisher": "뉴스1",
           "date": "Tue, 08 Jul 2025",
           "summary": "2년4개월 만에 순자산 10배 커졌지만…미래에셋 \"채권ETF 더 담아라\"",
+          "is_report": false
+        },
+        {
+          "title": "중동발 쇼크 피난처로…안전추구형 ETF·MMF로 '우르르'",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rdGhySlE0czQyck40UVN2SHVhSVpvak9oY1VMeThTUmZtb2hIUnc2WU9vd2JoaHNtV1pQbExiSldTanNrZ1VRcVdTU2JvaE0?oc=5",
+          "publisher": "v.daum.net",
+          "date": "Sat, 28 Mar 2026",
+          "summary": "중동발 쇼크 피난처로…안전추구형 ETF·MMF로 '우르르'",
+          "is_report": false
+        },
+        {
+          "title": "증시 불안에 채권형 펀드로 '머니무브'",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IWnZxZlNaUkNXQjc2bm5qeVFpWGdENWtUd1JXWmplQ2hGTkVjVjh0bVc1a1VnQ1E1Z3NIbzJWWndQNHIzaFdKQ2pfbDZISVVIaDc2NWJwNEtVUQ?oc=5",
+          "publisher": "한국경제",
+          "date": "Mon, 31 Mar 2025",
+          "summary": "증시 불안에 채권형 펀드로 '머니무브'",
           "is_report": false
         }
       ]
@@ -6855,7 +7140,16 @@
           "three_month_return": -1.05,
           "three_month_str": "-1.05%",
           "market_cap_str": "15,173억원",
-          "distribution_cycle": "월분배"
+          "distribution_cycle": "월분배",
+          "last_dps": "28원",
+          "dps_str": "지난 분배금: 28원 / 1주당 (월분배)",
+          "yield_str": "연 4.5%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "28원 / 1주당",
+          "yield_rate": "연 4.5%",
+          "desc": "ETF 분배금 (월분배)"
         },
         "upcoming_events": [
           {
@@ -7005,7 +7299,16 @@
           "three_month_return": -24.62,
           "three_month_str": "-24.62%",
           "market_cap_str": "7,670억원",
-          "distribution_cycle": "분기/결산분배"
+          "distribution_cycle": "분기분배",
+          "last_dps": "30원",
+          "dps_str": "지난 분배금: 30원 / 1주당 (분기분배)",
+          "yield_str": "연 1.5%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "30원 / 1주당",
+          "yield_rate": "연 1.5%",
+          "desc": "ETF 분배금 (분기분배)"
         },
         "upcoming_events": [
           {
@@ -7155,7 +7458,16 @@
           "three_month_return": -0.17,
           "three_month_str": "-0.17%",
           "market_cap_str": "43,681억원",
-          "distribution_cycle": "월분배"
+          "distribution_cycle": "월분배",
+          "last_dps": "38원",
+          "dps_str": "지난 분배금: 38원 / 1주당 (월분배)",
+          "yield_str": "연 3.8%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "38원 / 1주당",
+          "yield_rate": "연 3.8%",
+          "desc": "ETF 분배금 (월분배)"
         },
         "upcoming_events": [
           {
@@ -7236,11 +7548,11 @@
           "is_report": false
         },
         {
-          "title": "'롤러코스피'에 주목받는 미국배당다우존스...안정적 배당주에 관심 ↑",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fVnk4ZkFBOV9vbXF0VUxUN0pjcGFldHd4TFF4dFBENVlDbkV4SklleS1xS1M3NDRPUlBfQ2I2RHBwU2V5MlliQTRoenRSeHlzMVQwakxna2oteldnYkl5ekxsNjh1bGlXMk1SS2paMTVqQQ?oc=5",
-          "publisher": "오피니언뉴스",
-          "date": "Thu, 13 Aug 2026",
-          "summary": "'롤러코스피'에 주목받는 미국배당다우존스...안정적 배당주에 관심 ↑",
+          "title": "미래에셋자산운용, 'TIGER 미국배당다우존스 ETF' 연초 이후 개인 순매수 1조원 돌파",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKN01hbHJMdEVfLWZMalhfRG0wZHZrTkxpMUJMd1UzVEtCWld5VGxJZVJFdDcxUkVucVppNUZ2Nkg3UEgwaGwzNFdPS01UMXZWbmJQWnlHUV8?oc=5",
+          "publisher": "더트래커",
+          "date": "Wed, 05 Aug 2026",
+          "summary": "미래에셋자산운용, 'TIGER 미국배당다우존스 ETF' 연초 이후 개인 순매수 1조원 돌파",
           "is_report": false
         }
       ]
@@ -7305,7 +7617,16 @@
           "three_month_return": -8.68,
           "three_month_str": "-8.68%",
           "market_cap_str": "203억원",
-          "distribution_cycle": "월분배"
+          "distribution_cycle": "월분배",
+          "last_dps": "25원",
+          "dps_str": "지난 분배금: 25원 / 1주당 (월분배)",
+          "yield_str": "연 1.1%"
+        },
+        "dividend_info": {
+          "has_dividend": true,
+          "dps_str": "25원 / 1주당",
+          "yield_rate": "연 1.1%",
+          "desc": "ETF 분배금 (월분배)"
         },
         "upcoming_events": [
           {

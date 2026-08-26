@@ -338,20 +338,35 @@ function renderFilteredContent(data) {
     // [제안 2] ETF Metrics HTML
     let etfHtml = "";
     const etf = s.etf_metrics || {};
+    const divInfo = s.dividend_info || {};
+
     if (isPension && etf.nav) {
+      const distChip = etf.last_dps ? `<span class="etf-metric-chip" style="border-color:#FDE68A; background:#FEF3C7; color:#92400E;"><span class="etf-metric-label">💵 지난 분배금:</span> <b>${etf.last_dps} / 1주당 (${etf.distribution_cycle})</b></span>` : "";
+      
       etfHtml = `
         <div class="card-etf-bar">
           <div class="earnings-header-label">
-            <span>💰 <b>ETF 순자산가치(NAV) & 괴리율 분석:</b></span>
+            <span>💰 <b>ETF 순자산가치(NAV) & 분배금 분석:</b></span>
           </div>
           <div class="etf-chips-group">
             <span class="etf-metric-chip"><span class="etf-metric-label">NAV(순자산가치):</span> <b>${etf.nav_str}</b></span>
             <span class="etf-metric-chip"><span class="etf-metric-label">괴리율:</span> <span class="disp-badge ${etf.disparity_status || 'good'}">${etf.disparity_badge}</span></span>
+            ${distChip}
             <span class="etf-metric-chip"><span class="etf-metric-label">최근 3개월:</span> <b style="color:${etf.three_month_return >= 0 ? 'var(--accent-red)' : 'var(--accent-fall)'}">${etf.three_month_str}</b></span>
             <span class="etf-metric-chip"><span class="etf-metric-label">분배 주기:</span> <b>${etf.distribution_cycle}</b></span>
             <span class="etf-metric-chip"><span class="etf-metric-label">시가총액:</span> <b>${etf.market_cap_str}</b></span>
           </div>
         </div>
+      `;
+    }
+
+    // Regular Stock Dividend Chip HTML
+    let dividendBarHtml = "";
+    if (!isPension && divInfo.has_dividend) {
+      dividendBarHtml = `
+        <span class="flow-chip" style="border-color:#FDE68A; background:#FEF3C7; color:#92400E;">
+          <span class="flow-chip-label">💰 지난 배당금:</span> <b>${divInfo.dps_str} (수익률 ${divInfo.yield_rate})</b>
+        </span>
       `;
     }
 
@@ -400,9 +415,12 @@ function renderFilteredContent(data) {
         </div>
       </div>
       
-      <!-- 수급 & 거래량 동향 바 -->
+      <!-- 수급 & 거래량 & 배당 동향 바 -->
       <div class="card-flow-bar">
-        ${flowChipsHtml}
+        <div class="flow-chips-group">
+          ${flowChipsHtml}
+          ${dividendBarHtml}
+        </div>
       </div>
 
       <!-- [제안 2] ETF 순자산가치 & 괴리율 바 (연금저축 종목) -->
