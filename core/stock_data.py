@@ -1,7 +1,6 @@
 """
-Stock Market Price, Flow (Foreign, Inst, Retail, Program), Volume Surge & Consensus Data Collector
-Fetches real-time stock prices, detailed investor flows (Foreign, Inst, Retail, Program),
-analyst consensus, and detects explosive volume surges against 20-day historical averages.
+Stock Market Price, Flow (Foreign, Inst, Retail, Program), Volume Surge, Analyst Consensus
+& Recent 3-Quarter Financial Earnings (Operating Profit / Net Income) Collector.
 """
 
 import re
@@ -61,8 +60,90 @@ def parse_clean_int(val_str: str) -> int:
         return 0
 
 
+def fetch_kr_earnings_history(code: str) -> list:
+    """
+    Fetch the latest 3 confirmed quarterly Operating Profits and Net Incomes from Naver Finance.
+    Automatically rolls forward when a new quarter is announced (dropping the oldest).
+    """
+    earnings_list = []
+    try:
+        url = f"https://finance.naver.com/item/main.naver?code={code}"
+        res = requests.get(url, headers=HEADERS, timeout=6)
+        if res.status_code == 200:
+            soup = BeautifulSoup(res.content.decode("cp949", errors="ignore"), "lxml")
+            table = soup.select_one("div.section.cop_analysis table.tb_type1")
+            if table:
+                headers = [th.text.strip().replace("\n", "").replace("\t", "") for th in table.select("thead tr:nth-of-type(2) th")]
+                quarter_headers = headers[4:] # 6 recent quarter names
+
+                rows = table.select("tbody tr")
+                if len(rows) >= 3:
+                    op_tds = [td.text.strip().replace(",", "") for td in rows[1].select("td")][4:]
+                    net_tds = [td.text.strip().replace(",", "") for td in rows[2].select("td")][4:]
+
+                    valid_quarters = []
+                    for idx, q_name in enumerate(quarter_headers):
+                        if idx < len(op_tds) and idx < len(net_tds):
+                            op_str = op_tds[idx]
+                            net_str = net_tds[idx]
+                            if op_str and op_str.replace("-", "").isdigit():
+                                op_val = int(op_str)
+                                net_val = int(net_str) if net_str.replace("-", "").isdigit() else 0
+                                valid_quarters.append({
+                                    "quarter": q_name.replace("(E)", "").strip(),
+                                    "is_estimate": "(E)" in q_name,
+                                    "op_profit": op_val,
+                                    "op_profit_str": f"{op_val:,}억원",
+                                    "net_income": net_val,
+                                    "net_income_str": f"{net_val:,}억원"
+                                })
+
+                    # Filter out purely future (E) estimates if we have enough reported quarters
+                    reported = [q for q in valid_quarters if not q.get("is_estimate")]
+                    if len(reported) >= 3:
+                        target_quarters = reported[-3:]
+                    else:
+                        target_quarters = valid_quarters[-3:] if len(valid_quarters) >= 3 else valid_quarters
+
+                    # Calculate QoQ change rates
+                    for i in range(len(target_quarters)):
+                        curr = target_quarters[i]
+                        if i > 0:
+                            prev = target_quarters[i - 1]
+                            prev_op = prev["op_profit"]
+                            curr_op = curr["op_profit"]
+
+                            if prev_op > 0 and curr_op > 0:
+                                diff_rate = ((curr_op - prev_op) / prev_op) * 100
+                                curr["op_change_rate"] = round(diff_rate, 1)
+                                curr["op_change_str"] = f"{diff_rate:+.1f}%"
+                                curr["op_status"] = "up" if diff_rate > 0 else ("down" if diff_rate < 0 else "same")
+                            elif prev_op <= 0 and curr_op > 0:
+                                curr["op_change_rate"] = 100.0
+                                curr["op_change_str"] = "흑자전환 🟢"
+                                curr["op_status"] = "turn_profit"
+                            elif prev_op > 0 and curr_op <= 0:
+                                curr["op_change_rate"] = -100.0
+                                curr["op_change_str"] = "적자전환 🔴"
+                                curr["op_status"] = "turn_loss"
+                            else:
+                                curr["op_change_rate"] = 0.0
+                                curr["op_change_str"] = "적자지속"
+                                curr["op_status"] = "loss_cont"
+                        else:
+                            curr["op_change_rate"] = 0.0
+                            curr["op_change_str"] = "기준 분기"
+                            curr["op_status"] = "same"
+
+                        earnings_list.append(curr)
+    except Exception as e:
+        print(f"[Earnings] Error fetching earnings for {code}: {e}")
+
+    return earnings_list
+
+
 def fetch_kr_stock_data(ticker: str, name: str) -> dict:
-    """Fetch Korean stock/ETF price, volume surge, and investor flows with 4-tier fallback."""
+    """Fetch Korean stock/ETF price, volume surge, investor flows & earnings history."""
     code = ticker.strip()
     result = {
         "ticker": code,
@@ -105,7 +186,8 @@ def fetch_kr_stock_data(ticker: str, name: str) -> dict:
             "display_target_price": "제공 없음",
             "upside_potential": 0.0,
             "analyst_count": 0
-        }
+        },
+        "earnings_history": []
     }
 
     # 1. Check ETF Master API first if ETF
@@ -241,6 +323,10 @@ def fetch_kr_stock_data(ticker: str, name: str) -> dict:
         except Exception:
             pass
 
+    # 4. Fetch Recent 3-Quarter Earnings for Regular Stocks
+    if not etf_info:
+        result["earnings_history"] = fetch_kr_earnings_history(code)
+
     return result
 
 
@@ -290,7 +376,8 @@ def fetch_us_stock_data(ticker: str, name: str) -> dict:
             "display_target_price": "제공 없음",
             "upside_potential": 0.0,
             "analyst_count": 0
-        }
+        },
+        "earnings_history": []
     }
 
     # 1. Price and Volume History from Yahoo Chart API
@@ -396,7 +483,7 @@ def fetch_us_stock_data(ticker: str, name: str) -> dict:
 
 
 def fetch_stock_info(stock: dict) -> dict:
-    """Router for KR or US stock price, volume surge, and investor flows."""
+    """Router for KR or US stock price, volume surge, investor flows & earnings."""
     ticker = stock.get("ticker", "")
     name = stock.get("name", "")
     market = stock.get("market", "KR").upper()

@@ -273,6 +273,44 @@ function renderFilteredContent(data) {
       `;
     }
 
+    // Earnings History HTML (for General Stocks)
+    let earningsHtml = "";
+    const earnings = s.earnings_history || [];
+    if (earnings.length > 0) {
+      let cardsHtml = "";
+      earnings.forEach((eq) => {
+        const changeBadge = eq.op_change_str ? `<span class="quarter-change-badge ${eq.op_status || 'same'}">${eq.op_change_str}</span>` : "";
+        cardsHtml += `
+          <div class="earnings-quarter-card">
+            <div class="quarter-title-row">
+              <span>📅 ${eq.quarter}</span>
+              ${changeBadge}
+            </div>
+            <div class="quarter-op-row">
+              <span style="color:var(--text-dim);">영업이익:</span>
+              <span class="quarter-op-val">${eq.op_profit_str}</span>
+            </div>
+            <div class="quarter-net-row">
+              <span style="color:var(--text-dim); font-size:11px;">순이익:</span>
+              <span style="color:var(--text-body); font-size:11px; font-weight:600;">${eq.net_income_str}</span>
+            </div>
+          </div>
+        `;
+      });
+
+      earningsHtml = `
+        <div class="card-earnings-bar">
+          <div class="earnings-header-label">
+            <span>📈 <b>최근 3개 분기 실적 추이 (영업이익 / 순이익):</b></span>
+            <span style="font-size:11px; color:var(--text-dim); font-weight:normal;">* 신규 실적 발표 시 자동 롤링 업데이트</span>
+          </div>
+          <div class="earnings-grid">
+            ${cardsHtml}
+          </div>
+        </div>
+      `;
+    }
+
     const card = document.createElement("article");
     card.className = "stock-card";
     card.id = `card-${item.ticker}`;
@@ -299,6 +337,9 @@ function renderFilteredContent(data) {
       <div class="card-flow-bar">
         ${flowChipsHtml}
       </div>
+
+      <!-- 최근 3개 분기 실적 변화 (일반계좌 종목) -->
+      ${earningsHtml}
 
       <div class="card-body">
         <div class="brief-block">
