@@ -1,0 +1,407 @@
+[
+  {
+    "ticker": "000100",
+    "name": "유한양행",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "제약·바이오",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "005070",
+    "name": "코스모신소재",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "2차전지·소재",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "006360",
+    "name": "GS건설",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "건설·인프라",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "007070",
+    "name": "GS리테일",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "유통·편의점",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "009900",
+    "name": "명신산업",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "자동차부품·전기차",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "022100",
+    "name": "포스코DX",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "IT서비스·스마트팩토리",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "025540",
+    "name": "한국단자",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "자동차부품·커넥터",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "028300",
+    "name": "HLB",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "제약·바이오",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "121600",
+    "name": "나노신소재",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "2차전지·소재",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "122870",
+    "name": "와이지엔터테인먼트",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "엔터·미디어",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "192650",
+    "name": "드림텍",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "IT부품·센서",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "213420",
+    "name": "덕산네오룩스",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "OLED·디스플레이",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "257720",
+    "name": "실리콘투",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "K-뷰티·이커머스",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "263720",
+    "name": "디앤씨미디어",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "웹툰·콘텐츠",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "278280",
+    "name": "천보",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "2차전지·전해질",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "279570",
+    "name": "케이뱅크",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "인터넷은행·금융",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "298830",
+    "name": "슈어소프트테크",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "SW·검증솔루션",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "317690",
+    "name": "포인트모바일",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "산업용PDA·IT기기",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "323410",
+    "name": "카카오뱅크",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "인터넷은행·금융",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "336370",
+    "name": "솔루스첨단소재",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "동박·전자소재",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "344820",
+    "name": "KCC글라스",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "유리·인테리어",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "361610",
+    "name": "SK아이이테크놀로지",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "2차전지·분리막",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "371950",
+    "name": "풍원정밀",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "OLED소재·FMM",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "373220",
+    "name": "LG에너지솔루션",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "2차전지·배터리",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "383310",
+    "name": "에코프로에이치엔",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "친환경·소재",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "389020",
+    "name": "자람테크놀로지",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "팹리스·통신반도체",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "417200",
+    "name": "LS머트리얼즈",
+    "market": "KR",
+    "account_type": "general",
+    "account_name": "일반계좌",
+    "sector": "친환경·울트라커패시터",
+    "category": "일반주식"
+  },
+  {
+    "ticker": "0008T0",
+    "name": "SOL 화장품TOP3플러스",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "K-뷰티·화장품 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "0038A0",
+    "name": "KODEX 미국휴머노이드로봇",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "글로벌 로봇·AI ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "0046A0",
+    "name": "TIGER 미국초단기(3개월이하)국채",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "미국 단기채권·달러 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "0053L0",
+    "name": "TIGER 차이나휴머노이드로봇",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "중국 로봇·AI ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "137610",
+    "name": "TIGER 농산물선물Enhanced(H)",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "원자재·농산물 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "160580",
+    "name": "TIGER 구리실물",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "원자재·구리실물 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "232080",
+    "name": "TIGER 코스닥150",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "국내 성장주·코스닥 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "305540",
+    "name": "TIGER 2차전지테마",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "2차전지·배터리 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "379800",
+    "name": "KODEX 미국S&P500",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "미국 대형주·S&P500 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "379810",
+    "name": "KODEX 미국나스닥100",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "미국 빅테크·나스닥 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "395400",
+    "name": "SK리츠",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "부동산·상장리츠",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "411060",
+    "name": "ACE KRX금현물",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "귀금속·금현물 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "414270",
+    "name": "ACE 글로벌자율주행액티브",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "자율주행·모빌리티 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "451540",
+    "name": "TIGER 종합채권(AA-이상)액티브",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "국내 우량채권 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "453850",
+    "name": "ACE 미국30년국채액티브(H)",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "미국 초장기채권 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "457480",
+    "name": "ACE 테슬라밸류체인액티브",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "전기차·테슬라 생태계 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "458730",
+    "name": "TIGER 미국배당다우존스",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "미국 고배당·배당성장 ETF",
+    "category": "연금저축 ETF/리츠"
+  },
+  {
+    "ticker": "489000",
+    "name": "PLUS 일본엔화초단기국채(합성)",
+    "market": "KR",
+    "account_type": "pension",
+    "account_name": "연금저축",
+    "sector": "엔화·일본 국채 ETF",
+    "category": "연금저축 ETF/리츠"
+  }
+]

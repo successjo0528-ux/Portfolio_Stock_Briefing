@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[미리보기] 보유/관심 종목 모닝 스마트 브리핑</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-base: #0B0E14;
+      --bg-surface: #121824;
+      --bg-card: #182234;
+      --bg-card-hover: #1E2B42;
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(56, 189, 248, 0.3);
+      --text-main: #F1F5F9;
+      --text-muted: #94A3B8;
+      --text-dim: #64748B;
+      --accent-blue: #38BDF8;
+      --accent-green: #10B981;
+      --accent-red: #F43F5E;
+      --accent-amber: #F59E0B;
+      --accent-purple: #A855F7;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+      --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.4);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      line-height: 1.6;
+      padding: 32px 20px;
+    }
+
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    /* 헤더 */
+    .header {
+      margin-bottom: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .header-title-wrap h1 {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #FFFFFF 30%, var(--accent-blue) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .header-subtitle {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-top: 4px;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-card);
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent-blue);
+      color: #fff;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #2563EB, #1D4ED8);
+      border-color: transparent;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #3B82F6, #2563EB);
+    }
+
+    /* 10초 모닝 퀵 매트릭스 표 */
+    .quick-matrix-section {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      margin-bottom: 32px;
+      box-shadow: var(--shadow-sm);
+    }
+    .section-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+    .section-title span.badge {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 20px;
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent-blue);
+      font-weight: 600;
+    }
+    .matrix-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+    }
+    .matrix-table th {
+      text-align: left;
+      color: var(--text-dim);
+      font-weight: 600;
+      font-size: 12px;
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .matrix-table td {
+      padding: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      vertical-align: middle;
+    }
+    .matrix-table tr:last-child td {
+      border-bottom: none;
+    }
+    .matrix-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+      cursor: pointer;
+    }
+    .stock-name-cell {
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .stock-ticker {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11.5px;
+      color: var(--text-dim);
+      font-weight: 500;
+    }
+    .stock-price {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+    }
+    .price-up { color: var(--accent-red); }
+    .price-down { color: var(--accent-blue); }
+    .sentiment-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .badge-bull { background: rgba(16, 185, 129, 0.15); color: var(--accent-green); border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-bear { background: rgba(244, 63, 94, 0.15); color: var(--accent-red); border: 1px solid rgba(244, 63, 94, 0.3); }
+    .badge-neutral { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border: 1px solid rgba(245, 158, 11, 0.3); }
+
+    /* 종목별 상세 브리핑 카드 그리드 */
+    .cards-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .stock-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .stock-card:hover {
+      border-color: var(--border-accent);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    /* 카드 헤더 */
+    .card-header {
+      background: var(--bg-card);
+      padding: 16px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .card-title-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .market-tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .tag-kr { background: rgba(59, 130, 246, 0.2); color: #60A5FA; }
+    .tag-us { background: rgba(168, 85, 247, 0.2); color: #C084FC; }
+
+    .card-stock-name {
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .card-price-group {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .card-price {
+      font-size: 17px;
+      font-weight: 700;
+    }
+    .card-change {
+      font-size: 13.5px;
+      font-weight: 600;
+    }
+
+    /* 카드 본문 4대 핵심 블록 */
+    .card-body {
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .brief-row {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 16px;
+      align-items: baseline;
+    }
+    @media (max-width: 640px) {
+      .brief-row { grid-template-columns: 1fr; gap: 6px; }
+    }
+
+    .brief-label {
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      width: fit-content;
+    }
+    .label-fact { background: rgba(56, 189, 248, 0.12); color: var(--accent-blue); }
+    .label-reaction { background: rgba(168, 85, 247, 0.12); color: var(--accent-purple); }
+    .label-upside { background: rgba(16, 185, 129, 0.12); color: var(--accent-green); }
+    .label-downside { background: rgba(244, 63, 94, 0.12); color: var(--accent-red); }
+
+    .brief-content {
+      font-size: 14.5px;
+      color: #E2E8F0;
+      line-height: 1.65;
+    }
+
+    /* 카드 푸터 (원문 기사) */
+    .card-footer {
+      background: rgba(0, 0, 0, 0.15);
+      padding: 12px 22px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      font-size: 12.5px;
+      color: var(--text-dim);
+    }
+    .source-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .source-chip {
+      color: var(--text-muted);
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 3px 8px;
+      border-radius: 4px;
+      transition: all 0.15s;
+    }
+    .source-chip:hover {
+      background: var(--accent-blue);
+      color: #000;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- 1. 헤더 영역 -->
+    <header class="header">
+      <div class="header-title-wrap">
+        <h1>📊 보유 종목 데일리 스마트 브리핑</h1>
+        <div class="header-subtitle">
+          2026년 08월 26일 (수) · AI 분석 기반 핵심 팩트 & 상승/하락 여력 리포트
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="btn" onclick="alert('관심 종목 관리 모달 (구현 예정)')">⚙️ 종목 관리 (4개)</button>
+        <button class="btn btn-primary" onclick="location.reload()">🔄 화면 새로고침</button>
+      </div>
+    </header>
+
+    <!-- 2. 상단 10초 모닝 퀵 매트릭스 (전체 판세 한눈에 보기) -->
+    <section class="quick-matrix-section">
+      <div class="section-title">
+        <span>⚡ 10초 모닝 퀵 매트릭스 (전체 포트폴리오 요약)</span>
+        <span class="badge">Gemini AI 센티먼트</span>
+      </div>
+      <table class="matrix-table">
+        <thead>
+          <tr>
+            <th>종목명 (티커)</th>
+            <th>현재가 / 등락</th>
+            <th>AI 신호</th>
+            <th>오늘의 1줄 핵심 요약</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr onclick="document.getElementById('card-nvda').scrollIntoView({behavior: 'smooth'})">
+            <td>
+              <div class="stock-name-cell">
+                <span class="market-tag tag-us">US</span>
+                <span>NVIDIA</span>
+                <span class="stock-ticker">NVDA</span>
+              </div>
+            </td>
+            <td><span class="stock-price price-down">$128.50 (▼ 2.1%)</span></td>
+            <td><span class="sentiment-badge badge-neutral">🟡 중립·관망</span></td>
+            <td style="color: #cbd5e1;">블랙웰 발열 보완으로 대량 출하 1~2개월 지연 vs 빅테크 AI 수요 불패</td>
+          </tr>
+          <tr onclick="document.getElementById('card-samsung').scrollIntoView({behavior: 'smooth'})">
+            <td>
+              <div class="stock-name-cell">
+                <span class="market-tag tag-kr">KR</span>
+                <span>삼성전자</span>
+                <span class="stock-ticker">005930</span>
+              </div>
+            </td>
+            <td><span class="stock-price price-up">78,500원 (▲ 1.8%)</span></td>
+            <td><span class="sentiment-badge badge-bull">🟢 호재 우세</span></td>
+            <td style="color: #cbd5e1;">HBM3E 12단 엔비디아 최종 퀄테스트 통과 임박 및 D램 판가 상승세</td>
+          </tr>
+          <tr onclick="document.getElementById('card-skhynix').scrollIntoView({behavior: 'smooth'})">
+            <td>
+              <div class="stock-name-cell">
+                <span class="market-tag tag-kr">KR</span>
+                <span>SK하이닉스</span>
+                <span class="stock-ticker">000660</span>
+              </div>
+            </td>
+            <td><span class="stock-price price-up">198,000원 (▲ 3.2%)</span></td>
+            <td><span class="sentiment-badge badge-bull">🟢 강력 호재</span></td>
+            <td style="color: #cbd5e1;">3분기 사상 최대 영업이익 전망, 외인 대규모 순매수 지속 유입</td>
+          </tr>
+          <tr onclick="document.getElementById('card-tsla').scrollIntoView({behavior: 'smooth'})">
+            <td>
+              <div class="stock-name-cell">
+                <span class="market-tag tag-us">US</span>
+                <span>Tesla</span>
+                <span class="stock-ticker">TSLA</span>
+              </div>
+            </td>
+            <td><span class="stock-price price-down">$215.30 (▼ 0.8%)</span></td>
+            <td><span class="sentiment-badge badge-bear">🔴 리스크 주의</span></td>
+            <td style="color: #cbd5e1;">로보택시(Cybercab) 일정 기대감 vs 유럽/중국 전기차 인도량 둔화</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 3. 종목별 4대 핵심 블록 상세 브리핑 카드 -->
+    <div class="cards-grid">
+
+      <!-- 종목 1: 엔비디아 -->
+      <article class="stock-card" id="card-nvda">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="market-tag tag-us">US Stock</span>
+            <h2 class="card-stock-name">NVIDIA (NVDA)</h2>
+          </div>
+          <div class="card-price-group">
+            <span class="card-price">$128.50</span>
+            <span class="card-change price-down">▼ 2.10 (-1.61%)</span>
+            <span class="sentiment-badge badge-neutral" style="margin-left: 8px;">🧠 AI 신호: 중립·관망 (+10점)</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="brief-row">
+            <div class="brief-label label-fact">📰 핵심 뉴스 (Fact)</div>
+            <div class="brief-content">
+              차세대 AI 가속기 블랙웰(Blackwell) 서버 랙 발열 문제로 인한 보완 설계가 진행 중이며, 대량 출하 시점이 기존 예상보다 1~2개월 지연될 수 있다는 월가 보도가 나왔습니다.
+            </div>
+          </div>
+          <div class="brief-row">
+            <div class="brief-label label-reaction">💬 시장 반응 (Reaction)</div>
+            <div class="brief-content">
+              단기 차익 실현 매물이 출회되며 주가는 소폭 조정을 받았으나, 골드만삭스와 모건스탠리는 "AI 수요 펀더멘털은 훼손되지 않았다"며 강력 매수 의견 및 목표주가를 유지했습니다.
+            </div>
+          </div>
+          <div class="brief-row">
+            <div class="brief-label label-upside">🚀 상승 여력 (Upside)</div>
+            <div class="brief-content">
+              마이크로소프트, 메타 등 빅테크 고객사의 AI 설비투자(CapEx) 계획이 견조하며, 4분기부터 본격화될 B200 양산 시 폭발적인 매출 성장이 기대됩니다.
+            </div>
+          </div>
+          <div class="brief-row">
+            <div class="brief-label label-downside">⚠️ 하락 리스크 (Downside)</div>
+            <div class="brief-content">
+              서버 재설계에 따른 3분기 마진율의 일시적 압박 가능성과 함께, 11월 분기 실적 발표 전까지 기술적 변동성 장세가 이어질 수 있습니다.
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>🔗 관련 언론사 원문:</span>
+          <div class="source-links">
+            <a href="https://bloomberg.com" target="_blank" class="source-chip">Bloomberg</a>
+            <a href="https://reuters.com" target="_blank" class="source-chip">Reuters</a>
+            <a href="https://wsj.com" target="_blank" class="source-chip">WSJ</a>
+            <a href="https://cnbc.com" target="_blank" class="source-chip">CNBC</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 종목 2: 삼성전자 -->
+      <article class="stock-card" id="card-samsung">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="market-tag tag-kr">KR Stock</span>
+            <h2 class="card-stock-name">삼성전자 (005930)</h2>
+          </div>
+          <div class="card-price-group">
+            <span class="card-price">78,500원</span>
+            <span class="card-change price-up">▲ 1,400 (+1.82%)</span>
+            <span class="sentiment-badge badge-bull" style="margin-left: 8px;">🧠 AI 신호: 호재 우세 (+65점)</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="brief-row">
+            <div class="brief-label label-fact">📰 핵심 뉴스 (Fact)</div>
+            <div class="brief-content">
+              엔비디아 납품을 위한 5세대 고대역폭메모리(HBM3E) 12단 제품의 최종 품질 검증(Qual Test) 통과가 임박했다는 업계 관측이 전해졌습니다.
+            </div>
+          </div>
+          <div class="brief-row">
+            <div class="brief-label label-reaction">💬 시장 반응 (Reaction)</div>
+            <div class="brief-content">
+              외국인과 기관이 3거래일 만에 대규모 동반 순매수로 전환하며 코스피 지수 반등을 강력히 견인했습니다.
+            </div>
+          </div>
+          <div class="brief-row">
+            <div class="brief-label label-upside">🚀 상승 여력 (Upside)</div>
+            <div class="brief-content">
+              엔비디아 공급망 정식 진입 시 HBM 점유율 급상승과 함께, 범용 D램 및 낸드(NAND) 고정거래가격 상승세가 3분기 실적 서프라이즈를 뒷받침할 전망입니다.
+            </div>
+          </div>
+          <div class="brief-row">
+            <div class="brief-label label-downside">⚠️ 하락 리스크 (Downside)</div>
+            <div class="brief-content">
+              파운드리 부문의 적자 지속 및 글로벌 경기 불확실성에 따른 세트(스마트폰/PC) 수요 회복 속도 둔화 여부를 주시해야 합니다.
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>🔗 관련 언론사 원문:</span>
+          <div class="source-links">
+            <a href="https://hankyung.com" target="_blank" class="source-chip">한국경제</a>
+            <a href="https://mk.co.kr" target="_blank" class="source-chip">매일경제</a>
+            <a href="https://yna.co.kr" target="_blank" class="source-chip">연합뉴스</a>
+            <a href="https://chosun.com" target="_blank" class="source-chip">조선비즈</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 종목 3: SK하이닉스 -->
+      <article class="stock-card" id="card-skhynix">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="market-tag tag-kr">KR Stock</span>
+            <h2 class="card-stock-name">SK하이닉스 (000660)</h2>
+          </div>
+          <div class="card-price-group">
+            <span class="card-price">198,000원</span>
+            <span class="card-change price-up">▲ 6,200 (+3.23%)</span>
+            <span class="sentiment-badge badge-bull" style="margin-left: 8px;">🧠 AI 신호: 강력 호재 (+85점)</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="brief-row">
+            <div class="brief-label label-fact">📰 핵심 뉴스 (Fact)</div>
+            <div class="brief-content">
+              HBM3E 8단/12단 독점적 공급 지위 유지 속에 하반기 분기 영업이익이 7조 원을 상회하며 역대 최대치를 경신할 것이라는 증권가 리포트가 잇따랐습니다.
+            </div>
+          </div>
+          <div class="brief-row">
+            <div class="brief-label label-reaction">💬 시장 반응 (Reaction)</div>
+            <div class="brief-content">
+              외국인이 장중 1,200억 원 이상을 순매수하며 52주 신고가 부근으로 주가를 밀어올렸습니다.
+            </div>
+          </div>
+          <div class="brief-row">
+            <div class="brief-label label-upside">🚀 상승 여력 (Upside)</div>
+            <div class="brief-content">
+              2026년까지 HBM 물량이 이미 완판(Sold Out)된 상태로 실적 가시성이 가장 높으며, 가격 프리미엄 유지가 예상됩니다.
+            </div>
+          </div>
+          <div class="brief-row">
+            <div class="brief-label label-downside">⚠️ 하락 리스크 (Downside)</div>
+            <div class="brief-content">
+              단기 급등에 따른 밸류에이션 피로감과 향후 경쟁사의 HBM3E 진입 시 독점 프리미엄 완화 우려가 존재합니다.
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>🔗 관련 언론사 원문:</span>
+          <div class="source-links">
+            <a href="https://hankyung.com" target="_blank" class="source-chip">한국경제</a>
+            <a href="https://mk.co.kr" target="_blank" class="source-chip">매일경제</a>
+            <a href="https://news1.kr" target="_blank" class="source-chip">뉴스1</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</body>
+</html>

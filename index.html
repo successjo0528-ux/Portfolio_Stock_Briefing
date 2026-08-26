@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>보유/관심 종목 모닝 스마트 AI 브리핑</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Offline zero-CORS fallback support -->
+  <script src="data.js" onerror="console.log('data.js not loaded, using json fetch')"></script>
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- 헤더 -->
+    <header class="header">
+      <div class="header-left">
+        <div class="logo-badge">PORTFOLIO INTELLIGENCE BRIEFING</div>
+        <h1 class="header-title">📊 보유·관심 종목 데일리 스마트 브리핑</h1>
+        <div class="header-meta">
+          <span id="briefing-date">데이터 불러오는 중...</span>
+          <span class="meta-divider">•</span>
+          <span id="ai-engine-badge" class="engine-badge">AI 분석 로딩 중</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <button class="btn btn-secondary" id="open-stocks-modal-btn">
+          <span>⚙️ 종목 관리</span>
+          <span class="stock-count-badge" id="header-stock-count">0</span>
+        </button>
+        <button class="btn btn-primary" id="refresh-btn" onclick="location.reload()">
+          <span>🔄 새로고침</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- 계좌 구분 탭 네비게이션 (전체 / 일반계좌 / 연금저축) -->
+    <nav class="account-nav">
+      <button class="tab-btn active" data-account="all">
+        <span>🌐 전체 종목</span>
+        <span class="tab-count" id="count-all">0</span>
+      </button>
+      <button class="tab-btn" data-account="general">
+        <span>💼 일반계좌</span>
+        <span class="tab-count" id="count-general">0</span>
+      </button>
+      <button class="tab-btn" data-account="pension">
+        <span>🌱 연금저축</span>
+        <span class="tab-count" id="count-pension">0</span>
+      </button>
+    </nav>
+
+    <!-- 10초 모닝 퀵 매트릭스 (수급 & 거래량 & 목표가 종합 표) -->
+    <section class="quick-matrix-section">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title">⚡ 10초 모닝 퀵 매트릭스</h2>
+          <span class="section-subtitle" id="matrix-subtitle">전체 포트폴리오 45개 종목 한눈에 스캔</span>
+        </div>
+        <div class="matrix-legend">
+          <span class="legend-item"><span class="dot bull"></span> 호재 우세</span>
+          <span class="legend-item"><span class="dot neutral"></span> 중립·관망</span>
+          <span class="legend-item"><span class="dot bear"></span> 리스크 주의</span>
+        </div>
+      </div>
+
+      <div class="table-responsive">
+        <table class="matrix-table" id="matrix-table">
+          <thead>
+            <tr>
+              <th style="width: 17%;">종목명 (섹터 / 코드)</th>
+              <th style="width: 13%;">현재가 (등락률)</th>
+              <th style="width: 14%;">🎯 증권사 목표가 (여력)</th>
+              <th style="width: 15%;">📊 수급 (외인/기관)</th>
+              <th style="width: 13%;">💥 거래량 상태</th>
+              <th style="width: 10%;">🧠 AI 신호</th>
+              <th style="width: 18%;">오늘의 1줄 핵심 요약</th>
+            </tr>
+          </thead>
+          <tbody id="matrix-tbody">
+            <tr>
+              <td colspan="7" class="table-loading">데이터를 불러오고 있습니다...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 종목별 4대 핵심 블록 상세 브리핑 카드 섹션 -->
+    <section class="cards-section">
+      <div class="cards-header">
+        <h2 class="section-title">📋 종목별 심층 AI 브리핑 & 수급 분석</h2>
+        <span class="section-subtitle">팩트 • 수급 & 기관 상세 • 거래량 폭증 • 상승/하락 여력</span>
+      </div>
+      <div class="cards-grid" id="cards-container">
+        <!-- Javascript로 동적 렌더링 -->
+      </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+      <p>💡 <b>Portfolio Stock Briefing</b> • Powered by Google Gemini AI & Quantitative Market Engine</p>
+      <p class="footer-sub">매일 아침 06:30 KST 자동 갱신 • 본 브리핑은 투자 참고용 정보이며 모든 투자의 최종 책임은 투자자 본인에게 있습니다.</p>
+    </footer>
+
+  </div>
+
+  <!-- 스마트 종목 관리 모달 팝업 -->
+  <div class="modal-overlay" id="stocks-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">⚙️ 관심 종목 관리 (스마트 코드 매칭)</h3>
+        <button class="modal-close-btn" id="close-modal-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">종목코드(6자리)나 종목명을 입력하시면 자동으로 정확한 명칭과 시장이 매칭됩니다.</p>
+        
+        <!-- 신규 종목 추가 폼 -->
+        <div class="add-stock-form">
+          <div class="form-row">
+            <select id="new-stock-account" class="form-select" style="flex: 1.2;">
+              <option value="general">💼 일반계좌</option>
+              <option value="pension">🌱 연금저축</option>
+            </select>
+            <input type="text" id="new-stock-ticker" class="form-input" placeholder="종목코드(예: 005930) 또는 검색" style="flex: 2;">
+            <button class="btn btn-secondary" id="search-code-btn" type="button">🔍 자동 매칭</button>
+          </div>
+          <div class="form-row">
+            <input type="text" id="new-stock-name" class="form-input" placeholder="종목명 (자동 완성)">
+            <input type="text" id="new-stock-sector" class="form-input" placeholder="섹터/업종 (예: 2차전지·소재)">
+            <button class="btn btn-primary" id="add-stock-btn">➕ 추가</button>
+          </div>
+        </div>
+
+        <!-- 계좌별 탭 필터 in Modal -->
+        <div class="modal-tab-group">
+          <button class="modal-tab active" data-modal-tab="general">💼 일반계좌 (<span id="modal-gen-count">0</span>)</button>
+          <button class="modal-tab" data-modal-tab="pension">🌱 연금저축 (<span id="modal-pen-count">0</span>)</button>
+        </div>
+
+        <!-- 현재 종목 리스트 -->
+        <div class="stocks-list" id="modal-stocks-list">
+          <!-- 동적 렌더링 -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="cancel-modal-btn">닫기</button>
+        <button class="btn btn-primary" id="save-stocks-btn">💾 변경사항 저장</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
