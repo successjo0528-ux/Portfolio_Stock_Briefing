@@ -2,8 +2,8 @@ name: Daily Portfolio Stock Intelligence Briefing
 
 on:
   schedule:
-    # 매일 한국 시간(KST) 새벽 05:00 실행 (UTC 기준 20:00)
-    - cron: '0 20 * * *'
+    # 매일 한국 시간(KST) 새벽 04:52 실행 (UTC 기준 19:52, 정각 큐 지연 방지)
+    - cron: '52 19 * * *'
   workflow_dispatch: # 언제든 수동 실행 가능
 
 permissions:

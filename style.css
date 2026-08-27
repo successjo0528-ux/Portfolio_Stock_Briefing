@@ -176,6 +176,19 @@ body {
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
 }
 
+.btn-action-trigger {
+  background: #FEF3C7;
+  color: #92400E;
+  border-color: #FCD34D;
+}
+
+.btn-action-trigger:hover {
+  background: #FDE68A;
+  border-color: #F59E0B;
+  color: #78350F;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.25);
+}
+
 .stock-count-badge {
   background: #EFF6FF;
   color: var(--accent-blue);

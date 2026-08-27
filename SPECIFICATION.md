@@ -4,13 +4,14 @@
 
 ## 1. 기획 배경 및 목적
 * **프로젝트명:** `Portfolio_Stock_Briefing`
-* **버전:** `v2.4 (Full Production Cloud Automation Edition)`
+* **버전:** `v2.5 (Queue-Optimized 04:52 KST & Instant Remote Trigger Edition)`
 * **개발 배경:**  
   바쁜 아침 시간에 보유 중인 **개별 주식(일반계좌 27개 종목)**과 **자산배분 ETF/리츠(연금저축 18개 종목)** 총 45개 종목의 시세, 수급, 실적, 배당/분배금, 뉴스, 증권사 리포트를 일일이 여러 증권사 앱에서 찾아보는 번거로움을 해결하고자 함.
 * **핵심 목표:**  
   1. **10초 퀵 스캔:** 퀵 매트릭스 표를 통해 전 종목의 등락, 증권사 목표가, 수급, AI 신호를 10초 만에 스캔.
   2. **심층 인텔리전스:** 종목별 최근 3분기 실적(영업이익/순이익) 추이, 지난 1주당 배당금(DPS) 및 ETF 분배금, ETF NAV 및 괴리율, 다가오는 실적/배당 캘린더, Gemini AI 4대 블록(Fact/Reaction/Upside/Downside) 브리핑 제공.
-  3. **완전 무인 자동화:** 매일 새벽 05:00 KST에 클라우드(GitHub Actions)에서 자동 수집·요약하여 모바일 웹(GitHub Pages)에 배포.
+  3. **완전 무인 자동화:** 매일 새벽 04:52 KST(19:52 UTC, 정각 큐 지연 방지)에 클라우드(GitHub Actions)에서 자동 수집·요약하여 모바일 웹(GitHub Pages)에 배포.
+  4. **원격 즉시 갱신 연동:** 웹 헤더 `⚡ 원격 즉시 갱신` 버튼으로 모바일/PC 어디서든 1클릭 수동 트리거 지원.
 
 ---
 
@@ -51,6 +52,6 @@
 * **언어 & 프레임워크:** Python 3.10+, Vanilla JavaScript (ES6+), CSS3 (Flex/Grid), HTML5
 * **데이터 파이프라인:** Requests, BeautifulSoup4, LXML, Yahoo Finance Chart API, Naver Stock/ETF Master API
 * **AI 엔진:** Google Gemini 1.5 Flash REST API + Quantitative Rule-based NLP Fallback Engine
-* **무인 클라우드 자동화:** GitHub Actions (`cron: '0 20 * * *'`, 매일 05:00 KST 자동 배포)
+* **무인 클라우드 자동화:** GitHub Actions (`cron: '52 19 * * *'`, 매일 04:52 KST 자동 배포)
 * **웹 호스팅:** GitHub Pages (`https://successjo0528-ux.github.io/Portfolio_Stock_Briefing/`)
 * **비용 & 보안:** $0.00 영구 무과금, GitHub Secrets API 키 암호화 격리
