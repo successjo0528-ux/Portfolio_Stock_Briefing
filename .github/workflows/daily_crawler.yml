@@ -1,10 +1,12 @@
 name: Daily Portfolio Stock Intelligence Briefing
 
 on:
-  schedule:
-    # 매일 한국 시간(KST) 새벽 05:00 실행 (UTC 기준 20:00, cron-job.org 외부 Webhook 및 GitHub Actions 백업)
-    - cron: '0 20 * * *'
-  workflow_dispatch: # 언제든 수동 실행 가능
+  workflow_dispatch: # cron-job.org 외부 Webhook 및 수동 실행
+
+# 중복 실행 방지 및 이전 진행 중인 작업 자동 취소
+concurrency:
+  group: portfolio-stock-briefing
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -16,6 +18,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python 3.10
         uses: actions/setup-python@v5
@@ -39,4 +43,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/briefing_data.json data.js briefing_data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 [Auto] Daily stock briefing updated ($(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M KST'))" && git push)
+          if git diff --staged --quiet; then
+            echo "No data changes detected. Skipping commit."
+          else
+            git commit -m "🤖 [Auto] Daily stock briefing updated ($(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M KST'))"
+            git pull --rebase origin main || true
+            git push origin main
+          fi
