@@ -1,8 +1,8 @@
 window.BRIEFING_DATA = {
   "metadata": {
     "title": "보유/관심 종목 모닝 스마트 브리핑",
-    "updated_at": "2026-11-20 05:00:50",
-    "date_str": "2026년 11월 20일 (금)",
+    "updated_at": "2026-11-21 05:00:52",
+    "date_str": "2026년 11월 21일 (토)",
     "stock_count": 45,
     "ai_mode": "Gemini AI"
   },
@@ -20,27 +20,27 @@ window.BRIEFING_DATA = {
         "name": "유한양행",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 80900,
-        "change_val": 800,
-        "change_rate": 1.0,
-        "display_price": "80,900원",
-        "display_change": "▲ 800 (+1.00%)",
-        "status": "up",
+        "current_price": 80400,
+        "change_val": -900,
+        "change_rate": -1.11,
+        "display_price": "80,400원",
+        "display_change": "▼ 900 (-1.11%)",
+        "status": "down",
         "high_52w": 122800,
-        "low_52w": 0,
-        "volume": 106548,
-        "display_volume": "106,548주",
-        "avg_volume_20d": 252132,
+        "low_52w": 65000,
+        "volume": 147399,
+        "display_volume": "147,399주",
+        "avg_volume_20d": 229337,
         "volume_surge": {
-          "ratio": 42.3,
-          "status": "low",
-          "badge": "거래량 한산 (42.3%)",
-          "desc": "평균 대비 거래량 감소"
+          "ratio": 64.3,
+          "status": "normal",
+          "badge": "거래량 평이 (64.3%)",
+          "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+3.8억",
-          "institutional": "+10.6억",
-          "retail": "-14.4억",
+          "foreign": "+10.0억",
+          "institutional": "+21.3억",
+          "retail": "-31.3억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -54,7 +54,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 116538,
           "display_target_price": "116,538원",
-          "upside_potential": 44.1,
+          "upside_potential": 44.9,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -62,7 +62,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "600원 / 1주당",
-          "yield_rate": "0.74%",
+          "yield_rate": "0.75%",
           "desc": "2026.02. 결산 배당"
         },
         "upcoming_events": [
@@ -84,32 +84,40 @@ window.BRIEFING_DATA = {
         "sector": "제약·바이오"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[실적] 유한양행, 3Q 매출 5857억…영업이익 44% 늘어' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '‘1조 클럽’ 가뿐 ...유한양행, 지난해 의약품 매출 역대 최고 실적' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 800 (+1.00%) 흐름을 기록했습니다. 수급은 외국인(+3.8억), 기관(+10.6억, 연기금(장기 스마트머니)), 개인(-14.4억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 116,538원) 흐름입니다.",
+        "fact": "최근 주요 소식으로 'IBK증권, 유한양행 목표가↓…\"3분기 실적은 기대부합 전망\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '키움증권 \"유한양행 실적 기대치 부합…목표주가는 하향\"' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 900 (-1.11%) 흐름을 기록했습니다. 수급은 외국인(+10.0억), 기관(+21.3억, 연기금(장기 스마트머니)), 개인(-31.3억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 116,538원) 흐름입니다.",
         "upside": "유한양행의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
         "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
         "sentiment": "bull",
         "sentiment_label": "호재 우세",
-        "sentiment_score": 50,
-        "one_line_summary": "[실적] 유한양행, 3Q 매출 5857억…영업이익 44% 늘어",
+        "sentiment_score": 30,
+        "one_line_summary": "IBK증권, 유한양행 목표가↓…\"3분기 실적은 기대부합 전망\"",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
         {
-          "title": "[실적] 유한양행, 3Q 매출 5857억…영업이익 44% 늘어",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DbGIxQ2RxeVdGOHpwdnZNd3pfT2tTNE5QZTN0UGxuYWI2STZnZmRzUTE3czh6aHhyZDViR3lRUXZ1OExXOWI3OEc3Ri1PMko0a2xUR2pJM3Y5X1EtTDRQMjlENTNzTkR4ZFZJ?oc=5",
-          "publisher": "히트뉴스",
-          "date": "Wed, 28 Oct 2026",
-          "summary": "[실적] 유한양행, 3Q 매출 5857억…영업이익 44% 늘어",
+          "title": "IBK증권, 유한양행 목표가↓…\"3분기 실적은 기대부합 전망\"",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhbmR1UEpzV21ocWp2TzlaaW0wRWI0emRNMDFaRnBuaEg5VlZJd0xpcVpUcl9ZQmgtQ3RSdzQ1d2VXYlpLWGktdjMxbGZHYnppV050VFpieXA2RzjSAWBBVV95cUxPRVVKX0JxaTlCeklLX3F6bWZoZFJZbUpmR3otOVVYSHJ0SllaRXQ2ZjNWSzcyd01yV2REdkFzdHNnbGFEUXdEWFhQTS1XZURhd2VKYmtLQTlHODhHOXUzTzQ?oc=5",
+          "publisher": "연합뉴스",
+          "date": "Fri, 16 Oct 2026",
+          "summary": "IBK증권, 유한양행 목표가↓…\"3분기 실적은 기대부합 전망\"",
           "is_report": true
         },
         {
-          "title": "‘1조 클럽’ 가뿐 ...유한양행, 지난해 의약품 매출 역대 최고 실적",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SWXI3Zkh3ZnhQQ2xLYldGU1Y0cVlEaWNWQkU1RlU0SXhzdVdsSDZqQWtpOWJEbGxaOE5QejNzVlF6aHBnMmJSMXZxNHptOGhXRWsycEFpTVhSOEZmR3BZOGRJemFVcVpnWTNwUklPT2RZdw?oc=5",
-          "publisher": "의협신문",
-          "date": "Tue, 14 Jul 2026",
-          "summary": "‘1조 클럽’ 가뿐 ...유한양행, 지난해 의약품 매출 역대 최고 실적",
+          "title": "키움증권 \"유한양행 실적 기대치 부합…목표주가는 하향\"",
+          "link": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQWjNHdFA0Zld0TFFSOFBIakc2YXctWDVZblJjcFJiMDdEYld2RGRiYTBQc2lYVzlpTmppaGExa0ZKSFJFeFpQa0xRUUt4ckVOU3FWQmRnZWV2YXp3QzJwN0xKQjJSeV8zeWxfNjJtLW5GZGgwa3JCOWpjbktPemRTZWZYbVhpNVFWNk1LTXpEU0VWSkRWMlhkSktvRXBZTVN2U0tBQjUyZ2VrSnFVZ2NLRG8tQlpER3R2eWlPVmJFdHJxY2ZYdTBNM3Z3dkloTWQ2emg1VC1Jb2c3Y1VxQzJHVDlzc1FwdWljOFF0dmc4MmxrSTEyNjgyZ2ZIbl9qWWpnalotYTNEODdyaXZhdHd0bHY0OEVNYTVlYVBvOGRac1EyNHZaLVpBYjZXaHV5ZFdxakVOVEdwcDJyeHJibXRzWloxT2FBbTBUc2dJdkl2aV9NendpNEsyUXJuYi1WQVVhV0ZwcXU2VDQ?oc=5",
+          "publisher": "중앙신문",
+          "date": "Thu, 29 Oct 2026",
+          "summary": "키움증권 \"유한양행 실적 기대치 부합…목표주가는 하향\"",
           "is_report": true
+        },
+        {
+          "title": "유한양행, 폐암 신약·해외사업 동반 성장…내년 영업익 44% 증가 전망",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YdjM0Q05QbUNURHg5eTI0S0szaUxKbmJtV08wcnltQTJZLUtfRXB2c1g5RXFMSVNiQzlRVTVzZEMzVld5aVlSUjhlY3JVYnZTc3BKa2hvREJ0LXY0TExIbEpQZjh4ZEVzVjhBMg?oc=5",
+          "publisher": "프라임경제",
+          "date": "Thu, 19 Nov 2026",
+          "summary": "유한양행, 폐암 신약·해외사업 동반 성장…내년 영업익 44% 증가 전망",
+          "is_report": false
         },
         {
           "title": "“바이오 투자심리 얼어붙었는데”…유한양행·HK이노엔은 웃었다",
@@ -128,27 +136,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "유한양행, 주가 저점서 상승세 반등…신약 '렉라자' 성장 주목",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9leUhxaVBqcHFtdHZ3bFlFcVhPa2R6Smdjb0dSbTFSd01nOEQ5SG1jem5mZWcxSHZkM2R1ZVBwWkVnOG1Qa0FuV3VlM1RUTjhueTRDbzBDUUttOUdoQ3F6UkFHOEZzX3pFeHI0?oc=5",
+          "title": "유한양행, 'R&D 투자-영업익 성장' 동반 구조 확립",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWZ28yZ2RFbkxkV0NfbWdwTmlkSFZUNnBQSEY3V2dxanpYTjFsZTFhT0xUVkQ5Mk04LVpHeU5xNmpwTnpJU3U2ZndaMU1nUkVsZmRVVmI2TkthbUplTlIwTzEwa0k3RGloSnhr?oc=5",
           "publisher": "메디파나뉴스",
-          "date": "Wed, 21 Oct 2026",
-          "summary": "유한양행, 주가 저점서 상승세 반등…신약 '렉라자' 성장 주목",
+          "date": "Wed, 11 Nov 2026",
+          "summary": "유한양행, 'R&D 투자-영업익 성장' 동반 구조 확립",
           "is_report": false
         },
         {
-          "title": "주가 30% 빠진 유한양행, 4천억 자기주식 소각에 반등…진짜 승부수는",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kU1d6b2hpV01CRHRqcDlac0JrX2xwY0ZkTnVOUElEcU5uOGp3eVh5X1pqLXdHWkpuVTg2RF9KVHBqcVVDMjFqaEg1RnZFMU1WdkRPcGN0d0ptMS1wTTQ0aDJZallRYndOMDhSRk5lRHY?oc=5",
-          "publisher": "연합인포맥스",
-          "date": "Mon, 27 Jul 2026",
-          "summary": "주가 30% 빠진 유한양행, 4천억 자기주식 소각에 반등…진짜 승부수는",
-          "is_report": false
-        },
-        {
-          "title": "유한양행, '렉라자'로 증명한 R&D 선순환···제2의 신화 쓴다",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uTHRlY19heC1RMk1KMG8xVmlIcG5hZmUyVG9NUFRXOVFFVkotZ2FQNFZJSlBlcllRWjhmVmxsZ2pxVUMtSVZPWEwzdTVuUWJTV3FaaVI4RFlEcm90ZUFTMzM4SjYtVzJZMUE?oc=5",
-          "publisher": "뉴스웨이",
-          "date": "Mon, 16 Nov 2026",
-          "summary": "유한양행, '렉라자'로 증명한 R&D 선순환···제2의 신화 쓴다",
+          "title": "대규모 마일스톤 없이 영업이익 44% 늘린 유한양행, 어떻게?",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4VVNMTUp2RWswNjVQWTQ1UHJVN1RZZHpKY05pM19mZjR0TGlfOEJUbkRBTHctMjJ2dDY2WUdGMXVLNWJHTWVDZDVxeHl5QUhteHY4OWdHcGViQW5ycTZiTkt3WElhZ051UjNR?oc=5",
+          "publisher": "히트뉴스",
+          "date": "Sat, 31 Oct 2026",
+          "summary": "대규모 마일스톤 없이 영업이익 44% 늘린 유한양행, 어떻게?",
           "is_report": false
         }
       ]
@@ -166,27 +166,27 @@ window.BRIEFING_DATA = {
         "name": "코스모신소재",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 31900,
-        "change_val": -150,
-        "change_rate": -0.47,
-        "display_price": "31,900원",
-        "display_change": "▼ 150 (-0.47%)",
+        "current_price": 29800,
+        "change_val": -1900,
+        "change_rate": -5.99,
+        "display_price": "29,800원",
+        "display_change": "▼ 1,900 (-5.99%)",
         "status": "down",
         "high_52w": 66400,
-        "low_52w": 0,
-        "volume": 57615,
-        "display_volume": "57,615주",
-        "avg_volume_20d": 90533,
+        "low_52w": 26600,
+        "volume": 83626,
+        "display_volume": "83,626주",
+        "avg_volume_20d": 86282,
         "volume_surge": {
-          "ratio": 63.6,
+          "ratio": 96.9,
           "status": "normal",
-          "badge": "거래량 평이 (63.6%)",
+          "badge": "거래량 평이 (96.9%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-9,066만",
-          "institutional": "-4.5억",
-          "retail": "+5.5억",
+          "foreign": "-6.0억",
+          "institutional": "+2.4억",
+          "retail": "+3.5억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -230,31 +230,31 @@ window.BRIEFING_DATA = {
         "sector": "2차전지·소재"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[핀셋+] [코스모그룹] 코스모신소재, 어닝쇼크에도 1200억 베팅…허경수 '역발상 투자'' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '피노, 코스모신소재 대상 150억 유상증자 결정 \"이차전지 경쟁력 강화\" - 머니투데이' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 150 (-0.47%) 흐름을 기록했습니다. 수급은 외국인(-9,066만), 기관(-4.5억, 연기금(장기 스마트머니)), 개인(+5.5억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "fact": "최근 주요 소식으로 '배터리 소재업계 3분기 한파, 코스모신소재만 웃었다' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '올해는 AI, 내년에는 배터리…“코스모신소재 주가상승 여력 34%” [오늘 나온 보고서]' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 1,900 (-5.99%) 흐름을 기록했습니다. 수급은 외국인(-6.0억), 기관(+2.4억, 연기금(장기 스마트머니)), 개인(+3.5억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
         "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
         "sentiment": "bear",
         "sentiment_label": "리스크 주의",
-        "sentiment_score": -50,
-        "one_line_summary": "[핀셋+] [코스모그룹] 코스모신소재, 어닝쇼크에도 1200억 베팅…허경수 '역발...",
+        "sentiment_score": -25,
+        "one_line_summary": "배터리 소재업계 3분기 한파, 코스모신소재만 웃었다",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
         {
-          "title": "[핀셋+] [코스모그룹] 코스모신소재, 어닝쇼크에도 1200억 베팅…허경수 '역발상 투자'",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xOGsyMzVoQ2tVRjdBcHB2U21vNVNMRG94bTM4RS1PaElqRGZCcTVCWElxbm1DODhOLUUwWTRENkJwZ2FORURxdy1uekZGWHM?oc=5",
-          "publisher": "딜사이트",
-          "date": "Mon, 16 Mar 2026",
-          "summary": "[핀셋+] [코스모그룹] 코스모신소재, 어닝쇼크에도 1200억 베팅…허경수 '역발상 투자'",
+          "title": "배터리 소재업계 3분기 한파, 코스모신소재만 웃었다",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1OLXlvOXAwektBTW9UaWJ5TVVUb1d0YVI5OFFnaW9qV1pmaVlDUGJZSXF1TDc3OE56RzM1bWRyc0NzQ1cyUjdFREQ0a2MtM1E5SVRreWpyZkpHWVhpSVZOd05tbTVVZw?oc=5",
+          "publisher": "디일렉",
+          "date": "Fri, 20 Nov 2026",
+          "summary": "배터리 소재업계 3분기 한파, 코스모신소재만 웃었다",
           "is_report": false
         },
         {
-          "title": "피노, 코스모신소재 대상 150억 유상증자 결정 \"이차전지 경쟁력 강화\" - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yMHF6X3RjRWZLSmdad0NLd29US0xNdXYtaTZuX0ZxVVBIbk9oWFd6NUQtRUg5UGtlLWVmR09kWjE0RDBZaXJRNlV1bW9DWml3QWZBUk5fWmpQYXBCMnU2Mkp1MmJiUHgz0gFuQVVfeXFMTXZQOExUZEZwNFVQOHZBVVdBZmVNTWktbmdPaFF2YmlZbW8tcC1kemRXQ0c2WURZWnRUU3N6ZUhhU1JQVkRuSjVrOVl4eVpZR3hqYm5nUkFNZEZtQ3F0bUJXb0NXU2FQeHlwdl9NdVE?oc=5",
-          "publisher": "머니투데이",
-          "date": "Mon, 31 Aug 2026",
-          "summary": "피노, 코스모신소재 대상 150억 유상증자 결정 \"이차전지 경쟁력 강화\" - 머니투데이",
+          "title": "올해는 AI, 내년에는 배터리…“코스모신소재 주가상승 여력 34%” [오늘 나온 보고서]",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nbUMwUE4zVWtOLV9GOVRzVUxGa2RYekxCTlJmVGxGR29ZMGRDX2JRRWtSSXBHbm9MeklqUFVsQjROenl6dEpXRlFBbEpYay04Zmc?oc=5",
+          "publisher": "매일경제 마켓",
+          "date": "Thu, 23 Jul 2026",
+          "summary": "올해는 AI, 내년에는 배터리…“코스모신소재 주가상승 여력 34%” [오늘 나온 보고서]",
           "is_report": false
         },
         {
@@ -266,6 +266,22 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
+          "title": "[핀셋+] [코스모그룹] 코스모신소재, 어닝쇼크에도 1200억 베팅…허경수 '역발상 투자'",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xOGsyMzVoQ2tVRjdBcHB2U21vNVNMRG94bTM4RS1PaElqRGZCcTVCWElxbm1DODhOLUUwWTRENkJwZ2FORURxdy1uekZGWHM?oc=5",
+          "publisher": "딜사이트",
+          "date": "Mon, 16 Mar 2026",
+          "summary": "[핀셋+] [코스모그룹] 코스모신소재, 어닝쇼크에도 1200억 베팅…허경수 '역발상 투자'",
+          "is_report": false
+        },
+        {
+          "title": "코스모신소재, 피노에 150억원 투자…이차전지 공급망 협력 강화",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wLUEwQkYxaU5DWVZoN2dUZ1VfNGtob0hGN2ZESzRDNzYtM3VIUlFNNXRIVUUtODZIc0FIdHJKTEFHeWt3UlBvQnIxcGZEejFyektjUW1QVkR0RXI0WWRFcWRnaXA0MFY2WXc?oc=5",
+          "publisher": "중부매일",
+          "date": "Mon, 07 Sep 2026",
+          "summary": "코스모신소재, 피노에 150억원 투자…이차전지 공급망 협력 강화",
+          "is_report": false
+        },
+        {
           "title": "코스모신소재, 2분기 영업이익 46억 달성…26분기 연속 흑자",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvQ1drNHlCNVptdDE1NkpBR1lNVUhqSVlXVVlaaVMwRTYzY3ZfTzRrVDhhQkRKS0NiekR5QWtZNktkR2xYd3RrMFVDUTRCdw?oc=5",
           "publisher": "전자신문",
@@ -274,27 +290,11 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "코스모신소재, 상반기 순손실 17.6억원 '적자 전환'",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rVmg2dnhndFE5U0Y4am5ldndnalY5VC1zM2R2MjFTczVqN3VWOWVzYzUtQmNsUmdNZE5KbnlpUTBmM21famYxN2drbmxNbUN6UVR1U0N3MFE4RFRDNzNwb1g3SWs2MFlaN3c?oc=5",
-          "publisher": "중기이코노미",
-          "date": "Wed, 22 Jul 2026",
-          "summary": "코스모신소재, 상반기 순손실 17.6억원 '적자 전환'",
-          "is_report": false
-        },
-        {
-          "title": "코스모신소재, 25분기 연속 흑자 ...전분기 대비 영업익 30%↑",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ROVBnVWFjZm5ISFBXSEg1NmFPQnJxX2Z2czdUOHdhcFJRWGlDM2FGY2N2UWhzM1FCbTdLeFJSY21raUdzbjRqZ1QzU2I3R2NzMC1sUWhyMmpFUmZaVTNNY2ZXUQ?oc=5",
-          "publisher": "매일산업뉴스",
-          "date": "Tue, 28 Apr 2026",
-          "summary": "코스모신소재, 25분기 연속 흑자 ...전분기 대비 영업익 30%↑",
-          "is_report": false
-        },
-        {
-          "title": "코스모신소재, 피노 지분 3.13% 확보…LFP 밸류체인 확장",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wdUN0NVBjWWZ0dzdkVkctbEtocHB1VXJEcFJSQTVrSF9pT2hSNDBIbjRXTWJaOUFYeE9uS1FvcVhYZXdZT0hWeEtuVGI2Ty1Lc0VLMVFKQzI0QQ?oc=5",
-          "publisher": "한국경제",
-          "date": "Tue, 08 Sep 2026",
-          "summary": "코스모신소재, 피노 지분 3.13% 확보…LFP 밸류체인 확장",
+          "title": "피노, 코스모신소재 대상 150억 유상증자 결정 \"이차전지 경쟁력 강화\" - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yMHF6X3RjRWZLSmdad0NLd29US0xNdXYtaTZuX0ZxVVBIbk9oWFd6NUQtRUg5UGtlLWVmR09kWjE0RDBZaXJRNlV1bW9DWml3QWZBUk5fWmpQYXBCMnU2Mkp1MmJiUHgz0gFuQVVfeXFMTXZQOExUZEZwNFVQOHZBVVdBZmVNTWktbmdPaFF2YmlZbW8tcC1kemRXQ0c2WURZWnRUU3N6ZUhhU1JQVkRuSjVrOVl4eVpZR3hqYm5nUkFNZEZtQ3F0bUJXb0NXU2FQeHlwdl9NdVE?oc=5",
+          "publisher": "머니투데이",
+          "date": "Mon, 31 Aug 2026",
+          "summary": "피노, 코스모신소재 대상 150억 유상증자 결정 \"이차전지 경쟁력 강화\" - 머니투데이",
           "is_report": false
         }
       ]
@@ -312,27 +312,27 @@ window.BRIEFING_DATA = {
         "name": "GS건설",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 30300,
-        "change_val": -250,
-        "change_rate": -0.82,
-        "display_price": "30,300원",
-        "display_change": "▼ 250 (-0.82%)",
+        "current_price": 28250,
+        "change_val": -1900,
+        "change_rate": -6.3,
+        "display_price": "28,250원",
+        "display_change": "▼ 1,900 (-6.30%)",
         "status": "down",
         "high_52w": 44850,
-        "low_52w": 0,
-        "volume": 534326,
-        "display_volume": "534,326주",
-        "avg_volume_20d": 1078805,
+        "low_52w": 18220,
+        "volume": 801414,
+        "display_volume": "801,414주",
+        "avg_volume_20d": 1045459,
         "volume_surge": {
-          "ratio": 49.5,
-          "status": "low",
-          "badge": "거래량 한산 (49.5%)",
-          "desc": "평균 대비 거래량 감소"
+          "ratio": 76.7,
+          "status": "normal",
+          "badge": "거래량 평이 (76.7%)",
+          "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-2.8억",
-          "institutional": "-14.4억",
-          "retail": "+17.6억",
+          "foreign": "+43.3억",
+          "institutional": "-15.0억",
+          "retail": "-28.2억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -346,7 +346,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 43190,
           "display_target_price": "43,190원",
-          "upside_potential": 42.5,
+          "upside_potential": 52.9,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -354,7 +354,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "500원 / 1주당",
-          "yield_rate": "1.65%",
+          "yield_rate": "1.77%",
           "desc": "2026.02. 결산 배당"
         },
         "upcoming_events": [
@@ -376,17 +376,57 @@ window.BRIEFING_DATA = {
         "sector": "건설·인프라"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '허윤홍 GS건설 대표, 임직원과 공정거래 실천 선언' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'GS건설, 공정거래 자율준수 행사 개최' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 250 (-0.82%) 흐름을 기록했습니다. 수급은 외국인(-2.8억), 기관(-14.4억, 연기금(장기 스마트머니)), 개인(+17.6억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 43,190원) 흐름입니다.",
-        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
-        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
-        "sentiment": "bear",
-        "sentiment_label": "리스크 주의",
-        "sentiment_score": -30,
-        "one_line_summary": "허윤홍 GS건설 대표, 임직원과 공정거래 실천 선언",
+        "fact": "최근 주요 소식으로 'GS건설, 정비사업 수주 11조원 바라보는데…영업이익은?' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'GS건설 \"실적은 주춤, 수주는 탄탄\" 도시정비 앞세워 반등 모색' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 1,900 (-6.30%) 흐름을 기록했습니다. 수급은 외국인(+43.3억), 기관(-15.0억, 연기금(장기 스마트머니)), 개인(-28.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 43,190원) 흐름입니다.",
+        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
+        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
+        "sentiment": "neutral",
+        "sentiment_label": "중립·관망",
+        "sentiment_score": -15,
+        "one_line_summary": "GS건설, 정비사업 수주 11조원 바라보는데…영업이익은?",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
+        {
+          "title": "GS건설, 정비사업 수주 11조원 바라보는데…영업이익은?",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaV3ZzLUlHZzNNaG1lM0w5T0JRYUt0ZzRCbEFkbXVsSi02cTdpSU00YUVvY2ZZYlZoaC1WR2hpaC05bkFMbUlzM2psZ0dlQzVSM3V1d0taSXZ3U0lkRTlLTTYxZ2VXVmZlM0E?oc=5",
+          "publisher": "월요신문",
+          "date": "Thu, 19 Nov 2026",
+          "summary": "GS건설, 정비사업 수주 11조원 바라보는데…영업이익은?",
+          "is_report": true
+        },
+        {
+          "title": "GS건설 \"실적은 주춤, 수주는 탄탄\" 도시정비 앞세워 반등 모색",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE53S2VBSUk1U19xTUFtNmdxSlE3MjlKMkhSb2RiRFF3NS1HNzkyTk10N0RZa1hzMGQ0d1hiZ0JKel9HYkdDRGxYRjF1NXNJbHVaNkVEMW01aUlxcG9GNFh1R3V1U2FQTXJSd19seS0zcEV4Zw?oc=5",
+          "publisher": "프라임경제",
+          "date": "Fri, 30 Oct 2026",
+          "summary": "GS건설 \"실적은 주춤, 수주는 탄탄\" 도시정비 앞세워 반등 모색",
+          "is_report": true
+        },
+        {
+          "title": "GS건설, 실적 회복에 제동…곳곳 남은 과거 투자부담도 여전 ① [기업분석]",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1qTFpnNjYzRjNEUHhsUVA4VmhQMXMwYk5HMksxTGVaZGVuVzBCV0FzN2NYaVplbEdsaXViRGE0NkRtUGZrSGFoWFk0cDFBeXJJN3VtUGRwMmdWdTRuNTFF?oc=5",
+          "publisher": "조세일보",
+          "date": "Thu, 29 Oct 2026",
+          "summary": "GS건설, 실적 회복에 제동…곳곳 남은 과거 투자부담도 여전 ① [기업분석]",
+          "is_report": true
+        },
+        {
+          "title": "[CEO&뉴스] 허윤홍 GS건설 대표, '자이' 위상 굳히고 신사업 확장 승부수",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6MVZpLW9sWm82TkoxSExMUlh3amQ3NzdhU21IU3psNTN4WmhjQ2Y2MmhsUzk3V1hpV3VXaEtfVjRtUE5XYmloa292TE1lTEpxNUtjQkxlUWNLZ3RueU5la1gzb1BzMGVXNlE?oc=5",
+          "publisher": "서울파이낸스",
+          "date": "Fri, 20 Nov 2026",
+          "summary": "[CEO&뉴스] 허윤홍 GS건설 대표, '자이' 위상 굳히고 신사업 확장 승부수",
+          "is_report": false
+        },
+        {
+          "title": "GS건설, 1126억 대위변제로 급한 불 껐지만…2224억 잠재 손실 부담",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4dmEyQ0xtcFN2ZmZiUWtRVFctNU9hcHNJNGwxUkFtZE9NM1lWa0tpNWtxUHJKUkU2Q01yd2s1NHlLVk9xeHRoRXB4NThIblNxaGNoenZldW9meWtGazZLamJPU2FVbjBjNGEtMS11X3doUQ?oc=5",
+          "publisher": "오피니언뉴스",
+          "date": "Mon, 16 Nov 2026",
+          "summary": "GS건설, 1126억 대위변제로 급한 불 껐지만…2224억 잠재 손실 부담",
+          "is_report": false
+        },
         {
           "title": "허윤홍 GS건설 대표, 임직원과 공정거래 실천 선언",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ESFdQOEY5ak9hYy1ac1FTM0RuRW1KY1EzV2N5SWJiSjRubGJ0bjhBTGM3ZERtc1lrLXVoRHNMdVUwVlM1eG5DaV9MWURZc09PeTFJbExWUVVuQQ?oc=5",
@@ -396,51 +436,11 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "GS건설, 공정거래 자율준수 행사 개최",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyN1FoaHczeFZ2VnlFc0k0V0pfZ0NKRGR5QnhZWFQ0cEVCOW9YMWVJRVVwWmppb3RJQzNLdEdVeEpsRjdrTVhrT1FWSm16bGtBM3huZVNYaWFOLVJLNWR4REQwU2JTWWNiWmtMckVUcVU?oc=5",
-          "publisher": "시장경제신문",
-          "date": "Thu, 19 Nov 2026",
-          "summary": "GS건설, 공정거래 자율준수 행사 개최",
-          "is_report": false
-        },
-        {
-          "title": "건설주, 내년 반등 열쇠는 ‘데이터센터’…하나증권 “GS건설 최선호”",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaZVpGeE9xNFpWMW9fUU5sZjZDX1dONGhxOEZjQ05iNkhlVHowRzlQQmFuclhGenMtNEFyeGpnd0hfNmJWcjRubFJSSXhuWUVRUUl5Q1k1WnJKV2ZsNG1vaWozOVV0bWxJUkc4Q3N3?oc=5",
-          "publisher": "S저널",
-          "date": "Wed, 18 Nov 2026",
-          "summary": "건설주, 내년 반등 열쇠는 ‘데이터센터’…하나증권 “GS건설 최선호”",
-          "is_report": false
-        },
-        {
-          "title": "GS건설 원가율, 주택 80%대 좋은데…아쉬운 플랜트",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiNDZQY1lWbXBNZjhQcnRxQk5vTGRNSmlTcEVkanRja1JPQm1wRWNCYXVGaFlZMlFtRm5DcnpOcjBGc1hwSVB3Tk5RV2lLbGNwa3J5UFk0UUlpTzBJWnFB?oc=5",
-          "publisher": "데이터뉴스",
-          "date": "Sun, 15 Nov 2026",
-          "summary": "GS건설 원가율, 주택 80%대 좋은데…아쉬운 플랜트",
-          "is_report": false
-        },
-        {
-          "title": "GS건설 베트남 제조법인 2곳 지분 전량 매각…우크라이나 태양광도 처분",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNNVVlLVh5blNDeG9fQktleXUwZVJ6dHRQQmpyNEEyS2tRSmktUEpDYURMRkFHRXhuQ1V3QktGb0Y5RnZSLXRDems4c3RzLXByY2VCcjJEWjhxYXVScnhMblR0a0pwdw?oc=5",
-          "publisher": "일요신문",
-          "date": "Wed, 18 Nov 2026",
-          "summary": "GS건설 베트남 제조법인 2곳 지분 전량 매각…우크라이나 태양광도 처분",
-          "is_report": false
-        },
-        {
           "title": "허윤홍 체제 3년 GS건설, AI 입힌 자이 '리브랜딩' 승부수",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CNVFDc3FHTzNOZ3V3U3ZVUnd1VUpMNU5MZVcyZUxXQXZ1ZklVY0pqU1dvUm5odmo3V3pPOV9uSVYyZW1UWUJ5amd1Qmd0ZzZf?oc=5",
           "publisher": "톱데일리",
           "date": "Tue, 17 Nov 2026",
           "summary": "허윤홍 체제 3년 GS건설, AI 입힌 자이 '리브랜딩' 승부수",
-          "is_report": false
-        },
-        {
-          "title": "GS건설, 올해 도시정비 11조 돌파 정조준…내년도 ‘10조 클럽’ 잇는다",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oS29zeW4zZm5YU0VaNFlNZzlKa3JuSnREcHNDdXAzbUtrZGRrMFQ3WW55TndiaU8zYzlhc2J4b2JoU0VMTXVoSWJaWmNELVlKeU1uWjBMVWd6TndhQWc?oc=5",
-          "publisher": "뉴스투데이",
-          "date": "Tue, 17 Nov 2026",
-          "summary": "GS건설, 올해 도시정비 11조 돌파 정조준…내년도 ‘10조 클럽’ 잇는다",
           "is_report": false
         }
       ]
@@ -458,27 +458,27 @@ window.BRIEFING_DATA = {
         "name": "GS리테일",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 21900,
+        "current_price": 22000,
         "change_val": 50,
         "change_rate": 0.23,
-        "display_price": "21,900원",
+        "display_price": "22,000원",
         "display_change": "▲ 50 (+0.23%)",
         "status": "up",
         "high_52w": 29950,
-        "low_52w": 0,
-        "volume": 66266,
-        "display_volume": "66,266주",
-        "avg_volume_20d": 133378,
+        "low_52w": 17800,
+        "volume": 88924,
+        "display_volume": "88,924주",
+        "avg_volume_20d": 133967,
         "volume_surge": {
-          "ratio": 49.7,
-          "status": "low",
-          "badge": "거래량 한산 (49.7%)",
-          "desc": "평균 대비 거래량 감소"
+          "ratio": 66.4,
+          "status": "normal",
+          "badge": "거래량 평이 (66.4%)",
+          "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-1,816만",
-          "institutional": "+1.7억",
-          "retail": "-1.5억",
+          "foreign": "+6.9억",
+          "institutional": "-3.2억",
+          "retail": "-3.8억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -492,7 +492,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 33733,
           "display_target_price": "33,733원",
-          "upside_potential": 54.0,
+          "upside_potential": 53.3,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -500,7 +500,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "600원 / 1주당",
-          "yield_rate": "2.74%",
+          "yield_rate": "2.73%",
           "desc": "2026.02. 결산 배당"
         },
         "upcoming_events": [
@@ -523,12 +523,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 'GS리테일, 분기 영업익 19% 증가한 1321억…'역대 최대실적'' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'GS리테일, 3Q 영업익 1천321억·18.9%↑…분기 최대 실적(종합)' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 50 (+0.23%) 흐름을 기록했습니다. 수급은 외국인(-1,816만), 기관(+1.7억, 연기금(장기 스마트머니)), 개인(-1.5억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 33,733원) 흐름입니다.",
+        "reaction": "금일 주가는 ▲ 50 (+0.23%) 흐름을 기록했습니다. 수급은 외국인(+6.9억), 기관(-3.2억, 연기금(장기 스마트머니)), 개인(-3.8억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 33,733원) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": 10,
+        "sentiment_score": 0,
         "one_line_summary": "GS리테일, 분기 영업익 19% 증가한 1321억…'역대 최대실적'",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -547,6 +547,22 @@ window.BRIEFING_DATA = {
           "publisher": "KB Think",
           "date": "Wed, 04 Nov 2026",
           "summary": "GS리테일, 3Q 영업익 1천321억·18.9%↑…분기 최대 실적(종합)",
+          "is_report": true
+        },
+        {
+          "title": "GS리테일, 3분기 영업익 1321억·18.9%↑…분기 최대 실적",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6ZEhabkFIN0pJN0s3aEZXdFhVR3hEMEtUdEZhVDBUVC03dGpJR3FSeXpNNXU0OVp4c1BCTmhsblVBcUM1bTItZm1zVkR5dzZueHZmdEw4SFZuVUM5c1FWRQ?oc=5",
+          "publisher": "뉴스토마토",
+          "date": "Wed, 04 Nov 2026",
+          "summary": "GS리테일, 3분기 영업익 1321억·18.9%↑…분기 최대 실적",
+          "is_report": true
+        },
+        {
+          "title": "GS리테일 3분기 영업익 1천321억원…분기 역대 최대 실적(종합)",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xbFozQnpfZnd5NGlnZ25Ja2R1aFM0UFhQVGlDUURCODhtR0ZTRWRQekhsZnYwMGc0MkxhbDlzMXNfNF9jc0pRZWtGV2hqQkVRek5xWHRPYlpMclHSAWBBVV95cUxQT2FzT1kxeUZ1enZUWkJwQ1QteVhQQU42b1NYdmFlZ19jU3pIWFVMUTl5d3ktUmt6WEJ5RzdWODFZRW1TYTJTYjE5TDhlRm1FSmZMQl9hLVJ4UlRkU3F4eDM?oc=5",
+          "publisher": "연합뉴스",
+          "date": "Wed, 04 Nov 2026",
+          "summary": "GS리테일 3분기 영업익 1천321억원…분기 역대 최대 실적(종합)",
           "is_report": true
         },
         {
@@ -572,22 +588,6 @@ window.BRIEFING_DATA = {
           "date": "Mon, 16 Nov 2026",
           "summary": "'호텔 분할 2년' GS리테일, 슈퍼·홈쇼핑으로 메운 수익 공백 : 네이버 블로그",
           "is_report": false
-        },
-        {
-          "title": "'슈퍼마켓 성장세 올라탄' GS리테일, 3Q 영업익 5% 증가 전망",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HaGFOeFRESjdqSzB5S0trd1prS2dPR0w4dTZEM2JjWkZZVDFJRmstbVgzSXVFTWR1X1VxUTNNMzFreTFJN0drdEdKUU1sajhXTDFFcS1rMFNLLWl3cmJCOTdyelJfOWdXTTExakJFSVU?oc=5",
-          "publisher": "연합인포맥스",
-          "date": "Wed, 21 Oct 2026",
-          "summary": "'슈퍼마켓 성장세 올라탄' GS리테일, 3Q 영업익 5% 증가 전망",
-          "is_report": false
-        },
-        {
-          "title": "[똑똑한유통] 현대백화점, 쿠팡, GS리테일, 파라다이스, 아모레퍼시픽, 무신사 뷰티, 리멤버, 알바몬, CJ제일제당, 테라로사",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwcGhZc29kaWN0ZXEwMHBkdFNwd3BteEtmV3hjdkRXWUFXdUY4QTNJTXRUMVhKNzlFWktmdWstWl9NVlR6ZVdlNHdubGVJM3BnSEJmMk9GWld3VzA?oc=5",
-          "publisher": "에너지경제신문",
-          "date": "Tue, 17 Nov 2026",
-          "summary": "[똑똑한유통] 현대백화점, 쿠팡, GS리테일, 파라다이스, 아모레퍼시픽, 무신사 뷰티, 리멤버, 알바몬, CJ제일제당, 테라로사",
-          "is_report": false
         }
       ]
     },
@@ -604,27 +604,27 @@ window.BRIEFING_DATA = {
         "name": "명신산업",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 6550,
-        "change_val": -20,
-        "change_rate": -0.3,
-        "display_price": "6,550원",
-        "display_change": "▼ 20 (-0.30%)",
+        "current_price": 6070,
+        "change_val": -470,
+        "change_rate": -7.19,
+        "display_price": "6,070원",
+        "display_change": "▼ 470 (-7.19%)",
         "status": "down",
         "high_52w": 14940,
-        "low_52w": 0,
-        "volume": 241819,
-        "display_volume": "241,819주",
-        "avg_volume_20d": 684810,
+        "low_52w": 5390,
+        "volume": 159061,
+        "display_volume": "159,061주",
+        "avg_volume_20d": 539865,
         "volume_surge": {
-          "ratio": 35.3,
+          "ratio": 29.5,
           "status": "low",
-          "badge": "거래량 한산 (35.3%)",
+          "badge": "거래량 한산 (29.5%)",
           "desc": "평균 대비 거래량 감소"
         },
         "investor_flow": {
-          "foreign": "+6,403만",
-          "institutional": "-5,375만",
-          "retail": "-1,034만",
+          "foreign": "-2.2억",
+          "institutional": "-4,704만",
+          "retail": "+2.7억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -638,7 +638,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 11700,
           "display_target_price": "11,700원",
-          "upside_potential": 78.6,
+          "upside_potential": 92.8,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -646,7 +646,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "100원 / 1주당",
-          "yield_rate": "1.53%",
+          "yield_rate": "1.65%",
           "desc": "2026.04. 결산 배당"
         },
         "upcoming_events": [
@@ -669,12 +669,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '명신산업, 중국 생산 회복·원가 안정화에 실적 반등…\"이익체력 회복 본격화\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[리포트 브리핑]명신산업, '실적은 반등, 밸류에이션은 지배구조에 할인' Not Rated - 하나증권' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 20 (-0.30%) 흐름을 기록했습니다. 수급은 외국인(+6,403만), 기관(-5,375만, 연기금(장기 스마트머니)), 개인(-1,034만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 11,700원) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 0,
+        "reaction": "금일 주가는 ▼ 470 (-7.19%) 흐름을 기록했습니다. 수급은 외국인(-2.2억), 기관(-4,704만, 연기금(장기 스마트머니)), 개인(+2.7억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 11,700원) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -55,
         "one_line_summary": "명신산업, 중국 생산 회복·원가 안정화에 실적 반등…\"이익체력 회복 본격화\"",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -693,14 +693,6 @@ window.BRIEFING_DATA = {
           "publisher": "뉴스핌",
           "date": "Wed, 19 Aug 2026",
           "summary": "[리포트 브리핑]명신산업, '실적은 반등, 밸류에이션은 지배구조에 할인' Not Rated - 하나증권",
-          "is_report": true
-        },
-        {
-          "title": "명신산업, 실적 반등 본격화…수익성 개선에도 지배구조 할인은 과제",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sbjNmdlNaTzlSWmN5WEYzUU15RGVsS090VE5FeW1rZkZlQlZ4S3NKelg5ay0yQUkzZkUxajFwWll1U0lqV1RLTGVwS05oSjJJUlR5aW02RVItQzdta2ZoSklOeU9lWnhPRGphejMtczd2bXfSAXdBVV95cUxNR0JjckdSTXA3NE12WFdIb2JURnZsVm5JS19oYnNiQlNTQS1sRWp3dnhLeFd1VWktRndlLUhBVDNPd2wxUjR4SG5jdnVoQnk2WDd1Z2JSRC1sSlNtZ05kZWhKVDZlUk5mcEh0YXNZUlEtZ0NMdG52Yw?oc=5",
-          "publisher": "핀포인트뉴스",
-          "date": "Sat, 22 Aug 2026",
-          "summary": "명신산업, 실적 반등 본격화…수익성 개선에도 지배구조 할인은 과제",
           "is_report": true
         },
         {
@@ -734,6 +726,14 @@ window.BRIEFING_DATA = {
           "date": "Mon, 21 Sep 2026",
           "summary": "＇테슬라 픽＇ 명신산업…사이버캡 품고 옵티머스 뚫는다",
           "is_report": false
+        },
+        {
+          "title": "하반기 승부수 던진다…명신산업 주가 재평가 시나리오 주목",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ec2dBQjdnUHlzZnJGM05acktjYU5SRnlZdC1EX3BTYldoN3J0NS1SNlBvZG5OemRNRXhINzg5R1NvNGxwVEV0TG40eloyeWVpY2JIWDJnQlBWUVRVdFhqdUxJbk0ybEZBUmZVN0tRcVpEVDDSAXdBVV95cUxPMk4yOEpubU5zMlQzVTlSOVlZX3pvcmhSYnVMMnRscEZ1dWdBTzMySVVZN0VLTUdfcmg5Z3dWN2NzMTlRa0JBUl9EaUxRS3lKMGlBRXVVQ2pwQVBrYTJ3Tm5XaVdDZ1I4c3cxc0VXYnV0OTlSNFowZw?oc=5",
+          "publisher": "핀포인트뉴스",
+          "date": "Sat, 25 Apr 2026",
+          "summary": "하반기 승부수 던진다…명신산업 주가 재평가 시나리오 주목",
+          "is_report": false
         }
       ]
     },
@@ -750,27 +750,27 @@ window.BRIEFING_DATA = {
         "name": "포스코DX",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 22100,
-        "change_val": 300,
-        "change_rate": 1.38,
-        "display_price": "22,100원",
-        "display_change": "▲ 300 (+1.38%)",
-        "status": "up",
+        "current_price": 20600,
+        "change_val": -1550,
+        "change_rate": -7.0,
+        "display_price": "20,600원",
+        "display_change": "▼ 1,550 (-7.00%)",
+        "status": "down",
         "high_52w": 45600,
-        "low_52w": 0,
-        "volume": 347289,
-        "display_volume": "347,289주",
-        "avg_volume_20d": 240152,
+        "low_52w": 16510,
+        "volume": 262812,
+        "display_volume": "262,812주",
+        "avg_volume_20d": 256192,
         "volume_surge": {
-          "ratio": 144.6,
+          "ratio": 102.6,
           "status": "normal",
-          "badge": "거래량 평이 (144.6%)",
+          "badge": "거래량 평이 (102.6%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-2.9억",
-          "institutional": "+7.6억",
-          "retail": "-4.8억",
+          "foreign": "-381만",
+          "institutional": "+315만",
+          "retail": "-4만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -784,7 +784,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 27000,
           "display_target_price": "27,000원",
-          "upside_potential": 22.2,
+          "upside_potential": 31.1,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -792,7 +792,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "125원 / 1주당",
-          "yield_rate": "0.57%",
+          "yield_rate": "0.61%",
           "desc": "2026.03. 결산 배당"
         },
         "upcoming_events": [
@@ -814,74 +814,17 @@ window.BRIEFING_DATA = {
         "sector": "IT서비스·스마트팩토리"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[모닝 리포트] 포스코DX, 자동화 수주 53% 급증…\"2027년 이익 레버리지\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[버핏 리포트] 포스코DX, 2026 실적 저점… 2027 외형 성장·고정비 레버리지 효과 기대 – 신한' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 300 (+1.38%) 흐름을 기록했습니다. 수급은 외국인(-2.9억), 기관(+7.6억, 연기금(장기 스마트머니)), 개인(-4.8억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 27,000원) 흐름입니다.",
-        "upside": "포스코DX의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 30,
-        "one_line_summary": "[모닝 리포트] 포스코DX, 자동화 수주 53% 급증…\"2027년 이익 레버리지\"",
+        "fact": "최근 주요 소식으로 '포스코DX 주가 및 시장 동향 점검' 등이 보도되며 시장의 이목이 집중되었습니다.",
+        "reaction": "금일 주가는 ▼ 1,550 (-7.00%) 흐름을 기록했습니다. 수급은 외국인(-381만), 기관(+315만, 연기금(장기 스마트머니)), 개인(-4만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 27,000원) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -25,
+        "one_line_summary": "포스코DX 주가 및 시장 동향 점검",
         "ai_engine": "Quantitative NLP Fallback"
       },
-      "news": [
-        {
-          "title": "[모닝 리포트] 포스코DX, 자동화 수주 53% 급증…\"2027년 이익 레버리지\"",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94QjMyMjlpWFVnWXN6ZFdDMldmMlo2Tk5LQVF1QnExdWp0MUZRMUMxUzhHaTl3UTRzSGhFSVlvbTFLN2QyNTdpa2hKTkw5QmZrelRKOTFHaXZEaWQ3?oc=5",
-          "publisher": "뉴스핌",
-          "date": "Thu, 27 Aug 2026",
-          "summary": "[모닝 리포트] 포스코DX, 자동화 수주 53% 급증…\"2027년 이익 레버리지\"",
-          "is_report": true
-        },
-        {
-          "title": "[버핏 리포트] 포스코DX, 2026 실적 저점… 2027 외형 성장·고정비 레버리지 효과 기대 – 신한",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SV3NkTHBUdHFTM1E5WUpLdUF4dkZIakFwZjA4clZyekpIUjZ4dzFvTjFidjB4THZ1RUh6dG5MbEtPWkN0cm1Hc0pJN0M4NlIwQWhGeno1WEd2VHNQ?oc=5",
-          "publisher": "버핏연구소",
-          "date": "Thu, 27 Aug 2026",
-          "summary": "[버핏 리포트] 포스코DX, 2026 실적 저점… 2027 외형 성장·고정비 레버리지 효과 기대 – 신한",
-          "is_report": true
-        },
-        {
-          "title": "[리포트 브리핑]포스코DX, '포스코DX가 이끄는 포스코 그룹의 AI 마스터플랜' Not Rated - 하나증권",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EV1pOUGFCdGRwZlRUbUE2UWgyeFF6ZEFSdWZvZU5XU014N0ZxVFJCYVRWSFd0SFBvWnV2QVJJaFdkczVEb19odndJZVpzQmxhWFo2U3huYlNmYXNR?oc=5",
-          "publisher": "뉴스핌",
-          "date": "Wed, 27 May 2026",
-          "summary": "[리포트 브리핑]포스코DX, '포스코DX가 이끄는 포스코 그룹의 AI 마스터플랜' Not Rated - 하나증권",
-          "is_report": true
-        },
-        {
-          "title": "포스코DX, 인핸스에 20억원 투자...온톨로지로 AI 에이전트 고도화",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hLVoxdGxBR2hGY0todXpPTGdjbWtfZXJTNEVCam1rSVlPYWJWLUhnbm5yOUpmeVNjUEdINHF5N3NhdWt6dUliTXZ6ZWFaVXVabncyRkNfbmJmT1JwNFlGS1BWV2xqQWNOUDF4V0JfU3U?oc=5",
-          "publisher": "코리아리포트",
-          "date": "Mon, 12 Oct 2026",
-          "summary": "포스코DX, 인핸스에 20억원 투자...온톨로지로 AI 에이전트 고도화",
-          "is_report": false
-        },
-        {
-          "title": "포스코DX, AI 네이티브 컴퍼니 선언…피지컬 AI 도입 확대(종합)",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13WU1mQXEtSlBENk9EWnNzem5ya1JrakVyOFBMZDJ5LUotc1N6RUFpdzktYUhmZVFVNDFUa1VDM2FXNXEwSEpNWi1fSFZ0MjdCeHgta1VpOGIyWjDSAWBBVV95cUxPazR4MFdheWtNZFd4SXpMSmJURHF1OTViWEtSc0FkdHo2dzREaFpjTnBGNFhXSm9BUkVueUxidDlQeTZITzZzYkNCQjRLcXNwRjYtZTA5NV9DZ3JGWU5DQ1Y?oc=5",
-          "publisher": "연합뉴스",
-          "date": "Wed, 29 Jul 2026",
-          "summary": "포스코DX, AI 네이티브 컴퍼니 선언…피지컬 AI 도입 확대(종합)",
-          "is_report": false
-        },
-        {
-          "title": "포스코DX, 『2023 지속가능경영보고서』 발간",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOUVpXZDdva2YycEZ3WXVmcFl0b2lfcURib0ZFUWNEcWZ2NnJGaElVQXVVSm8wNXllRVczbDNwdmpHMG4wUlR1Qmo2WjIyUm5yenhHeElPbHRGZk1RNmt3djZFU2lGX3BkVUJZaFBWcFoySE4tR3JrZll3X1pHU2Y3UngxTmVvc1hqY0FWSWVfRl9MZUd5eF9Mc204ZHgxWWlYUG1OUjVkRG1LX0dodGExRVQ2TTdqTllfVWdPV3JJdElYV2hudHNjU1JhSnJLVzNWZGkwWVhBcXlsckI2dHpuUVlINURWODZaT1pKU1MyRkswVmEzYnVyd0lhblJiMk1nSWhUbktlZ2hVczFld2FvbGlR?oc=5",
-          "publisher": "포스코그룹 뉴스룸",
-          "date": "Tue, 02 Jul 2024",
-          "summary": "포스코DX, 『2023 지속가능경영보고서』 발간",
-          "is_report": false
-        },
-        {
-          "title": "포스코DX, 산업현장 AX 속도…AI 에이전트·피지컬AI 선보여",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iQWIzNjdJSGtob0NXTnp0NDJvMmd5R3JKcVB5YzktNjVpdUFrZk1UT01Db2F4YndycFVZYzlPUXl6UnFFeXV6Q1FEYWt1NFdUd1dQeTZiUi1Bdw?oc=5",
-          "publisher": "한국경제",
-          "date": "Wed, 04 Mar 2026",
-          "summary": "포스코DX, 산업현장 AX 속도…AI 에이전트·피지컬AI 선보여",
-          "is_report": false
-        }
-      ]
+      "news": []
     },
     {
       "ticker": "025540",
@@ -896,27 +839,27 @@ window.BRIEFING_DATA = {
         "name": "한국단자",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 44950,
-        "change_val": -450,
-        "change_rate": -0.99,
-        "display_price": "44,950원",
-        "display_change": "▼ 450 (-0.99%)",
+        "current_price": 42300,
+        "change_val": -2300,
+        "change_rate": -5.16,
+        "display_price": "42,300원",
+        "display_change": "▼ 2,300 (-5.16%)",
         "status": "down",
         "high_52w": 94000,
-        "low_52w": 0,
-        "volume": 20500,
-        "display_volume": "20,500주",
-        "avg_volume_20d": 21285,
+        "low_52w": 42050,
+        "volume": 30577,
+        "display_volume": "30,577주",
+        "avg_volume_20d": 22292,
         "volume_surge": {
-          "ratio": 96.3,
+          "ratio": 137.2,
           "status": "normal",
-          "badge": "거래량 평이 (96.3%)",
+          "badge": "거래량 평이 (137.2%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+1.1억",
-          "institutional": "-5.0억",
-          "retail": "+3.7억",
+          "foreign": "+6,294만",
+          "institutional": "-2.0억",
+          "retail": "+1.1억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -930,7 +873,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 90000,
           "display_target_price": "90,000원",
-          "upside_potential": 100.2,
+          "upside_potential": 112.8,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -938,7 +881,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "3,200원 / 1주당",
-          "yield_rate": "7.12%",
+          "yield_rate": "7.57%",
           "desc": "2025.12. 결산 배당"
         },
         "upcoming_events": [
@@ -960,74 +903,17 @@ window.BRIEFING_DATA = {
         "sector": "자동차부품·커넥터"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '한국단자, 로봇·반도체·ESS 등 신사업 기대감…\"실적 반등 속 저가 매수의 시기 주목\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[모닝 리포트] 한국단자, 상반기 수익성 주춤…\"2027년 회복, 목표가 9만원\"' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 450 (-0.99%) 흐름을 기록했습니다. 수급은 외국인(+1.1억), 기관(-5.0억, 연기금(장기 스마트머니)), 개인(+3.7억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 90,000원) 흐름입니다.",
-        "upside": "한국단자의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 40,
-        "one_line_summary": "한국단자, 로봇·반도체·ESS 등 신사업 기대감…\"실적 반등 속 저가 매수의 시기...",
+        "fact": "최근 주요 소식으로 '한국단자 주가 및 시장 동향 점검' 등이 보도되며 시장의 이목이 집중되었습니다.",
+        "reaction": "금일 주가는 ▼ 2,300 (-5.16%) 흐름을 기록했습니다. 수급은 외국인(+6,294만), 기관(-2.0억, 연기금(장기 스마트머니)), 개인(+1.1억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 90,000원) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -25,
+        "one_line_summary": "한국단자 주가 및 시장 동향 점검",
         "ai_engine": "Quantitative NLP Fallback"
       },
-      "news": [
-        {
-          "title": "한국단자, 로봇·반도체·ESS 등 신사업 기대감…\"실적 반등 속 저가 매수의 시기 주목\"",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYZUhQZHhIeTNsN0hIVFRVTkN6eVE4TnJ0QW5FSWNrd0FYRHNzYjgwT2l0OFdKWXNlVVdPem9vWUlEZW15ZWZEbmxzaWY0SWRjV0J0LWVMbkwxQnB1cjVCUy1zdw?oc=5",
-          "publisher": "프라임경제",
-          "date": "Fri, 21 Aug 2026",
-          "summary": "한국단자, 로봇·반도체·ESS 등 신사업 기대감…\"실적 반등 속 저가 매수의 시기 주목\"",
-          "is_report": true
-        },
-        {
-          "title": "[모닝 리포트] 한국단자, 상반기 수익성 주춤…\"2027년 회복, 목표가 9만원\"",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBZkJDbWpMWC1jbThYSVcwenlJc2VEMy16MV9xdXZkYTJFSWlnemNzSTdjOGp3X01fRmJNbVRKRDduRGFRSm5ieDh0alJGNVBTUDB4MzE3eDFQbk5B?oc=5",
-          "publisher": "뉴스핌",
-          "date": "Wed, 26 Aug 2026",
-          "summary": "[모닝 리포트] 한국단자, 상반기 수익성 주춤…\"2027년 회복, 목표가 9만원\"",
-          "is_report": true
-        },
-        {
-          "title": "한국단자, 실적 회복 기대에 배당 매력 부각...로봇 커넥터 성장 가능성-하나",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RUjZ2dURGOERFNjJYOTlVdm5HX01adnpOWmxkcHBLZFlXZHZ1VFMyNkFEb0RIbEF3Y0kteDNLYUNPcUVhTlhsbGU5NjBncmNJd1Mxa1ZrYlNNQ1E3dTM3SXBnaEZBZENaTi02NlRfR1BUOE0?oc=5",
-          "publisher": "마켓인",
-          "date": "Mon, 16 Mar 2026",
-          "summary": "한국단자, 실적 회복 기대에 배당 매력 부각...로봇 커넥터 성장 가능성-하나",
-          "is_report": true
-        },
-        {
-          "title": "한국단자, 2분기 영업이익 급감...3분기 실적 반등·신사업 기대",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10MUUtOUlZZDZrOGQyb0N1QWIwOXVQLXJzeGttMkJ1bWZQdE9ETnAwTGpaWmlmLW9jb3Fac3BlVHBBbUFrRzVlTGhpNWtWSW5nZ3Bjbm80aU9pV3dac2wyMkpfcFozU3NXbXNsdlRR?oc=5",
-          "publisher": "알파경제",
-          "date": "Fri, 21 Aug 2026",
-          "summary": "한국단자, 2분기 영업이익 급감...3분기 실적 반등·신사업 기대",
-          "is_report": true
-        },
-        {
-          "title": "한국단자, 파격 배당·정관 손질…쿼드운용 방어전선 구축",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84djdxRGNrT25sSzZGbzhzZ1RYaFU4aUtLNTRkcklYdXFoRWw4bmJOVWFDekVUWDhOYzM4bmlDbDdwN2dEMWtfdUszenpwb3M?oc=5",
-          "publisher": "딜사이트",
-          "date": "Tue, 10 Mar 2026",
-          "summary": "한국단자, 파격 배당·정관 손질…쿼드운용 방어전선 구축",
-          "is_report": false
-        },
-        {
-          "title": "한국단자, 오너 2세 개인회사 사업부 383억에 인수∙∙∙“P/E 2배짜리 딜”의 진실은",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxUFVmMC1zc0lWUmVNSmxaemY0bzJBaTA0dHRRVUxVemcwWUtVeWN1TTdVVWM3U2dIZ1hvQi1PVWcwZG1hblRSdXUwMDh1MDhXV0R2aXhmWENaeXJpTGRjU2JVRlVMOUFGTnc?oc=5",
-          "publisher": "한국M&A경제신문",
-          "date": "Fri, 17 Apr 2026",
-          "summary": "한국단자, 오너 2세 개인회사 사업부 383억에 인수∙∙∙“P/E 2배짜리 딜”의 진실은",
-          "is_report": false
-        },
-        {
-          "title": "'한국단자' 52주 신고가 경신, 영업이익 증가 요인: 기업구조 개편 확정 - LS증권, BUY",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtd3pqVGd3VjdGY0NGN0lOQktJbnZyZ1FFN1paVXpaZFJrZVhFTl96RjFWR05Wa05nUldtZ3Bac1VOeTlKY3FFLWpPemp2elFpVzllaGU4emg2Zw?oc=5",
-          "publisher": "한국경제",
-          "date": "Tue, 28 Apr 2026",
-          "summary": "'한국단자' 52주 신고가 경신, 영업이익 증가 요인: 기업구조 개편 확정 - LS증권, BUY",
-          "is_report": false
-        }
-      ]
+      "news": []
     },
     {
       "ticker": "028300",
@@ -1042,27 +928,27 @@ window.BRIEFING_DATA = {
         "name": "HLB",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 27950,
-        "change_val": 800,
-        "change_rate": 2.95,
-        "display_price": "27,950원",
-        "display_change": "▲ 800 (+2.95%)",
-        "status": "up",
+        "current_price": 26900,
+        "change_val": -850,
+        "change_rate": -3.06,
+        "display_price": "26,900원",
+        "display_change": "▼ 850 (-3.06%)",
+        "status": "down",
         "high_52w": 69200,
-        "low_52w": 0,
-        "volume": 465641,
-        "display_volume": "465,641주",
-        "avg_volume_20d": 659313,
+        "low_52w": 24150,
+        "volume": 480085,
+        "display_volume": "480,085주",
+        "avg_volume_20d": 668861,
         "volume_surge": {
-          "ratio": 70.6,
+          "ratio": 71.8,
           "status": "normal",
-          "badge": "거래량 평이 (70.6%)",
+          "badge": "거래량 평이 (71.8%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-14.1억",
-          "institutional": "+24.2억",
-          "retail": "-9.3억",
+          "foreign": "-12.1억",
+          "institutional": "-6.5억",
+          "retail": "+18.5억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -1107,12 +993,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '‘연내 허가’ 기대 꺾인 HLB 급락…휴젤 실적 충격·아리바이오 상한가[바이오맥짚기]' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 800 (+2.95%) 흐름을 기록했습니다. 수급은 외국인(-14.1억), 기관(+24.2억, 연기금(장기 스마트머니)), 개인(-9.3억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 15,
+        "reaction": "금일 주가는 ▼ 850 (-3.06%) 흐름을 기록했습니다. 수급은 외국인(-12.1억), 기관(-6.5억, 연기금(장기 스마트머니)), 개인(+18.5억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -65,
         "one_line_summary": "‘연내 허가’ 기대 꺾인 HLB 급락…휴젤 실적 충격·아리바이오 상한가[바이오맥짚...",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -1142,6 +1028,14 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
+          "title": "진양곤 HLB그룹 의장, 4개월 만에 '이노베이션 대표' 물러난 배경은",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03OHMzMEYtQ3ZHQ25Oc2lVbFRVaHp4MTRuQlVGWGNHLW1HWmxYbTNMQ0Y4c24xdG5YM21oOExTTm1iRHdFQjRRdDhxRHQ5ZkNWMTN1V2U5eWtTNkVWaDZpd3hyS2hBVk9V?oc=5",
+          "publisher": "FETV",
+          "date": "Thu, 19 Nov 2026",
+          "summary": "진양곤 HLB그룹 의장, 4개월 만에 '이노베이션 대표' 물러난 배경은",
+          "is_report": false
+        },
+        {
           "title": "HLB제약, 상반기 매출 1279억원…역대 최대",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBiOHVvenh5c2pPTzk5OHplOGZYYnRhbWEyeUFMNXBfYXlNWEROdkNTQmxmdldNbXNqSzF2dWMxdHZ6VUF6bS05N3Nkc1htVU55WFRKcXQzUHZZNUxvTTQtTnktTmp1cE44MURGRnZqUQ?oc=5",
           "publisher": "비즈워치",
@@ -1164,14 +1058,6 @@ window.BRIEFING_DATA = {
           "date": "Fri, 14 Aug 2026",
           "summary": "HLB제약, 상반기 매출 1279억 \"전년比 56.8% 증가\"",
           "is_report": false
-        },
-        {
-          "title": "[오늘의 IR] 유한양행ㆍSKCㆍHLB파나진 등",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UYlFlRmpSMzJlZHFjUi0ycVRwVWpfaHpJeFl2T1VJbW04RHAyNl9NWDBTX2FUbGt0cHczVk15TktYTnVUd2k4SGpUV2xkVkNEeXZpcQ?oc=5",
-          "publisher": "이투데이",
-          "date": "Wed, 28 Oct 2026",
-          "summary": "[오늘의 IR] 유한양행ㆍSKCㆍHLB파나진 등",
-          "is_report": false
         }
       ]
     },
@@ -1188,27 +1074,27 @@ window.BRIEFING_DATA = {
         "name": "나노신소재",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 66400,
-        "change_val": -1000,
-        "change_rate": -1.48,
-        "display_price": "66,400원",
-        "display_change": "▼ 1,000 (-1.48%)",
+        "current_price": 58000,
+        "change_val": -8300,
+        "change_rate": -12.52,
+        "display_price": "58,000원",
+        "display_change": "▼ 8,300 (-12.52%)",
         "status": "down",
         "high_52w": 95300,
-        "low_52w": 0,
-        "volume": 126745,
-        "display_volume": "126,745주",
-        "avg_volume_20d": 203189,
+        "low_52w": 33200,
+        "volume": 201603,
+        "display_volume": "201,603주",
+        "avg_volume_20d": 209866,
         "volume_surge": {
-          "ratio": 62.4,
+          "ratio": 96.1,
           "status": "normal",
-          "badge": "거래량 평이 (62.4%)",
+          "badge": "거래량 평이 (96.1%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-7.9억",
-          "institutional": "+5.2억",
-          "retail": "+2.4억",
+          "foreign": "+33.4억",
+          "institutional": "-52.7억",
+          "retail": "+20.8억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -1222,7 +1108,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 110000,
           "display_target_price": "110,000원",
-          "upside_potential": 65.7,
+          "upside_potential": 89.7,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -1230,7 +1116,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "250원 / 1주당",
-          "yield_rate": "0.38%",
+          "yield_rate": "0.43%",
           "desc": "2025.12. 결산 배당"
         },
         "upcoming_events": [
@@ -1253,12 +1139,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '나노신소재, 기존 사업 경쟁력·신규 성장 동력 있어…목표가↑-iM - 머니투데이' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[모닝 리포트] \"나노신소재, CNT 도전재·태양전지 소재로 성장축 확대\"' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 1,000 (-1.48%) 흐름을 기록했습니다. 수급은 외국인(-7.9억), 기관(+5.2억, 연기금(장기 스마트머니)), 개인(+2.4억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 110,000원) 흐름입니다.",
+        "reaction": "금일 주가는 ▼ 8,300 (-12.52%) 흐름을 기록했습니다. 수급은 외국인(+33.4억), 기관(-52.7억, 연기금(장기 스마트머니)), 개인(+20.8억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 110,000원) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": 20,
+        "sentiment_score": -5,
         "one_line_summary": "나노신소재, 기존 사업 경쟁력·신규 성장 동력 있어…목표가↑-iM - 머니투데이",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -1280,12 +1166,12 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "나노신소재, '美 100GW 태양광 핵심' 독점 기술력 주목…음극·양극재 CNT 도전재도 '선점'",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE02bGUyX0RKcjZRZjJwcVgxc1F4WUhRWkh4Q3hRVUV3NWpMWF85S09MOEhWWkxjV1dsSEtvYklQR3BEN0J1R01zNTFDSDFOekpkUEFJMmt4Z3oyaEQ3LVBDejZfUWJ2R09vSkd5MkVLeXV2dw?oc=5",
+          "title": "나노신소재, CNT·CMP 타고 실적 회복…내년 성장세 더 가팔라진다",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qaUw3cVdyaDNrRVVLNURnVDl5TUtxSWpETXJRbEgtVHRYTTlvNWx2WndOb2RDY3Q1bjR4R1ZQX1FVaWZIZ3NVeExLU2pYRm1QTDdPRUNuQnVzWDdsWjB2VVNWcw?oc=5",
           "publisher": "프라임경제",
-          "date": "Thu, 05 Nov 2026",
-          "summary": "나노신소재, '美 100GW 태양광 핵심' 독점 기술력 주목…음극·양극재 CNT 도전재도 '선점'",
-          "is_report": false
+          "date": "Fri, 11 Sep 2026",
+          "summary": "나노신소재, CNT·CMP 타고 실적 회복…내년 성장세 더 가팔라진다",
+          "is_report": true
         },
         {
           "title": "실리콘 음극재 뜬다…나노신소재 'CNT 날개'",
@@ -1312,11 +1198,11 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "[TECH한주] “실리콘 음극재의 팽창을 지배하다” 나노신소재의 CNT '마법 가루'",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ORTZPS2VkZG1GV001YVdZd0QxMDdudGptT0FYUnlsdWI3d1hDWTFVaEZFOTdJWFhfZ3BrWC1GNnlkNi1WNXRtUklEY0ZTdU9CRFhrZUNxdlhsUF9ScEJmRlBiNDA1R1By?oc=5",
-          "publisher": "테크월드",
-          "date": "Mon, 18 May 2026",
-          "summary": "[TECH한주] “실리콘 음극재의 팽창을 지배하다” 나노신소재의 CNT '마법 가루'",
+          "title": "나노신소재, 2026년 3분기 영업이익 66억1600만원으로 전년 동기 대비 632.6% 증가",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4ySzVtQWFTY3hNMlY0OThKWUVualpEek1EWURzQURQV1p1T0t2U0lDa09MbUVKSFVRX2RyclRWem9yT2pXeW5rUGdRQUJNQWJfVzBXLTdwTmhZaFQ1SjRQdS0zNmpENTlueFhYRWNZQ2Njd09VakVGRVJnbw?oc=5",
+          "publisher": "디지털투데이",
+          "date": "Tue, 03 Nov 2026",
+          "summary": "나노신소재, 2026년 3분기 영업이익 66억1600만원으로 전년 동기 대비 632.6% 증가",
           "is_report": false
         }
       ]
@@ -1334,27 +1220,27 @@ window.BRIEFING_DATA = {
         "name": "와이지엔터테인먼트",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 46750,
-        "change_val": -150,
-        "change_rate": -0.32,
-        "display_price": "46,750원",
-        "display_change": "▼ 150 (-0.32%)",
+        "current_price": 47050,
+        "change_val": -250,
+        "change_rate": -0.53,
+        "display_price": "47,050원",
+        "display_change": "▼ 250 (-0.53%)",
         "status": "down",
         "high_52w": 79000,
-        "low_52w": 0,
-        "volume": 538846,
-        "display_volume": "538,846주",
-        "avg_volume_20d": 140811,
+        "low_52w": 34300,
+        "volume": 248047,
+        "display_volume": "248,047주",
+        "avg_volume_20d": 172624,
         "volume_surge": {
-          "ratio": 382.7,
-          "status": "surge",
-          "badge": "💥 거래량 급증 (382.7%)",
-          "desc": "20일 평균 대비 3.8배 유입"
+          "ratio": 143.7,
+          "status": "normal",
+          "badge": "거래량 평이 (143.7%)",
+          "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-36.8억",
-          "institutional": "-7.3억",
-          "retail": "+40.0억",
+          "foreign": "+27.1억",
+          "institutional": "+13.1억",
+          "retail": "-40.0억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -1368,7 +1254,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 59944,
           "display_target_price": "59,944원",
-          "upside_potential": 28.2,
+          "upside_potential": 27.4,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -1398,31 +1284,39 @@ window.BRIEFING_DATA = {
         "sector": "엔터·미디어"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[모닝 리포트] \"와이지엔터테인먼트, 공연 확대·IP 수익화 주목\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[버핏 리포트] 와이지엔터테인먼트, 신인 그룹 데뷔로 실적 안정화 노린다…2027년 반등 기대 - NH' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 150 (-0.32%) [💥 거래량 급증 (382.7%)] 흐름을 기록했습니다. 수급은 외국인(-36.8억), 기관(-7.3억, 연기금(장기 스마트머니)), 개인(+40.0억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 59,944원) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": -20,
-        "one_line_summary": "[모닝 리포트] \"와이지엔터테인먼트, 공연 확대·IP 수익화 주목\"",
+        "fact": "최근 주요 소식으로 '[리포트 브리핑]와이지엔터테인먼트, 'You Deserve Better' 목표가 60,000원 - 교보증권' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[버핏 리포트] 와이지엔터테인먼트, 신인 그룹 데뷔로 실적 안정화 노린다…2027년 반등 기대 - NH' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 250 (-0.53%) 흐름을 기록했습니다. 수급은 외국인(+27.1억), 기관(+13.1억, 연기금(장기 스마트머니)), 개인(-40.0억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 59,944원) 흐름입니다.",
+        "upside": "와이지엔터테인먼트의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
+        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
+        "sentiment": "bull",
+        "sentiment_label": "호재 우세",
+        "sentiment_score": 40,
+        "one_line_summary": "[리포트 브리핑]와이지엔터테인먼트, 'You Deserve Better' 목표가 ...",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
         {
-          "title": "[모닝 리포트] \"와이지엔터테인먼트, 공연 확대·IP 수익화 주목\"",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwY2ZRRS1rZVB0Q1ZqTjY5dklJTHlYRW5rVzZqaTR1VDdKZVEyZ1BOQjIteDB0ZGhzanN1NnJfV3B4TERuRmU1dHJVdkNFZGY3b0FNQlcxaEhXQXct?oc=5",
+          "title": "[리포트 브리핑]와이지엔터테인먼트, 'You Deserve Better' 목표가 60,000원 - 교보증권",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WZ0pGREY2OFZCNkNSUnNJTVREb3VpU2R4N1ZKRU1GRV9iTlFka1BkX3BqVmp0elE0NkJpa3ZKUWVRMTRvNlc1U1ZVRTRjOW1fdGZINEwwUUMwak55?oc=5",
           "publisher": "뉴스핌",
-          "date": "Tue, 10 Nov 2026",
-          "summary": "[모닝 리포트] \"와이지엔터테인먼트, 공연 확대·IP 수익화 주목\"",
+          "date": "Tue, 17 Nov 2026",
+          "summary": "[리포트 브리핑]와이지엔터테인먼트, 'You Deserve Better' 목표가 60,000원 - 교보증권",
           "is_report": true
         },
         {
           "title": "[버핏 리포트] 와이지엔터테인먼트, 신인 그룹 데뷔로 실적 안정화 노린다…2027년 반등 기대 - NH",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrY3JuY3pEUllmRU9uNUVjSGNmbE5QUWNlMHhYZ3VlSTkxWmljNzRSbTVCN0dFYXZxTUlLZzQzbU1iMGItbURUa25xMkkxUTVXd3hVTXZ3NzJPSmpRNl9HQmd2TUtPUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvN1J4NGZWQ2k3S0RPTkJ3MnhhOHNtUDVvakRCbzBHd1RSNlZzMWEwS29mM3BnTkdSYmgxZ1ltazd4OXNSMEVjTHNDUTJxTU1RQV9YU1haX3Nyd3k1M1hza1R3?oc=5",
           "publisher": "버핏연구소",
           "date": "Mon, 09 Nov 2026",
           "summary": "[버핏 리포트] 와이지엔터테인먼트, 신인 그룹 데뷔로 실적 안정화 노린다…2027년 반등 기대 - NH",
+          "is_report": true
+        },
+        {
+          "title": "와이지엔터테인먼트, 매출 1600억원, 영업이익 130억원 /연결잠정실적",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XVTRTRnhkMzZEME9aOTVOU1FNYUJ5VnNsdDdkYXRrTkdLQ2pyUFJvLWtxSE9QNnBfUXFoTERTOGR0bXlNWHVXWnB1NVRybFluTXR4b2hwbWVqcUxMd28wU0JDZmFFYVM2c1BWcQ?oc=5",
+          "publisher": "데일리인베스트",
+          "date": "Mon, 09 Nov 2026",
+          "summary": "와이지엔터테인먼트, 매출 1600억원, 영업이익 130억원 /연결잠정실적",
           "is_report": true
         },
         {
@@ -1442,20 +1336,12 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "와이지엔터테인먼트(122870) : 씽크풀",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Lemh3UmwzVU5ZcGRNNGJHbGM5NmR3bjl6OHcxUXpQeGlYdU5lZmhRU01NbGNqSGN1dVBkalM4OEVBa1hGczVzWm5GOA?oc=5",
-          "publisher": "ThinkPool",
-          "date": "Mon, 16 Nov 2026",
-          "summary": "와이지엔터테인먼트(122870) : 씽크풀",
-          "is_report": false
-        },
-        {
-          "title": "[여의도 투자본부 2부] 유한양행 vs 와이지엔터테인먼트 vs SK스퀘어 vs 한솔테크닉스, 공략법은? - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jVXdnZ3RkZjIwV3JabWVyN256eGJFMlB4Y0ZWZzBjOTBONXB3STlmNjlpdDhzWXZnMnhCT0ZZT05uZ0JZaHNON0NValUxdzdWM216S2pxTUZrazdlQjJHU09LUXdHSUpQ0gFuQVVfeXFMTVZBbG01aW9oWjRPUE01T0c0Z2llUlB2bjZWWXZKN0VlYkczdFNrd29Ec0NTZ3FvTEI1UDl4dTY3Q1hpZVhuVkxSY3ZOT0dkSzBpNXY2WEZJXzZ3WUYyeEdhbTZaMTNhMnpqY3hITnc?oc=5",
-          "publisher": "머니투데이",
-          "date": "Sat, 07 Nov 2026",
-          "summary": "[여의도 투자본부 2부] 유한양행 vs 와이지엔터테인먼트 vs SK스퀘어 vs 한솔테크닉스, 공략법은? - 머니투데이",
-          "is_report": false
+          "title": "\"와이지엔터, 2분기 실적 기대 밑돌 듯…목표가↓\"-유진",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBWC1sNXMwZmNnVkhpblp2UnB4c2ZPUmRaQlVSYWxCMWxCczFQRXU0Y3dNVjNkX1p4dnZFSWhDdzROVW51aGxwaGw3TEhyTnFGaldKUDl3R0Uwdw?oc=5",
+          "publisher": "한국경제",
+          "date": "Wed, 15 Jul 2026",
+          "summary": "\"와이지엔터, 2분기 실적 기대 밑돌 듯…목표가↓\"-유진",
+          "is_report": true
         },
         {
           "title": "와이지엔터테인먼트, 3분기 일시적 비용 확대에 컨센서스 하회",
@@ -1480,27 +1366,27 @@ window.BRIEFING_DATA = {
         "name": "드림텍",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 5600,
-        "change_val": 60,
-        "change_rate": 1.08,
-        "display_price": "5,600원",
-        "display_change": "▲ 60 (+1.08%)",
-        "status": "up",
+        "current_price": 5170,
+        "change_val": -420,
+        "change_rate": -7.51,
+        "display_price": "5,170원",
+        "display_change": "▼ 420 (-7.51%)",
+        "status": "down",
         "high_52w": 9860,
-        "low_52w": 0,
-        "volume": 275658,
-        "display_volume": "275,658주",
-        "avg_volume_20d": 611786,
+        "low_52w": 3565,
+        "volume": 409051,
+        "display_volume": "409,051주",
+        "avg_volume_20d": 582389,
         "volume_surge": {
-          "ratio": 45.1,
-          "status": "low",
-          "badge": "거래량 한산 (45.1%)",
-          "desc": "평균 대비 거래량 감소"
+          "ratio": 70.2,
+          "status": "normal",
+          "badge": "거래량 평이 (70.2%)",
+          "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+2.5억",
-          "institutional": "-2.4억",
-          "retail": "-1,005만",
+          "foreign": "+4.3억",
+          "institutional": "-3.3억",
+          "retail": "-1.0억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -1514,7 +1400,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 12000,
           "display_target_price": "12,000원",
-          "upside_potential": 114.3,
+          "upside_potential": 132.1,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -1522,7 +1408,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "226원 / 1주당",
-          "yield_rate": "4.04%",
+          "yield_rate": "4.37%",
           "desc": "2025.12. 결산 배당"
         },
         "upcoming_events": [
@@ -1544,31 +1430,23 @@ window.BRIEFING_DATA = {
         "sector": "IT부품·센서"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[서치 e종목] 드림텍, 본업 수익성 회복에 메모리 모듈 매출 확대로 주가 우상향?' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '키움증권 \"드림텍, 부진한 실적에 목표가↓…하반기 개선 전망\"' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 60 (+1.08%) 흐름을 기록했습니다. 수급은 외국인(+2.5억), 기관(-2.4억, 연기금(장기 스마트머니)), 개인(-1,005만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 12,000원) 흐름입니다.",
-        "upside": "드림텍의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 30,
-        "one_line_summary": "[서치 e종목] 드림텍, 본업 수익성 회복에 메모리 모듈 매출 확대로 주가 우상향...",
+        "fact": "최근 주요 소식으로 '[리포트 브리핑]드림텍, '하반기 반등 전망' 목표가 7,000원 - 키움증권' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[버핏 리포트] 드림텍, 3분기 인도 메모리 양산 본격화…연 2000억 생산능력 '주목' - 키움' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 420 (-7.51%) 흐름을 기록했습니다. 수급은 외국인(+4.3억), 기관(-3.3억, 연기금(장기 스마트머니)), 개인(-1.0억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 12,000원) 흐름입니다.",
+        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
+        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
+        "sentiment": "neutral",
+        "sentiment_label": "중립·관망",
+        "sentiment_score": 5,
+        "one_line_summary": "[리포트 브리핑]드림텍, '하반기 반등 전망' 목표가 7,000원 - 키움증권",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
         {
-          "title": "[서치 e종목] 드림텍, 본업 수익성 회복에 메모리 모듈 매출 확대로 주가 우상향?",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTbHVOZ3dZZjB0LVBGaXdnT0h2eXgtX0k3Nkt6M1h1aGhBd3dacE1vMk44dVVaZ3NITFpJZkEzczU5eEl5N3hia28taHVOVFloaDRtejVDUUdTWDNQM01nazlWSU04VHpWQ19Z0gFvQVVfeXFMTTlKcVh4TGg0TThlWVZvUndnN2JTWGZ6LTVBZkxUR1NoX3JwTGVFN2tOODg3TFlkNjhSTUJlc1VQZ3RYUjJMS0ptQ3lFWmdvR1A1bzhVZ2V3QlNSc3NLczJYWHJXSG95WU1hSU5IODdz?oc=5",
-          "publisher": "데일리인베스트",
-          "date": "Mon, 12 Oct 2026",
-          "summary": "[서치 e종목] 드림텍, 본업 수익성 회복에 메모리 모듈 매출 확대로 주가 우상향?",
-          "is_report": true
-        },
-        {
-          "title": "키움증권 \"드림텍, 부진한 실적에 목표가↓…하반기 개선 전망\"",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HelVKaTc0LUlCNEFvUTE4TUFURTZIUm4welV0aEtZMDRSd0V2UTR6THRkaEIzWEY0ZFdaQVFnZ1VHLVNBQkw2eWFfa3E0a2ZtbnczWEtNaGFrcHfSAWBBVV95cUxNUGtsaU9OMDdxaEYwY3otcHFfUmJBV1hPX2xRalkxcjY1d3VnTGJ1d2d0QzVvTGZGRDY4MFZta0E0U3VROHNXR1Y2czNQRlpsYUVSajg1bkRSbFhWZEI0R2c?oc=5",
-          "publisher": "연합뉴스",
+          "title": "[리포트 브리핑]드림텍, '하반기 반등 전망' 목표가 7,000원 - 키움증권",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82blVjNXBVS1gzaFFhc1BRcm5vdFU0YVROZUVJLW9iU1J1dm5aZVE0eE1BUGJWQUxtYlh4N0c3OVhFbTRmR2FHUTJkc0NGdjZBQWVGQ3VpME9jQ2JZ?oc=5",
+          "publisher": "뉴스핌",
           "date": "Fri, 05 Jun 2026",
-          "summary": "키움증권 \"드림텍, 부진한 실적에 목표가↓…하반기 개선 전망\"",
+          "summary": "[리포트 브리핑]드림텍, '하반기 반등 전망' 목표가 7,000원 - 키움증권",
           "is_report": true
         },
         {
@@ -1580,35 +1458,43 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "[리포트 브리핑]드림텍, '하반기 반등 전망' 목표가 7,000원 - 키움증권",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82blVjNXBVS1gzaFFhc1BRcm5vdFU0YVROZUVJLW9iU1J1dm5aZVE0eE1BUGJWQUxtYlh4N0c3OVhFbTRmR2FHUTJkc0NGdjZBQWVGQ3VpME9jQ2JZ?oc=5",
-          "publisher": "뉴스핌",
-          "date": "Fri, 05 Jun 2026",
-          "summary": "[리포트 브리핑]드림텍, '하반기 반등 전망' 목표가 7,000원 - 키움증권",
+          "title": "씽크풀 : [투데이리포트]드림텍, \"하반기 기대되는 신…\" 매수-신한투자증권",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtWmNhaXFuSTF3QjhNelU0UG1fZlhXR1daY3hXT0ZLeklESExEdVVYbWNSMkcxM2oxbTFwZXpYWk9LSVUyMDZkc0RDbExzVW42OG0tSkdqUFh0MEhpZU5vVEl0bHl4dFVs?oc=5",
+          "publisher": "ThinkPool",
+          "date": "Fri, 31 Jul 2026",
+          "summary": "씽크풀 : [투데이리포트]드림텍, \"하반기 기대되는 신…\" 매수-신한투자증권",
           "is_report": true
         },
         {
-          "title": "드림텍, 빅테크 2개사 메모리 모듈 퀄 테스트 완료…하반기 재평가 기대 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlVkZjcjJYTU5YYWc4TTZuaWxzM3FNOVM4dzVLQVhJNldJOHdGWjNPV2N5YjRENWVqOFhHVmRLX3hpLXRxRl9LVFVMMzV0Qm5UN0RTS3g3aTR4bU9odFVnWmpYNTktYjZK0gFuQVVfeXFMTmwwT2V5RDBXRnFTSTYwQTBGWWN1Z0pnMlVUX1FLT2RsSC1YRl9UOERMZnRMZzJteWxmODdFbzYxOVlteUp6U1hYTk81YURDSW8xTllva1dTaWEtUmpEeG9sTU43SGpSNmc1SEtFNUE?oc=5",
+          "title": "[리포트 브리핑]드림텍, '성장 스토리 만들어가는 중' Not Rated - 부국증권",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EN2dJOWRON000UUxqN3NsY0dCeHhlRXZ4bjVFWUp4ZGp3YlpGZHZHVmRxa3VmNDBZa2xZZHhicjdlYWFFZE9rTF9zc3VSbkI4ejVWMm1HRzlFOUZu?oc=5",
+          "publisher": "뉴스핌",
+          "date": "Mon, 26 Oct 2026",
+          "summary": "[리포트 브리핑]드림텍, '성장 스토리 만들어가는 중' Not Rated - 부국증권",
+          "is_report": true
+        },
+        {
+          "title": "[서치 e종목] 드림텍, 사업 다각화로 밸류에이션 재평가 전망…주가 상향각?",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OTFcwejFqNWV6aTlaN2xlWDUzMDBsc2tmN2RIVlpzMlplSHIxZlZtWWdCYUU3UXJOeG5BWVJzLU4yUE9qbHBtMHJSY21BeEdGdzBKdTJBQWFnY0c5dUhQVzhNeDE3dUNXTmhn0gFvQVVfeXFMUE5wRUxyWXhLUTFCRVZfTW5qVHNZU0xUWUtzcmFGMXoxZnFRcm5abUdkR3VwaU1sQXRWUzMwTE1YQUdTQmVLT0dFZXF2UVJvYnV3anh2TjJEbTd0MUtaY1p0Z2NKRmowbHpxVDVBOGhF?oc=5",
+          "publisher": "데일리인베스트",
+          "date": "Thu, 04 Dec 2025",
+          "summary": "[서치 e종목] 드림텍, 사업 다각화로 밸류에이션 재평가 전망…주가 상향각?",
+          "is_report": true
+        },
+        {
+          "title": "[더벨]드림텍, 이사회 내 ESG위원회 신설 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qVkwwS0poeC1QVnRlSDVBdlpzS1pNWHJjdGpDTWdzbGJxaUoxaFlTTGxtMW9PTmVsUk56SXA2Y2V2NFowN2I1UnQ5cUFZbXhFaE54UEQya3J1YU84MzlpaDl5UndsU0pG0gFuQVVfeXFMUEtvOXNnWjR4QlRZLXd3eXU1c1ZpSkRzV2lQWENpREJYYVk0aWh3VEs1aHVUSzBwWTFjeHZFTWFLTTBkX0lzeWtXT2U2d2hDYVYtekZnSElIc3Etc1IyRFdpMXR1cEtKUmpnUUsyc2c?oc=5",
           "publisher": "머니투데이",
-          "date": "Thu, 27 Aug 2026",
-          "summary": "드림텍, 빅테크 2개사 메모리 모듈 퀄 테스트 완료…하반기 재평가 기대 - 머니투데이",
+          "date": "Mon, 29 Jun 2026",
+          "summary": "[더벨]드림텍, 이사회 내 ESG위원회 신설 - 머니투데이",
           "is_report": false
         },
         {
-          "title": "[드림텍] 드림텍 주가 전망: AI 메모리 + 의료기기 성장 포인트(2025년_4Q)",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVnp1M0E0bzdUZHh5YzZiZ2t4U3dzRlhFVnZ6cEZjNnFKR3EtZjJ1ZFBjQnI0dHhkclhqNmdza3hEcTNMTDBmOXRzdVF4WjVFXzhIU3B6QzBTOWY2RUM4dU9MeUUxUnp6RmVfdlVLRG9UNGdTMWpiM1FZTnJVOFpBR0NiVHpDUGpQ?oc=5",
-          "publisher": "네이버 프리미엄콘텐츠",
-          "date": "Thu, 19 Mar 2026",
-          "summary": "[드림텍] 드림텍 주가 전망: AI 메모리 + 의료기기 성장 포인트(2025년_4Q)",
-          "is_report": false
-        },
-        {
-          "title": "드림텍, 반도체 사업부 수장으로 삼성전자 부사장 영입",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ZT00teklxQU9GQUdGRkEyMkZTblFpVjUzQmljNmMtYnZidTVjOTcwcWRRcGlzcnJMdURmNmJua1Q0R3JuSkhwQ283allpUFVvZmdLYkpnQ2w0YzdGLUFfYkd0YjV1QQ?oc=5",
-          "publisher": "디일렉",
-          "date": "Tue, 28 Jul 2026",
-          "summary": "드림텍, 반도체 사업부 수장으로 삼성전자 부사장 영입",
+          "title": "드림텍, 차세대 심전도 패치 '카디아솔로 FLX' 개발",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JdDUtUkt6YWY0R3puc3NzdG1XeHZCOVA0U0NpcTYyT3RQRHIwNTdMQUNneXY2cDBoR0pVczkzX3pZRDhkVV9CS2h4N0Zldw?oc=5",
+          "publisher": "전자신문",
+          "date": "Tue, 27 Jan 2026",
+          "summary": "드림텍, 차세대 심전도 패치 '카디아솔로 FLX' 개발",
           "is_report": false
         }
       ]
@@ -1626,27 +1512,27 @@ window.BRIEFING_DATA = {
         "name": "덕산네오룩스",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 20750,
-        "change_val": 1020,
-        "change_rate": 5.17,
-        "display_price": "20,750원",
-        "display_change": "▲ 1,020 (+5.17%)",
-        "status": "up",
+        "current_price": 18850,
+        "change_val": -1950,
+        "change_rate": -9.38,
+        "display_price": "18,850원",
+        "display_change": "▼ 1,950 (-9.38%)",
+        "status": "down",
         "high_52w": 57300,
         "low_52w": 18820,
-        "volume": 74105,
-        "display_volume": "74,105주",
-        "avg_volume_20d": 123644,
+        "volume": 110089,
+        "display_volume": "110,089주",
+        "avg_volume_20d": 123309,
         "volume_surge": {
-          "ratio": 59.9,
+          "ratio": 89.3,
           "status": "normal",
-          "badge": "거래량 평이 (59.9%)",
+          "badge": "거래량 평이 (89.3%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-7,096만",
-          "institutional": "-6,412만",
-          "retail": "+1.3억",
+          "foreign": "+2,616만",
+          "institutional": "-7.5억",
+          "retail": "+6.9억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -1660,7 +1546,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 42000,
           "display_target_price": "42,000원",
-          "upside_potential": 102.4,
+          "upside_potential": 122.8,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -1691,12 +1577,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '덕산네오룩스, 3분기 영업익 240억…분기 최대 실적' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'IBK증권, 덕산네오룩스 목표가↑…\"하반기 최대 실적 전망\"' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 1,020 (+5.17%) 흐름을 기록했습니다. 수급은 외국인(-7,096만), 기관(-6,412만, 연기금(장기 스마트머니)), 개인(+1.3억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 42,000원) 흐름입니다.",
+        "reaction": "금일 주가는 ▼ 1,950 (-9.38%) 흐름을 기록했습니다. 수급은 외국인(+2,616만), 기관(-7.5억, 연기금(장기 스마트머니)), 개인(+6.9억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 42,000원) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": 15,
+        "sentiment_score": -15,
         "one_line_summary": "덕산네오룩스, 3분기 영업익 240억…분기 최대 실적",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -1734,27 +1620,27 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "덕산네오룩스, 2026년 3분기 영업이익 239억6200만원…전년 동기 대비 36.9% 증가",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9VZlA2SmhpQWNtcjBFZ3U3QkVkZHJZLTRXNzdzeERVX1NlQ1IwWWdUalI1T1NZNFpFNVpPWk9TdHpBcjh1X2g0THRBV0hqNmYtV2hpT1UzRE53WDNEZmZvdS1Dd2ZUajFNWnZ1b1hXYUFKQlpnRTFUc1paWQ?oc=5",
-          "publisher": "디지털투데이",
-          "date": "Thu, 05 Nov 2026",
-          "summary": "덕산네오룩스, 2026년 3분기 영업이익 239억6200만원…전년 동기 대비 36.9% 증가",
+          "title": "덕산네오룩스, 서울서 이틀간 3분기 실적 NDR 개최",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CVE9TdmdfRkJXUzRMak9venltZFJSdzdNZ1RTUTF3NTJXWDc1ZWdjU2VXYTNUdk1DLW1nbV9HTDhGWnlDZk5pQ19rVXA5T2pDSHc2aC0yQXFBT2FWQ0Q4S2ZFN1Zkdw?oc=5",
+          "publisher": "비건뉴스",
+          "date": "Sun, 08 Nov 2026",
+          "summary": "덕산네오룩스, 서울서 이틀간 3분기 실적 NDR 개최",
+          "is_report": true
+        },
+        {
+          "title": "덕산네오룩스, 플래그십 IT제품 공략과 계절적 성수기 진입으로 고성장 진입",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ua0Zld3NvMDJSV2t5dWNtSjBDYnotRnNsb1E4MEEzV1pndTE5VU1mZWZlMFVnakxUZ3YyWFVqOUVDN0xyWVllMjhRLWZpd3E0cURHeHlJcHltZ3Z5VmFtWk90VWVVUzYxd0E?oc=5",
+          "publisher": "파이낸스스코프",
+          "date": "Tue, 08 Sep 2026",
+          "summary": "덕산네오룩스, 플래그십 IT제품 공략과 계절적 성수기 진입으로 고성장 진입",
           "is_report": false
         },
         {
-          "title": "iM證 “덕산네오룩스, 과도한 저평가 상황⋯적극 비중확대 추천”",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tUlV4eHdHcDJGUVIxQkFUM3BRSjFBOVQ3dkxoRnN0by1JSV90Q2JzWVRXZkFreHhaRFpJTU9pbXZGQjBaSnFpY290WW1lQ05EaWUyYQ?oc=5",
-          "publisher": "이투데이",
-          "date": "Fri, 07 Aug 2026",
-          "summary": "iM證 “덕산네오룩스, 과도한 저평가 상황⋯적극 비중확대 추천”",
-          "is_report": false
-        },
-        {
-          "title": "덕산네오룩스, M&A로 몸집 키울수록 디레이팅?…OLED 프리미엄 '흔들'",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ZUXlmaU43UTUwRmJ1QkVKMnpGaVFDYnRWbi1fSGxyZUh5R2ZEOUJua2ZfQWxuU05FblB6R3kwek5UaC13WkxZQkpoN0M5cGNzNWxtYkVERUoxMTRJX3JJb1M0dE1wWkk3Mnh3aC04SdIBc0FVX3lxTE4xZ0ZOR3U2MFZXY2psTGJ5QlM3cnJSWERoOFdiVUVHQ2dmSzNwaUxCWHdVQlFYN2prUHVOcjVJeW10VTRTeUxnMzhvTktvTzh0NlhXcFdtNjlONG96S18xSHdGVkhDUGh0Q0d0V3VSZGNNWU0?oc=5",
-          "publisher": "데일리한국",
+          "title": "덕산네오룩스, 자회사에 714억 추가 출자∙∙∙1,500억 밸브 M&A 실탄 채웠다",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLVUNDMHJrdEo3ekx3dFhfblZGMWlvUjFXbkdLcXE3bUp1aDFfeW1kWjVvZjJ4eGtiSjBCYi1xQ1FUTkliWE5ma3JESThpaWs2eHhHVWhWU3F2Q3RhVlhmYUo1WUZWbWpYNVE?oc=5",
+          "publisher": "한국M&A경제신문",
           "date": "Thu, 03 Sep 2026",
-          "summary": "덕산네오룩스, M&A로 몸집 키울수록 디레이팅?…OLED 프리미엄 '흔들'",
+          "summary": "덕산네오룩스, 자회사에 714억 추가 출자∙∙∙1,500억 밸브 M&A 실탄 채웠다",
           "is_report": false
         }
       ]
@@ -1772,27 +1658,27 @@ window.BRIEFING_DATA = {
         "name": "실리콘투",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 24050,
-        "change_val": 350,
-        "change_rate": 1.48,
-        "display_price": "24,050원",
-        "display_change": "▲ 350 (+1.48%)",
-        "status": "up",
+        "current_price": 22850,
+        "change_val": -1350,
+        "change_rate": -5.58,
+        "display_price": "22,850원",
+        "display_change": "▼ 1,350 (-5.58%)",
+        "status": "down",
         "high_52w": 56100,
         "low_52w": 23100,
-        "volume": 639291,
-        "display_volume": "639,291주",
-        "avg_volume_20d": 773939,
+        "volume": 624088,
+        "display_volume": "624,088주",
+        "avg_volume_20d": 782412,
         "volume_surge": {
-          "ratio": 82.6,
+          "ratio": 79.8,
           "status": "normal",
-          "badge": "거래량 평이 (82.6%)",
+          "badge": "거래량 평이 (79.8%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-5.4억",
-          "institutional": "-5.2억",
-          "retail": "+10.7억",
+          "foreign": "+2.5억",
+          "institutional": "+13.1억",
+          "retail": "-17.4억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -1806,7 +1692,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 43923,
           "display_target_price": "43,923원",
-          "upside_potential": 82.6,
+          "upside_potential": 92.2,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -1814,7 +1700,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "306원 / 1주당",
-          "yield_rate": "1.27%",
+          "yield_rate": "1.34%",
           "desc": "2026.03. 결산 배당"
         },
         "upcoming_events": [
@@ -1836,47 +1722,23 @@ window.BRIEFING_DATA = {
         "sector": "K-뷰티·이커머스"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[모닝 리포트] \"실리콘투, 최대 매출에도 환율에 발목…목표가 45% 하향\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '\"실리콘투, 3분기 실적 기대치 밑돌 전망…목표가↓\"-상상인' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 350 (+1.48%) 흐름을 기록했습니다. 수급은 외국인(-5.4억), 기관(-5.2억, 연기금(장기 스마트머니)), 개인(+10.7억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 43,923원) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": -10,
-        "one_line_summary": "[모닝 리포트] \"실리콘투, 최대 매출에도 환율에 발목…목표가 45% 하향\"",
+        "fact": "최근 주요 소식으로 '[리포트 브리핑]실리콘투, '마진은 쉬어가도 외형은 간다' 목표가 31,000원 - 유안타증권' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '매수 리포트 속 날아든 6.72% 블록딜…실리콘투에 무슨 일이' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 1,350 (-5.58%) 흐름을 기록했습니다. 수급은 외국인(+2.5억), 기관(+13.1억, 연기금(장기 스마트머니)), 개인(-17.4억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 43,923원) 흐름입니다.",
+        "upside": "실리콘투의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
+        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
+        "sentiment": "bull",
+        "sentiment_label": "호재 우세",
+        "sentiment_score": 35,
+        "one_line_summary": "[리포트 브리핑]실리콘투, '마진은 쉬어가도 외형은 간다' 목표가 31,000원 ...",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
         {
-          "title": "[모닝 리포트] \"실리콘투, 최대 매출에도 환율에 발목…목표가 45% 하향\"",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NRHAyNFpYMU84a1NGQWZFQWQ2R2JuUDREYzdIUE9YeUNoVEFRUlBzS09JblJIZ1RCbTdUS2tUTGpXcW80WHJzMHFCYks5TzdMRzhfamRQaWxQOW5x?oc=5",
+          "title": "[리포트 브리핑]실리콘투, '마진은 쉬어가도 외형은 간다' 목표가 31,000원 - 유안타증권",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYcl9VTUx4VlpESVZxbFJrZkZIcFkyMlNsajNmUTFtYldNUkQ3R1pVZGk1VDRIX1pnR0hnTEdkYWJLMnJFM2k0bkRZeHo5YXVNV3UzUklLMTNZUFhS?oc=5",
           "publisher": "뉴스핌",
-          "date": "Sun, 15 Nov 2026",
-          "summary": "[모닝 리포트] \"실리콘투, 최대 매출에도 환율에 발목…목표가 45% 하향\"",
-          "is_report": true
-        },
-        {
-          "title": "\"실리콘투, 3분기 실적 기대치 밑돌 전망…목표가↓\"-상상인",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XakFXLUpHRkI0RkZETmJwZzZHcHVFUkFfS1dDOEw0MEd2dkRiT0N5NVBzb3A1dzBKX3FNOG1rcEhSbVJzYmw3Rlk4Wk9oLTA3M1F3cEp5bmtlZw?oc=5",
-          "publisher": "한국경제",
-          "date": "Mon, 26 Oct 2026",
-          "summary": "\"실리콘투, 3분기 실적 기대치 밑돌 전망…목표가↓\"-상상인",
-          "is_report": true
-        },
-        {
-          "title": "호실적에도 현금흐름 묶인 실리콘투, 3000억 투자 유치 숨통 트이나",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVWFU3NlItU25aYmY1VndyaGpLbFZ2RlVSbjQyRG80c2dEdFVLaENscjF5V1hVT1cxbXdLZTZuTEhVWThpS0phSEtZdWRyaG03?oc=5",
-          "publisher": "톱데일리",
-          "date": "Fri, 21 Aug 2026",
-          "summary": "호실적에도 현금흐름 묶인 실리콘투, 3000억 투자 유치 숨통 트이나",
-          "is_report": true
-        },
-        {
-          "title": "실리콘투, 유럽·북미 쌍끌이에 2분기 최대 실적 전망…목표가는↓-NH",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15YktOMjM4emlfZ0dUcDdHcVlmZXRxZzRzQ3BpdUtBZTBTcGhnVkdzdEpOQ3JEMHBnQktwMEh3VWFndVpucFI0em1obkotTnEwWXNLaFk0dlhKVzdmcEZmRUFKWmNma1VlT3RlVHJReFpyejg?oc=5",
-          "publisher": "마켓인",
-          "date": "Wed, 01 Jul 2026",
-          "summary": "실리콘투, 유럽·북미 쌍끌이에 2분기 최대 실적 전망…목표가는↓-NH",
+          "date": "Mon, 16 Nov 2026",
+          "summary": "[리포트 브리핑]실리콘투, '마진은 쉬어가도 외형은 간다' 목표가 31,000원 - 유안타증권",
           "is_report": true
         },
         {
@@ -1888,19 +1750,43 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "원화 강세에 수익성 악화…실리콘투 목표주가 ‘뚝’",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKVmFPZHlhZ2tvTU9QLWNxWGFlazBpZ1VTeF9UNnNMc3UyODZGRUhrc0FhNVZEYTl5RDFSMlJZcndTd1JYLTE5M3NaUk95S19YRzVFUw?oc=5",
-          "publisher": "매일경제",
-          "date": "Fri, 13 Nov 2026",
-          "summary": "원화 강세에 수익성 악화…실리콘투 목표주가 ‘뚝’",
+          "title": "[버핏 리포트] 실리콘투, 고객사 다변화로 하반기 실적 견조...목표가 6.5만원 상향 - 한국",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10ZXlCZkNqQ3BqcVZveHpxcXRUeGNBYkdERWVJRHJGOTA3WUs0MTRKRzhJcVRaVVJ4a1lSOUo5NXBJU2hrLTd0TkE0TlhldHlxUGtfX2cxOHF4QVBa?oc=5",
+          "publisher": "버핏연구소",
+          "date": "Fri, 04 Sep 2026",
+          "summary": "[버핏 리포트] 실리콘투, 고객사 다변화로 하반기 실적 견조...목표가 6.5만원 상향 - 한국",
+          "is_report": true
+        },
+        {
+          "title": "[모닝 리포트] \"실리콘투, 최대 매출에도 환율에 발목…목표가 45% 하향\"",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NRHAyNFpYMU84a1NGQWZFQWQ2R2JuUDREYzdIUE9YeUNoVEFRUlBzS09JblJIZ1RCbTdUS2tUTGpXcW80WHJzMHFCYks5TzdMRzhfamRQaWxQOW5x?oc=5",
+          "publisher": "뉴스핌",
+          "date": "Sun, 15 Nov 2026",
+          "summary": "[모닝 리포트] \"실리콘투, 최대 매출에도 환율에 발목…목표가 45% 하향\"",
+          "is_report": true
+        },
+        {
+          "title": "[리포트 브리핑]실리콘투, '단기 저점을 통과하는 중 ' 목표가 40,000원 - 삼성증권",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBaV3ozXzRrZDFQLWRSTng0SG9MSXZiRS1fYmhjWW1VT1R5c1czZjJoSy1SRXdzTUJJbndxaURMbkJVb3diWlBFb1BQN2R0NUNhQWhEX3RmYmdxNGxD?oc=5",
+          "publisher": "뉴스핌",
+          "date": "Thu, 12 Nov 2026",
+          "summary": "[리포트 브리핑]실리콘투, '단기 저점을 통과하는 중 ' 목표가 40,000원 - 삼성증권",
+          "is_report": true
+        },
+        {
+          "title": "실리콘투, 유럽최대 사모펀드도 알아봤다…목표주가 6.5만원으로 [오늘나온보고서]",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85clZZZ3BXXzVmZ0tuX0Z0RXNYWmk5clk1U3dPXzd4aHpQdGJoaTJwZEhYb2EwenFuT3lUVDVaUWZGZlhCRllGSjgxNVI3MzlxN0E?oc=5",
+          "publisher": "매일경제 마켓",
+          "date": "Fri, 04 Sep 2026",
+          "summary": "실리콘투, 유럽최대 사모펀드도 알아봤다…목표주가 6.5만원으로 [오늘나온보고서]",
           "is_report": false
         },
         {
-          "title": "'실리콘투, K뷰티 성장 스토리는 유효한데...'",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5MzFMTDBtanFJR3hWMGNobzE5UzlvZDFObGV6X3U4UjV4V2ZPejEtZW5kZ2RYajcyMENDRVJta3laVjJOaElQTlIzeXNlSlo0LVBMdUdsS2Q0b3h5SGg0?oc=5",
-          "publisher": "스마트투데이",
+          "title": "실리콘투, 환율 부담에도 성장성 대비 저평가 분석…코스맥스, 내년 분기 매출 9000억 시대 전망 [株토피아]",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoYnZ0MGNHUzVIb2k2S1p2NXVzTFR3ZWVvQlpVemVpQ0J0VGZUSk9HMXN4WWJZMmJWek81TkZZRjg4VUtPRXpfYjBDeXBVcFJhWWlLQ3FUcUlXdw?oc=5",
+          "publisher": "파이낸셜뉴스",
           "date": "Thu, 12 Nov 2026",
-          "summary": "'실리콘투, K뷰티 성장 스토리는 유효한데...'",
+          "summary": "실리콘투, 환율 부담에도 성장성 대비 저평가 분석…코스맥스, 내년 분기 매출 9000억 시대 전망 [株토피아]",
           "is_report": false
         }
       ]
@@ -1918,27 +1804,27 @@ window.BRIEFING_DATA = {
         "name": "디앤씨미디어",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 5760,
-        "change_val": 180,
-        "change_rate": 3.23,
-        "display_price": "5,760원",
-        "display_change": "▲ 180 (+3.23%)",
+        "current_price": 5890,
+        "change_val": 120,
+        "change_rate": 2.08,
+        "display_price": "5,890원",
+        "display_change": "▲ 120 (+2.08%)",
         "status": "up",
-        "high_52w": 13460,
-        "low_52w": 0,
-        "volume": 23065,
-        "display_volume": "23,065주",
-        "avg_volume_20d": 10697,
+        "high_52w": 13380,
+        "low_52w": 5320,
+        "volume": 29161,
+        "display_volume": "29,161주",
+        "avg_volume_20d": 12886,
         "volume_surge": {
-          "ratio": 215.6,
+          "ratio": 226.3,
           "status": "surge",
-          "badge": "💥 거래량 급증 (215.6%)",
-          "desc": "20일 평균 대비 2.2배 유입"
+          "badge": "💥 거래량 급증 (226.3%)",
+          "desc": "20일 평균 대비 2.3배 유입"
         },
         "investor_flow": {
-          "foreign": "+1,017만",
-          "institutional": "-70만",
-          "retail": "-947만",
+          "foreign": "-3,483만",
+          "institutional": "+5,890원",
+          "retail": "+3,483만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -1952,7 +1838,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 12000,
           "display_target_price": "12,000원",
-          "upside_potential": 108.3,
+          "upside_potential": 103.7,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -1983,7 +1869,7 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '씽크풀 : [실적속보]디앤씨미디어, 올해 1Q 매출액 174억(-2.8%) 영업이익 34.9억(+54%) (연결)' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '디앤씨미디어 영업익 '반토막'..\"내년 역성장 전망·목표가 29%↓\"' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 180 (+3.23%) [💥 거래량 급증 (215.6%)] 흐름을 기록했습니다. 수급은 외국인(+1,017만), 기관(-70만, 연기금(장기 스마트머니)), 개인(-947만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 12,000원) 흐름입니다.",
+        "reaction": "금일 주가는 ▲ 120 (+2.08%) [💥 거래량 급증 (226.3%)] 흐름을 기록했습니다. 수급은 외국인(-3,483만), 기관(+5,890원, 연기금(장기 스마트머니)), 개인(+3,483만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 12,000원) 흐름입니다.",
         "upside": "디앤씨미디어의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
         "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
         "sentiment": "bull",
@@ -2064,27 +1950,27 @@ window.BRIEFING_DATA = {
         "name": "천보",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 29200,
-        "change_val": 450,
-        "change_rate": 1.57,
-        "display_price": "29,200원",
-        "display_change": "▲ 450 (+1.57%)",
-        "status": "up",
+        "current_price": 27950,
+        "change_val": -1400,
+        "change_rate": -4.77,
+        "display_price": "27,950원",
+        "display_change": "▼ 1,400 (-4.77%)",
+        "status": "down",
         "high_52w": 70700,
         "low_52w": 25900,
-        "volume": 14095,
-        "display_volume": "14,095주",
-        "avg_volume_20d": 24509,
+        "volume": 14122,
+        "display_volume": "14,122주",
+        "avg_volume_20d": 23415,
         "volume_surge": {
-          "ratio": 57.5,
+          "ratio": 60.3,
           "status": "normal",
-          "badge": "거래량 평이 (57.5%)",
+          "badge": "거래량 평이 (60.3%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-1.6억",
-          "institutional": "+1.2억",
-          "retail": "+4,079만",
+          "foreign": "-1,110만",
+          "institutional": "-3,832만",
+          "retail": "+4,942만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -2098,7 +1984,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 중립 (3.00)",
           "target_price": 33000,
           "display_target_price": "33,000원",
-          "upside_potential": 13.0,
+          "upside_potential": 18.1,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -2128,13 +2014,13 @@ window.BRIEFING_DATA = {
         "sector": "2차전지·전해질"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[모닝 리포트] \"천보, 북미 OEM 소재 공급 확대\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[리포트 브리핑]천보, '점진적 실적 개선 가시화' 목표가 45,000원 - 키움증권' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 450 (+1.57%) 흐름을 기록했습니다. 수급은 외국인(-1.6억), 기관(+1.2억, 연기금(장기 스마트머니)), 개인(+4,079만), 프로그램(0) 동향을 보였으며, 투자의견 중립 (3.00) (목표주가: 33,000원) 흐름입니다.",
-        "upside": "천보의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 35,
+        "fact": "최근 주요 소식으로 '[모닝 리포트] \"천보, 북미 OEM 소재 공급 확대\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '천보, 새만금 공장 가동이 오히려 '독'…LiPF6 반등에도 실적 기대 난망' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 1,400 (-4.77%) 흐름을 기록했습니다. 수급은 외국인(-1,110만), 기관(-3,832만, 연기금(장기 스마트머니)), 개인(+4,942만), 프로그램(0) 동향을 보였으며, 투자의견 중립 (3.00) (목표주가: 33,000원) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -55,
         "one_line_summary": "[모닝 리포트] \"천보, 북미 OEM 소재 공급 확대\"",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -2148,27 +2034,19 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
+          "title": "천보, 새만금 공장 가동이 오히려 '독'…LiPF6 반등에도 실적 기대 난망",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iaXdoWEJqVVpVdmlQcXM1M3l6cnNVVjBvLUs3MlFkcFppVHBjektqZGlnc0lqMHBaMGNabjBjZ2lDc0RNVXQtQXFlc1JxNnhiQ0dQNm9UNHUyaTNFZkdRU01sanFIYk5jVXMxbER1WQ?oc=5",
+          "publisher": "리드경제",
+          "date": "Fri, 02 Jan 2026",
+          "summary": "천보, 새만금 공장 가동이 오히려 '독'…LiPF6 반등에도 실적 기대 난망",
+          "is_report": true
+        },
+        {
           "title": "[리포트 브리핑]천보, '점진적 실적 개선 가시화' 목표가 45,000원 - 키움증권",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42Y2JnNDdDWXZ4OElmY1h0b29YM3NPcGFQTDVIYW1GYzBmYXg3TjBfUEVTeHctdTk4UUl1SEppVld1c1VCZmtvcHczb0s2Nl9mVTI2eGM2bHFYajNK?oc=5",
           "publisher": "뉴스핌",
           "date": "Thu, 02 Jul 2026",
           "summary": "[리포트 브리핑]천보, '점진적 실적 개선 가시화' 목표가 45,000원 - 키움증권",
-          "is_report": true
-        },
-        {
-          "title": "미래에셋벤처 천보비엘에스 CB 인수 소식에…천보 14% 강세[줍줍 리포트]",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EN2RyVTRNRXYyVnhxR1QtRlNQczRVNVFMSzJfMmUtUldQajVaejRrZnd6Ym9qbjdzRWxaQUVBYlZsYW9wWGFZSDd1TzNMYnhadlHSAVNBVV95cUxPUWU4aVZxVGtUTVF1RGhoVkFRVXdXV1dHSWEyVXBHWmxwUWlwNm5KQjVyWEFfaTRwb0REc2tMTlY0dFRFYVVYUzdTWktRQ3YwbHQzNA?oc=5",
-          "publisher": "서울경제",
-          "date": "Mon, 21 Jul 2025",
-          "summary": "미래에셋벤처 천보비엘에스 CB 인수 소식에…천보 14% 강세[줍줍 리포트]",
-          "is_report": true
-        },
-        {
-          "title": "천보, 실적개선은 3분기부터···‘매수 구간’",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WejRaMUNmQ2ZOTGJjX1ExWldHdGo1VWo2NDdmWGdVX25HWDFFN0l4aGZBMWlCMWxmX0Vkb2ktU29NSHVjbmN0MGRVcUJ2ZWl3cFF3YVh0blZHYk9OampvOG9FeUpfd1hWcERTdEln?oc=5",
-          "publisher": "더리포트",
-          "date": "Fri, 16 Jun 2023",
-          "summary": "천보, 실적개선은 3분기부터···‘매수 구간’",
           "is_report": true
         },
         {
@@ -2180,19 +2058,27 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "천보(278280) : 씽크풀",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9IYlRraHhlSlF3OUgxckM5NEhGTm1GVU41elVWYklYQVVGN3JvSHV3ai1hSkZRd3hGRXFqZ19qLV9pNU5NMWFCeElGSQ?oc=5",
-          "publisher": "ThinkPool",
-          "date": "Tue, 09 Aug 2022",
-          "summary": "천보(278280) : 씽크풀",
+          "title": "[특징주] 천보, 북미 '사이버 캡' 핵심 소재 공급 소식에 23%↑",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJVy1ZMmhJV2txaC1hbUd2NXFMMkc5TVRJRDdfbjgwZnFXcE5ORGtFMVlkX2lkRkxudGFLSmJmbi1HdXNsenZ4N2ZfdkRKSHZpNXVpN2pjT3VMa09GMkJ6MVlSaEF1UGZUenfSAW5BVV95cUxNZnRrUnVlNkJXdGthR1ZCRk4wc1QyTG5qR0VKazRTQ2dhN2F3YmhvOUhuemJ4QldNWHVtLXpZNkVZU3FxY1EtX2hiMHNfOGJhY1ViblF6X1B2bXJiSmhBOU9wS2wtek81Z0NPY2VZQQ?oc=5",
+          "publisher": "뉴스드림",
+          "date": "Mon, 13 Apr 2026",
+          "summary": "[특징주] 천보, 북미 '사이버 캡' 핵심 소재 공급 소식에 23%↑",
           "is_report": false
         },
         {
-          "title": "천보 영업이익 –91%에도 증권사 애널리스트들 ‘매수’ 의견에 ‘시끌’",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OZXg0Xy1nMEdkLS1ZQjQwSXdlT3VkbmpfMlZycDVJaUFVUnZNQWFQaGNKbGlCU3pxdGxJUmktcnBDSzBVbEw1aGZEd2JrU0pieE1NTDMtdFE2cmlRN2Q4ckNPN1p5bnFnNl9kRC0za0pRZ9IBdkFVX3lxTE1oSjljWGxxb3lPeE9MV0hqYnpaNmNqSU10OEtkQUtRekI4cG9UMm9yeGN3Vm9fU1dCakFOQkM2TWxNU3BVZGdtTTlySXhGOWd3b1BFQmRwVndVQllzUmNGdU94Y2VxTURkV3ROWWo5eXZVWGdqRGc?oc=5",
-          "publisher": "시사저널e",
-          "date": "Wed, 26 Apr 2023",
-          "summary": "천보 영업이익 –91%에도 증권사 애널리스트들 ‘매수’ 의견에 ‘시끌’",
+          "title": "'사이버캡 수혜’ 천보, 올해 매출액 56.7%↑...당기순익 ‘흑자 전환’",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EQ2xvU2djdGZMaG1aek5QZ3JLTHRwcVk0dDlXR1ZsaXRBVE84dzlDOWxGdFdoWHB1QmdSTGI4X2tlMHlBM2hVSVEtOHl6NWFtQUY3Q1JqMUt4X1RTX3BMZkVZY3JtX0JucEE?oc=5",
+          "publisher": "금융소비자뉴스",
+          "date": "Tue, 14 Apr 2026",
+          "summary": "'사이버캡 수혜’ 천보, 올해 매출액 56.7%↑...당기순익 ‘흑자 전환’",
+          "is_report": false
+        },
+        {
+          "title": "천보, 캐즘 돌파했더니 FI 엑시트 도래...“상환 여력 부족”",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14bGtEQ0JSYlZkT1ozX2V6dVFVTC1aVHd0T1lVWHk5Um9KQ1A4LWVydnJldDZWRDg3bW16SERSUHd2M1lYQmlpWlRVY2ljSzFDWHFOb01OQTB6eG9xV0JScnVJSHNkMVJ2TWfSAW5BVV95cUxQNU04SEdKd2oxd3l5bGFGZFVXTmFoVjJLZFBOcV9jZDVlXzhmYmRLT3QxMkxsQVRIS0ZXVklnd3hoT19xeTl1bXRoMXBpOWlLeXVqcF9LQlhNUHZ2cEh0UWo1UDNodW45WnQwcHlMQQ?oc=5",
+          "publisher": "파이낸셜투데이",
+          "date": "Mon, 15 Dec 2025",
+          "summary": "천보, 캐즘 돌파했더니 FI 엑시트 도래...“상환 여력 부족”",
           "is_report": false
         }
       ]
@@ -2210,27 +2096,27 @@ window.BRIEFING_DATA = {
         "name": "케이뱅크",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 5470,
-        "change_val": 90,
-        "change_rate": 1.67,
-        "display_price": "5,470원",
-        "display_change": "▲ 90 (+1.67%)",
-        "status": "up",
+        "current_price": 5350,
+        "change_val": -110,
+        "change_rate": -2.01,
+        "display_price": "5,350원",
+        "display_change": "▼ 110 (-2.01%)",
+        "status": "down",
         "high_52w": 9880,
-        "low_52w": 0,
-        "volume": 435011,
-        "display_volume": "435,011주",
-        "avg_volume_20d": 465714,
+        "low_52w": 5010,
+        "volume": 434277,
+        "display_volume": "434,277주",
+        "avg_volume_20d": 472596,
         "volume_surge": {
-          "ratio": 93.4,
+          "ratio": 91.9,
           "status": "normal",
-          "badge": "거래량 평이 (93.4%)",
+          "badge": "거래량 평이 (91.9%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+1.1억",
-          "institutional": "+1.3억",
-          "retail": "-2.5억",
+          "foreign": "-2.7억",
+          "institutional": "+6.2억",
+          "retail": "-3.5억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -2244,7 +2130,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 6850,
           "display_target_price": "6,850원",
-          "upside_potential": 25.2,
+          "upside_potential": 28.0,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -2275,12 +2161,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '케이뱅크, 3분기 순이익 421억원…깜짝 실적' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '실적 2배인데 주가는 52주 최저… 케이뱅크 고전, 주주 ‘우리’ 끙끙' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 90 (+1.67%) 흐름을 기록했습니다. 수급은 외국인(+1.1억), 기관(+1.3억, 연기금(장기 스마트머니)), 개인(-2.5억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 6,850원) 흐름입니다.",
-        "upside": "케이뱅크의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 65,
+        "reaction": "금일 주가는 ▼ 110 (-2.01%) 흐름을 기록했습니다. 수급은 외국인(-2.7억), 기관(+6.2억, 연기금(장기 스마트머니)), 개인(-3.5억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 6,850원) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -25,
         "one_line_summary": "케이뱅크, 3분기 순이익 421억원…깜짝 실적",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -2318,14 +2204,6 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "케이뱅크, 만보기 서비스 출시...“8000보 걸으면 40원”",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85SnVCMzhDOTE0bDFKN1BwbHNxUVVUYndZT0RGOW5jZGV1RjlzMThvNDBHWlFuemVfdUE3cnptQ3dyaEplR04wYTlWcmQ4bC0yc0JnRk5iMkY0X2EyLUozUmlKa3FBQUU5Z1lNYw?oc=5",
-          "publisher": "생생비즈플러스",
-          "date": "Thu, 19 Nov 2026",
-          "summary": "케이뱅크, 만보기 서비스 출시...“8000보 걸으면 40원”",
-          "is_report": false
-        },
-        {
           "title": "어닝 서프에도 외면···케이뱅크 주가 막는 세 가지 변수",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaa1lrRk5LVEhzN25DMGlFQ1BudzJJRnZyeE9LUElPaHVSZVJnX1dvYjBUYkF6ajNLMm1RTkhieWl3MXcwUENGTXNYdjV5Vm10Rm82X1hOcXViX050RFo2UUFQeVAwdkg2dmtmTjdQNEhqUdIBdkFVX3lxTE8xZThPZUNzMmlGbm1aaTZmUFQ1V3V4c05lLWFQMDBPUFZKNVJVdVA5ZHhzSVNZcFdIQ1dhbVNHMGNCMGUzcHJEc1ZHdENtc0E1d1FRNk1wVVdRYlZXY190WE4zbmJqeGYycnAtOWU3MHZUMVJjb2c?oc=5",
           "publisher": "시사저널e",
@@ -2334,11 +2212,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "케이뱅크, 역성장에 주가도 부진… 최우형 행장 리더십 시험대",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNanN1eVBMMGtwSDM3alZEUlpoV3pKVUMyZm9SNVByMjUwbzVadkZUR1JOcGJuY3BuamtZZzhsZWQ1LTZVcFF4dlBab0ZkbWJsYzJWWkFVdTZWaFlnb2V5QTRkaFFmb0dRYjl2LVRqTHJxQUo2YkNRelRPS3gwS1Q3a9IBlAFBVV95cUxNNDJJbUZwNWc0UFdBYUdsZXRmNmdUd09LTWtXOGFPSjdZd1lVQks1cG1YcTBsY3FLQXhmemJaU25JUkh0SlIwY0NTTzZuNWkyU1NUWjdiYWl4bUc3ZWtMR3VhT3EycndCTGM3VmVZSzdzSk43WHB3RlVLRVBodkt2b3B6b1ZESHFwMEh1Q054VXBJYUtf?oc=5",
-          "publisher": "Chosunbiz",
-          "date": "Wed, 02 Sep 2026",
-          "summary": "케이뱅크, 역성장에 주가도 부진… 최우형 행장 리더십 시험대",
+          "title": "업비트, 케이뱅크와 동행 이어갈 듯…하나은행-두나무 협업 형태 관심",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOczgtSjJRX1BjdTBOclFfM3FOUnVwVFVwaktJUzF5WFc2WExBbEFWUVM2ajNTQVRyQXA2Z19UWVdaMkN1cHJ4d1N0TjNnOGJ4Y3BrZnpVTDNfTDBqMjhtM1ZLMkw4aTlJZWpOeDRBcjZlSWowek02a3hRN3RoaUZMRWw1cw?oc=5",
+          "publisher": "인베스트조선",
+          "date": "Fri, 07 Aug 2026",
+          "summary": "업비트, 케이뱅크와 동행 이어갈 듯…하나은행-두나무 협업 형태 관심",
+          "is_report": false
+        },
+        {
+          "title": "케이뱅크, 2분기 순익 269억…전년 대비 60% 급감",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tQkpidXRhazZ5d0Z1TUplVHktZXFBWWhJX1Qwd3cyQjRtVHZoTGpZV0xsWjgxWWFRek1qVm1Oa2JkdTFzME1Iek9HckNPWUVwd0dPOXpldElmS2duLTJNRXRHY0xibHVveDl0STJFdTA?oc=5",
+          "publisher": "연합인포맥스",
+          "date": "Thu, 30 Jul 2026",
+          "summary": "케이뱅크, 2분기 순익 269억…전년 대비 60% 급감",
           "is_report": false
         }
       ]
@@ -2356,27 +2242,27 @@ window.BRIEFING_DATA = {
         "name": "슈어소프트테크",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 3395,
-        "change_val": 25,
-        "change_rate": 0.74,
-        "display_price": "3,395원",
-        "display_change": "▲ 25 (+0.74%)",
-        "status": "up",
+        "current_price": 3205,
+        "change_val": -160,
+        "change_rate": -4.75,
+        "display_price": "3,205원",
+        "display_change": "▼ 160 (-4.75%)",
+        "status": "down",
         "high_52w": 10880,
         "low_52w": 3000,
-        "volume": 95706,
-        "display_volume": "95,706주",
-        "avg_volume_20d": 133809,
+        "volume": 113929,
+        "display_volume": "113,929주",
+        "avg_volume_20d": 132863,
         "volume_surge": {
-          "ratio": 71.5,
+          "ratio": 85.7,
           "status": "normal",
-          "badge": "거래량 평이 (71.5%)",
+          "badge": "거래량 평이 (85.7%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-1,196만",
+          "foreign": "-5,875만",
           "institutional": "0",
-          "retail": "+1,196만",
+          "retail": "+5,875만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -2420,71 +2306,71 @@ window.BRIEFING_DATA = {
         "sector": "SW·검증솔루션"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 'AI 검증 매출 176% 뛰었다…슈어소프트테크, 재평가 받을까' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[Hi-Venture business] [슈어소프트테크] SW 솔루션 명가, 신뢰 혁신 DNA로 세계 시장 질주' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 25 (+0.74%) 흐름을 기록했습니다. 수급은 외국인(-1,196만), 기관(0, 연기금(장기 스마트머니)), 개인(+1,196만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 5,
-        "one_line_summary": "AI 검증 매출 176% 뛰었다…슈어소프트테크, 재평가 받을까",
+        "fact": "최근 주요 소식으로 '씽크풀 : [실적속보]슈어소프트테크, 올해 1Q 매출액 202억(+20%) 영업이익 -4.2억(적자지속) (연결)' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '슈어소프트테크, 3분기 누적 영업익 70억원…전년比 4.1배 증가' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 160 (-4.75%) 흐름을 기록했습니다. 수급은 외국인(-5,875만), 기관(0, 연기금(장기 스마트머니)), 개인(+5,875만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -30,
+        "one_line_summary": "씽크풀 : [실적속보]슈어소프트테크, 올해 1Q 매출액 202억(+20%) 영업이...",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
         {
-          "title": "AI 검증 매출 176% 뛰었다…슈어소프트테크, 재평가 받을까",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50TWQ1OXNucldNUFRJemVjRFl0Y25Uck1pelI2MnFFaDhkeXlaN0FUYTJKdkszVXl2WXRKRkJ6UFlvNUdkbFpTY0FpcE16NG1fMVpNQ3NWZHYtc2NXazF2TXFB?oc=5",
+          "title": "씽크풀 : [실적속보]슈어소프트테크, 올해 1Q 매출액 202억(+20%) 영업이익 -4.2억(적자지속) (연결)",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBOWW44eHNfWGJFQlIzaFN6Unp0RWhMM1hqenB1cW1kT3J1ckh2dXFweDBDWHQ5R2xDZWd0NHNRNzZ4MnBvdVFReEt3RW1oUlBVV0xvTVUyRWxybjlLVWhGWGVQVlBMNzN0?oc=5",
+          "publisher": "ThinkPool",
+          "date": "Fri, 15 May 2026",
+          "summary": "씽크풀 : [실적속보]슈어소프트테크, 올해 1Q 매출액 202억(+20%) 영업이익 -4.2억(적자지속) (연결)",
+          "is_report": true
+        },
+        {
+          "title": "슈어소프트테크, 3분기 누적 영업익 70억원…전년比 4.1배 증가",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMbDNseVdJc2x1dlJJVTRHdzdkXzBFVGZhcG53VHp1ZVMwRmU3N1p1VDFPQnNMMDhQR1g0RzJKa2l3eE5NMGJmNHlJLVNObjJmQlZBeGtHZDZPZw?oc=5",
+          "publisher": "한국경제",
+          "date": "Fri, 13 Nov 2026",
+          "summary": "슈어소프트테크, 3분기 누적 영업익 70억원…전년比 4.1배 증가",
+          "is_report": false
+        },
+        {
+          "title": "슈어소프트테크, 5개의 아픈 손가락…자회사 적자 탈출 숙제",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tQmE2Sks3d3YwMUd6QjJqN2RFUWdPSG9hakFHbktwWkNNWWEzU2I5Zkh5azBDcmhEdUxudGR4SGNBTXFMdHBkeTA4MFRhaVdJNHJVYlZ5WTUyMGszcWxyazJ3?oc=5",
           "publisher": "이코노미스트",
           "date": "Sun, 18 Oct 2026",
-          "summary": "AI 검증 매출 176% 뛰었다…슈어소프트테크, 재평가 받을까",
+          "summary": "슈어소프트테크, 5개의 아픈 손가락…자회사 적자 탈출 숙제",
           "is_report": false
         },
         {
-          "title": "[Hi-Venture business] [슈어소프트테크] SW 솔루션 명가, 신뢰 혁신 DNA로 세계 시장 질주",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SdDVXSE5BNjRnM3N5eU5hbUZNU1RPNHQ2Tk5LUGRVTlBIRy0tNXYyMFA5YXp6RFJmckJCN3RxdjJveFl4dEs2NFgwNlJ0VGNIWG90aWNoTl9hdlRrYUg5V0tDR3FhRlRJdUhxdUd0bw?oc=5",
-          "publisher": "비즈니스리포트",
-          "date": "Tue, 16 Sep 2025",
-          "summary": "[Hi-Venture business] [슈어소프트테크] SW 솔루션 명가, 신뢰 혁신 DNA로 세계 시장 질주",
+          "title": "슈어소프트테크, 데이터 품질 분야로 KOLAS 인정 범위 확대…'AI 시스템 전주기' 검증 체계 완성",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9QV1pPZkdjbUVmdVlGNFNVbkJiR0ZYSFpYTGZzZlFsLW9NYXJ6bmdpeFJyQ0FKZUtUUU1VMWVTMGo1ZXRQLTQ5Rm9UcHVTZw?oc=5",
+          "publisher": "전자신문",
+          "date": "Mon, 14 Sep 2026",
+          "summary": "슈어소프트테크, 데이터 품질 분야로 KOLAS 인정 범위 확대…'AI 시스템 전주기' 검증 체계 완성",
           "is_report": false
         },
         {
-          "title": "슈어소프트테크(298830) : 씽크풀",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jSWN2VjhlaUVtZDNfLXFLQjJuZkRCU0N5eUt6eWFiVC15dmJFWUdlSnpQR3BkcGszbUlpcHB4djd3Z2RiZUpLZ2VrQQ?oc=5",
-          "publisher": "ThinkPool",
-          "date": "Tue, 02 May 2023",
-          "summary": "슈어소프트테크(298830) : 씽크풀",
+          "title": "현대차 SDV 대전환의 숨은 조력자 슈어소프트테크",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41c3lGVzNUVzNGR2syWHlDSnVMWmUwWnlmV3RXRU9oamhLOFQ0Y3BXVHo0NVNrSTR4UXkwNjY4M2U0NEFYOFFMaDJlYUNrUUUyYlM4SjdhRmtIeW5haGhjUllreVhSTGVreHFOZFdQZw?oc=5",
+          "publisher": "리드경제",
+          "date": "Fri, 16 Jan 2026",
+          "summary": "현대차 SDV 대전환의 숨은 조력자 슈어소프트테크",
           "is_report": false
         },
         {
-          "title": "[AI&빅데이터쇼] 슈어소프트테크, AI 모델 검증 도구 '베리파이엠' 최초 공개",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05MUQzQnlSbFY0TTlQVUxoUkdPNFN4aGZsclAycGRoeUpOVThSZGY4ZFNFTTdMYWdya0FUeFhKR2ptTWtZQW43dUVSUWZLM3pKOXlWeGtUSXRoanlDdU5aRmN2d1M5b1lXMEE?oc=5",
-          "publisher": "AI타임스",
-          "date": "Wed, 22 May 2024",
-          "summary": "[AI&빅데이터쇼] 슈어소프트테크, AI 모델 검증 도구 '베리파이엠' 최초 공개",
+          "title": "[에이전틱 AI 맵 2026] 슈어소프트테크, AI 에이전트의 응답·도구 호출·행동까지 검증",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4weFZiUGh6ZTd6RHBCMWVMV2EtbjJhUlplT0daaHVMcFAwNkZTSjZueXloWVBIZENtMGVNU24yMDVZUzVyaDhnWUludzJqdVZNQW80cEFPSnQ0djVRNFhQN2ZsMVpCaWZWRU44Z3V2NULSAXRBVV95cUxPMTFQc0NUQkw1ZXF6bzlVano4ZmVFNFhXOGxGNnAyc21jX0g4NmlRd25CYTYxUDdLYVpibGtzei1LNkJNSnAybUVtZ2hiZFBxZTIyT2tjblp0VEVENWtkVU1OMjM2WjdtMlpYRUg4TzlXVEhuMQ?oc=5",
+          "publisher": "IT조선",
+          "date": "Tue, 22 Sep 2026",
+          "summary": "[에이전틱 AI 맵 2026] 슈어소프트테크, AI 에이전트의 응답·도구 호출·행동까지 검증",
           "is_report": false
         },
         {
-          "title": "슈어소프트테크, 빅데이터 전문 기업 모비젠 인수",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Ba3hxTS1KUTVlczZ4dnIyZjZ6SWRDeXNPUDJ4OF9ob1p3TGVZdFZSdkg5OE1uYVFLSUMxRl9KakFOdk0xTE42Ym15M2p0M242WUlYTVZ3?oc=5",
-          "publisher": "중앙일보",
-          "date": "Mon, 07 Aug 2023",
-          "summary": "슈어소프트테크, 빅데이터 전문 기업 모비젠 인수",
-          "is_report": false
-        },
-        {
-          "title": "미네르바소프트·슈어소프트테크, 금융권 AI 에이전트 시장 공략 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpVHRLQm5NeldBWWRuVjlKem9CdmZKeTY0dDFSQnItR1NVNTZtYXhDMFpSU2NVNlNBRkxNSjBHbnlaamxXMlJxR2hsMnlMYlJaam1JdE04OUJsYnlHRHNqQk9PTU5IQmR6WkJfR9IBckFVX3lxTFA5TmNUT1ZWbGY0dTdaa2g5UW03cGozOHpKQ05KNXFmaXZnajh3Vm16X0ZlUmNpOUIzUnJKQ1ZBTHF0WnpzdjZ0VmdNbjNvcHZ0NFVrbktoUFhwa1RuRDc1SERuU0NJVDdQZnFhcHdzNEF0QQ?oc=5",
-          "publisher": "머니투데이",
-          "date": "Mon, 20 Jul 2026",
-          "summary": "미네르바소프트·슈어소프트테크, 금융권 AI 에이전트 시장 공략 - 머니투데이",
-          "is_report": false
-        },
-        {
-          "title": "[뉴스핌 라씨로] '현대차 2대 주주' 슈어소프트테크, \"AI·의료 등 사업 영역 확대\"",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE81YjEtaFNhYlE4QThTTGJTRnp6N2huNmdEeEZEdzlyZ0pzLTFmQnZmWDhNQmhZOUI1SG9Hcms1R1lYeHRLa2JuNkhVWEEtYjFxaXVfRjlMT25sZFZs?oc=5",
-          "publisher": "뉴스핌",
-          "date": "Fri, 23 Jun 2023",
-          "summary": "[뉴스핌 라씨로] '현대차 2대 주주' 슈어소프트테크, \"AI·의료 등 사업 영역 확대\"",
+          "title": "슈어소프트테크, 지난해 영업이익 126억1220만6063원… 전년 대비 59.84% 증가",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82WG5DM1FaempTM3lSeGNITS1nb0pubjJzVWZpcUQxR1h0MkF3RzM5Nk1XcEdiT1NBeEgybFgyTjExSVkwZnNoWWtRNWpDWmI3X3ExcmdoNkVsYTdJcXdNRi1heVllbEY1WUlNZ3pYZ2NjSzQ?oc=5",
+          "publisher": "디지털투데이",
+          "date": "Wed, 25 Feb 2026",
+          "summary": "슈어소프트테크, 지난해 영업이익 126억1220만6063원… 전년 대비 59.84% 증가",
           "is_report": false
         }
       ]
@@ -2502,27 +2388,27 @@ window.BRIEFING_DATA = {
         "name": "포인트모바일",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 1663,
-        "change_val": 18,
-        "change_rate": 1.09,
-        "display_price": "1,663원",
-        "display_change": "▲ 18 (+1.09%)",
-        "status": "up",
+        "current_price": 1562,
+        "change_val": -89,
+        "change_rate": -5.39,
+        "display_price": "1,562원",
+        "display_change": "▼ 89 (-5.39%)",
+        "status": "down",
         "high_52w": 5660,
         "low_52w": 1600,
-        "volume": 24941,
-        "display_volume": "24,941주",
-        "avg_volume_20d": 28892,
+        "volume": 37806,
+        "display_volume": "37,806주",
+        "avg_volume_20d": 29061,
         "volume_surge": {
-          "ratio": 86.3,
+          "ratio": 130.1,
           "status": "normal",
-          "badge": "거래량 평이 (86.3%)",
+          "badge": "거래량 평이 (130.1%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+1,301만",
-          "institutional": "-499만",
-          "retail": "-803만",
+          "foreign": "-154만",
+          "institutional": "-469만",
+          "retail": "+622만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -2567,12 +2453,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '포인트모바일, 아마존 납품 확대에 실적 급증…3분기 누적 영업익 1130%↑' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '포인트모바일, 상반기 매출 466억·영업이익 46억…아마존 공급 급증에 ‘어닝 서프라이즈’' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 18 (+1.09%) 흐름을 기록했습니다. 수급은 외국인(+1,301만), 기관(-499만, 연기금(장기 스마트머니)), 개인(-803만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "포인트모바일의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 30,
+        "reaction": "금일 주가는 ▼ 89 (-5.39%) 흐름을 기록했습니다. 수급은 외국인(-154만), 기관(-469만, 연기금(장기 스마트머니)), 개인(+622만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -25,
         "one_line_summary": "포인트모바일, 아마존 납품 확대에 실적 급증…3분기 누적 영업익 1130%↑",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -2594,19 +2480,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "포인트모바일, 3분기 누적 영업익 전년比 11배 증가...\"美 아마존향 물량 확대\"",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxeU9kNFA3Yl9FYUt6UC0tVW12V0Nya0xTQXBmRmdubkhEaVdLanF6RWs3d2tzUnozODVQUHVRbFRIdy1oZHgxcUtWdEEwZzJjS1Nfa0RNdHZRVVplTUhweC1kNHhBOGs1?oc=5",
-          "publisher": "팍스경제TV",
-          "date": "Tue, 10 Nov 2026",
-          "summary": "포인트모바일, 3분기 누적 영업익 전년比 11배 증가...\"美 아마존향 물량 확대\"",
-          "is_report": false
-        },
-        {
           "title": "포인트모바일, 상반기 매출 466억·영업이익 46억",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00X0l5OVpETjVHb3N5a1lWSWhvSi1BX282OEVlNm53dWp3UDl5YW02SlI0MVN1dmRnSkxkZUpkWHJVaUd4dmJUblZLRWowQW5LdDgxY1QtcXVjdFVPXzl4SmlQUTk5dEtISEh5X1RGQndSZ0E?oc=5",
           "publisher": "마켓인",
           "date": "Fri, 14 Aug 2026",
           "summary": "포인트모바일, 상반기 매출 466억·영업이익 46억",
+          "is_report": false
+        },
+        {
+          "title": "포인트모바일, 3분기 누적 영업익 전년比 11배 증가...\"美 아마존향 물량 확대\"",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxeU9kNFA3Yl9FYUt6UC0tVW12V0Nya0xTQXBmRmdubkhEaVdLanF6RWs3d2tzUnozODVQUHVRbFRIdy1oZHgxcUtWdEEwZzJjS1Nfa0RNdHZRVVplTUhweC1kNHhBOGs1?oc=5",
+          "publisher": "팍스경제TV",
+          "date": "Tue, 10 Nov 2026",
+          "summary": "포인트모바일, 3분기 누적 영업익 전년比 11배 증가...\"美 아마존향 물량 확대\"",
           "is_report": false
         },
         {
@@ -2618,19 +2504,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "포인트모바일, 3분기 영업익 35억…전년比 9.2%↑",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aeWJMVGk2Tk1OTVdGZU1NbngxYzVVR01CZXl3cGl6cXlJZ3ozeU9RdFAyRzhHV3JTQUoxal9TTmZSTkVJVE5IZW85UmUtTzlVS05tcjNoRnIySl9rcklYadIBeEFVX3lxTE5iTVF6M3NsdUZmZGpaZy1Sc2sycFBJSnd5MG1sbGpfX3Bnd1Q4QUYxWmpSNFBIZTBWazhLU2NiWXRveEdjWVRjNTBFWkRJTW1IWXk2SURGanNWSDNHUWI0R2QxM3F4RnVPVE5wV0ZsSVFCcGhMdlYwaQ?oc=5",
-          "publisher": "뉴시스",
-          "date": "Tue, 10 Nov 2026",
-          "summary": "포인트모바일, 3분기 영업익 35억…전년比 9.2%↑",
-          "is_report": false
-        },
-        {
           "title": "포인트모바일, 3Q 누적 영업익 81억…전년比 1130.7%↑",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TaUhzV0FRUUR4VmZuOFk2UXExTnJWSzVnc2xwR21QSEZOQzBVNVhHd1BhUnRoeFNhcDVpTkZ6cnV3Ri0zQnFuTEhaaUtLMF9jUWfSAVNBVV95cUxQSlJIVGY2LVJlMlBfU3NLRlVMa183eTFtbThBNGtSUjRWenRoMHFXNVl6THNTQzgwc0g4N2lUOG80X3BFM0k2OGdVNXk2a0hBVTJHQQ?oc=5",
           "publisher": "서울경제",
           "date": "Tue, 10 Nov 2026",
           "summary": "포인트모바일, 3Q 누적 영업익 81억…전년比 1130.7%↑",
+          "is_report": false
+        },
+        {
+          "title": "포인트모바일, 상반기 매출 57%↑…아마존 공급 확대에 흑자전환",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0yOUhZSFJndWtwRFozQ19FZzV0NC1xd2JUM2xLREJDV3Rud2cxdzVPU3lZR214RnVuOGhORTNWbm1tQ0twU2VzdnlGaTNmWHJra2lBVWtUYkhOQTBuSGR5eDQ1dGo?oc=5",
+          "publisher": "매일일보",
+          "date": "Fri, 14 Aug 2026",
+          "summary": "포인트모바일, 상반기 매출 57%↑…아마존 공급 확대에 흑자전환",
           "is_report": false
         }
       ]
@@ -2648,27 +2534,27 @@ window.BRIEFING_DATA = {
         "name": "카카오뱅크",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 21400,
-        "change_val": 400,
-        "change_rate": 1.9,
-        "display_price": "21,400원",
-        "display_change": "▲ 400 (+1.90%)",
+        "current_price": 21650,
+        "change_val": 200,
+        "change_rate": 0.93,
+        "display_price": "21,650원",
+        "display_change": "▲ 200 (+0.93%)",
         "status": "up",
         "high_52w": 29500,
-        "low_52w": 0,
-        "volume": 529473,
-        "display_volume": "529,473주",
-        "avg_volume_20d": 576497,
+        "low_52w": 19020,
+        "volume": 820413,
+        "display_volume": "820,413주",
+        "avg_volume_20d": 599111,
         "volume_surge": {
-          "ratio": 91.8,
+          "ratio": 136.9,
           "status": "normal",
-          "badge": "거래량 평이 (91.8%)",
+          "badge": "거래량 평이 (136.9%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+22.6억",
-          "institutional": "+7.5억",
-          "retail": "-29.1억",
+          "foreign": "+24.3억",
+          "institutional": "+44.2억",
+          "retail": "-68.4억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -2682,7 +2568,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (3.80)",
           "target_price": 27800,
           "display_target_price": "27,800원",
-          "upside_potential": 29.9,
+          "upside_potential": 28.4,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -2690,7 +2576,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "460원 / 1주당",
-          "yield_rate": "2.15%",
+          "yield_rate": "2.13%",
           "desc": "2026.02. 결산 배당"
         },
         "upcoming_events": [
@@ -2712,13 +2598,13 @@ window.BRIEFING_DATA = {
         "sector": "인터넷은행·금융"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '카카오뱅크, 3분기 순익 1천417억…누적 기준 '연간 최대실적' 육박' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '카뱅·케뱅 나란히 실적 개선…개인사업자 대출 확대에 건전성은 희비' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 400 (+1.90%) 흐름을 기록했습니다. 수급은 외국인(+22.6억), 기관(+7.5억, 연기금(장기 스마트머니)), 개인(-29.1억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (3.80) (목표주가: 27,800원) 흐름입니다.",
+        "fact": "최근 주요 소식으로 '카카오뱅크, 3분기 순익 1천417억…누적 기준 '연간 최대실적' 육박' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '독점 깨진 애플페이…카카오뱅크, 결제 판도 바꿀까' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▲ 200 (+0.93%) 흐름을 기록했습니다. 수급은 외국인(+24.3억), 기관(+44.2억, 연기금(장기 스마트머니)), 개인(-68.4억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (3.80) (목표주가: 27,800원) 흐름입니다.",
         "upside": "카카오뱅크의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
         "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
         "sentiment": "bull",
         "sentiment_label": "호재 우세",
-        "sentiment_score": 65,
+        "sentiment_score": 30,
         "one_line_summary": "카카오뱅크, 3분기 순익 1천417억…누적 기준 '연간 최대실적' 육박",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -2730,22 +2616,6 @@ window.BRIEFING_DATA = {
           "date": "Wed, 04 Nov 2026",
           "summary": "카카오뱅크, 3분기 순익 1천417억…누적 기준 '연간 최대실적' 육박",
           "is_report": true
-        },
-        {
-          "title": "카뱅·케뱅 나란히 실적 개선…개인사업자 대출 확대에 건전성은 희비",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DYlR2azFWSkZSVkZUcXdXUGtrSGxnYlNoUXYzNjRwTkx3NXZ3QUtwVDVkUU1NdEZ0ZkF1RzB1T0hwVEt1UExnVEhzdkZaMFhEa2dYVjRXSU12ZGdPZzF4YURaNl8zQ0RDb1h6WDBVaV8?oc=5",
-          "publisher": "오피니언뉴스",
-          "date": "Wed, 04 Nov 2026",
-          "summary": "카뱅·케뱅 나란히 실적 개선…개인사업자 대출 확대에 건전성은 희비",
-          "is_report": true
-        },
-        {
-          "title": "6연임 앞둔 카카오뱅크 윤호영의 해외진출 승부수…인니선 ‘반토막’ 태국선 ‘마이너스’ 몽골 ‘개장 전’",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBPbk5ESVBXMzZVeUtKbWlUSnlqV2ROOURzczBhS285V2EyelEydDZhWDlCaF8yTEV4dnVmVlpZVUxTOHJNdFRrTHRqYkxhT2JNWk14b0lFdW02UTZWTkd4elU2VktVOVpCekpSM2t4Yw?oc=5",
-          "publisher": "뉴스퀘스트",
-          "date": "Thu, 19 Nov 2026",
-          "summary": "6연임 앞둔 카카오뱅크 윤호영의 해외진출 승부수…인니선 ‘반토막’ 태국선 ‘마이너스’ 몽골 ‘개장 전’",
-          "is_report": false
         },
         {
           "title": "독점 깨진 애플페이…카카오뱅크, 결제 판도 바꿀까",
@@ -2764,19 +2634,35 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "카카오뱅크 몽골 M bank 2대 주주…신용평가 심는다",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VUVdsUmJIMHhBYXduZ25WNW9oamk3ZUZ5ajVBWE9hRXdqT0NmVUlqbWl5XzcwWEg0dTdCVndpVTlPZzRfSVBwVUloLW5XdmNtZHZNRW1nZFlldEtTazFTVXk5ZEdEOHc?oc=5",
-          "publisher": "자본시장뉴스",
-          "date": "Wed, 18 Nov 2026",
-          "summary": "카카오뱅크 몽골 M bank 2대 주주…신용평가 심는다",
+          "title": "카카오뱅크, 상반기 순익 3280억원 '역대 최대'…비이자수익 결실",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxR2N4RVE2dlFrMEdIN1BpSjRPbXEtb2tuTVhfRDdUNzV0Z0NhWEVvNTFCb1Jhbm1IZTFLSjVQSTZ6UHRrLTFvcy1mYXcxUQ?oc=5",
+          "publisher": "전자신문",
+          "date": "Wed, 05 Aug 2026",
+          "summary": "카카오뱅크, 상반기 순익 3280억원 '역대 최대'…비이자수익 결실",
           "is_report": false
         },
         {
-          "title": "[Epic Why] 카카오뱅크 왜 몽골 M bank 2대 주주가 됐나",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01T3JPZDhLdHNWdTJsRXEzeE1yQWFCYUZDb1l4R3FNbzl3MXpvUnZYejZlU3VrU1RZWFUwT3c5cmZDV1hJeExSVmZPS1V5bF9vcU1tVVpzQ0FKNGdPaUJ3anZkTXkwMHU2UDIzQnJhWUZGdVdxNnRia0JRYWQ?oc=5",
-          "publisher": "글로벌에픽",
-          "date": "Wed, 18 Nov 2026",
-          "summary": "[Epic Why] 카카오뱅크 왜 몽골 M bank 2대 주주가 됐나",
+          "title": "\"이자 장사 한계 넘는다\"… 카카오뱅크, 카드·증권업 진출",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5feWpBYkhSdHVoMDNkdVg4Vmw3eDFUVktmd1F2VXdacmRSNG5ISWZRcHFsNjZ4djI5X0VELW16SjY2VHBnMXdrOGlXVkNmTUFtTXVRcG9n?oc=5",
+          "publisher": "지디넷코리아",
+          "date": "Wed, 04 Nov 2026",
+          "summary": "\"이자 장사 한계 넘는다\"… 카카오뱅크, 카드·증권업 진출",
+          "is_report": false
+        },
+        {
+          "title": "'플랫폼' 몸값 받았던 카카오뱅크…'은행주' 한계에 결국 M&A 카드",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOblBCWGdiT0NmOTBZQzAxQW1RaFA2R285d2ltRDk5TEJROHpUZ043WjMyUV92WGJybEdHUHpFaTVDY0N0RGk1RTRLcnI1MzVnNHNnS0NweEJ0aWdPeEphdllIaWFmWmZBRUJFUUhka2xWUDBXeVo0SkJsRGQ4dzJLNXYzTQ?oc=5",
+          "publisher": "인베스트조선",
+          "date": "Fri, 06 Nov 2026",
+          "summary": "'플랫폼' 몸값 받았던 카카오뱅크…'은행주' 한계에 결국 M&A 카드",
+          "is_report": false
+        },
+        {
+          "title": "카카오뱅크, 애플페이로 결제 접점 넓힌다…6.3조 체크카드에 건 기대",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xMkxDZTFuazUyYmFBSUU4TDFNdG5wcUdzNEVpVHZzMm1xQlVscWpjNmNfOW8xSE40ZEdGX3k0WVhTbm1RV1VmQkt1d3pxdWVSRFNmVXFQM0NuSHhualN0eTB5RE9kM3F40gFsQVVfeXFMT1RTRmJRQ2dPMlRxR1lDa2V5SkhXWjFuQVJvanZzUXNyYWJmal9QS01FaFB3ajEyemxBNUZSTldqOFZXeVhKT2RNaTlWY3NaVXA0UXVnMFVLQWZyOXpuSUs5QjFDWlZkNU9rcWhK?oc=5",
+          "publisher": "블로터",
+          "date": "Mon, 16 Nov 2026",
+          "summary": "카카오뱅크, 애플페이로 결제 접점 넓힌다…6.3조 체크카드에 건 기대",
           "is_report": false
         }
       ]
@@ -2794,27 +2680,27 @@ window.BRIEFING_DATA = {
         "name": "솔루스첨단소재",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 6160,
-        "change_val": 70,
-        "change_rate": 1.15,
-        "display_price": "6,160원",
-        "display_change": "▲ 70 (+1.15%)",
-        "status": "up",
+        "current_price": 5830,
+        "change_val": -330,
+        "change_rate": -5.36,
+        "display_price": "5,830원",
+        "display_change": "▼ 330 (-5.36%)",
+        "status": "down",
         "high_52w": 16900,
-        "low_52w": 0,
-        "volume": 91546,
-        "display_volume": "91,546주",
-        "avg_volume_20d": 166493,
+        "low_52w": 5330,
+        "volume": 132539,
+        "display_volume": "132,539주",
+        "avg_volume_20d": 159449,
         "volume_surge": {
-          "ratio": 55.0,
+          "ratio": 83.1,
           "status": "normal",
-          "badge": "거래량 평이 (55.0%)",
+          "badge": "거래량 평이 (83.1%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-1.9억",
-          "institutional": "+1,109만",
-          "retail": "+1.8억",
+          "foreign": "-2.5억",
+          "institutional": "-5,847만",
+          "retail": "+3.0억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -2828,7 +2714,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 11000,
           "display_target_price": "11,000원",
-          "upside_potential": 78.6,
+          "upside_potential": 88.7,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -2836,7 +2722,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "10원 / 1주당",
-          "yield_rate": "0.16%",
+          "yield_rate": "0.17%",
           "desc": "2025.12. 결산 배당"
         },
         "upcoming_events": [
@@ -2858,13 +2744,13 @@ window.BRIEFING_DATA = {
         "sector": "동박·전자소재"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 'IBK투자 \"솔루스첨단소재 목표주가 하향, 헝가리 생산 차질로 실적 악영향\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '전지박 물량 늘어도 적자 지속…솔루스첨단소재, 판매가 인상 가능할까' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 70 (+1.15%) 흐름을 기록했습니다. 수급은 외국인(-1.9억), 기관(+1,109만, 연기금(장기 스마트머니)), 개인(+1.8억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 11,000원) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 0,
+        "fact": "최근 주요 소식으로 'IBK투자 \"솔루스첨단소재 목표주가 하향, 헝가리 생산 차질로 실적 악영향\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '\"솔루스첨단소재, 전지박 가격 인상…내년 흑자전환 기대\" - 유진투자' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 330 (-5.36%) 흐름을 기록했습니다. 수급은 외국인(-2.5억), 기관(-5,847만, 연기금(장기 스마트머니)), 개인(+3.0억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 11,000원) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -55,
         "one_line_summary": "IBK투자 \"솔루스첨단소재 목표주가 하향, 헝가리 생산 차질로 실적 악영향\"",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -2878,6 +2764,14 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
+          "title": "\"솔루스첨단소재, 전지박 가격 인상…내년 흑자전환 기대\" - 유진투자",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBmQjFwUWdqQW9yeHZWV19lWkQ5MjZjTU1ONEJGS0Y0c0hZT1d5ME9uZVR3RUEtODZENDdRWFhZZlFLbmRtanhhTWVCZm9hSXBzdE40c3p3MEY4bHpO?oc=5",
+          "publisher": "뉴스핌",
+          "date": "Fri, 13 Nov 2026",
+          "summary": "\"솔루스첨단소재, 전지박 가격 인상…내년 흑자전환 기대\" - 유진투자",
+          "is_report": false
+        },
+        {
           "title": "전지박 물량 늘어도 적자 지속…솔루스첨단소재, 판매가 인상 가능할까",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uMWNlYXk4djJBSTlla1pTN2E0VlpDbE5ZWHdHSGZ0T08zNFVYSjJXRnhkenNhallMV1kwYjRvYWdvTGFZUks4YVJDOVJHNHRfaWc?oc=5",
           "publisher": "매일경제 마켓",
@@ -2886,19 +2780,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "[서치 e종목] 솔루스첨단소재, 배터리 전지박 판매 본격화로 주가 동력 얻을까",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TN0M4SjdlTTdzUGxwcTNod09qSl9fZDZVb010ZEhScUNKRzFxOFZYQVZVU185SUYzb1JGVXNKQXpWbmhKVTMwSjR2bXc3WWpnRl9HQUhGaElhcHFsRzU1c0U3UElUUUNnZlRR0gFvQVVfeXFMUG51TGxoeTkxQ29FRFlmZ21WcVZ0eFMxRDNXSnZyNEhnbnpqNk5iYzFtTDNRY2VYdjR1RlZQbEtkNGk5UHFQdUY1WEJZNEVINlRuUHhOQVZJMjNuS3FlSGlzcVE4QTlOb2NpdTY5UjI0?oc=5",
-          "publisher": "데일리인베스트",
-          "date": "Thu, 30 Jul 2026",
-          "summary": "[서치 e종목] 솔루스첨단소재, 배터리 전지박 판매 본격화로 주가 동력 얻을까",
-          "is_report": false
-        },
-        {
           "title": "솔루스첨단소재, 3분기 영업손실 301억…\"에너지비용 증가 영향\"",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBidVo1dldvSDBfV0FuM1cxbmhjemEwOGMxZExjallydHczMWRoZ3EtS2pUbFZTQk5mRTdueGlGWXpZM0RrT3Uyd2JsT3IxZzZNdEpELS0tOV9FdUnSAWBBVV95cUxNeWNGQ211dUJwTEh4emI4OXBsNEM3NFF1ZEd5cjNiMGlBdk5scUgxZFRsM25kVjJoU3N2ZTczX2RjbnlxaDQ3ZDk3QUc4YlF0SWl1TU5iUWNVN0gtb2Y5eHc?oc=5",
           "publisher": "연합뉴스",
           "date": "Thu, 12 Nov 2026",
           "summary": "솔루스첨단소재, 3분기 영업손실 301억…\"에너지비용 증가 영향\"",
+          "is_report": false
+        },
+        {
+          "title": "솔루스첨단소재, 3Q 영업손실 301억..전년 대비 적자폭 확대 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tcDlsT0xSb1p4Q1dwMWZ6aDRCOE9vR2JQUkxQQlNZS3RmMEhyWm1oeXlFb1R4ZnJHcExVTmczaU1mbVd4SEE5N0x6Y1JvbDBFcVhJXzExRkM0X1FIMEZRUHFHalZvLTlsOWJla9IBckFVX3lxTE5qN2p5eFdnWDZBaElDME10V3hiQ21ubFJSbm91ZTI5Yk0xNTVwMmRLR21WNk5lTkNrdFhPNEZET3RHT2RYYl9JeWsxWEx2cDFmREdMOUMwWW9XeU1IeU5xaUFUYi1iUjZzWms5Wm9Udm4yUQ?oc=5",
+          "publisher": "머니투데이",
+          "date": "Thu, 12 Nov 2026",
+          "summary": "솔루스첨단소재, 3Q 영업손실 301억..전년 대비 적자폭 확대 - 머니투데이",
           "is_report": false
         },
         {
@@ -2916,14 +2810,6 @@ window.BRIEFING_DATA = {
           "date": "Fri, 24 Jul 2026",
           "summary": "솔루스첨단소재, 2분기 영업손실 213억…원자재가 상승 영향",
           "is_report": false
-        },
-        {
-          "title": "솔루스첨단소재, 전지박 성장에 2분기 매출 1019억원 기록",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5UNVZNdDZob0RMSUYzMFVOVHFWMFR5WXNWQ2R2WnhUZjhnU21LVkJ2MWZoU2NjdjZBQ1JhbW1pMFBiZlBmaUk1UUthTC1RUQ?oc=5",
-          "publisher": "전자신문",
-          "date": "Fri, 24 Jul 2026",
-          "summary": "솔루스첨단소재, 전지박 성장에 2분기 매출 1019억원 기록",
-          "is_report": false
         }
       ]
     },
@@ -2940,27 +2826,27 @@ window.BRIEFING_DATA = {
         "name": "KCC글라스",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 21900,
-        "change_val": 400,
-        "change_rate": 1.86,
-        "display_price": "21,900원",
-        "display_change": "▲ 400 (+1.86%)",
-        "status": "up",
+        "current_price": 21300,
+        "change_val": -600,
+        "change_rate": -2.74,
+        "display_price": "21,300원",
+        "display_change": "▼ 600 (-2.74%)",
+        "status": "down",
         "high_52w": 31450,
-        "low_52w": 0,
-        "volume": 3046,
-        "display_volume": "3,046주",
-        "avg_volume_20d": 7947,
+        "low_52w": 21000,
+        "volume": 4913,
+        "display_volume": "4,913주",
+        "avg_volume_20d": 7760,
         "volume_surge": {
-          "ratio": 38.3,
-          "status": "low",
-          "badge": "거래량 한산 (38.3%)",
-          "desc": "평균 대비 거래량 감소"
+          "ratio": 63.3,
+          "status": "normal",
+          "badge": "거래량 평이 (63.3%)",
+          "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+1,102만",
-          "institutional": "-1,288만",
-          "retail": "+186만",
+          "foreign": "-2,876만",
+          "institutional": "+575만",
+          "retail": "+2,300만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -2974,7 +2860,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 30000,
           "display_target_price": "30,000원",
-          "upside_potential": 37.0,
+          "upside_potential": 40.8,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -2982,7 +2868,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "1,600원 / 1주당",
-          "yield_rate": "7.31%",
+          "yield_rate": "7.51%",
           "desc": "2026.02. 결산 배당"
         },
         "upcoming_events": [
@@ -3005,12 +2891,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 'KCC글라스, ESG 보고서 발간…생물다양성 조사 내용 담았다' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'KCC글라스, ‘2025/26 ESG보고서’ 발간' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 400 (+1.86%) 흐름을 기록했습니다. 수급은 외국인(+1,102만), 기관(-1,288만, 연기금(장기 스마트머니)), 개인(+186만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 30,000원) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 5,
+        "reaction": "금일 주가는 ▼ 600 (-2.74%) 흐름을 기록했습니다. 수급은 외국인(-2,876만), 기관(+575만, 연기금(장기 스마트머니)), 개인(+2,300만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 30,000원) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -35,
         "one_line_summary": "KCC글라스, ESG 보고서 발간…생물다양성 조사 내용 담았다",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -3040,19 +2926,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
+          "title": "KCC글라스 정몽익 힘준 인니 사업…첫해부터 적자 ‘굴욕’",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5GdXM2RW5ZN3J2Y1NmU2Q2dkpHUlM5V1RLNjB2dHUxOF9QYS1HTm9vMGlmVVlvU013M3hRN3RsRnN2N3hjbG4tMDVWcTJERXJ3dHBEZHMwNlM1ZkVMTFdXRXNvbzg?oc=5",
+          "publisher": "서울경제TV",
+          "date": "Fri, 15 May 2026",
+          "summary": "KCC글라스 정몽익 힘준 인니 사업…첫해부터 적자 ‘굴욕’",
+          "is_report": false
+        },
+        {
           "title": "KCC글라스, 2026년 2분기 영업이익 흑자전환…매출액 5771억4600만원",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBOZFJSQTNrSXdNcDE3V1JGeUJyMFFza016Mm8tQWlmUGFxWnRlQk5oR1o4SjJXbjBpZ0JXNGMtU2JzbldJVmhza0pHZjMxa2l1U05WZW9CUnIyR2dzMkwtaG1PR0xFRWc3SEtnbkFMQXFJY2c?oc=5",
           "publisher": "디지털투데이",
           "date": "Wed, 05 Aug 2026",
           "summary": "KCC글라스, 2026년 2분기 영업이익 흑자전환…매출액 5771억4600만원",
-          "is_report": false
-        },
-        {
-          "title": "인도네시아 공장서 700억 적자…KCC글라스, 신용등급 ‘흔들’",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03VDRFeDVoMndqY0M5YmNZOFV4aG1jN0sxNVM0bGk4MzVvUk1BcmRjdFRlQVdSV2R6Tkw5YW9iQlVZOW5XX09CQXh6UlBhYzdDVXd0NFl1b2t3MGd1NW9QTEhmOXlobkUzeFR4M1Uxbw?oc=5",
-          "publisher": "리드경제",
-          "date": "Mon, 29 Jun 2026",
-          "summary": "인도네시아 공장서 700억 적자…KCC글라스, 신용등급 ‘흔들’",
           "is_report": false
         },
         {
@@ -3064,11 +2950,11 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "KCC글라스, 인도네시아서 '모범 기업' 선정… '통상 악재' 속 현지화로 정면 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RVGtJcUNGLVZVY1RBRjNMRUVpODRGOGgxd2puT0NiRkJXMG5BU0c2ZjRxRXl6RkNVY1pvamlrNGl0VlhMMXpMQ3hqdHFiLWJrTkhZdFlLMThKNzJqLTlwRHI1TQ?oc=5",
-          "publisher": "더구루",
-          "date": "Sun, 09 Aug 2026",
-          "summary": "KCC글라스, 인도네시아서 '모범 기업' 선정… '통상 악재' 속 현지화로 정면 돌파",
+          "title": "인도네시아 공장서 700억 적자…KCC글라스, 신용등급 ‘흔들’",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03VDRFeDVoMndqY0M5YmNZOFV4aG1jN0sxNVM0bGk4MzVvUk1BcmRjdFRlQVdSV2R6Tkw5YW9iQlVZOW5XX09CQXh6UlBhYzdDVXd0NFl1b2t3MGd1NW9QTEhmOXlobkUzeFR4M1Uxbw?oc=5",
+          "publisher": "리드경제",
+          "date": "Mon, 29 Jun 2026",
+          "summary": "인도네시아 공장서 700억 적자…KCC글라스, 신용등급 ‘흔들’",
           "is_report": false
         }
       ]
@@ -3086,27 +2972,27 @@ window.BRIEFING_DATA = {
         "name": "SK아이이테크놀로지",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 11600,
-        "change_val": -480,
-        "change_rate": -3.97,
-        "display_price": "11,600원",
-        "display_change": "▼ 480 (-3.97%)",
+        "current_price": 10950,
+        "change_val": -520,
+        "change_rate": -4.53,
+        "display_price": "10,950원",
+        "display_change": "▼ 520 (-4.53%)",
         "status": "down",
         "high_52w": 30900,
-        "low_52w": 0,
-        "volume": 287150,
-        "display_volume": "287,150주",
-        "avg_volume_20d": 170221,
+        "low_52w": 10800,
+        "volume": 177954,
+        "display_volume": "177,954주",
+        "avg_volume_20d": 174110,
         "volume_surge": {
-          "ratio": 168.7,
+          "ratio": 102.2,
           "status": "normal",
-          "badge": "거래량 평이 (168.7%)",
+          "badge": "거래량 평이 (102.2%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+3.1억",
-          "institutional": "-17.2억",
-          "retail": "+14.1억",
+          "foreign": "+3,293만",
+          "institutional": "-4.0억",
+          "retail": "+3.8억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -3150,23 +3036,39 @@ window.BRIEFING_DATA = {
         "sector": "2차전지·분리막"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '실적 부진에 단기차입금만 6000억원… SK아이이테크놀로지 7년 만에 흡수합병된 이유' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'SK이노, 쪼갰던 SKIET 다시 붙이려다 제동' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 480 (-3.97%) 흐름을 기록했습니다. 수급은 외국인(+3.1억), 기관(-17.2억, 연기금(장기 스마트머니)), 개인(+14.1억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
-        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
-        "sentiment": "bear",
-        "sentiment_label": "리스크 주의",
-        "sentiment_score": -35,
-        "one_line_summary": "실적 부진에 단기차입금만 6000억원… SK아이이테크놀로지 7년 만에 흡수합병된 ...",
+        "fact": "최근 주요 소식으로 'IBK투자, SK아이이테크놀로지 목표가↓…\"연내 적자지속 전망\"' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'SK아이이테크놀로지, 내년 흑자 전환...본격 실적은 ‘2028년 이후’' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 520 (-4.53%) 흐름을 기록했습니다. 수급은 외국인(+3,293만), 기관(-4.0억, 연기금(장기 스마트머니)), 개인(+3.8억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
+        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
+        "sentiment": "neutral",
+        "sentiment_label": "중립·관망",
+        "sentiment_score": -15,
+        "one_line_summary": "IBK투자, SK아이이테크놀로지 목표가↓…\"연내 적자지속 전망\"",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
         {
-          "title": "실적 부진에 단기차입금만 6000억원… SK아이이테크놀로지 7년 만에 흡수합병된 이유",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84aWVaTDdyempkdHRrTVNucGwxN2huUFpzNUpfS2hDYm1qc3czLXo1T0dYY1ZoS0ZlYXlVTjlTUEkyN2xXcFd3WEV3YTEwTnJSMG9jbW5BX3ViYWxzYU12LWJnc0s5TVpU0gFsQVVfeXFMTnhiTWZwOXFrZ0w5Z0hTUVd3c25QM1kySkxVOHRCNDJMaVlPZExRejRVZGJMOEgydjlOZkVNZ25SRFJKRnpqRWVVZE1YMVYtUVNoalFLZ01NZGNoOFlDZnJmTmZJVm5sOHdscnA3?oc=5",
-          "publisher": "뉴스W",
-          "date": "Wed, 26 Aug 2026",
-          "summary": "실적 부진에 단기차입금만 6000억원… SK아이이테크놀로지 7년 만에 흡수합병된 이유",
+          "title": "IBK투자, SK아이이테크놀로지 목표가↓…\"연내 적자지속 전망\"",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPMVJwakJCbDFfbmw5Vi1wS2pQd21GZVZvUDBwTzV5X3hKd3NzR2Y4aGUzWERvZDNDMk1yWXVDSkZjX1FTUUF3elJrSjd2cnpZbU5RbGNJcE1rUUXSAWBBVV95cUxOUExrVjV4V0Jtd0pZaDhLc1ptYUpFUVlSWkNGRGxMRVB4MWNJbkVSNjMyaDNIVmxkZ0lPVXdZYUZuRGJoa1pmcGdyWVpiVXhOUVFoV2ZIb0IybTRBODZPd2o?oc=5",
+          "publisher": "연합뉴스",
+          "date": "Fri, 15 May 2026",
+          "summary": "IBK투자, SK아이이테크놀로지 목표가↓…\"연내 적자지속 전망\"",
+          "is_report": true
+        },
+        {
+          "title": "SK아이이테크놀로지, 내년 흑자 전환...본격 실적은 ‘2028년 이후’",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9YMEVhSVVDcmE3d29QaEhpVGJZLV9GVW45U1BwUzM3U2NjNzh3QjY2cWk2R3F6emtsdmtmWVJxclVJZ1pGMVBiSVFla1BZQVZuYzJ4M2VYTzV5bUpKLW8waDdtWDM?oc=5",
+          "publisher": "금융소비자뉴스",
+          "date": "Mon, 11 May 2026",
+          "summary": "SK아이이테크놀로지, 내년 흑자 전환...본격 실적은 ‘2028년 이후’",
+          "is_report": true
+        },
+        {
+          "title": "SK아이이테크놀로지, 2914억 분리막 계약 24억원으로 종료",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NbDhHVkdPMlFzUzQ4algxQ2ZvQ0llNThtclRCbDJKa0Nac1diRmRkRkdXa1BVakwwVWRWbDZtUVlRQldQOFllNjJCRnVGTDNtTDNHWWhBTDFNTmtFd3diM0EzT1JtQQ?oc=5",
+          "publisher": "디일렉",
+          "date": "Tue, 31 Mar 2026",
+          "summary": "SK아이이테크놀로지, 2914억 분리막 계약 24억원으로 종료",
           "is_report": true
         },
         {
@@ -3186,35 +3088,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
+          "title": "[코스피 현미경 분석] SK아이이테크놀로지, ESS 고객사 확보로 주가 상승 탄력?",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yd1U5M3FvWG1kd3g4aHFKbUlFeGxtWlRJYWNuQjNwT0IwSXdtakJxNmdMM1N2TWY1UFRTU012LUlpbWF6d1hNcXJCbjNGYTc1R29jQTNFQ3BWbFZaaW9fZVBqMzZJeEljLXNN?oc=5",
+          "publisher": "데일리인베스트",
+          "date": "Fri, 30 Jan 2026",
+          "summary": "[코스피 현미경 분석] SK아이이테크놀로지, ESS 고객사 확보로 주가 상승 탄력?",
+          "is_report": false
+        },
+        {
           "title": "\"SK아이이테크놀로지, 2Q 635억원 적자…3Q도 영업손 전망\"-SK",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wdG82WjZtTTJNaVhHUXNMc3ZUd1R6czZJSVYwVkg0LVp2V25oU0Z0RnBSckRRSVRIWXlVV09iNmFaVkdGU1lPY3cyaFFpZGpiRGk5djBJOEphdw?oc=5",
           "publisher": "한국경제",
           "date": "Tue, 04 Aug 2026",
           "summary": "\"SK아이이테크놀로지, 2Q 635억원 적자…3Q도 영업손 전망\"-SK",
-          "is_report": false
-        },
-        {
-          "title": "“SK이노베이션, SKIET 흡수합병…신용도 영향 제한적”",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iTjNOZ3FfdmUxQVVUM25KVmZBbnZ5UzZzUUJIclB3MXlSQnYzYTFtdVJHcjFSeW1IbGNpTm44SGRMWWFGWFotem9IY21ueHZPWEl2aTROZzhfLTZXR3lQSTBYQlREamJVTkpmZ0UtMHhTdw?oc=5",
-          "publisher": "마켓인",
-          "date": "Wed, 26 Aug 2026",
-          "summary": "“SK이노베이션, SKIET 흡수합병…신용도 영향 제한적”",
-          "is_report": false
-        },
-        {
-          "title": "SK이노베이션, 7년 전 분리한 SK아이이테크놀로지 다시 흡수합병…“분리막 경쟁력 강화”",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QS05XZVFyZGw1UGpLcFBOdmhlSVBPNlFCUGpKaWF2N3pDWFM2YXRGZmY1dGhaMmI5d1VsRV9aWGNYYnc0dDN1el9YQTlsOENVQ3lhbHRVWmRZSTJXVUhib0dDZ0hsOGprenpuZ2FaZkgtV0l5TUHSAWZBVV95cUxPNW5NVGgzbUV2OXI2NWV3QkhDeW5OdFVfd3RrOEYwTWtOUEpzTDhQdzBVdXF0d3EwUE5CVFZvUmtYTUQyRW0xQ3lBZE0wMEF3emhaUU1LX0FpNkRIZXNTZ0czQ0hXNVE?oc=5",
-          "publisher": "동아일보",
-          "date": "Tue, 25 Aug 2026",
-          "summary": "SK이노베이션, 7년 전 분리한 SK아이이테크놀로지 다시 흡수합병…“분리막 경쟁력 강화”",
-          "is_report": false
-        },
-        {
-          "title": "SK이노, 장기 부진 분리막 자회사 SKIET 다시 품는다",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxWVdDZXRJQVVOSFVKOEY3aUZ2c09kdHozakoxbmMzT3QwbkNSN3Y0cDZ2dXNxNVJLejh4aVd6WDBENGlya21KVTJsT191RkdJVl9KeThB?oc=5",
-          "publisher": "지디넷코리아",
-          "date": "Tue, 25 Aug 2026",
-          "summary": "SK이노, 장기 부진 분리막 자회사 SKIET 다시 품는다",
           "is_report": false
         }
       ]
@@ -3232,27 +3118,27 @@ window.BRIEFING_DATA = {
         "name": "풍원정밀",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 2045,
-        "change_val": -80,
-        "change_rate": -3.76,
-        "display_price": "2,045원",
-        "display_change": "▼ 80 (-3.76%)",
-        "status": "down",
+        "current_price": 2055,
+        "change_val": 55,
+        "change_rate": 2.75,
+        "display_price": "2,055원",
+        "display_change": "▲ 55 (+2.75%)",
+        "status": "up",
         "high_52w": 19970,
-        "low_52w": 1998,
-        "volume": 29578,
-        "display_volume": "29,578주",
-        "avg_volume_20d": 77545,
+        "low_52w": 1970,
+        "volume": 154092,
+        "display_volume": "154,092주",
+        "avg_volume_20d": 72845,
         "volume_surge": {
-          "ratio": 38.1,
-          "status": "low",
-          "badge": "거래량 한산 (38.1%)",
-          "desc": "평균 대비 거래량 감소"
+          "ratio": 211.5,
+          "status": "surge",
+          "badge": "💥 거래량 급증 (211.5%)",
+          "desc": "20일 평균 대비 2.1배 유입"
         },
         "investor_flow": {
-          "foreign": "-1,003만",
+          "foreign": "-1.4억",
           "institutional": "0",
-          "retail": "+1,000만",
+          "retail": "+1.4억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -3297,12 +3183,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 ''2022년 상장' 풍원정밀, OLED FMM 아직 평가 단계' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'FMM 국산화 기대주 풍원정밀… 30% 할인 유증에 주가 ‘직격탄’' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 80 (-3.76%) 흐름을 기록했습니다. 수급은 외국인(-1,003만), 기관(0, 연기금(장기 스마트머니)), 개인(+1,000만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
-        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
-        "sentiment": "bear",
-        "sentiment_label": "리스크 주의",
-        "sentiment_score": -40,
+        "reaction": "금일 주가는 ▲ 55 (+2.75%) [💥 거래량 급증 (211.5%)] 흐름을 기록했습니다. 수급은 외국인(-1.4억), 기관(0, 연기금(장기 스마트머니)), 개인(+1.4억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
+        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
+        "sentiment": "neutral",
+        "sentiment_label": "중립·관망",
+        "sentiment_score": 10,
         "one_line_summary": "'2022년 상장' 풍원정밀, OLED FMM 아직 평가 단계",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -3378,27 +3264,27 @@ window.BRIEFING_DATA = {
         "name": "LG에너지솔루션",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 303500,
-        "change_val": -1500,
-        "change_rate": -0.49,
-        "display_price": "303,500원",
-        "display_change": "▼ 1,500 (-0.49%)",
+        "current_price": 297500,
+        "change_val": -4500,
+        "change_rate": -1.49,
+        "display_price": "297,500원",
+        "display_change": "▼ 4,500 (-1.49%)",
         "status": "down",
         "high_52w": 497500,
-        "low_52w": 0,
-        "volume": 238358,
-        "display_volume": "238,358주",
-        "avg_volume_20d": 414557,
+        "low_52w": 290500,
+        "volume": 274753,
+        "display_volume": "274,753주",
+        "avg_volume_20d": 403054,
         "volume_surge": {
-          "ratio": 57.5,
+          "ratio": 68.2,
           "status": "normal",
-          "badge": "거래량 평이 (57.5%)",
+          "badge": "거래량 평이 (68.2%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+102.2억",
-          "institutional": "-183.3억",
-          "retail": "+80.3억",
+          "foreign": "+75.9억",
+          "institutional": "-10.6억",
+          "retail": "-65.5억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -3410,9 +3296,9 @@ window.BRIEFING_DATA = {
         },
         "analyst_consensus": {
           "opinion": "투자의견 매수 (3.95)",
-          "target_price": 517316,
-          "display_target_price": "517,316원",
-          "upside_potential": 70.5,
+          "target_price": 515737,
+          "display_target_price": "515,737원",
+          "upside_potential": 73.4,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -3443,7 +3329,7 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 'LG에너지솔루션, 2026년 3분기 실적발표 컨퍼런스콜 전문' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[리포트 브리핑]LG에너지솔루션, '실적 추이 및 전망' 목표가 460,000원 - 삼성증권' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 1,500 (-0.49%) 흐름을 기록했습니다. 수급은 외국인(+102.2억), 기관(-183.3억, 연기금(장기 스마트머니)), 개인(+80.3억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (3.95) (목표주가: 517,316원) 흐름입니다.",
+        "reaction": "금일 주가는 ▼ 4,500 (-1.49%) 흐름을 기록했습니다. 수급은 외국인(+75.9억), 기관(-10.6억, 연기금(장기 스마트머니)), 개인(-65.5억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (3.95) (목표주가: 515,737원) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
@@ -3478,12 +3364,12 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "“LG에너지솔루션, ESS·원통형 배터리 실적 지탱…목표가 50만원 유지”-신한",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfRjNTaEp0NWVfdk1CY2hpWklzOWNQVnUySDQzWkNFaVZMemNJYW5tbU45N0QwLWR0M3psVTlEUWdVLWNQQ2VVZkFKQWJNa0V5LWtxU3dQX2dHTmw2dVkxZTc0T2VkUmJzeHREN3BKNHNGbWc?oc=5",
-          "publisher": "마켓인",
-          "date": "Thu, 08 Oct 2026",
-          "summary": "“LG에너지솔루션, ESS·원통형 배터리 실적 지탱…목표가 50만원 유지”-신한",
-          "is_report": true
+          "title": "LG에너지솔루션, ESS 사업 확대 속 조직 재정비…R&D·북미 품질 강화",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tNHpFRHdMWGYxNkxGVmJOVDFrSWVnOEZXWXNjNWpqVHFqelVkYnNhaUpwQTAtUmp1LUk1T1hLSVVXS1NXd3c5MHkxd0o2TThvY1JHMFVscnFzcGwtVW5KZXR4UWtWYjdFeWc4?oc=5",
+          "publisher": "뉴스저널리즘",
+          "date": "Fri, 20 Nov 2026",
+          "summary": "LG에너지솔루션, ESS 사업 확대 속 조직 재정비…R&D·북미 품질 강화",
+          "is_report": false
         },
         {
           "title": "LG에너지솔루션, 임원 11명 승진…사업구조 전환·배터리 품질 경쟁력 강화",
@@ -3494,19 +3380,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
+          "title": "김동명 LG에너지솔루션 사장, 2027년 임원인사 11명 승진…마케팅·R&D·북미 품질 보강",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VTWtKVkttSFFhQVRvejNKYXZBVmQ1WnhCUnMzV3lwT0RGWGxiNl9wUzJzMEZiSlZnMG0ybEFOZjBYa3FCSEtYZ1VxNENTN1I3T0dSOWhuSE1WUENtak1ramhLa2tvMzDSAWtBVV95cUxQcS1TbXFxZmRJVEpqSHdQbVJjWHgyWkdqdi1mT0xMTEM4M1hXYlpVaFg4TmMyaHVWSkZKcjM5a05kWmtWeEdBazd1Y0tIWjducUt6cmV0UVVoYTU1N2RQaVVCTEdBbldMYldfRQ?oc=5",
+          "publisher": "CEO저널",
+          "date": "Thu, 19 Nov 2026",
+          "summary": "김동명 LG에너지솔루션 사장, 2027년 임원인사 11명 승진…마케팅·R&D·북미 품질 보강",
+          "is_report": false
+        },
+        {
           "title": "LG엔솔 전무 1명→4명…전략·생산·품질통 올렸다",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yYkE5WXhVR2wzSkVpTkxmTWtKWDFXblVPNnhKT0czdktEcmozTzVvX1otcWhpS1VKNVVNWTNEOU5DbENDU1FSSHhncE9Cbk5vNXNCNDY4elZyWnlDWE1iUEl3Nmo5R2M?oc=5",
           "publisher": "자본시장뉴스",
           "date": "Thu, 19 Nov 2026",
           "summary": "LG엔솔 전무 1명→4명…전략·생산·품질통 올렸다",
-          "is_report": false
-        },
-        {
-          "title": "LG엔솔·삼성SDI, 공장 가동률 상승세…SK온 유지",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RZVlXSF9CSVBIbnJmWmtVWERIR0gtdDhLN1RpMTRab0JheEZfUmZiUGVKUGFBWjF1Tzd2bU03anJGVHQxZGtIZjVEUHAzNE9BOUFEV2FB?oc=5",
-          "publisher": "지디넷코리아",
-          "date": "Mon, 16 Nov 2026",
-          "summary": "LG엔솔·삼성SDI, 공장 가동률 상승세…SK온 유지",
           "is_report": false
         }
       ]
@@ -3524,27 +3410,27 @@ window.BRIEFING_DATA = {
         "name": "에코프로에이치엔",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 21300,
-        "change_val": 0,
-        "change_rate": 0.0,
-        "display_price": "21,300원",
-        "display_change": "─ 0 (+0.00%)",
-        "status": "same",
+        "current_price": 20150,
+        "change_val": -1050,
+        "change_rate": -4.95,
+        "display_price": "20,150원",
+        "display_change": "▼ 1,050 (-4.95%)",
+        "status": "down",
         "high_52w": 46900,
         "low_52w": 20000,
-        "volume": 159420,
-        "display_volume": "159,420주",
-        "avg_volume_20d": 206527,
+        "volume": 137142,
+        "display_volume": "137,142주",
+        "avg_volume_20d": 207143,
         "volume_surge": {
-          "ratio": 77.2,
+          "ratio": 66.2,
           "status": "normal",
-          "badge": "거래량 평이 (77.2%)",
+          "badge": "거래량 평이 (66.2%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-5.2억",
+          "foreign": "-8.7억",
           "institutional": "-1.8억",
-          "retail": "+6.9억",
+          "retail": "+10.5억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -3566,7 +3452,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "200원 / 1주당",
-          "yield_rate": "0.94%",
+          "yield_rate": "0.99%",
           "desc": "2026.03. 결산 배당"
         },
         "upcoming_events": [
@@ -3589,12 +3475,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '[버핏 리포트] 에코프로에이치엔, 반도체 사업과 함께 성장하는 기업… 내년까지 실적↑ – DS' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '씽크풀 : [잠정실적]에코프로에이치엔, 올해 2Q 매출액 515억(+32%) 영업이익 57.6억(+57%) (연결)' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ─ 0 (+0.00%) 흐름을 기록했습니다. 수급은 외국인(-5.2억), 기관(-1.8억, 연기금(장기 스마트머니)), 개인(+6.9억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 0,
+        "reaction": "금일 주가는 ▼ 1,050 (-4.95%) 흐름을 기록했습니다. 수급은 외국인(-8.7억), 기관(-1.8억, 연기금(장기 스마트머니)), 개인(+10.5억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -25,
         "one_line_summary": "[버핏 리포트] 에코프로에이치엔, 반도체 사업과 함께 성장하는 기업… 내년까지 실...",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -3670,27 +3556,27 @@ window.BRIEFING_DATA = {
         "name": "자람테크놀로지",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 10020,
-        "change_val": 560,
-        "change_rate": 5.92,
-        "display_price": "10,020원",
-        "display_change": "▲ 560 (+5.92%)",
-        "status": "up",
+        "current_price": 9130,
+        "change_val": -860,
+        "change_rate": -8.61,
+        "display_price": "9,130원",
+        "display_change": "▼ 860 (-8.61%)",
+        "status": "down",
         "high_52w": 64900,
         "low_52w": 8780,
-        "volume": 43575,
-        "display_volume": "43,575주",
-        "avg_volume_20d": 49186,
+        "volume": 23354,
+        "display_volume": "23,354주",
+        "avg_volume_20d": 49809,
         "volume_surge": {
-          "ratio": 88.6,
-          "status": "normal",
-          "badge": "거래량 평이 (88.6%)",
-          "desc": "평균 수준 유지"
+          "ratio": 46.9,
+          "status": "low",
+          "badge": "거래량 한산 (46.9%)",
+          "desc": "평균 대비 거래량 감소"
         },
         "investor_flow": {
-          "foreign": "+1.4억",
-          "institutional": "-18만",
-          "retail": "-1.4억",
+          "foreign": "+891만",
+          "institutional": "-48만",
+          "retail": "-843만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -3735,12 +3621,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '자람테크놀로지, 상반기 매출 113억…지난해 연간 실적 넘어' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '자람테크놀로지, 해외 고객향 반도체 공급계약 해지…\"선수금 절반 수령\"' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 560 (+5.92%) 흐름을 기록했습니다. 수급은 외국인(+1.4억), 기관(-18만, 연기금(장기 스마트머니)), 개인(-1.4억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "자람테크놀로지의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 25,
+        "reaction": "금일 주가는 ▼ 860 (-8.61%) 흐름을 기록했습니다. 수급은 외국인(+891만), 기관(-48만, 연기금(장기 스마트머니)), 개인(-843만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -25,
         "one_line_summary": "자람테크놀로지, 상반기 매출 113억…지난해 연간 실적 넘어",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -3795,7 +3681,7 @@ window.BRIEFING_DATA = {
         },
         {
           "title": "엔비디아·AT&T가 찍은 '6G·광통신'…자람테크놀로지, 50기가 통신 반도체 상용화로 '병목 해결'",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDWnlyS2ZRQUZiYkxUMlU1YzNPWjZqeUtaU21FWjlZZUNEaU8tR1V1YmJEcGtxLTR1emhCM0w1STgwcU1nbUVwRld4Ny1xajYzSUdyWi01c0xQYlBHNmpST1l2aw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NUnBseHhFQmZYYm9ranpJN3VBUTUxakkxUi1oc0J3U3ZEcnhva3h2Uk8waVo4YmJ6UHotdlJWODFEcWppNm1fLWtlRUVWVVNzMWN5NW1FeG81VjBKWFF2WjlMMF9pQQ?oc=5",
           "publisher": "프라임경제",
           "date": "Wed, 01 Apr 2026",
           "summary": "엔비디아·AT&T가 찍은 '6G·광통신'…자람테크놀로지, 50기가 통신 반도체 상용화로 '병목 해결'",
@@ -3816,27 +3702,27 @@ window.BRIEFING_DATA = {
         "name": "LS머트리얼즈",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 9370,
-        "change_val": 190,
-        "change_rate": 2.07,
-        "display_price": "9,370원",
-        "display_change": "▲ 190 (+2.07%)",
-        "status": "up",
+        "current_price": 8690,
+        "change_val": -700,
+        "change_rate": -7.45,
+        "display_price": "8,690원",
+        "display_change": "▼ 700 (-7.45%)",
+        "status": "down",
         "high_52w": 32725,
         "low_52w": 8450,
-        "volume": 462906,
-        "display_volume": "462,906주",
-        "avg_volume_20d": 1090005,
+        "volume": 482686,
+        "display_volume": "482,686주",
+        "avg_volume_20d": 969971,
         "volume_surge": {
-          "ratio": 42.5,
+          "ratio": 49.8,
           "status": "low",
-          "badge": "거래량 한산 (42.5%)",
+          "badge": "거래량 한산 (49.8%)",
           "desc": "평균 대비 거래량 감소"
         },
         "investor_flow": {
-          "foreign": "-3.3억",
-          "institutional": "+2.1억",
-          "retail": "+1.2억",
+          "foreign": "-6.1억",
+          "institutional": "-4.6억",
+          "retail": "+10.6억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -3858,7 +3744,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "22원 / 1주당",
-          "yield_rate": "0.24%",
+          "yield_rate": "0.25%",
           "desc": "2026.03. 결산 배당"
         },
         "upcoming_events": [
@@ -3880,17 +3766,25 @@ window.BRIEFING_DATA = {
         "sector": "친환경·울트라커패시터"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[리포트 브리핑]LS머트리얼즈, '변곡점' Not Rated - 키움증권' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 'LS머트리얼즈, 역대 최대 규모 UC 수출 계약 체결' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 190 (+2.07%) 흐름을 기록했습니다. 수급은 외국인(-3.3억), 기관(+2.1억, 연기금(장기 스마트머니)), 개인(+1.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "LS머트리얼즈의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 35,
-        "one_line_summary": "[리포트 브리핑]LS머트리얼즈, '변곡점' Not Rated - 키움증권",
+        "fact": "최근 주요 소식으로 '[서치 e종목] LS머트리얼즈, 美 전력 인프라 시장 공략…추가 수주로 주가 동력?' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[리포트 브리핑]LS머트리얼즈, '변곡점' Not Rated - 키움증권' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 700 (-7.45%) 흐름을 기록했습니다. 수급은 외국인(-6.1억), 기관(-4.6억, 연기금(장기 스마트머니)), 개인(+10.6억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -55,
+        "one_line_summary": "[서치 e종목] LS머트리얼즈, 美 전력 인프라 시장 공략…추가 수주로 주가 동력...",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
+        {
+          "title": "[서치 e종목] LS머트리얼즈, 美 전력 인프라 시장 공략…추가 수주로 주가 동력?",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NY2haX3pTSF94dVFsT3BFZE44OVNSNm1zaU5fYWZpSHZxa0w3RUx0bm5TLUR6OGxuZzh0SmpPU3dsYUE1TUFiX3F5cEJTODdUXzd2a0g3QVg0UTk4S0pHV1MwYnFxakQ2b29j0gFvQVVfeXFMTmF3QWp4cGZKOEtOT1c1RjJxSHMtSW82VTc1bF9oeEFvUFZ3YzF3R0hxdnp1SmY1dzBYcTRTMXN4THFiNjE5WExjZUFoNzZBTjFHaEg5QldEVEhJcFBlelVXTS1BM2tSeUdHcjlqbVNz?oc=5",
+          "publisher": "데일리인베스트",
+          "date": "Fri, 16 Oct 2026",
+          "summary": "[서치 e종목] LS머트리얼즈, 美 전력 인프라 시장 공략…추가 수주로 주가 동력?",
+          "is_report": true
+        },
         {
           "title": "[리포트 브리핑]LS머트리얼즈, '변곡점' Not Rated - 키움증권",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jdDRqNWhiMmotb2NYZGVPV3RqVUxsTXhLTGtUS3FCMU15R3FaRTB2dkRxclBwMWVUNFpKQkd4NHZjcG9hMmdvSTFnLU92ODYxNTJMRVBLQ0xiTzdB?oc=5",
@@ -3900,51 +3794,43 @@ window.BRIEFING_DATA = {
           "is_report": true
         },
         {
-          "title": "LS머트리얼즈, 역대 최대 규모 UC 수출 계약 체결",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tVE9nMml5WUY4Ym1IT3dkbFZHaUgyUXVPWGhGTG9CZXQ5b3VzUVlHV1VFc0tQS3F0dURVdzU1cDZtSnl0U2lLX3dZM20yZDhTTkp0MmNVTkp3dDhESGRkeF9vM0ZPLUNfakRkSnNmVkI?oc=5",
-          "publisher": "비즈니스리포트",
-          "date": "Tue, 13 Oct 2026",
-          "summary": "LS머트리얼즈, 역대 최대 규모 UC 수출 계약 체결",
+          "title": "씽크풀 : [실적속보]LS머트리얼즈, 3년 중 최고 매출 달성, 영업이익은 전년동기 대비 1,303%↑ (연결)",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11SjNaQ25heFVCNTZUT2FrMlV4em1PMDZjSlV5MzNvRnRhZ1hMVkNJdDhGQkFJWnRkYmN0ZUw2YW1pN1lnSmNSZ0JTN01reXk5dkNOVlkybVlidG0zbHNaNmMzWEFaVGQw?oc=5",
+          "publisher": "ThinkPool",
+          "date": "Sun, 23 Aug 2026",
+          "summary": "씽크풀 : [실적속보]LS머트리얼즈, 3년 중 최고 매출 달성, 영업이익은 전년동기 대비 1,303%↑ (연결)",
           "is_report": true
         },
         {
-          "title": "[버핏 리포트]LS머트리얼즈, 3Q 부진...\"전방산업 기대감으로 수익성 회복할 것\"-KB",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xREtmYk1VV0tNXzZ1VWtrVjN3NnM2dFRGS0hEY0p6ODEzdHdSX041UXJDQ0NzYllaOWh1b1NoeHAwMVhtdS1zYi1NYm4wM0JRQjMtWWdpeTdUaGtQ?oc=5",
-          "publisher": "버핏연구소",
-          "date": "Wed, 27 Nov 2024",
-          "summary": "[버핏 리포트]LS머트리얼즈, 3Q 부진...\"전방산업 기대감으로 수익성 회복할 것\"-KB",
+          "title": "LS머트리얼즈, AI 전력망 타고 적자 탈출…미 수소연료전지에 750억 수주",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zZUxxME0wbW9MVFZuTkdoS01LTWh2T2JnTVdOa0RMSnhTQWtuUm1rOXhkampQWmdaSUJaRDRObmJ0XzlmdTR1SHBZcW90aDhyRFExRGRGMzBYM1Q1bVJicjdUaURiWXdrNk1xT05Da3A?oc=5",
+          "publisher": "리드경제",
+          "date": "Mon, 26 Oct 2026",
+          "summary": "LS머트리얼즈, AI 전력망 타고 적자 탈출…미 수소연료전지에 750억 수주",
           "is_report": true
         },
         {
-          "title": "﻿LS머트리얼즈·LS일렉트릭, 차세대 전력망 안정화 시장 공략 나선다",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ON3ZCd2VTOTA3MUFsQm1KUjFBbFN4cXAxNG94Mm5UbWVlb29mODVicGRKdGgtQ1UxZHhkcU1VT3BiSUtBQWNBaEN6VDBmR3lfVTFhdVZxUTZoUVJsWTlGNVJmSE9WZHYxR1MtU09hb3M?oc=5",
-          "publisher": "비즈니스리포트",
+          "title": "LS머트리얼즈·LS일렉트릭, E-STATCOM 공동 개발해 해외진출 추진",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0yTlNXWjk0Sm9KQWVfa3FxSk0zTWxMaWdFMFBUNzdWbS16Y3BZd1JQbTZLQ2VSUENtY3NtNWVqbmhnemxrdUhTVFpkWnN5Tk9FSXBXRFY1dFk4WHlsMVF0WmxMLXRTRlJseWpqVtIBcEFVX3lxTE0xdGlHQTdzZWl5Sld2WV9qRmRTaHdzSXdZa0hsS2FuU3dvY0I3QU5EOHh2eXRneGM1ZnhDbG1ualRuRnFFUklBbEJRaVplMHlaWlExdTY4RjY3dDJhbHRZS1ZBMEFNS3pZMUZzOWg3VWs?oc=5",
+          "publisher": "전기신문",
           "date": "Mon, 09 Nov 2026",
-          "summary": "﻿LS머트리얼즈·LS일렉트릭, 차세대 전력망 안정화 시장 공략 나선다",
+          "summary": "LS머트리얼즈·LS일렉트릭, E-STATCOM 공동 개발해 해외진출 추진",
           "is_report": false
         },
         {
-          "title": "[종목 포커스] LS머트리얼즈, AI 데이터센터로 'UC 신규 수요'…올해 흑자전환?",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nN0xXZlhBdHJYQmJ0NGVoNXpzTTFfMG9RQXZXS0lGOS1NZFNtN2xENERCa3dLVFR4bUFHR2pScUx5aDNLSkc1ZjMwN2pHS2VMdmdoSFNwMVNuczJQSWVQYVZpRVpzUFFqa01J?oc=5",
-          "publisher": "데일리인베스트",
-          "date": "Mon, 22 Jun 2026",
-          "summary": "[종목 포커스] LS머트리얼즈, AI 데이터센터로 'UC 신규 수요'…올해 흑자전환?",
+          "title": "풍력 넘어 AI데이터센터…LS머트리얼즈, 대규모 증설",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15TTJkZ21KZTI2RGZkQlhadXNSOGhrRzNsZ0dTSEFtSU16dEFWdGkwbGRzbzFERE8ycG1ScnVtTzJNc1BtMHQ1S3BYWDEwQ2VvSVU0?oc=5",
+          "publisher": "경제타임스",
+          "date": "Fri, 19 Jun 2026",
+          "summary": "풍력 넘어 AI데이터센터…LS머트리얼즈, 대규모 증설",
           "is_report": false
         },
         {
-          "title": "LS머트리얼즈, 美 수소연료전지 기업에 690억원 규모 UC 공급",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Bc055UDlrZkFFNnRsUzVPbHMwR0hNcGpMSlRTdDgyYUNrS1Q3bUd2TmxDT3hfWDgxUGgyTXdIWnBjWUk5UlhyV0VYVXZKMUJkN0dja2VUUklncGc2?oc=5",
-          "publisher": "뉴스핌",
-          "date": "Tue, 13 Oct 2026",
-          "summary": "LS머트리얼즈, 美 수소연료전지 기업에 690억원 규모 UC 공급",
-          "is_report": false
-        },
-        {
-          "title": "6/13 주목할 산업주 : 삼성전자·LG이노텍·LS머트리얼즈·삼성SDS [헬로스톡]",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oeE1LUmJRdWNzSzhiMThIX2pZRHRhak9JUWlrMGdnNVd6aG1Nbkg5MjdQOS1SOWdYdHV1emhGV19kenY4Mko4RWRxOWdxX21DNEVMTU9Pa0pNRmgxQnJn?oc=5",
-          "publisher": "헬로티",
-          "date": "Fri, 13 Jun 2025",
-          "summary": "6/13 주목할 산업주 : 삼성전자·LG이노텍·LS머트리얼즈·삼성SDS [헬로스톡]",
+          "title": "‘잘되는 집’ LS, 올해엔 머트리얼즈도 가세할까",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96d0hLbDVsRUplVFYwdVdwbTUxN2RfbzNXVDhCT29NUmx4ZWZqRlA2UWFENEI1YUF2alFGOGU4ajBubEpVaUZFYTZ3cDNCUTJLRTRTcW44UW9DaWxGbll5NzlXeWdnclVWOUVUSWtNTnQxUdIBdkFVX3lxTE9VWHlhbTg4dDJPeVpEeWE3T1hvRGRSaTFFQ0FsWV9vMG5HUnFHZHBVdHFqZ2p5QmVJQmJsV1hUZ1NqZTNiSm9hSmpDRkpGWFY3VmZCZVhPWmlHMTZYeU9OdVNJbVhOUXc4UEdTSFJfR2RwaG5LYUE?oc=5",
+          "publisher": "시사저널e",
+          "date": "Mon, 16 Mar 2026",
+          "summary": "‘잘되는 집’ LS, 올해엔 머트리얼즈도 가세할까",
           "is_report": false
         }
       ]
@@ -3962,27 +3848,27 @@ window.BRIEFING_DATA = {
         "name": "SOL 화장품TOP3플러스",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 13910,
-        "change_val": 355,
-        "change_rate": 2.62,
-        "display_price": "13,910원",
-        "display_change": "▲ 355 (+2.62%)",
-        "status": "up",
+        "current_price": 13575,
+        "change_val": -335,
+        "change_rate": -2.41,
+        "display_price": "13,575원",
+        "display_change": "▼ 335 (-2.41%)",
+        "status": "down",
         "high_52w": 21035,
-        "low_52w": 0,
-        "volume": 794697,
-        "display_volume": "794,697주",
-        "avg_volume_20d": 633261,
+        "low_52w": 11930,
+        "volume": 492459,
+        "display_volume": "492,459주",
+        "avg_volume_20d": 641020,
         "volume_surge": {
-          "ratio": 125.5,
+          "ratio": 76.8,
           "status": "normal",
-          "badge": "거래량 평이 (125.5%)",
+          "badge": "거래량 평이 (76.8%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-9.2억",
-          "institutional": "-2.6억",
-          "retail": "+11.6억",
+          "foreign": "+23.8억",
+          "institutional": "-9.2억",
+          "retail": "-12.6억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -4001,14 +3887,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 13945.0,
-          "nav_str": "13,945.0원",
-          "disparity_rate": -0.25,
-          "disparity_badge": "적정 수준 (-0.25%)",
+          "nav": 13550.0,
+          "nav_str": "13,550.0원",
+          "disparity_rate": 0.18,
+          "disparity_badge": "적정 수준 (+0.18%)",
           "disparity_status": "good",
-          "three_month_return": -22.94,
-          "three_month_str": "-22.94%",
-          "market_cap_str": "702억원",
+          "three_month_return": -20.24,
+          "three_month_str": "-20.24%",
+          "market_cap_str": "686억원",
           "distribution_cycle": "월분배",
           "last_dps": "15원",
           "dps_str": "지난 분배금: 15원 / 1주당 (월분배)",
@@ -4040,12 +3926,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '조정장서 빛났다...SOL 화장품TOP3플러스 한달 수익률 1위' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '신한운용 ‘SOL 화장품TOP3플러스’, 한 달 수익률 47%…국내 ETF 중 1위' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 355 (+2.62%) 흐름을 기록했습니다. 수급은 외국인(-9.2억), 기관(-2.6억, 연기금(장기 스마트머니)), 개인(+11.6억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": -5,
+        "reaction": "금일 주가는 ▼ 335 (-2.41%) 흐름을 기록했습니다. 수급은 외국인(+23.8억), 기관(-9.2억, 연기금(장기 스마트머니)), 개인(-12.6억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -25,
         "one_line_summary": "조정장서 빛났다...SOL 화장품TOP3플러스 한달 수익률 1위",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -4121,27 +4007,27 @@ window.BRIEFING_DATA = {
         "name": "KODEX 미국휴머노이드로봇",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 12890,
-        "change_val": 95,
-        "change_rate": 0.74,
-        "display_price": "12,890원",
-        "display_change": "▲ 95 (+0.74%)",
-        "status": "up",
+        "current_price": 12250,
+        "change_val": -640,
+        "change_rate": -4.97,
+        "display_price": "12,250원",
+        "display_change": "▼ 640 (-4.97%)",
+        "status": "down",
         "high_52w": 19355,
-        "low_52w": 0,
-        "volume": 30692,
-        "display_volume": "30,692주",
-        "avg_volume_20d": 90474,
+        "low_52w": 12250,
+        "volume": 126325,
+        "display_volume": "126,325주",
+        "avg_volume_20d": 93017,
         "volume_surge": {
-          "ratio": 33.9,
-          "status": "low",
-          "badge": "거래량 한산 (33.9%)",
-          "desc": "평균 대비 거래량 감소"
+          "ratio": 135.8,
+          "status": "normal",
+          "badge": "거래량 평이 (135.8%)",
+          "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-10만",
-          "institutional": "-2,541만",
-          "retail": "+393만",
+          "foreign": "+295만",
+          "institutional": "+2,053만",
+          "retail": "-2,990만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -4160,14 +4046,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 12676.0,
-          "nav_str": "12,676.0원",
-          "disparity_rate": 1.69,
-          "disparity_badge": "고평가 주의 (+1.69%)",
-          "disparity_status": "high",
-          "three_month_return": -18.86,
-          "three_month_str": "-18.86%",
-          "market_cap_str": "2,352억원",
+          "nav": 12429.0,
+          "nav_str": "12,429.0원",
+          "disparity_rate": -1.44,
+          "disparity_badge": "저평가 기회 (-1.44%)",
+          "disparity_status": "low",
+          "three_month_return": -15.39,
+          "three_month_str": "-15.39%",
+          "market_cap_str": "2,236억원",
           "distribution_cycle": "분기/결산",
           "last_dps": "분배금 재투자",
           "dps_str": "지난 분배금: 분배금 재투자 / 1주당 (분기/결산)",
@@ -4199,12 +4085,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '같은 피지컬AI ETF인데… 삼성 코덱스 수익률 들쭉날쭉, 왜?' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '미국 휴머노이드 로봇 투자, 자산운용사 ETF로' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 95 (+0.74%) 흐름을 기록했습니다. 수급은 외국인(-10만), 기관(-2,541만, 연기금(장기 스마트머니)), 개인(+393만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
-        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
-        "sentiment": "bear",
-        "sentiment_label": "리스크 주의",
-        "sentiment_score": -30,
+        "reaction": "금일 주가는 ▼ 640 (-4.97%) 흐름을 기록했습니다. 수급은 외국인(+295만), 기관(+2,053만, 연기금(장기 스마트머니)), 개인(-2,990만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
+        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
+        "sentiment": "neutral",
+        "sentiment_label": "중립·관망",
+        "sentiment_score": 5,
         "one_line_summary": "같은 피지컬AI ETF인데… 삼성 코덱스 수익률 들쭉날쭉, 왜?",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -4280,27 +4166,27 @@ window.BRIEFING_DATA = {
         "name": "TIGER 미국초단기(3개월이하)국채",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 9230,
-        "change_val": -10,
-        "change_rate": -0.11,
-        "display_price": "9,230원",
-        "display_change": "▼ 10 (-0.11%)",
-        "status": "down",
+        "current_price": 9260,
+        "change_val": 30,
+        "change_rate": 0.33,
+        "display_price": "9,260원",
+        "display_change": "▲ 30 (+0.33%)",
+        "status": "up",
         "high_52w": 10770,
-        "low_52w": 0,
-        "volume": 240676,
-        "display_volume": "240,676주",
-        "avg_volume_20d": 499316,
+        "low_52w": 9150,
+        "volume": 618695,
+        "display_volume": "618,695주",
+        "avg_volume_20d": 511060,
         "volume_surge": {
-          "ratio": 48.2,
-          "status": "low",
-          "badge": "거래량 한산 (48.2%)",
-          "desc": "평균 대비 거래량 감소"
+          "ratio": 121.1,
+          "status": "normal",
+          "badge": "거래량 평이 (121.1%)",
+          "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+502만",
-          "institutional": "-1.3억",
-          "retail": "+4,266만",
+          "foreign": "-127만",
+          "institutional": "+5.7억",
+          "retail": "-2.2억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -4319,14 +4205,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 9221.0,
-          "nav_str": "9,221.0원",
-          "disparity_rate": 0.1,
-          "disparity_badge": "적정 수준 (+0.10%)",
+          "nav": 9260.0,
+          "nav_str": "9,260.0원",
+          "disparity_rate": 0.0,
+          "disparity_badge": "적정 수준 (+0.00%)",
           "disparity_status": "good",
-          "three_month_return": -4.72,
-          "three_month_str": "-4.72%",
-          "market_cap_str": "4,031억원",
+          "three_month_return": -3.89,
+          "three_month_str": "-3.89%",
+          "market_cap_str": "4,072억원",
           "distribution_cycle": "월분배",
           "last_dps": "32원",
           "dps_str": "지난 분배금: 32원 / 1주당 (월분배)",
@@ -4358,7 +4244,7 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '미래에셋, 'TIGER 달러 단기자산 ETF 2종' 합산 순자산 1조원 돌파' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '미래에셋운용, TIGER 달러 단기자산 ETF 2종 합산 순자산 1조 돌파' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 10 (-0.11%) 흐름을 기록했습니다. 수급은 외국인(+502만), 기관(-1.3억, 연기금(장기 스마트머니)), 개인(+4,266만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "reaction": "금일 주가는 ▲ 30 (+0.33%) 흐름을 기록했습니다. 수급은 외국인(-127만), 기관(+5.7억, 연기금(장기 스마트머니)), 개인(-2.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
@@ -4393,14 +4279,6 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "美 초단기 국채 ETF에 서학개미 뭉칫돈 몰려",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZkd2WldhSFoxU0tHSHVLSU9qeW9NVGJMRngwbGZnRzNNa190emZ5cjRocGctSVY5SWJ5QmhtTUdWVnlybk5BUUlGakhsc3FBZWpPOUVqZHRTby1hSWVPMVZlblF1WDhYeDN5UkdrdnZQc25CNlg2WlAwaWx1UGUtSw?oc=5",
-          "publisher": "조선일보",
-          "date": "Fri, 11 Sep 2026",
-          "summary": "美 초단기 국채 ETF에 서학개미 뭉칫돈 몰려",
-          "is_report": false
-        },
-        {
           "title": "고금리 장기화 우려에 미 단기국채 ETF에 1000억 뭉칫돈",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE90bkhGWVRuWkNib2I5UmJZZzd4VzVlRTdwZ2tIS1BFWlNTSTBsWlNnTTE0bmdsTzNIVlRDRjRiclViUHVqcmltNWxYUFdYaktWOEVNSldGSFdqUVVMb2hXS3VoWUlJb3cwRWpSbXdHQV9LbWs?oc=5",
           "publisher": "마켓인",
@@ -4417,11 +4295,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "미래에셋 TIGER 달러 단기자산 ETF, 합산 순자산 1조원 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XclpYUmxmUUFFb085NzNPZ0RoU0pyWHNlNFg1RkdjTUt2emJKSk91VFZNRkU2S3B2c0FNczU4ZHdlMXFwRXQ4c0R0d01Qd1pSRDlDTVZYY1AydkdtU2tBVmpzLUllekxP?oc=5",
-          "publisher": "레디앙",
-          "date": "Thu, 08 Oct 2026",
-          "summary": "미래에셋 TIGER 달러 단기자산 ETF, 합산 순자산 1조원 돌파",
+          "title": "美 초단기 국채 ETF에 서학개미 뭉칫돈 몰려",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZkd2WldhSFoxU0tHSHVLSU9qeW9NVGJMRngwbGZnRzNNa190emZ5cjRocGctSVY5SWJ5QmhtTUdWVnlybk5BUUlGakhsc3FBZWpPOUVqZHRTby1hSWVPMVZlblF1WDhYeDN5UkdrdnZQc25CNlg2WlAwaWx1UGUtSw?oc=5",
+          "publisher": "조선일보",
+          "date": "Fri, 11 Sep 2026",
+          "summary": "美 초단기 국채 ETF에 서학개미 뭉칫돈 몰려",
+          "is_report": false
+        },
+        {
+          "title": "[머니플로우] 고금리 우려 속 미 단기국채 ETF에 한주간 1천억 몰려",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4Y2ZDS0lKZWdqZHhrVF9ucjA1ZTc2R2ZsMk9zYWV6NzJaelhXY0V4c1dhX19mQTRHRDdpQjhRaGJOTDY5eDhGZHV4RTFjbWQyMm81ZTFicHN2dnPSAWBBVV95cUxNei1yVERVQ0hwYjg5UVdxSzJkVUhRUFg1TEhNQXpBbFlncGpka2NJOE9Jd1MwVzBJSTd5aVJtVVZxVEFUakE3ZmdBQlZpX09ndXBLTWZqZkF3SHpLOFNXRzg?oc=5",
+          "publisher": "연합뉴스",
+          "date": "Sat, 05 Sep 2026",
+          "summary": "[머니플로우] 고금리 우려 속 미 단기국채 ETF에 한주간 1천억 몰려",
           "is_report": false
         }
       ]
@@ -4439,27 +4325,27 @@ window.BRIEFING_DATA = {
         "name": "TIGER 차이나휴머노이드로봇",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 8035,
-        "change_val": -100,
-        "change_rate": -1.23,
-        "display_price": "8,035원",
-        "display_change": "▼ 100 (-1.23%)",
+        "current_price": 7740,
+        "change_val": -295,
+        "change_rate": -3.67,
+        "display_price": "7,740원",
+        "display_change": "▼ 295 (-3.67%)",
         "status": "down",
         "high_52w": 15035,
-        "low_52w": 0,
-        "volume": 378755,
-        "display_volume": "378,755주",
-        "avg_volume_20d": 521347,
+        "low_52w": 7335,
+        "volume": 609499,
+        "display_volume": "609,499주",
+        "avg_volume_20d": 537583,
         "volume_surge": {
-          "ratio": 72.6,
+          "ratio": 113.4,
           "status": "normal",
-          "badge": "거래량 평이 (72.6%)",
+          "badge": "거래량 평이 (113.4%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+2.9억",
-          "institutional": "-2.5억",
-          "retail": "-4,706만",
+          "foreign": "-5.6억",
+          "institutional": "+6.6억",
+          "retail": "-2.0억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -4478,14 +4364,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 8045.0,
-          "nav_str": "8,045.0원",
-          "disparity_rate": -0.12,
-          "disparity_badge": "적정 수준 (-0.12%)",
+          "nav": 7706.0,
+          "nav_str": "7,706.0원",
+          "disparity_rate": 0.44,
+          "disparity_badge": "적정 수준 (+0.44%)",
           "disparity_status": "good",
-          "three_month_return": -24.11,
-          "three_month_str": "-24.11%",
-          "market_cap_str": "2,157억원",
+          "three_month_return": -19.48,
+          "three_month_str": "-19.48%",
+          "market_cap_str": "2,059억원",
           "distribution_cycle": "분기/결산",
           "last_dps": "분배금 재투자",
           "dps_str": "지난 분배금: 분배금 재투자 / 1주당 (분기/결산)",
@@ -4517,12 +4403,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '[이주의 ETF] 삼성자산운용 'KODEX 차이나휴머노이드로봇' 12%대 올라 상승률 1위, 코스닥150 인버스도 강세' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '삼성자산운용, ‘KODEX 차이나휴머노이드로봇’ ETF…수익률 1위' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 100 (-1.23%) 흐름을 기록했습니다. 수급은 외국인(+2.9억), 기관(-2.5억, 연기금(장기 스마트머니)), 개인(-4,706만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "reaction": "금일 주가는 ▼ 295 (-3.67%) 흐름을 기록했습니다. 수급은 외국인(-5.6억), 기관(+6.6억, 연기금(장기 스마트머니)), 개인(-2.0억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": 10,
+        "sentiment_score": -15,
         "one_line_summary": "[이주의 ETF] 삼성자산운용 'KODEX 차이나휴머노이드로봇' 12%대 올라 상...",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -4598,27 +4484,27 @@ window.BRIEFING_DATA = {
         "name": "TIGER 농산물선물Enhanced(H)",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 5130,
-        "change_val": -75,
-        "change_rate": -1.44,
-        "display_price": "5,130원",
-        "display_change": "▼ 75 (-1.44%)",
+        "current_price": 5080,
+        "change_val": -50,
+        "change_rate": -0.97,
+        "display_price": "5,080원",
+        "display_change": "▼ 50 (-0.97%)",
         "status": "down",
         "high_52w": 6120,
-        "low_52w": 0,
-        "volume": 2645,
-        "display_volume": "2,645주",
-        "avg_volume_20d": 5160,
+        "low_52w": 4920,
+        "volume": 4055,
+        "display_volume": "4,055주",
+        "avg_volume_20d": 5150,
         "volume_surge": {
-          "ratio": 51.3,
+          "ratio": 78.7,
           "status": "normal",
-          "badge": "거래량 평이 (51.3%)",
+          "badge": "거래량 평이 (78.7%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
           "foreign": "0",
-          "institutional": "+142만",
-          "retail": "-142만",
+          "institutional": "+1,455만",
+          "retail": "-1,455만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -4637,14 +4523,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 5120.0,
-          "nav_str": "5,120.0원",
-          "disparity_rate": 0.2,
-          "disparity_badge": "적정 수준 (+0.20%)",
+          "nav": 5082.0,
+          "nav_str": "5,082.0원",
+          "disparity_rate": -0.04,
+          "disparity_badge": "적정 수준 (-0.04%)",
           "disparity_status": "good",
-          "three_month_return": -6.05,
-          "three_month_str": "-6.05%",
-          "market_cap_str": "113억원",
+          "three_month_return": -7.57,
+          "three_month_str": "-7.57%",
+          "market_cap_str": "112억원",
           "distribution_cycle": "결산",
           "last_dps": "분배금 없음",
           "dps_str": "지난 분배금: 분배금 없음 / 1주당 (결산)",
@@ -4675,8 +4561,8 @@ window.BRIEFING_DATA = {
         "sector": "원자재·농산물 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '“호르무즈 막히자 수익률 치솟았다”…요즘 ETF 시장은 원유·농산물이 접수 [원자재로 살아남기]' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '이란전·고유가 겹쳐 곡물값 치솟자, 농산물 선물 ETF 강세' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 75 (-1.44%) 흐름을 기록했습니다. 수급은 외국인(0), 기관(+142만, 연기금(장기 스마트머니)), 개인(-142만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "fact": "최근 주요 소식으로 '“호르무즈 막히자 수익률 치솟았다”…요즘 ETF 시장은 원유·농산물이 접수 [원자재로 살아남기]' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '전쟁에 희비 엇갈린 원자재 ETF…원유·농산물 ‘급등’ vs 금·은 ‘약세’' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 50 (-0.97%) 흐름을 기록했습니다. 수급은 외국인(0), 기관(+1,455만, 연기금(장기 스마트머니)), 개인(-1,455만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "TIGER 농산물선물Enhanced(H)의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
         "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
         "sentiment": "bull",
@@ -4695,14 +4581,6 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "이란전·고유가 겹쳐 곡물값 치솟자, 농산물 선물 ETF 강세",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQmlBSEZkSVM3RVV6SUp6czZjNk81VFpZdzhXSlNabjlmZkVSN1BsRXJ4dW9aTG9ObkZxaS13RmtLNlFBSXN3R2dqVHBCQktOM204dDg2TmwyQ3dtNmZXeUNPMmdFUmxseGhZT3EzQ1Y4RklNLUtsekFPOEwzTG1LTw?oc=5",
-          "publisher": "조선일보",
-          "date": "Tue, 08 Sep 2026",
-          "summary": "이란전·고유가 겹쳐 곡물값 치솟자, 농산물 선물 ETF 강세",
-          "is_report": false
-        },
-        {
           "title": "전쟁에 희비 엇갈린 원자재 ETF…원유·농산물 ‘급등’ vs 금·은 ‘약세’",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBOOWZjYzVXT0Y0ZFZmTllINEVqZWRBc18ybFZXNlpWaVVwcVNSc2xZTl9tbk5aRTV0OERkQTVXb0JSa2FhTGRQaHNKV21JX25hNldrcVpzMkxRR05pU2UtNlRZbGRDZzVQbXZrUGRlak56TVU?oc=5",
           "publisher": "마켓인",
@@ -4711,11 +4589,11 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "원유·농산물↑ 금·은 ↓…전쟁에 희비 갈린 원자재 ETF - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wVDlQNkNLaW9Wd0lEdTd4ZC1LQS1oOVdWRUZNUGZ3bFBxRDNlandISWtYYm10UlhhdENlVFc4NlI3a21uWkUtYU9QX2VOMHVtSVVKaUNFMFo5eTN6WkdNd29PN0JwRkdw0gFuQVVfeXFMUFg2SGVWekFBUnI2MXl5XzE2elQ4Z2pXeXhST0szcXVoekctNGlKMmd3UnF6UFIwd21ndURLbXlScjYxeVd6a052NS1tZFByaGtkQldIeDVzam5nOGMxN2RzOGRCcFZ3UGNLbXg3c0E?oc=5",
-          "publisher": "머니투데이",
-          "date": "Thu, 26 Mar 2026",
-          "summary": "원유·농산물↑ 금·은 ↓…전쟁에 희비 갈린 원자재 ETF - 머니투데이",
+          "title": "이란전·고유가 겹쳐 곡물값 치솟자, 농산물 선물 ETF 강세",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQmlBSEZkSVM3RVV6SUp6czZjNk81VFpZdzhXSlNabjlmZkVSN1BsRXJ4dW9aTG9ObkZxaS13RmtLNlFBSXN3R2dqVHBCQktOM204dDg2TmwyQ3dtNmZXeUNPMmdFUmxseGhZT3EzQ1Y4RklNLUtsekFPOEwzTG1LTw?oc=5",
+          "publisher": "조선일보",
+          "date": "Tue, 08 Sep 2026",
+          "summary": "이란전·고유가 겹쳐 곡물값 치솟자, 농산물 선물 ETF 강세",
           "is_report": false
         },
         {
@@ -4724,6 +4602,14 @@ window.BRIEFING_DATA = {
           "publisher": "뉴시스",
           "date": "Mon, 21 Sep 2026",
           "summary": "중동 리스크에 '원자재 슈퍼사이클'…원유·곡물 ETF 질주",
+          "is_report": false
+        },
+        {
+          "title": "원유·농산물↑ 금·은 ↓…전쟁에 희비 갈린 원자재 ETF - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wVDlQNkNLaW9Wd0lEdTd4ZC1LQS1oOVdWRUZNUGZ3bFBxRDNlandISWtYYm10UlhhdENlVFc4NlI3a21uWkUtYU9QX2VOMHVtSVVKaUNFMFo5eTN6WkdNd29PN0JwRkdw0gFuQVVfeXFMUFg2SGVWekFBUnI2MXl5XzE2elQ4Z2pXeXhST0szcXVoekctNGlKMmd3UnF6UFIwd21ndURLbXlScjYxeVd6a052NS1tZFByaGtkQldIeDVzam5nOGMxN2RzOGRCcFZ3UGNLbXg3c0E?oc=5",
+          "publisher": "머니투데이",
+          "date": "Thu, 26 Mar 2026",
+          "summary": "원유·농산물↑ 금·은 ↓…전쟁에 희비 갈린 원자재 ETF - 머니투데이",
           "is_report": false
         },
         {
@@ -4757,27 +4643,27 @@ window.BRIEFING_DATA = {
         "name": "TIGER 구리실물",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 13765,
-        "change_val": -445,
-        "change_rate": -3.13,
-        "display_price": "13,765원",
-        "display_change": "▼ 445 (-3.13%)",
+        "current_price": 13480,
+        "change_val": -285,
+        "change_rate": -2.07,
+        "display_price": "13,480원",
+        "display_change": "▼ 285 (-2.07%)",
         "status": "down",
         "high_52w": 17930,
-        "low_52w": 0,
-        "volume": 109171,
-        "display_volume": "109,171주",
-        "avg_volume_20d": 69980,
+        "low_52w": 13045,
+        "volume": 67383,
+        "display_volume": "67,383주",
+        "avg_volume_20d": 66761,
         "volume_surge": {
-          "ratio": 156.0,
+          "ratio": 100.9,
           "status": "normal",
-          "badge": "거래량 평이 (156.0%)",
+          "badge": "거래량 평이 (100.9%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+563만",
-          "institutional": "+2,763만",
-          "retail": "-3,331만",
+          "foreign": "-751만",
+          "institutional": "+1.6억",
+          "retail": "-2.2억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -4796,14 +4682,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 13908.0,
-          "nav_str": "13,908.0원",
-          "disparity_rate": -1.03,
-          "disparity_badge": "저평가 기회 (-1.03%)",
+          "nav": 13770.0,
+          "nav_str": "13,770.0원",
+          "disparity_rate": -2.11,
+          "disparity_badge": "저평가 기회 (-2.11%)",
           "disparity_status": "low",
-          "three_month_return": -16.66,
-          "three_month_str": "-16.66%",
-          "market_cap_str": "1,249억원",
+          "three_month_return": -15.55,
+          "three_month_str": "-15.55%",
+          "market_cap_str": "1,223억원",
           "distribution_cycle": "결산",
           "last_dps": "분배금 없음",
           "dps_str": "지난 분배금: 분배금 없음 / 1주당 (결산)",
@@ -4834,25 +4720,17 @@ window.BRIEFING_DATA = {
         "sector": "원자재·구리실물 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '50% 급등한 구리값, 나도 전선주 사볼까?' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '같은 구리 ETF인데 1개월 수익률 3%대0%… 격차 벌어진 이유는? - 머니투데이' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 445 (-3.13%) 흐름을 기록했습니다. 수급은 외국인(+563만), 기관(+2,763만, 연기금(장기 스마트머니)), 개인(-3,331만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 5,
-        "one_line_summary": "50% 급등한 구리값, 나도 전선주 사볼까?",
+        "fact": "최근 주요 소식으로 '같은 구리 ETF인데 1개월 수익률 3%대0%… 격차 벌어진 이유는? - 머니투데이' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '“금·은·동 현물 ETF 다 갖췄다”…미래에셋, ‘은액티브 ETF’ 상장' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 285 (-2.07%) 흐름을 기록했습니다. 수급은 외국인(-751만), 기관(+1.6억, 연기금(장기 스마트머니)), 개인(-2.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -35,
+        "one_line_summary": "같은 구리 ETF인데 1개월 수익률 3%대0%… 격차 벌어진 이유는? - 머니투데...",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
-        {
-          "title": "50% 급등한 구리값, 나도 전선주 사볼까?",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB6bGxlN1NIdUV1Ty1aLVRvTFZrb3RuOFFCa1dxZm5DaC1yS3JmdXdJbVlvMERpRnM0QlhLNGY0dktZRVpsQl9iVTMxYW1HNTN0YU91eWJZaDA?oc=5",
-          "publisher": "네이버페이 머니스토리",
-          "date": "Mon, 24 Aug 2026",
-          "summary": "50% 급등한 구리값, 나도 전선주 사볼까?",
-          "is_report": false
-        },
         {
           "title": "같은 구리 ETF인데 1개월 수익률 3%대0%… 격차 벌어진 이유는? - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3N3RCNFhlM2ZYcFQxLUVSeWZlWXNaTmRzb0p1LUdhTmF4SENRY1RsNGNnMjkxZGZuWm5hWFl4ZFRYT2dUVzA0TGN2eEpxTHF5MXVKZW5vU2d1VXE4YkhhMFFjUjhfanp10gFuQVVfeXFMTjZyVnhTa1lQYWh6elVNT0Y4QU9rOE1WbzVRN2RoNXh6OWQySXRkUng4QVluMVBhR0pfVk4tQTFLLTBJdEhBczluVUFha01hMkhWNUJWd1FjVExfaFQ2aGR0S2VrQWRuTUFWYVZLbGc?oc=5",
@@ -4894,11 +4772,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "'미래에셋TIGER구리실물 수익률 940%?' 서버 오류",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB1Qzg3TVphRnBzNUFYcVJtcXhRaFlKTWdIQlJVVWx5WTY3T3M0anUzQjdsSTVFWkowVDFmN0tHZmlmMFNJVjRXOWNSMW0wQQ?oc=5",
-          "publisher": "딜사이트",
-          "date": "Thu, 16 Dec 2021",
-          "summary": "'미래에셋TIGER구리실물 수익률 940%?' 서버 오류",
+          "title": "“AI 시대 새 금맥되나” 구리값 사상 최고치",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05RlYzSTBqcEJqTHVrOFJWdENVWDJUTG9SenA1VHVlaERfclVTQUVyYTRianNyUHo3TUhBWVc1dzQzYjNheS10ZFFYLTJ6dUt3RVY5RFVyZ2phTkk5dF9kZHlKNnBVaTJTZjQ4ZA?oc=5",
+          "publisher": "한경매거진",
+          "date": "Thu, 30 Oct 2025",
+          "summary": "“AI 시대 새 금맥되나” 구리값 사상 최고치",
+          "is_report": false
+        },
+        {
+          "title": "구리 ETF 수익률 16% ‘금보다 쏠쏠하네’",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UVWJhM0JpczhsSzl6ZHh2TldBMjJ1bGhoWGpaOXpSNjNEaUVNOEM4bENEQnJqMlNYVFlELVptdS03NHBYSUhrc2pWTnZPeEtvNEtnVA?oc=5",
+          "publisher": "헤럴드경제",
+          "date": "Thu, 02 May 2024",
+          "summary": "구리 ETF 수익률 16% ‘금보다 쏠쏠하네’",
           "is_report": false
         }
       ]
@@ -4916,27 +4802,27 @@ window.BRIEFING_DATA = {
         "name": "TIGER 코스닥150",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 11530,
-        "change_val": 510,
-        "change_rate": 4.63,
-        "display_price": "11,530원",
-        "display_change": "▲ 510 (+4.63%)",
-        "status": "up",
+        "current_price": 10720,
+        "change_val": -810,
+        "change_rate": -7.03,
+        "display_price": "10,720원",
+        "display_change": "▼ 810 (-7.03%)",
+        "status": "down",
         "high_52w": 22130,
-        "low_52w": 0,
-        "volume": 7205711,
-        "display_volume": "7,205,711주",
-        "avg_volume_20d": 10217843,
+        "low_52w": 10375,
+        "volume": 9135705,
+        "display_volume": "9,135,705주",
+        "avg_volume_20d": 10373575,
         "volume_surge": {
-          "ratio": 70.5,
+          "ratio": 88.1,
           "status": "normal",
-          "badge": "거래량 평이 (70.5%)",
+          "badge": "거래량 평이 (88.1%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+20.2억",
-          "institutional": "-21.4억",
-          "retail": "+2.2억",
+          "foreign": "-14.9억",
+          "institutional": "-26.6억",
+          "retail": "+38.7억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -4955,14 +4841,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 11488.0,
-          "nav_str": "11,488.0원",
-          "disparity_rate": 0.37,
-          "disparity_badge": "적정 수준 (+0.37%)",
+          "nav": 10726.0,
+          "nav_str": "10,726.0원",
+          "disparity_rate": -0.06,
+          "disparity_badge": "적정 수준 (-0.06%)",
           "disparity_status": "good",
-          "three_month_return": -24.08,
-          "three_month_str": "-24.08%",
-          "market_cap_str": "11,507억원",
+          "three_month_return": -20.51,
+          "three_month_str": "-20.51%",
+          "market_cap_str": "10,819억원",
           "distribution_cycle": "분기분배",
           "last_dps": "25원",
           "dps_str": "지난 분배금: 25원 / 1주당 (분기분배)",
@@ -4994,12 +4880,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '[위클리 ETF] 10月 1주차, ‘TIGER 코스닥150 레버리지’ 수익률 톱 15.72%...코스닥·2차전지 강세' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '“코스피 때문에 박탈감이 심하네요”…개미들 ‘탈코스닥’ 봇물' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 510 (+4.63%) 흐름을 기록했습니다. 수급은 외국인(+20.2억), 기관(-21.4억, 연기금(장기 스마트머니)), 개인(+2.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "TIGER 코스닥150의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 25,
+        "reaction": "금일 주가는 ▼ 810 (-7.03%) 흐름을 기록했습니다. 수급은 외국인(-14.9억), 기관(-26.6억, 연기금(장기 스마트머니)), 개인(+38.7억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -55,
         "one_line_summary": "[위클리 ETF] 10月 1주차, ‘TIGER 코스닥150 레버리지’ 수익률 톱 ...",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -5075,27 +4961,27 @@ window.BRIEFING_DATA = {
         "name": "TIGER 2차전지테마",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 14890,
-        "change_val": -155,
-        "change_rate": -1.03,
-        "display_price": "14,890원",
-        "display_change": "▼ 155 (-1.03%)",
+        "current_price": 14295,
+        "change_val": -595,
+        "change_rate": -4.0,
+        "display_price": "14,295원",
+        "display_change": "▼ 595 (-4.00%)",
         "status": "down",
         "high_52w": 28500,
-        "low_52w": 0,
-        "volume": 239421,
-        "display_volume": "239,421주",
-        "avg_volume_20d": 657044,
+        "low_52w": 14015,
+        "volume": 234205,
+        "display_volume": "234,205주",
+        "avg_volume_20d": 627654,
         "volume_surge": {
-          "ratio": 36.4,
+          "ratio": 37.3,
           "status": "low",
-          "badge": "거래량 한산 (36.4%)",
+          "badge": "거래량 한산 (37.3%)",
           "desc": "평균 대비 거래량 감소"
         },
         "investor_flow": {
-          "foreign": "+1.9억",
-          "institutional": "-2.4억",
-          "retail": "+4,549만",
+          "foreign": "+7,958만",
+          "institutional": "-1.5억",
+          "retail": "+6,523만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -5114,14 +5000,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 14935.0,
-          "nav_str": "14,935.0원",
-          "disparity_rate": -0.3,
-          "disparity_badge": "적정 수준 (-0.30%)",
+          "nav": 14348.0,
+          "nav_str": "14,348.0원",
+          "disparity_rate": -0.37,
+          "disparity_badge": "적정 수준 (-0.37%)",
           "disparity_status": "good",
-          "three_month_return": -15.95,
-          "three_month_str": "-15.95%",
-          "market_cap_str": "7,512억원",
+          "three_month_return": -16.91,
+          "three_month_str": "-16.91%",
+          "market_cap_str": "7,205억원",
           "distribution_cycle": "결산",
           "last_dps": "분배금 재투자",
           "dps_str": "지난 분배금: 분배금 재투자 / 1주당 (결산)",
@@ -5152,31 +5038,31 @@ window.BRIEFING_DATA = {
         "sector": "2차전지·배터리 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[ETF 시황] 'TIGER 라틴35' 11% 급등…코스닥·2차전지 ETF '인기'' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '급락장 속 더 크게 꺾인 2차전지株…반등 열쇠는 `이것`' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 155 (-1.03%) 흐름을 기록했습니다. 수급은 외국인(+1.9억), 기관(-2.4억, 연기금(장기 스마트머니)), 개인(+4,549만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 0,
-        "one_line_summary": "[ETF 시황] 'TIGER 라틴35' 11% 급등…코스닥·2차전지 ETF '인기...",
+        "fact": "최근 주요 소식으로 '[ETF 시황] 우주항공·양자 ETF 날았다…2차전지 레버리지는 12% 급락' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[ETF 시황] 'TIGER 라틴35' 11% 급등…코스닥·2차전지 ETF '인기'' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 595 (-4.00%) 흐름을 기록했습니다. 수급은 외국인(+7,958만), 기관(-1.5억, 연기금(장기 스마트머니)), 개인(+6,523만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -25,
+        "one_line_summary": "[ETF 시황] 우주항공·양자 ETF 날았다…2차전지 레버리지는 12% 급락",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
+        {
+          "title": "[ETF 시황] 우주항공·양자 ETF 날았다…2차전지 레버리지는 12% 급락",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NbWVmMXdWVUg5MFpCemhVcFVkbXZvT1NDcG9oaG5NV05nRUZHSjFxdzJmYlhYdjdlV1BQQTRGWlZBOUtKTUFXUXRHQzNpeEdSQ1RLd0tYN2YteC1P?oc=5",
+          "publisher": "뉴스핌",
+          "date": "Mon, 09 Nov 2026",
+          "summary": "[ETF 시황] 우주항공·양자 ETF 날았다…2차전지 레버리지는 12% 급락",
+          "is_report": false
+        },
         {
           "title": "[ETF 시황] 'TIGER 라틴35' 11% 급등…코스닥·2차전지 ETF '인기'",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XV3EzOTJIZHpGUGZ0eEFvbjJFc2pmczQ4eEhwYmZQOGI5LWpBODZaTjREQW1TU2ZwcUZubHY0WkZ0QmZxcTRJTGhuY2lGZTFaVUZ1VS01TTVfWFNi?oc=5",
           "publisher": "뉴스핌",
           "date": "Tue, 06 Oct 2026",
           "summary": "[ETF 시황] 'TIGER 라틴35' 11% 급등…코스닥·2차전지 ETF '인기'",
-          "is_report": false
-        },
-        {
-          "title": "급락장 속 더 크게 꺾인 2차전지株…반등 열쇠는 `이것`",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ITUtGa3R0RzF4S2dtWEhHNHJRMFhCZ3JYcXhoZWRjeHJMWEZYd2dZa05ZNURkZDNvQlJiRE0tazZCak9STE1nRDQ0Z0VyeWtZeEhpdFpDelpTMjB0c0E2LUhR?oc=5",
-          "publisher": "매일신문",
-          "date": "Mon, 26 Oct 2026",
-          "summary": "급락장 속 더 크게 꺾인 2차전지株…반등 열쇠는 `이것`",
           "is_report": false
         },
         {
@@ -5188,35 +5074,35 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "급락장 속 2차전지 ‘역주행’…ETF 주간수익률 상위권 휩쓸어",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aNVVGODZtQ3VLdUJQVDFDTDBPczdRQ1FuVjlBRTdaaXJ5VWNRblQyOTBfLURvYmt3dl9rNGw5NWItcFoyY2JiaXBXcjZTLUpBcW8tLUF5OTVaUkdZdDRuYm5UcUFDcXdxM3R6TWE2WjdUREE?oc=5",
-          "publisher": "마켓인",
-          "date": "Sun, 05 Apr 2026",
-          "summary": "급락장 속 2차전지 ‘역주행’…ETF 주간수익률 상위권 휩쓸어",
+          "title": "[ETF 시황] 2차전지 ETF 질주…KODEX 2차전지산업레버리지 13.75%↑",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YQ1ZxaDZsSDRvSk9RTmEzT1ZldWF6VmFBMUJ6SmRDR0tJMzV5VGJFeVlkT1lnWFc0eURVSmhSYmdzdElnNHZJUGI4NWZna1B3cFBET25mYkEtaUNM?oc=5",
+          "publisher": "뉴스핌",
+          "date": "Wed, 09 Sep 2026",
+          "summary": "[ETF 시황] 2차전지 ETF 질주…KODEX 2차전지산업레버리지 13.75%↑",
           "is_report": false
         },
         {
-          "title": "[ETF 매치업] 로봇엔진 급반등 2차전지…신한 40% vs 미래 27%",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aMWNqRXprTmJsalZDZWNFZnRmeVlZZ24xdHZORGNTTHBlUlBfM2hnYjdnblpKb2hXRDQzZGI5bGtMZGN4RTFXNEJoTXBvbUk?oc=5",
-          "publisher": "딜사이트",
-          "date": "Fri, 30 Jan 2026",
-          "summary": "[ETF 매치업] 로봇엔진 급반등 2차전지…신한 40% vs 미래 27%",
+          "title": "2차전지 ETF, 수익률 최상위권... 하반기엔 '금융 테마 ETF' [투자의 맥]",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OOTVOYkdmQV80dkN5dGlKZGNhdy1Ec0IyMnVQakJkYS1sY3NNcExiYmhCNXRfYndvV3dzeFc4Y3gxY0tldldQSE5SN19VSVdLYjhPNzJvaTBBcWY5X1BjWVZmamxQWjhMdGRQY2xpdXk?oc=5",
+          "publisher": "시장경제신문",
+          "date": "Mon, 21 Jul 2025",
+          "summary": "2차전지 ETF, 수익률 최상위권... 하반기엔 '금융 테마 ETF' [투자의 맥]",
           "is_report": false
         },
         {
-          "title": "테마와 시스템을 함께 이해하는 토토 힐튼 사이트",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWRBMVdZU3VXTERVRHFWcXJYNGxENmNXVzFOSWhZNS1SYmpnc25UZ0k5RzI0TDRlYzR1MGZLWmQ1dG5DMHRxTHF3WHZuLWRYaVdQdU9TZlFCZEVHWGFlQ0NoWlIxRkJuN0puRFIwSFp2bGJhNXhpb1VicF8wZGZFeWg4VEU?oc=5",
-          "publisher": "Calgary Roughnecks",
-          "date": "Fri, 11 Sep 2026",
-          "summary": "테마와 시스템을 함께 이해하는 토토 힐튼 사이트",
+          "title": "[ETF 시황] 코스닥·반도체 ETF 강세…2차전지·건설 테마는 약세",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwcC1rSXR1LWRCbmtJUUxlYXFKaHRicTFVSnZmRU54SDRXY1p3OTlpdXBzY213Wk5iZTNUdGdoU1g4NVZ1SHdJbHVFamtNWmxOdzFzYi1kT0VCcjIz?oc=5",
+          "publisher": "뉴스핌",
+          "date": "Tue, 29 Sep 2026",
+          "summary": "[ETF 시황] 코스닥·반도체 ETF 강세…2차전지·건설 테마는 약세",
           "is_report": false
         },
         {
-          "title": "'잊혀진 테마' 2차전지의 귀환…ESS 타고 투자심리 회복",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAycjdGcnNmR21DWjVBT1hyNTZvQURnS2wwaDFvZHFoekVzRFdNZGRzYV9SM2k1MkRoWEk2U0w3bXhvVDlJYjZ1X0FzMzdIYW5QZmc1VFZCbWc5Y1dDOXFJbVNOa0lZd3hp?oc=5",
-          "publisher": "www.ebn.co.kr",
-          "date": "Mon, 07 Sep 2026",
-          "summary": "'잊혀진 테마' 2차전지의 귀환…ESS 타고 투자심리 회복",
+          "title": "TIGER 2차전지테마 ETF 설명",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1xQ1JKbHRaSGxRRVp0VTVLenNEWGxZSnJVemRQOTF4Mll3cFJiRHJJM1otdEdvQ1AzVDkzUmJ5eXVmbTBIT2c?oc=5",
+          "publisher": "브런치",
+          "date": "Sat, 02 May 2020",
+          "summary": "TIGER 2차전지테마 ETF 설명",
           "is_report": false
         }
       ]
@@ -5234,27 +5120,27 @@ window.BRIEFING_DATA = {
         "name": "KODEX 미국S&P500",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 22120,
-        "change_val": 90,
-        "change_rate": 0.41,
-        "display_price": "22,120원",
-        "display_change": "▲ 90 (+0.41%)",
-        "status": "up",
+        "current_price": 21445,
+        "change_val": -675,
+        "change_rate": -3.05,
+        "display_price": "21,445원",
+        "display_change": "▼ 675 (-3.05%)",
+        "status": "down",
         "high_52w": 26440,
-        "low_52w": 0,
-        "volume": 18926760,
-        "display_volume": "18,926,760주",
-        "avg_volume_20d": 25747978,
+        "low_52w": 21410,
+        "volume": 27053790,
+        "display_volume": "27,053,790주",
+        "avg_volume_20d": 25258156,
         "volume_surge": {
-          "ratio": 73.5,
+          "ratio": 107.1,
           "status": "normal",
-          "badge": "거래량 평이 (73.5%)",
+          "badge": "거래량 평이 (107.1%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+5.3억",
-          "institutional": "-44.5억",
-          "retail": "+40.2억",
+          "foreign": "-23.3억",
+          "institutional": "-125.9억",
+          "retail": "+147.1억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -5273,14 +5159,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 21889.0,
-          "nav_str": "21,889.0원",
-          "disparity_rate": 1.06,
-          "disparity_badge": "고평가 주의 (+1.06%)",
-          "disparity_status": "high",
-          "three_month_return": -9.8,
-          "three_month_str": "-9.80%",
-          "market_cap_str": "102,725억원",
+          "nav": 21537.0,
+          "nav_str": "21,537.0원",
+          "disparity_rate": -0.43,
+          "disparity_badge": "적정 수준 (-0.43%)",
+          "disparity_status": "good",
+          "three_month_return": -8.2,
+          "three_month_str": "-8.20%",
+          "market_cap_str": "99,891억원",
           "distribution_cycle": "분기분배",
           "last_dps": "65원",
           "dps_str": "지난 분배금: 65원 / 1주당 (분기분배)",
@@ -5311,33 +5197,17 @@ window.BRIEFING_DATA = {
         "sector": "미국 대형주·S&P500 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '삼성자산운용, ‘KODEX 미국S&P500’ 개인 순매수 3조원 돌파' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '삼성 'KODEX 미국S&P500', 연초 이후 개인순매수 3조 돌파' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 90 (+0.41%) 흐름을 기록했습니다. 수급은 외국인(+5.3억), 기관(-44.5억, 연기금(장기 스마트머니)), 개인(+40.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 20,
-        "one_line_summary": "삼성자산운용, ‘KODEX 미국S&P500’ 개인 순매수 3조원 돌파",
+        "fact": "최근 주요 소식으로 'KODEX 미국S&P500 ETF, 올 들어 개인순매수 3조 원 돌파' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '삼성운용, 'KODEX 미국S&P500' 연초 이후 개인 순매수 3조원 돌파' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 675 (-3.05%) 흐름을 기록했습니다. 수급은 외국인(-23.3억), 기관(-125.9억, 연기금(장기 스마트머니)), 개인(+147.1억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -35,
+        "one_line_summary": "KODEX 미국S&P500 ETF, 올 들어 개인순매수 3조 원 돌파",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
-        {
-          "title": "삼성자산운용, ‘KODEX 미국S&P500’ 개인 순매수 3조원 돌파",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uMjY0bFFaTlpHQ2xNa1VuZzljNEFScFpUYkZjakhfTW1yWmJuTjVSU1dsNklxbDRrM29Xcjh6azBMT0F1aDN5THlESUFkNDBPU0U0NWJ0Y04xWDcwUEF5c2RDdGowSHBOcm9rU1RtYlg2dw?oc=5",
-          "publisher": "인더스트리뉴스",
-          "date": "Thu, 19 Nov 2026",
-          "summary": "삼성자산운용, ‘KODEX 미국S&P500’ 개인 순매수 3조원 돌파",
-          "is_report": false
-        },
-        {
-          "title": "삼성 'KODEX 미국S&P500', 연초 이후 개인순매수 3조 돌파",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9la1JuNkZ5R1J5UzJ5bE5kYnRsMGFWWm8xeHRwM05YY3o2eXNwX1dhTE1naWQwMVVEUkxuUmhhZzhCaE5kTXVqNzMzTzRESGoyTFZlVTAxT1FRTXRQTW5IaFppQjVjckJLTjdjaw?oc=5",
-          "publisher": "뉴시안",
-          "date": "Thu, 19 Nov 2026",
-          "summary": "삼성 'KODEX 미국S&P500', 연초 이후 개인순매수 3조 돌파",
-          "is_report": false
-        },
         {
           "title": "KODEX 미국S&P500 ETF, 올 들어 개인순매수 3조 원 돌파",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTzNReWlIZkNHcWFxaTBHZWVYcHhkM2pKbmhQZ2NoZVN3NjMwZmNubjhWOTRnV2Z4RlNZSXVYaFhvdmhpODJkcExjV1lEUFJwX2VwTGxkVHNUaHczY2IyQ2c3Ull3akdYMlRETFZoaS1JVVBpOFJ5a2k2Mk5JYjltWHNNZ2dpR3dG?oc=5",
@@ -5355,11 +5225,27 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "\"美 증시 흔들려도 S&P500은 산다\"…TIGER·KODEX에 8.5조 몰린 개인 By EBN",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FU29ISVdrdzRMcndKY2VBRTZYa181dDRyUW00QmJQMXozbDliVVkzS1c3V19oY3h6YlptNUI4WGZIc1NqWHNtRlRRN1h6RVdPYTdGcUI5eER4WjFCTlRXRXBzMGkzc2FISFpoMW1QbEo?oc=5",
-          "publisher": "Investing.com 한국어",
+          "title": "삼성자산운용, ‘KODEX 미국S&P500’ 개인 순매수 3조원 돌파",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uMjY0bFFaTlpHQ2xNa1VuZzljNEFScFpUYkZjakhfTW1yWmJuTjVSU1dsNklxbDRrM29Xcjh6azBMT0F1aDN5THlESUFkNDBPU0U0NWJ0Y04xWDcwUEF5c2RDdGowSHBOcm9rU1RtYlg2dw?oc=5",
+          "publisher": "인더스트리뉴스",
           "date": "Thu, 19 Nov 2026",
-          "summary": "\"美 증시 흔들려도 S&P500은 산다\"…TIGER·KODEX에 8.5조 몰린 개인 By EBN",
+          "summary": "삼성자산운용, ‘KODEX 미국S&P500’ 개인 순매수 3조원 돌파",
+          "is_report": false
+        },
+        {
+          "title": "삼성 'KODEX 미국S&P500', 연초 이후 개인순매수 3조 돌파",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9la1JuNkZ5R1J5UzJ5bE5kYnRsMGFWWm8xeHRwM05YY3o2eXNwX1dhTE1naWQwMVVEUkxuUmhhZzhCaE5kTXVqNzMzTzRESGoyTFZlVTAxT1FRTXRQTW5IaFppQjVjckJLTjdjaw?oc=5",
+          "publisher": "뉴시안",
+          "date": "Thu, 19 Nov 2026",
+          "summary": "삼성 'KODEX 미국S&P500', 연초 이후 개인순매수 3조 돌파",
+          "is_report": false
+        },
+        {
+          "title": "삼성운용, KODEX 미국S&P500 ETF 연초 이후 개인순매수 3조 돌파",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NSkVCeGRzUEx3aVlNUWF3NW9zdE9vNFdJeHBBd1NNcHFTR1BFc0F0cXlCRF84aEJzMFN6RTh5S0E5eEY5MUNsTG1rUmdaVEZVTGhkWGhnV01IT2MwRDFJZml3?oc=5",
+          "publisher": "아시아경제",
+          "date": "Wed, 18 Nov 2026",
+          "summary": "삼성운용, KODEX 미국S&P500 ETF 연초 이후 개인순매수 3조 돌파",
           "is_report": false
         },
         {
@@ -5371,11 +5257,11 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "삼성 KODEX 미국S&P500 ETF, 연초 이후 개인순매수 3조 돌파",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UVHlybldBX2xrV0k2aVNoTWdzbU5jbk1PSHd0XzU1RkppVGozeWMtN0MxWjQ2Y0hXU2VLX0Y0c3o3MEFlM1NobU5qc2lyOWxPa0h2YkZhQnVyLWt0My0xMUtpN1JqZXJ6LUpJ?oc=5",
-          "publisher": "마일드경제",
+          "title": "\"美 증시 흔들려도 S&P500은 산다\"…TIGER·KODEX에 8.5조 몰린 개인 By EBN",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FU29ISVdrdzRMcndKY2VBRTZYa181dDRyUW00QmJQMXozbDliVVkzS1c3V19oY3h6YlptNUI4WGZIc1NqWHNtRlRRN1h6RVdPYTdGcUI5eER4WjFCTlRXRXBzMGkzc2FISFpoMW1QbEo?oc=5",
+          "publisher": "Investing.com 한국어",
           "date": "Thu, 19 Nov 2026",
-          "summary": "삼성 KODEX 미국S&P500 ETF, 연초 이후 개인순매수 3조 돌파",
+          "summary": "\"美 증시 흔들려도 S&P500은 산다\"…TIGER·KODEX에 8.5조 몰린 개인 By EBN",
           "is_report": false
         }
       ]
@@ -5393,27 +5279,27 @@ window.BRIEFING_DATA = {
         "name": "KODEX 미국나스닥100",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 24270,
-        "change_val": 375,
-        "change_rate": 1.57,
-        "display_price": "24,270원",
-        "display_change": "▲ 375 (+1.57%)",
-        "status": "up",
+        "current_price": 23180,
+        "change_val": -1090,
+        "change_rate": -4.49,
+        "display_price": "23,180원",
+        "display_change": "▼ 1,090 (-4.49%)",
+        "status": "down",
         "high_52w": 31275,
-        "low_52w": 0,
-        "volume": 16906508,
-        "display_volume": "16,906,508주",
-        "avg_volume_20d": 23641591,
+        "low_52w": 23020,
+        "volume": 17958010,
+        "display_volume": "17,958,010주",
+        "avg_volume_20d": 23013262,
         "volume_surge": {
-          "ratio": 71.5,
+          "ratio": 78.0,
           "status": "normal",
-          "badge": "거래량 평이 (71.5%)",
+          "badge": "거래량 평이 (78.0%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+37.6억",
-          "institutional": "-85.4억",
-          "retail": "+44.0억",
+          "foreign": "-75.8억",
+          "institutional": "-159.7억",
+          "retail": "+233.6억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -5432,14 +5318,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 23830.0,
-          "nav_str": "23,830.0원",
-          "disparity_rate": 1.85,
-          "disparity_badge": "고평가 주의 (+1.85%)",
-          "disparity_status": "high",
-          "three_month_return": -13.79,
-          "three_month_str": "-13.79%",
-          "market_cap_str": "93,561억원",
+          "nav": 23401.0,
+          "nav_str": "23,401.0원",
+          "disparity_rate": -0.94,
+          "disparity_badge": "저평가 기회 (-0.94%)",
+          "disparity_status": "low",
+          "three_month_return": -10.44,
+          "three_month_str": "-10.44%",
+          "market_cap_str": "89,289억원",
           "distribution_cycle": "분기분배",
           "last_dps": "40원",
           "dps_str": "지난 분배금: 40원 / 1주당 (분기분배)",
@@ -5470,17 +5356,25 @@ window.BRIEFING_DATA = {
         "sector": "미국 빅테크·나스닥 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '\"美기술주·단기채권 절반씩\"…'KODEX 미국나스닥100미국채혼합50' 상장' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 ''KODEX 미국나스닥100미국채혼합50' ETF, 10일 상장 - 머니투데이' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 375 (+1.57%) 흐름을 기록했습니다. 수급은 외국인(+37.6억), 기관(-85.4억, 연기금(장기 스마트머니)), 개인(+44.0억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "KODEX 미국나스닥100의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 25,
-        "one_line_summary": "\"美기술주·단기채권 절반씩\"…'KODEX 미국나스닥100미국채혼합50' 상장",
+        "fact": "최근 주요 소식으로 '미국 기술주·환율 부담에 KODEX 미국나스닥100 4.49% 하락' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '\"美기술주·단기채권 절반씩\"…'KODEX 미국나스닥100미국채혼합50' 상장' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 1,090 (-4.49%) 흐름을 기록했습니다. 수급은 외국인(-75.8억), 기관(-159.7억, 연기금(장기 스마트머니)), 개인(+233.6억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -65,
+        "one_line_summary": "미국 기술주·환율 부담에 KODEX 미국나스닥100 4.49% 하락",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
+        {
+          "title": "미국 기술주·환율 부담에 KODEX 미국나스닥100 4.49% 하락",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yUnNORkYxMzEzTlItMldEekd1LTJZeDBoanZrNjRManh5SWhMdXdwSmctbzVqbWRZSGF0Q0xhQ2hFTHhrbGRza0x4aERRNWpRTV80aU5US001dVktNTBqWWtaTnZZVlRLOFRyVGJPVE15UdIBckFVX3lxTE5yUnNORkYxMzEzTlItMldEekd1LTJZeDBoanZrNjRManh5SWhMdXdwSmctbzVqbWRZSGF0Q0xhQ2hFTHhrbGRza0x4aERRNWpRTV80aU5US001dVktNTBqWWtaTnZZVlRLOFRyVGJPVE15UQ?oc=5",
+          "publisher": "잡포스트",
+          "date": "Fri, 20 Nov 2026",
+          "summary": "미국 기술주·환율 부담에 KODEX 미국나스닥100 4.49% 하락",
+          "is_report": false
+        },
         {
           "title": "\"美기술주·단기채권 절반씩\"…'KODEX 미국나스닥100미국채혼합50' 상장",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kZkhwbzNzQWs5amx3WFY3VHA3WUlLMTM4WWhhbUJMMkJDLXZrdFdWbVJkcnlCcHBaTURfRUE1ZXd3VndmOHFGUjhfYW9DX3VXbUNWQko4V3NxZw?oc=5",
@@ -5498,43 +5392,35 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "삼성운용, 'KODEX 미국나스닥100미국채혼합50' 상장",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lTHRKX3ltVWJ4aTk4a0Mxd2dCYWozTGVBbExnNlZEbmc5YmltTF9vR043NkRsMk1DeFhpeExkYmdlZ2l3TmtjWWtCYUh5YXV1Y2E4QXdaUThPbUpQcVpSMg?oc=5",
-          "publisher": "메트로신문",
-          "date": "Sun, 08 Nov 2026",
-          "summary": "삼성운용, 'KODEX 미국나스닥100미국채혼합50' 상장",
-          "is_report": false
-        },
-        {
           "title": "'KODEX 미국나스닥100미국채혼합50' ETF 신규 상장",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mT3d4M25ySWo4eWRvMEVwa08tZk0xZEt0aElsT3o0TEcyN0h6a1V5cVJYMjFSVVZwQnlBRi02T1BnMkxHcmZIRlNEY2UzdzBDaXNEVkxrenNHcDFlbWloaw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5dlVyT0hJbk5xSnI2WmZTbG9nbGlvQ1VLektubzlRMUJ1R1N6dnJmaWZWcWVxbi1KSkdXdTlYRnlaQ2o1Q2IzS2ZXaDdxeURUOV9ETlMtaXpuYnFhN3plM213?oc=5",
           "publisher": "아시아경제",
           "date": "Mon, 09 Nov 2026",
           "summary": "'KODEX 미국나스닥100미국채혼합50' ETF 신규 상장",
           "is_report": false
         },
         {
-          "title": "삼성자산운용, KODEX 미국나스닥100 순자산 10조 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9MWlNxVXgtVEJHU3RWRHgzTkRJQlRTZ3RYVXVGU0lWeXJKNkVZWkdOWTJoNEJCWkI3MUNRY0VVaS1JV1pfWVZ2Y3JfcDJ1SGdINHJ2SldWMDFXN1gz?oc=5",
-          "publisher": "뉴스핌",
-          "date": "Thu, 15 Oct 2026",
-          "summary": "삼성자산운용, KODEX 미국나스닥100 순자산 10조 돌파",
+          "title": "삼성운용, KODEX 미국S&P500·나스닥100 ETF 분배금 지급",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40NXlCQURXUkVlRW5FbXd2RG1idnhRclJFVGtSeXlENHBKSE1adENYMldFUkZ0RVdZS1ZCSVF0dmZDa1NKbUgtNU5kd3VEc0tjN2pXRkVzRDBVME9GMnNWNTdfcVc?oc=5",
+          "publisher": "매일일보",
+          "date": "Wed, 04 Nov 2026",
+          "summary": "삼성운용, KODEX 미국S&P500·나스닥100 ETF 분배금 지급",
           "is_report": false
         },
         {
-          "title": "KODEX 미국나스닥100, 순자산 10조 돌파",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96NXE2b0dIaWlQeTBZVkZrTy1mS25oaHBQWG95ZlhJdlJoUXpwUjlJeWFscmdwRmVTLUN1XzNmelNBb0tqSWV2a3kwY2d3WC1KMmN4RDZOal9Ld0htajdoaUstc2hJMXQ3V19jNE1NVHk?oc=5",
-          "publisher": "코리아리포트",
-          "date": "Thu, 15 Oct 2026",
-          "summary": "KODEX 미국나스닥100, 순자산 10조 돌파",
+          "title": "삼성운용, KODEX미국나스닥100미국채혼합50 ETF 출시",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KR0ltcnpOd21yT2NXMWdzSHg5aThjNk1tTlZlei1CUkZHbmJTSkc0MkRxOGtETVVrdE1XTER0OThHZzhqWnlqMDl4R2JkN2hIdWREbkJOTV9FREo4VmNV?oc=5",
+          "publisher": "스마트투데이",
+          "date": "Mon, 09 Nov 2026",
+          "summary": "삼성운용, KODEX미국나스닥100미국채혼합50 ETF 출시",
           "is_report": false
         },
         {
-          "title": "삼성자산운용, KODEX 미국S&P500 분배금 117원-미국나스닥100 71원 지급",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zRFF6Z1pmMkhDaXVQN1VROU9XRWtlYUsxVDc3bGg5aU4zSWV3Y1VNM1pLS3p2aWkxTXQ0aHViMndOeEhqZWtKQnRtMS14QzlqOGItU3JOR1JCbTZHcENzV01Ka2U?oc=5",
-          "publisher": "인더뉴스",
-          "date": "Wed, 28 Oct 2026",
-          "summary": "삼성자산운용, KODEX 미국S&P500 분배금 117원-미국나스닥100 71원 지급",
+          "title": "삼성운용, ‘KODEX 미국나스닥100미국채혼합50’ 10일 상장",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBJNzFoa0lfVUVGYUJtbk83QUxuQ0ZNcFZtT2tTTEhVUTdyNUxYa0QtMURFck9iUUlXcV9wMUpab25sbzVPdTFHUThhT2xHcjhHeHfSAVNBVV95cUxQdzNNME1mNmx0NWZTdGVPUWo3WnkwTHROZUxka2lZMHdkSWFzWmNwZDV6RTBVTlNQSjhpTnZKeDRUUUtyM3V4XzJMclMzVWdhclk4OA?oc=5",
+          "publisher": "서울경제",
+          "date": "Mon, 09 Nov 2026",
+          "summary": "삼성운용, ‘KODEX 미국나스닥100미국채혼합50’ 10일 상장",
           "is_report": false
         }
       ]
@@ -5552,27 +5438,27 @@ window.BRIEFING_DATA = {
         "name": "SK리츠",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 4960,
-        "change_val": 110,
-        "change_rate": 2.27,
-        "display_price": "4,960원",
-        "display_change": "▲ 110 (+2.27%)",
-        "status": "up",
+        "current_price": 4955,
+        "change_val": -5,
+        "change_rate": -0.1,
+        "display_price": "4,955원",
+        "display_change": "▼ 5 (-0.10%)",
+        "status": "down",
         "high_52w": 7200,
-        "low_52w": 0,
-        "volume": 93178,
-        "display_volume": "93,178주",
-        "avg_volume_20d": 207846,
+        "low_52w": 4490,
+        "volume": 151687,
+        "display_volume": "151,687주",
+        "avg_volume_20d": 203224,
         "volume_surge": {
-          "ratio": 44.8,
-          "status": "low",
-          "badge": "거래량 한산 (44.8%)",
-          "desc": "평균 대비 거래량 감소"
+          "ratio": 74.6,
+          "status": "normal",
+          "badge": "거래량 평이 (74.6%)",
+          "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+5,268만",
-          "institutional": "+877만",
-          "retail": "-6,399만",
+          "foreign": "+1.8억",
+          "institutional": "-6,480만",
+          "retail": "-1.2억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -5586,7 +5472,7 @@ window.BRIEFING_DATA = {
           "opinion": "투자의견 매수 (4.00)",
           "target_price": 7400,
           "display_target_price": "7,400원",
-          "upside_potential": 49.2,
+          "upside_potential": 49.3,
           "analyst_count": 0
         },
         "earnings_history": [],
@@ -5594,7 +5480,7 @@ window.BRIEFING_DATA = {
         "dividend_info": {
           "has_dividend": true,
           "dps_str": "268원 / 1주당",
-          "yield_rate": "5.40%",
+          "yield_rate": "5.41%",
           "desc": "2026.06. 결산 배당"
         },
         "upcoming_events": [
@@ -5616,47 +5502,63 @@ window.BRIEFING_DATA = {
         "sector": "부동산·상장리츠"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '[모닝 리포트] SK리츠, 리츠 신용위험 부각 속 '조달 경쟁력' 주목' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[리포트 브리핑]SK리츠, '수처리 시설의 기여로 금리 압력 상쇄' 목표가 7,500원 - 삼성증권' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 110 (+2.27%) 흐름을 기록했습니다. 수급은 외국인(+5,268만), 기관(+877만, 연기금(장기 스마트머니)), 개인(-6,399만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 7,400원) 흐름입니다.",
-        "upside": "SK리츠의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
-        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
-        "sentiment": "bull",
-        "sentiment_label": "호재 우세",
-        "sentiment_score": 35,
-        "one_line_summary": "[모닝 리포트] SK리츠, 리츠 신용위험 부각 속 '조달 경쟁력' 주목",
+        "fact": "최근 주요 소식으로 '[리츠 실적 모니터] [SK리츠] 서린빌딩 임대료 인상…분기 배당 72원 추진' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[리츠 실적 모니터] [SK리츠] 서린빌딩 임대료 인상…분기 배당 72원 추진 : 네이버 블로그' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▼ 5 (-0.10%) 흐름을 기록했습니다. 수급은 외국인(+1.8억), 기관(-6,480만, 연기금(장기 스마트머니)), 개인(-1.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (4.00) (목표주가: 7,400원) 흐름입니다.",
+        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
+        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
+        "sentiment": "neutral",
+        "sentiment_label": "중립·관망",
+        "sentiment_score": 0,
+        "one_line_summary": "[리츠 실적 모니터] [SK리츠] 서린빌딩 임대료 인상…분기 배당 72원 추진",
         "ai_engine": "Quantitative NLP Fallback"
       },
       "news": [
         {
-          "title": "[모닝 리포트] SK리츠, 리츠 신용위험 부각 속 '조달 경쟁력' 주목",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aVFdzR0VNbE13ekpyMlhVZWg0MmtTYlRBVDR5QV8yemNzM2gwTDNManNWM09IVXg3dU9rMGI4OG5sRjBvVW9uMUVyTXhOYjIta2xJekdCVDBhWHlv?oc=5",
-          "publisher": "뉴스핌",
-          "date": "Fri, 28 Aug 2026",
-          "summary": "[모닝 리포트] SK리츠, 리츠 신용위험 부각 속 '조달 경쟁력' 주목",
+          "title": "[리츠 실적 모니터] [SK리츠] 서린빌딩 임대료 인상…분기 배당 72원 추진",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBaGVtNFpobDZLOWFDWVpRQTVoREhVT2xQMi0yWURkSWV6dnE0dTV6Y3UwYXZqSXRGVG5sN2hGcnpJdzNOUEYtR3FyWWxDak0?oc=5",
+          "publisher": "딜사이트",
+          "date": "Thu, 12 Nov 2026",
+          "summary": "[리츠 실적 모니터] [SK리츠] 서린빌딩 임대료 인상…분기 배당 72원 추진",
           "is_report": true
         },
         {
-          "title": "[리포트 브리핑]SK리츠, '수처리 시설의 기여로 금리 압력 상쇄' 목표가 7,500원 - 삼성증권",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6ZndGNHFKOWpwT2g5amxYSXlEbkN0eGI4SDVQUFNYX1c3UzdsVzUwQURWZ0FuRC15cU1FTENXdGE2NXUyUi13NnJUZ2pheWJERHNCSWQ0OUVRMGo3?oc=5",
-          "publisher": "뉴스핌",
-          "date": "Wed, 14 Oct 2026",
-          "summary": "[리포트 브리핑]SK리츠, '수처리 시설의 기여로 금리 압력 상쇄' 목표가 7,500원 - 삼성증권",
+          "title": "[리츠 실적 모니터] [SK리츠] 서린빌딩 임대료 인상…분기 배당 72원 추진 : 네이버 블로그",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVWJ3dU93VFVCX0drRWpuRzZaQ1dxTnZxZzN1bkhFOGNrNnJvQ1lDcExhSTUxS0NncFQzUzBDLWpRcmI0RUFkdE9KVTlOaHNoTGxFckdmSVdiUUpTdFo0VlE5N3lXMmp5Wm1jcUNnV1ZSVFBaSDA2YkVBNk1lc3RST1hMaF9UUld1N0xNZVhkRQ?oc=5",
+          "publisher": "Naver Blog",
+          "date": "Sat, 14 Nov 2026",
+          "summary": "[리츠 실적 모니터] [SK리츠] 서린빌딩 임대료 인상…분기 배당 72원 추진 : 네이버 블로그",
           "is_report": true
         },
         {
-          "title": "SK리츠, 산업시설 매입·유증 영향 목표주가 하향",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNZVZ0dmtGN240ZmIwSTFCNVRDUWZtdjBXV3lEM1kteDVnczFKeUpsbkZHUE1PYWZvczlGR1hrTlJvYmIwRUNaakUzbDVMbDg4Z1RQd3lvemFhUjQ?oc=5",
-          "publisher": "에너지경제신문",
-          "date": "Tue, 29 Aug 2023",
-          "summary": "SK리츠, 산업시설 매입·유증 영향 목표주가 하향",
+          "title": "[리츠 실적 모니터] [SK리츠] 내년 1.2조 차환 대기…금리 방어 시험대",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YQkxCZ0VnQl96Yk1seGhMbmlneUhtWXJ1ZHFBZHVnMlVyN2thS0hpTUFJTm1LYjBONFJnQ293Q2lRa2w4X3dqY0dfa2o1OE0?oc=5",
+          "publisher": "딜사이트",
+          "date": "Thu, 12 Nov 2026",
+          "summary": "[리츠 실적 모니터] [SK리츠] 내년 1.2조 차환 대기…금리 방어 시험대",
           "is_report": true
         },
         {
-          "title": "롯데·SK리츠도 시장성 차입 높다…“자산가치 하락 시 유동성 대응 한계”",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhMUxFeDFqbjdGb0NxdHM1dHN1c1hHNzR3WlhIbS0yWE9xa053dzhPWE9GVjRMQVBiZkVXQkctVW5reWlyRi11eUNubXdMbEFVdmRNNWVJR0VJNElYUWVQeFEwdGVMTzlqY0N6bHVGakRZdw?oc=5",
-          "publisher": "마켓인",
-          "date": "Wed, 29 Apr 2026",
-          "summary": "롯데·SK리츠도 시장성 차입 높다…“자산가치 하락 시 유동성 대응 한계”",
+          "title": "[리츠 실적 모니터] [SK리츠] 내년 1.2조 차환 대기…금리 방어 시험대 : 네이버 블로그",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeGt2aUhEdDdIc2NhaU5DdHRQZFhya2lVTFQ5c0ZGUlItTWVmMFI0V3VMV2hIYXdvS0lTMnRxSkNMdjdYWkNjZDZoVGwtcWZxT0JuQmJ0cHU1U0NtZUY1ZHg4NVVLRlg1NzFHdDJ1UjhMaWVzYkJzVjFjdTN0SlB1U0tJVnkyUTJwRWNhdW1lSQ?oc=5",
+          "publisher": "Naver Blog",
+          "date": "Sat, 14 Nov 2026",
+          "summary": "[리츠 실적 모니터] [SK리츠] 내년 1.2조 차환 대기…금리 방어 시험대 : 네이버 블로그",
+          "is_report": true
+        },
+        {
+          "title": "美 금리 인하도 안 통해···리츠, ‘배당株’ 매력 감퇴",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zTUtWLXhVVlNWWTE0MjVhcGxING1XNTVhRE5pTFRUQy1DaDIyMHgzTUE3dVRmZlhDVEFPV2xhUDA5bkl5ZkJCQ3NocHZsMUo4VThuUVUyRHlMMVZIZnlzNXBMMGtQZm9oNWRXTGtkVmtRZ9IBdkFVX3lxTE9QOGRuQ252TzNrWU9IOEJPUjhqMk1zSWd1NFBoNEdmOTJrXzV6dTMxNHJwc09pal9XaE5rT090MGpQS1ZTZXpvWlhRdjhVeG9reFpMNFRQQkh6ZEZmYnhnaTBaN1cwMFFtNVU0WmRlSDZZdE8wVlE?oc=5",
+          "publisher": "시사저널e",
+          "date": "Thu, 18 Dec 2025",
+          "summary": "美 금리 인하도 안 통해···리츠, ‘배당株’ 매력 감퇴",
+          "is_report": false
+        },
+        {
+          "title": "국민연금공단 등, SK리츠 지분 5.00%에서 4.00%로 축소",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkUGZ2VmpaZHVRdzVyZW1tSTZncG1QTEp2VHFFZ2xJTEd6UkJUNHRTbEIwb3RyUXQ0RmZ3U3cwLUZHd0VqaFFlZV9GSHhhVElqbHB5QTRKbEJjREJyMy1JVHBXTy1mOVpiUFB2dmFIeVd1Y2c?oc=5",
+          "publisher": "데이터투자",
+          "date": "Fri, 02 Oct 2026",
+          "summary": "국민연금공단 등, SK리츠 지분 5.00%에서 4.00%로 축소",
           "is_report": false
         },
         {
@@ -5665,22 +5567,6 @@ window.BRIEFING_DATA = {
           "publisher": "땅집고",
           "date": "Wed, 10 Dec 2025",
           "summary": "'5조원' 굴리며 국내 1위 리츠 등극…SK리츠, 주가 얼마나 오를까",
-          "is_report": false
-        },
-        {
-          "title": "“SK리츠, 자금 조달 역량 부각…내년 예상 배당수익률 5%”",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uWldRbWN0MWhTdHFQVE1SVHNhT3FpSDVROVVCVi1SWUh6ZjBwT0V5U1M2UHhKSC02M3d5bFIyVm84aVowQndCa0s1bmhzWExhUy1wMw?oc=5",
-          "publisher": "이투데이",
-          "date": "Fri, 28 Aug 2026",
-          "summary": "“SK리츠, 자금 조달 역량 부각…내년 예상 배당수익률 5%”",
-          "is_report": false
-        },
-        {
-          "title": "SK하이닉스, 수처리센터 1.1조원에 매각…작년 투자 66% 축소",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CRGhPcVpUbHREMmM0N0NJTUwta0xxbUQ0ZnBfenVyZ0lyTHFEaHp3VklfOXYzMV94QzRZaVFhYkthTjhLamtCV0pGY3VrcWhiaHg2QTVjSVVFd2_SAWBBVV95cUxOeXJycUlaa2pMS2R1ZV9CaWhMR2tVQjFCelRiaWpzMmhqYVpCUE0tRklZdUE3VTg1V2NKYmJJeVFoYnFRcDVtdEU4TDJVc0JTVnU5WE93VVQyeGJ4TWdDWDc?oc=5",
-          "publisher": "연합뉴스",
-          "date": "Tue, 19 Mar 2024",
-          "summary": "SK하이닉스, 수처리센터 1.1조원에 매각…작년 투자 66% 축소",
           "is_report": false
         }
       ]
@@ -5698,27 +5584,27 @@ window.BRIEFING_DATA = {
         "name": "ACE KRX금현물",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 22205,
-        "change_val": -335,
-        "change_rate": -1.49,
-        "display_price": "22,205원",
-        "display_change": "▼ 335 (-1.49%)",
+        "current_price": 21250,
+        "change_val": -955,
+        "change_rate": -4.3,
+        "display_price": "21,250원",
+        "display_change": "▼ 955 (-4.30%)",
         "status": "down",
         "high_52w": 37890,
-        "low_52w": 0,
-        "volume": 1344335,
-        "display_volume": "1,344,335주",
-        "avg_volume_20d": 688175,
+        "low_52w": 20980,
+        "volume": 2129224,
+        "display_volume": "2,129,224주",
+        "avg_volume_20d": 757941,
         "volume_surge": {
-          "ratio": 195.3,
-          "status": "normal",
-          "badge": "거래량 평이 (195.3%)",
-          "desc": "평균 수준 유지"
+          "ratio": 280.9,
+          "status": "surge",
+          "badge": "💥 거래량 급증 (280.9%)",
+          "desc": "20일 평균 대비 2.8배 유입"
         },
         "investor_flow": {
-          "foreign": "+4.3억",
-          "institutional": "-4.1억",
-          "retail": "-864만",
+          "foreign": "-5.9억",
+          "institutional": "+17.5억",
+          "retail": "+20.2억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -5737,14 +5623,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 22281.0,
-          "nav_str": "22,281.0원",
-          "disparity_rate": -0.34,
-          "disparity_badge": "적정 수준 (-0.34%)",
+          "nav": 21352.0,
+          "nav_str": "21,352.0원",
+          "disparity_rate": -0.48,
+          "disparity_badge": "적정 수준 (-0.48%)",
           "disparity_status": "good",
-          "three_month_return": -19.21,
-          "three_month_str": "-19.21%",
-          "market_cap_str": "33,285억원",
+          "three_month_return": -18.66,
+          "three_month_str": "-18.66%",
+          "market_cap_str": "31,854억원",
           "distribution_cycle": "결산",
           "last_dps": "분배금 없음",
           "dps_str": "지난 분배금: 분배금 없음 / 1주당 (결산)",
@@ -5776,12 +5662,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '한투운용‘ACE KRX금현물 ETF’ 연초 이후 개인 순매수 2천억원 돌파' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '한투운용, ACE KRX금현물 ETF 연초 이후 개인순매수 2천억 돌파' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 335 (-1.49%) 흐름을 기록했습니다. 수급은 외국인(+4.3억), 기관(-4.1억, 연기금(장기 스마트머니)), 개인(-864만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "reaction": "금일 주가는 ▼ 955 (-4.30%) [💥 거래량 급증 (280.9%)] 흐름을 기록했습니다. 수급은 외국인(-5.9억), 기관(+17.5억, 연기금(장기 스마트머니)), 개인(+20.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": 20,
+        "sentiment_score": -5,
         "one_line_summary": "한투운용‘ACE KRX금현물 ETF’ 연초 이후 개인 순매수 2천억원 돌파",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -5803,6 +5689,14 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
+          "title": "한투운용, ‘ACE KRX금현물 ETF’ 연초 이후 개인 순매수 2000억원 돌파",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xOXZkMUFyZGRvNG9ENUZOUEtIMDh6Z1ZxNzRzbjhGenJTeTRIOUdzM0lCME1vSldEeGNwbkVVSlROd0o3dGhfMG5PMVN0WkZWUnB3bW9HRGRwWjZGREI4eVUySFM?oc=5",
+          "publisher": "매일일보",
+          "date": "Tue, 25 Aug 2026",
+          "summary": "한투운용, ‘ACE KRX금현물 ETF’ 연초 이후 개인 순매수 2000억원 돌파",
+          "is_report": false
+        },
+        {
           "title": "ACE KRX금현물 ETF, 올들어 개인 자금 2000억 몰렸다",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsQUJYS3RyRnNWM3dGYU1DYzdTajFXMWJxVERMYktmNDU5cGt6N201RU16dDcteEtwTjZ2UGxrNkxQRXByVW12RnJicmstSDdhS2NJOFRsanA1VVZ6SktmMXlsMFczT1dMREVWMGtwMzlKVU0?oc=5",
           "publisher": "마켓인",
@@ -5811,11 +5705,11 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "한투운용, ‘ACE KRX금현물 ETF’ 연초 이후 개인 순매수 2000억원 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xOXZkMUFyZGRvNG9ENUZOUEtIMDh6Z1ZxNzRzbjhGenJTeTRIOUdzM0lCME1vSldEeGNwbkVVSlROd0o3dGhfMG5PMVN0WkZWUnB3bW9HRGRwWjZGREI4eVUySFM?oc=5",
-          "publisher": "매일일보",
+          "title": "ACE KRX금현물 ETF, 연초 이후 개인순매수 2000억 돌파",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51clFteDRrcGFUWUhTZXBaenlCX09hYk1jYmQtN1NOOUduMndqWnFOTWttRmlocHJnUWRLMV9ld3N2ZENIbS1WTVJMaWlXWHlhN092RlN1dDJvdm9JWTZCc9IBeEFVX3lxTE5USTB6MkFJMWNxN3VRSjRKSDUwRlQ3cG84UHhQMHR0YnhyZkpucEl6VjNvbkQyOVJMa1NHbXA3WlRQV2pWanU0VFZlVGdFcEdFOGVXMFJGWloyNENiY2dBSzRqdUJjZkhWRFZtZkpZTVU3RC05UkVVcw?oc=5",
+          "publisher": "뉴시스",
           "date": "Tue, 25 Aug 2026",
-          "summary": "한투운용, ‘ACE KRX금현물 ETF’ 연초 이후 개인 순매수 2000억원 돌파",
+          "summary": "ACE KRX금현물 ETF, 연초 이후 개인순매수 2000억 돌파",
           "is_report": false
         },
         {
@@ -5833,14 +5727,6 @@ window.BRIEFING_DATA = {
           "date": "Tue, 25 Aug 2026",
           "summary": "변동성 장세에 금으로 몰린 개인…ACE KRX금현물 ETF 순매수 2000억 돌파",
           "is_report": false
-        },
-        {
-          "title": "ACE KRX금현물 ETF, 연초 이후 개인순매수 2000억 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51clFteDRrcGFUWUhTZXBaenlCX09hYk1jYmQtN1NOOUduMndqWnFOTWttRmlocHJnUWRLMV9ld3N2ZENIbS1WTVJMaWlXWHlhN092RlN1dDJvdm9JWTZCc9IBeEFVX3lxTE5USTB6MkFJMWNxN3VRSjRKSDUwRlQ3cG84UHhQMHR0YnhyZkpucEl6VjNvbkQyOVJMa1NHbXA3WlRQV2pWanU0VFZlVGdFcEdFOGVXMFJGWloyNENiY2dBSzRqdUJjZkhWRFZtZkpZTVU3RC05UkVVcw?oc=5",
-          "publisher": "뉴시스",
-          "date": "Tue, 25 Aug 2026",
-          "summary": "ACE KRX금현물 ETF, 연초 이후 개인순매수 2000억 돌파",
-          "is_report": false
         }
       ]
     },
@@ -5857,27 +5743,27 @@ window.BRIEFING_DATA = {
         "name": "ACE 글로벌자율주행액티브",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 9545,
-        "change_val": -40,
-        "change_rate": -0.42,
-        "display_price": "9,545원",
-        "display_change": "▼ 40 (-0.42%)",
+        "current_price": 9185,
+        "change_val": -360,
+        "change_rate": -3.77,
+        "display_price": "9,185원",
+        "display_change": "▼ 360 (-3.77%)",
         "status": "down",
         "high_52w": 15375,
-        "low_52w": 0,
-        "volume": 123418,
-        "display_volume": "123,418주",
-        "avg_volume_20d": 74957,
+        "low_52w": 9175,
+        "volume": 427803,
+        "display_volume": "427,803주",
+        "avg_volume_20d": 95441,
         "volume_surge": {
-          "ratio": 164.7,
-          "status": "normal",
-          "badge": "거래량 평이 (164.7%)",
-          "desc": "평균 수준 유지"
+          "ratio": 448.2,
+          "status": "surge_extreme",
+          "badge": "🚨 역대급 거래량 폭증 (448.2%)",
+          "desc": "20일 평균 대비 4.5배 대량 거래 터짐"
         },
         "investor_flow": {
           "foreign": "0",
-          "institutional": "-11.7억",
-          "retail": "+6.8억",
+          "institutional": "+31.4억",
+          "retail": "-24.7억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -5896,14 +5782,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 9473.0,
-          "nav_str": "9,473.0원",
-          "disparity_rate": 0.76,
-          "disparity_badge": "고평가 주의 (+0.76%)",
-          "disparity_status": "high",
-          "three_month_return": -22.2,
-          "three_month_str": "-22.20%",
-          "market_cap_str": "205억원",
+          "nav": 9231.0,
+          "nav_str": "9,231.0원",
+          "disparity_rate": -0.5,
+          "disparity_badge": "적정 수준 (-0.50%)",
+          "disparity_status": "good",
+          "three_month_return": -20.19,
+          "three_month_str": "-20.19%",
+          "market_cap_str": "207억원",
           "distribution_cycle": "분기분배",
           "last_dps": "20원",
           "dps_str": "지난 분배금: 20원 / 1주당 (분기분배)",
@@ -5935,12 +5821,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 ''피지컬 AI', 자율주행서 로봇·밸류체인으로…ETF경쟁 2라운드 돌입' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '[표] 한국투신운용 ACE 월배당 ETF 12월 분배금 내역' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 40 (-0.42%) 흐름을 기록했습니다. 수급은 외국인(0), 기관(-11.7억, 연기금(장기 스마트머니)), 개인(+6.8억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "reaction": "금일 주가는 ▼ 360 (-3.77%) [🚨 역대급 거래량 폭증 (448.2%)] 흐름을 기록했습니다. 수급은 외국인(0), 기관(+31.4억, 연기금(장기 스마트머니)), 개인(-24.7억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": -15,
+        "sentiment_score": -10,
         "one_line_summary": "'피지컬 AI', 자율주행서 로봇·밸류체인으로…ETF경쟁 2라운드 돌입",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -5978,19 +5864,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "팔란티어·아이온큐 새로 편입…한투운용, ‘ACE 밸류체인액티브’ 리밸런싱",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ua2RNcHNmZDcycWZfT3FUci1QQTBPRHBEVWlMcDZnVWlWT1gxTDBnVkRzQUJKUFlFWHFSWF8ycXpaRm5oOFlHYVB3MkZlckM3VGM2S2huVWRnckI4VEptdHc0aEU0UnV2eDMzR0pHTTNTdlk?oc=5",
-          "publisher": "마켓인",
-          "date": "Fri, 10 Jan 2025",
-          "summary": "팔란티어·아이온큐 새로 편입…한투운용, ‘ACE 밸류체인액티브’ 리밸런싱",
-          "is_report": false
-        },
-        {
           "title": "[ETP 스타] 셀→바이 '자율주행차 전기차 전문' 김원재 한투운용 책임",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYak9JYlFKanpla0lTNE05WG1NRkpDdnNDaEdjVXQ4TFJNeWRqb3dBblh5dUJPVTNJRTFFR255UUJzWjJ1NlNFc0NPZ0thaEtrN0VLMWFSRTZpYjVUeDN2Z0p3eUFHWkhwSGhlRFBsSUM?oc=5",
           "publisher": "연합인포맥스",
           "date": "Thu, 31 Jul 2025",
           "summary": "[ETP 스타] 셀→바이 '자율주행차 전기차 전문' 김원재 한투운용 책임",
+          "is_report": false
+        },
+        {
+          "title": "한투운용, ACE 밸류체인액티브 ETF 시리즈 5종 리밸런싱",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CdnlTcEhONmFCS3FEZHVsaG42QkU1VUdlZk9UeHNJTllDTHczbnNYbjVqd081cFlDdjNDSGV6bk5taFRDYV9ETFZyeGNieElhNXdWYnNhd1BDV2Jo?oc=5",
+          "publisher": "뉴스핌",
+          "date": "Fri, 10 Jan 2025",
+          "summary": "한투운용, ACE 밸류체인액티브 ETF 시리즈 5종 리밸런싱",
           "is_report": false
         },
         {
@@ -6016,27 +5902,27 @@ window.BRIEFING_DATA = {
         "name": "TIGER 종합채권(AA-이상)액티브",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 54575,
-        "change_val": 90,
-        "change_rate": 0.17,
-        "display_price": "54,575원",
-        "display_change": "▲ 90 (+0.17%)",
+        "current_price": 54745,
+        "change_val": 170,
+        "change_rate": 0.31,
+        "display_price": "54,745원",
+        "display_change": "▲ 170 (+0.31%)",
         "status": "up",
         "high_52w": 57400,
-        "low_52w": 0,
-        "volume": 968,
-        "display_volume": "968주",
-        "avg_volume_20d": 4497,
+        "low_52w": 49635,
+        "volume": 3854,
+        "display_volume": "3,854주",
+        "avg_volume_20d": 4577,
         "volume_surge": {
-          "ratio": 21.5,
-          "status": "low",
-          "badge": "거래량 한산 (21.5%)",
-          "desc": "평균 대비 거래량 감소"
+          "ratio": 84.2,
+          "status": "normal",
+          "badge": "거래량 평이 (84.2%)",
+          "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+835만",
-          "institutional": "-1,348만",
-          "retail": "+513만",
+          "foreign": "-673만",
+          "institutional": "+7,341만",
+          "retail": "-6,668만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -6055,14 +5941,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 54577.0,
-          "nav_str": "54,577.0원",
-          "disparity_rate": -0.0,
-          "disparity_badge": "적정 수준 (-0.00%)",
+          "nav": 54730.0,
+          "nav_str": "54,730.0원",
+          "disparity_rate": 0.03,
+          "disparity_badge": "적정 수준 (+0.03%)",
           "disparity_status": "good",
-          "three_month_return": 3.92,
-          "three_month_str": "+3.92%",
-          "market_cap_str": "10,568억원",
+          "three_month_return": 3.76,
+          "three_month_str": "+3.76%",
+          "market_cap_str": "10,601억원",
           "distribution_cycle": "월분배",
           "last_dps": "145원",
           "dps_str": "지난 분배금: 145원 / 1주당 (월분배)",
@@ -6093,8 +5979,8 @@ window.BRIEFING_DATA = {
         "sector": "국내 우량채권 ETF"
       },
       "ai_brief": {
-        "fact": "최근 주요 소식으로 '고금리에 채권형 ETF 인기…상위 10종에 한달새 1.3조 몰려' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '악재 속 출발한 중기채 ETF…액티브 운용으로 손실 최소화' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 90 (+0.17%) 흐름을 기록했습니다. 수급은 외국인(+835만), 기관(-1,348만, 연기금(장기 스마트머니)), 개인(+513만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "fact": "최근 주요 소식으로 '고금리에 채권형 ETF 인기…상위 10종에 한달새 1.3조 몰려' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '12월 신규ETF 16개…카카오·조선기자재·드론 [ETF 리그테이블]' 관련 이슈가 함께 거론되고 있습니다.",
+        "reaction": "금일 주가는 ▲ 170 (+0.31%) 흐름을 기록했습니다. 수급은 외국인(-673만), 기관(+7,341만, 연기금(장기 스마트머니)), 개인(-6,668만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
@@ -6110,6 +5996,14 @@ window.BRIEFING_DATA = {
           "publisher": "뉴시스",
           "date": "Fri, 02 Oct 2026",
           "summary": "고금리에 채권형 ETF 인기…상위 10종에 한달새 1.3조 몰려",
+          "is_report": false
+        },
+        {
+          "title": "12월 신규ETF 16개…카카오·조선기자재·드론 [ETF 리그테이블]",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54bEhKRmlVdjBGcElIMmtlTWNTcF9zT1RiRDVQTVBRd0hyeExRZVBsSGE1SUFVcGU4cENucTFDRjBQd05wZmpZTTA1M0ZqTGNib3EtV1lxdmpJTVhGVXRN?oc=5",
+          "publisher": "스마트투데이",
+          "date": "Fri, 02 Jan 2026",
+          "summary": "12월 신규ETF 16개…카카오·조선기자재·드론 [ETF 리그테이블]",
           "is_report": false
         },
         {
@@ -6137,14 +6031,6 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "12월 신규ETF 16개…카카오·조선기자재·드론 [ETF 리그테이블]",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54bEhKRmlVdjBGcElIMmtlTWNTcF9zT1RiRDVQTVBRd0hyeExRZVBsSGE1SUFVcGU4cENucTFDRjBQd05wZmpZTTA1M0ZqTGNib3EtV1lxdmpJTVhGVXRN?oc=5",
-          "publisher": "스마트투데이",
-          "date": "Fri, 02 Jan 2026",
-          "summary": "12월 신규ETF 16개…카카오·조선기자재·드론 [ETF 리그테이블]",
-          "is_report": false
-        },
-        {
           "title": "채권형 ETF도 분배금 지급… 분배락·종합과세 ‘주의보’",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQVVQU284X2tqUzBtVlRqRDE3cmZRVnhOWDZqQm11Yk1tM3dpbWl5cTg2UHQ4THZYaHZpWmN4Zk5nRnA0dlpqLXVGWmxSLU1SVDhDbUxTUERsdHRXb1prNVhENXI5aXE3VVZNQy1aVVd6OU1rNVVka0dWUER4ZW1mOW5KUV9wSTJp0gGcAUFVX3lxTE5aZzNPSkNaZTROMUpGNnZrZERnNUxTNXRaSVdjWWdpU0JTVUE5SFZia2ZHZ2JDclg5aXVFUDdSZXZqTkZTc1FSWXZKeERZTVU1aHFhT3NlNlZJRk1vMWlNTmhYZjcwRWlHcmNUQWw5bDZrQm0zZm9QNVgwTlRBekhNdzl4MEtYTDlQYkN6LUdEcjFEdFIxVFlubDhZMg?oc=5",
           "publisher": "Chosunbiz",
@@ -6153,11 +6039,11 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "미래에셋 ‘국내 채권형 TIGER ETF’ 순자산 10조 돌파…연초 이후 두 배↑",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KV3lqaGRDR3FDM2FwckJ5b2kxcWo0bmJJOTkxRV8wSU5tdnBId2E5S3pLT2hMMTNubXZjbm9zZGhxMTNURVJDUmI5TEVBbFZ4ZmtpN3NmMi1wVk5SbkJuR2dmTTVnMmZ6cFpuUjhIbw?oc=5",
-          "publisher": "뉴스톱",
-          "date": "Fri, 10 Oct 2025",
-          "summary": "미래에셋 ‘국내 채권형 TIGER ETF’ 순자산 10조 돌파…연초 이후 두 배↑",
+          "title": "국고채 금리 4%대, 채권 ETF로 뭉칫돈…이자수익·자본차익 기대",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNUXR4ZFdoNlYxNlFra0dUYm9MS1BBWG9pOVhtU21pZWlHSU9QSHFMaXRKMjlpeGhPTVVIMDJMUUhrN1JSQ1pkSDgyZzZOYWI0ZHhnc0huV1libTU0QVpZM293N2dad1V0MHfSAW5BVV95cUxOZjQzb19qaDhIVHVzMkhpMi1ucjhlUHhCdW40c3B3VEhTSUFXR21TWlA5V3NPd1JUS1ZYSlRnZmpBTUI4WHIzZ0hkWjV6cTN6dHpCd0RSZnpVcjlnY1hCZWU5OEVyamZpeHA1MUJPQQ?oc=5",
+          "publisher": "파이낸셜투데이",
+          "date": "Tue, 29 Sep 2026",
+          "summary": "국고채 금리 4%대, 채권 ETF로 뭉칫돈…이자수익·자본차익 기대",
           "is_report": false
         }
       ]
@@ -6175,27 +6061,27 @@ window.BRIEFING_DATA = {
         "name": "ACE 미국30년국채액티브(H)",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 6990,
-        "change_val": 25,
-        "change_rate": 0.36,
-        "display_price": "6,990원",
-        "display_change": "▲ 25 (+0.36%)",
+        "current_price": 7030,
+        "change_val": 40,
+        "change_rate": 0.57,
+        "display_price": "7,030원",
+        "display_change": "▲ 40 (+0.57%)",
         "status": "up",
         "high_52w": 7935,
-        "low_52w": 0,
-        "volume": 605007,
-        "display_volume": "605,007주",
-        "avg_volume_20d": 866635,
+        "low_52w": 6685,
+        "volume": 688687,
+        "display_volume": "688,687주",
+        "avg_volume_20d": 825415,
         "volume_surge": {
-          "ratio": 69.8,
+          "ratio": 83.4,
           "status": "normal",
-          "badge": "거래량 평이 (69.8%)",
+          "badge": "거래량 평이 (83.4%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "-5,682만",
-          "institutional": "+6.3억",
-          "retail": "-6.2억",
+          "foreign": "+49만",
+          "institutional": "+10.6억",
+          "retail": "-10.6억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -6214,14 +6100,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 6999.0,
-          "nav_str": "6,999.0원",
-          "disparity_rate": -0.13,
-          "disparity_badge": "적정 수준 (-0.13%)",
+          "nav": 7010.0,
+          "nav_str": "7,010.0원",
+          "disparity_rate": 0.29,
+          "disparity_badge": "적정 수준 (+0.29%)",
           "disparity_status": "good",
-          "three_month_return": -0.29,
-          "three_month_str": "-0.29%",
-          "market_cap_str": "14,330억원",
+          "three_month_return": -0.64,
+          "three_month_str": "-0.64%",
+          "market_cap_str": "14,412억원",
           "distribution_cycle": "월분배",
           "last_dps": "28원",
           "dps_str": "지난 분배금: 28원 / 1주당 (월분배)",
@@ -6253,12 +6139,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '“금리 정점” 미 국채 사들이는 서학개미…치솟는 미 장기국채 금리, 국내 파장은' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '美장기채 금리 치솟았는데 … 채권개미 '아찔한 베팅'' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 25 (+0.36%) 흐름을 기록했습니다. 수급은 외국인(-5,682만), 기관(+6.3억, 연기금(장기 스마트머니)), 개인(-6.2억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 0,
+        "reaction": "금일 주가는 ▲ 40 (+0.57%) 흐름을 기록했습니다. 수급은 외국인(+49만), 기관(+10.6억, 연기금(장기 스마트머니)), 개인(-10.6억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "ACE 미국30년국채액티브(H)의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
+        "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
+        "sentiment": "bull",
+        "sentiment_label": "호재 우세",
+        "sentiment_score": 30,
         "one_line_summary": "“금리 정점” 미 국채 사들이는 서학개미…치솟는 미 장기국채 금리, 국내 파장은",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -6334,27 +6220,27 @@ window.BRIEFING_DATA = {
         "name": "ACE 테슬라밸류체인액티브",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 16270,
-        "change_val": 105,
-        "change_rate": 0.65,
-        "display_price": "16,270원",
-        "display_change": "▲ 105 (+0.65%)",
-        "status": "up",
+        "current_price": 15370,
+        "change_val": -900,
+        "change_rate": -5.53,
+        "display_price": "15,370원",
+        "display_change": "▼ 900 (-5.53%)",
+        "status": "down",
         "high_52w": 25895,
-        "low_52w": 0,
-        "volume": 161834,
-        "display_volume": "161,834주",
-        "avg_volume_20d": 274931,
+        "low_52w": 15310,
+        "volume": 600228,
+        "display_volume": "600,228주",
+        "avg_volume_20d": 291222,
         "volume_surge": {
-          "ratio": 58.9,
-          "status": "normal",
-          "badge": "거래량 평이 (58.9%)",
-          "desc": "평균 수준 유지"
+          "ratio": 206.1,
+          "status": "surge",
+          "badge": "💥 거래량 급증 (206.1%)",
+          "desc": "20일 평균 대비 2.1배 유입"
         },
         "investor_flow": {
-          "foreign": "+3.0억",
-          "institutional": "-3.8억",
-          "retail": "+5,706만",
+          "foreign": "-3.0억",
+          "institutional": "-8,480만",
+          "retail": "+5,335만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -6373,14 +6259,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 16079.0,
-          "nav_str": "16,079.0원",
-          "disparity_rate": 1.19,
-          "disparity_badge": "고평가 주의 (+1.19%)",
-          "disparity_status": "high",
-          "three_month_return": -13.63,
-          "three_month_str": "-13.63%",
-          "market_cap_str": "6,622억원",
+          "nav": 15581.0,
+          "nav_str": "15,581.0원",
+          "disparity_rate": -1.35,
+          "disparity_badge": "저평가 기회 (-1.35%)",
+          "disparity_status": "low",
+          "three_month_return": -10.31,
+          "three_month_str": "-10.31%",
+          "market_cap_str": "6,256억원",
           "distribution_cycle": "분기분배",
           "last_dps": "30원",
           "dps_str": "지난 분배금: 30원 / 1주당 (분기분배)",
@@ -6412,12 +6298,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '한국투자신탁운용, ‘밸류체인 ETF’으로 글로벌 빅테크 투자 새 길' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '\"구글AI 급부상…셀레스티카·루멘텀 주목\"' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▲ 105 (+0.65%) 흐름을 기록했습니다. 수급은 외국인(+3.0억), 기관(-3.8억, 연기금(장기 스마트머니)), 개인(+5,706만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
-        "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
-        "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
-        "sentiment": "neutral",
-        "sentiment_label": "중립·관망",
-        "sentiment_score": 0,
+        "reaction": "금일 주가는 ▼ 900 (-5.53%) [💥 거래량 급증 (206.1%)] 흐름을 기록했습니다. 수급은 외국인(-3.0억), 기관(-8,480만, 연기금(장기 스마트머니)), 개인(+5,335만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "upside": "과도한 낙폭에 따른 기술적 저가 매수세 유입 및 밸류에이션 매력 부각 가능성이 있습니다.",
+        "downside": "외국인/기관의 매도 압력 및 단기 악재성 이슈로 인한 투자 심리 위축이 하방 압력으로 작용하고 있습니다.",
+        "sentiment": "bear",
+        "sentiment_label": "리스크 주의",
+        "sentiment_score": -55,
         "one_line_summary": "한국투자신탁운용, ‘밸류체인 ETF’으로 글로벌 빅테크 투자 새 길",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -6471,11 +6357,11 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "[숨은 ETF 맛집]'테슬라'는 기본...삼전·엔비디아까지 동반투자",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kVnFuYU8zT0JQMGlXWjdkUTVsSHQ4cE9xWnpldnpIQWtVZTlfdHFKbnJ2WGlGX1hibmJRRVZqemtuUGtrYXdMLTJIWV9ZakJxNVd0Vm9DazQ4ZVZWMVNZdks3MXlDZV9DOGc?oc=5",
-          "publisher": "비즈워치",
-          "date": "Wed, 08 Oct 2025",
-          "summary": "[숨은 ETF 맛집]'테슬라'는 기본...삼전·엔비디아까지 동반투자",
+          "title": "한투운용, ACE 밸류체인액티브 ETF 시리즈 5종 리밸런싱",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CdnlTcEhONmFCS3FEZHVsaG42QkU1VUdlZk9UeHNJTllDTHczbnNYbjVqd081cFlDdjNDSGV6bk5taFRDYV9ETFZyeGNieElhNXdWYnNhd1BDV2Jo?oc=5",
+          "publisher": "뉴스핌",
+          "date": "Fri, 10 Jan 2025",
+          "summary": "한투운용, ACE 밸류체인액티브 ETF 시리즈 5종 리밸런싱",
           "is_report": false
         }
       ]
@@ -6493,27 +6379,27 @@ window.BRIEFING_DATA = {
         "name": "TIGER 미국배당다우존스",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 14625,
-        "change_val": -235,
-        "change_rate": -1.58,
-        "display_price": "14,625원",
-        "display_change": "▼ 235 (-1.58%)",
+        "current_price": 14505,
+        "change_val": -120,
+        "change_rate": -0.82,
+        "display_price": "14,505원",
+        "display_change": "▼ 120 (-0.82%)",
         "status": "down",
         "high_52w": 15975,
-        "low_52w": 0,
-        "volume": 2061501,
-        "display_volume": "2,061,501주",
-        "avg_volume_20d": 2052790,
+        "low_52w": 12450,
+        "volume": 2130183,
+        "display_volume": "2,130,183주",
+        "avg_volume_20d": 2068829,
         "volume_surge": {
-          "ratio": 100.4,
+          "ratio": 103.0,
           "status": "normal",
-          "badge": "거래량 평이 (100.4%)",
+          "badge": "거래량 평이 (103.0%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+29.1억",
-          "institutional": "-56.8억",
-          "retail": "+26.7억",
+          "foreign": "-13.3억",
+          "institutional": "+20.7억",
+          "retail": "-7.1억",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -6532,14 +6418,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 14605.0,
-          "nav_str": "14,605.0원",
-          "disparity_rate": 0.14,
-          "disparity_badge": "적정 수준 (+0.14%)",
+          "nav": 14456.0,
+          "nav_str": "14,456.0원",
+          "disparity_rate": 0.34,
+          "disparity_badge": "적정 수준 (+0.34%)",
           "disparity_status": "good",
-          "three_month_return": -2.51,
-          "three_month_str": "-2.51%",
-          "market_cap_str": "45,125억원",
+          "three_month_return": -3.8,
+          "three_month_str": "-3.80%",
+          "market_cap_str": "44,770억원",
           "distribution_cycle": "월분배",
           "last_dps": "38원",
           "dps_str": "지난 분배금: 38원 / 1주당 (월분배)",
@@ -6571,12 +6457,12 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '미래에셋 TIGER 미국 대표지수 ETF 3종, 올해 개인 순매수 9조원 돌파' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '미래에셋, ‘TIGER 미국 대표지수 ETF 3종’ 올해 개인 순매수 9조원 돌파' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 235 (-1.58%) 흐름을 기록했습니다. 수급은 외국인(+29.1억), 기관(-56.8억, 연기금(장기 스마트머니)), 개인(+26.7억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "reaction": "금일 주가는 ▼ 120 (-0.82%) 흐름을 기록했습니다. 수급은 외국인(-13.3억), 기관(+20.7억, 연기금(장기 스마트머니)), 개인(-7.1억), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "향후 실적 가시성 확보 및 신규 사업 모멘텀 구체화 시 재평가 가능성이 열려 있습니다.",
         "downside": "뚜렷한 추가 상승 동력 부재 시 박스권 횡보 및 거시 변동성에 따른 등락 가능성이 있습니다.",
         "sentiment": "neutral",
         "sentiment_label": "중립·관망",
-        "sentiment_score": -5,
+        "sentiment_score": 20,
         "one_line_summary": "미래에셋 TIGER 미국 대표지수 ETF 3종, 올해 개인 순매수 9조원 돌파",
         "ai_engine": "Quantitative NLP Fallback"
       },
@@ -6598,30 +6484,6 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "미래운용 ‘TIGER 미국 대표지수 3종’ 개인 순매수 9조 돌파",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JNkxNN0poeS1ic1FCcllxTU9pQndUcWUyZDNuN04wTVU4T2NieXFnbTA3bGVfazYxTE1mbFZqZExJdnA4YWJXZndEaHNUa1UweG04UWxsbExjZXNaTklqdGtZaTBweVBsbWdhLQ?oc=5",
-          "publisher": "뉴시안",
-          "date": "Thu, 19 Nov 2026",
-          "summary": "미래운용 ‘TIGER 미국 대표지수 3종’ 개인 순매수 9조 돌파",
-          "is_report": false
-        },
-        {
-          "title": "미래에셋운용, TIGER 미국 대표지수 ETF 3종 개인 순매수 9조원 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51UzdCSDlWRzlWWFFBTHU0OXBWcVMyRHgxT0hrbktiSjhaVGs3amVOYVFuVUdGQ1YycGladm9XamYzOEhLaWlLUDIwT3Nmdm0tUjlZMGk2a0Q0QVA4S2lSR1ZwOFI?oc=5",
-          "publisher": "매일일보",
-          "date": "Thu, 19 Nov 2026",
-          "summary": "미래에셋운용, TIGER 미국 대표지수 ETF 3종 개인 순매수 9조원 돌파",
-          "is_report": false
-        },
-        {
-          "title": "미래에셋 TIGER 미국 대표지수 ETF 3종, 개인 순매수 9조원 돌파",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLcUZuLW5sVmtkUkNZVWFZbXpVLUwzckRsQ09RQ21RRXBObGRYbzZDRWpvNGlIbGZyemNKSFZQdEhyenVDLVZpX3FLVDdQLURNdEJ2eUFRRmZfUWlodFhWVWkwN0lpQ0c3?oc=5",
-          "publisher": "레디앙",
-          "date": "Thu, 19 Nov 2026",
-          "summary": "미래에셋 TIGER 미국 대표지수 ETF 3종, 개인 순매수 9조원 돌파",
-          "is_report": false
-        },
-        {
           "title": "개인 투자자, 'TIGER 美 대표지수 ETF 3종' 9조 넘게 담았다",
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlZjRTcm5nQzlqTUVjUDczeENuV3poS3dTVVFlZ0c5YUJQV2ZUR3JfY0F3MF85UjQ2OC0xZ2ZTbEtvaVFjM0wxM05xN0xreEZidklIdFNQSlZZaV9NdFo5a2tmaWw?oc=5",
           "publisher": "서울경제TV",
@@ -6635,6 +6497,30 @@ window.BRIEFING_DATA = {
           "publisher": "아시아경제",
           "date": "Thu, 19 Nov 2026",
           "summary": "'TIGER 미국 대표지수 ETF 3종', 올해 개인 순매수 9조원 돌파",
+          "is_report": false
+        },
+        {
+          "title": "흔들리는 증시 속 배당주 주목…'TIGER 커버드콜', 월중·월말 분배",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16a3hVSVdsbUVOaC1xNExSaWt4RUJJTVpqeEEwN0lnSFJzbmoweVU4d2tDVnF5cENsdXBia1ptNnRyTHhrdlNaSUhlVUIzQlcwYThKaTFwUWNhU3dOcGMwZjZ0WjFZX1hKNWo3TQ?oc=5",
+          "publisher": "뉴시안",
+          "date": "Mon, 16 Nov 2026",
+          "summary": "흔들리는 증시 속 배당주 주목…'TIGER 커버드콜', 월중·월말 분배",
+          "is_report": false
+        },
+        {
+          "title": "\"같은 '한국판 SCHD' 아니야?\" 수익률 딴판…성적 1등은?[ETFvsETF] - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12SnVoVlZNa3psa1VFREhJcm0za2t1TlQ0S3Zsd1l2QW9rY0lod1BaZVdVYXlpQXpIbERtNnF5eTc3cTFBQS1JYnhkWVBxdjBuQWhCQm9wSENiLVdYNmExZlFvdzRMclNSRGJOVlhUdVkyZ2VkdGfSAXtBVV95cUxQeWktcDhjczkyaUdCWWpKZnFuT25jVlh1VjhkSzNYZ0tTQ250azBQTUFkb0gwYVNCNW1PX1kyQzItemc1dEdmZHpJelNIVVVjeEVIaWVXV2NLSnY4QjBvdlR5NDRsejlsRUtuSnZZY0hPak4zTHplamxHTmM?oc=5",
+          "publisher": "머니투데이",
+          "date": "Wed, 18 Nov 2026",
+          "summary": "\"같은 '한국판 SCHD' 아니야?\" 수익률 딴판…성적 1등은?[ETFvsETF] - 머니투데이",
+          "is_report": false
+        },
+        {
+          "title": "미래에셋운용, TIGER 미국 대표지수 ETF 3종 개인 순매수 9조원 돌파",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51UzdCSDlWRzlWWFFBTHU0OXBWcVMyRHgxT0hrbktiSjhaVGs3amVOYVFuVUdGQ1YycGladm9XamYzOEhLaWlLUDIwT3Nmdm0tUjlZMGk2a0Q0QVA4S2lSR1ZwOFI?oc=5",
+          "publisher": "매일일보",
+          "date": "Thu, 19 Nov 2026",
+          "summary": "미래에셋운용, TIGER 미국 대표지수 ETF 3종 개인 순매수 9조원 돌파",
           "is_report": false
         }
       ]
@@ -6652,27 +6538,27 @@ window.BRIEFING_DATA = {
         "name": "PLUS 일본엔화초단기국채(합성)",
         "market": "KR",
         "currency": "KRW",
-        "current_price": 8835,
-        "change_val": -40,
-        "change_rate": -0.45,
-        "display_price": "8,835원",
-        "display_change": "▼ 40 (-0.45%)",
-        "status": "down",
+        "current_price": 8905,
+        "change_val": 70,
+        "change_rate": 0.79,
+        "display_price": "8,905원",
+        "display_change": "▲ 70 (+0.79%)",
+        "status": "up",
         "high_52w": 10245,
-        "low_52w": 0,
-        "volume": 98264,
-        "display_volume": "98,264주",
-        "avg_volume_20d": 71062,
+        "low_52w": 8820,
+        "volume": 54198,
+        "display_volume": "54,198주",
+        "avg_volume_20d": 67747,
         "volume_surge": {
-          "ratio": 138.3,
+          "ratio": 80.0,
           "status": "normal",
-          "badge": "거래량 평이 (138.3%)",
+          "badge": "거래량 평이 (80.0%)",
           "desc": "평균 수준 유지"
         },
         "investor_flow": {
-          "foreign": "+8,835원",
-          "institutional": "+1,730만",
-          "retail": "-1,931만",
+          "foreign": "+1,925만",
+          "institutional": "+1,070만",
+          "retail": "-2,996만",
           "program": "0",
           "institution_detail": {
             "pension": "장기 스마트머니",
@@ -6691,14 +6577,14 @@ window.BRIEFING_DATA = {
         },
         "earnings_history": [],
         "etf_metrics": {
-          "nav": 8847.0,
-          "nav_str": "8,847.0원",
-          "disparity_rate": -0.14,
-          "disparity_badge": "적정 수준 (-0.14%)",
+          "nav": 8912.0,
+          "nav_str": "8,912.0원",
+          "disparity_rate": -0.08,
+          "disparity_badge": "적정 수준 (-0.08%)",
           "disparity_status": "good",
-          "three_month_return": -5.08,
-          "three_month_str": "-5.08%",
-          "market_cap_str": "194억원",
+          "three_month_return": -4.95,
+          "three_month_str": "-4.95%",
+          "market_cap_str": "196억원",
           "distribution_cycle": "월분배",
           "last_dps": "25원",
           "dps_str": "지난 분배금: 25원 / 1주당 (월분배)",
@@ -6730,7 +6616,7 @@ window.BRIEFING_DATA = {
       },
       "ai_brief": {
         "fact": "최근 주요 소식으로 '엔화 ETF 수익률 부진에도 일학개미 투자 몰린다' 등이 보도되며 시장의 이목이 집중되었습니다. 또한 '엔화 18년 만에 최저⋯ETF 손실에도 개미는 ‘저점매수’' 관련 이슈가 함께 거론되고 있습니다.",
-        "reaction": "금일 주가는 ▼ 40 (-0.45%) 흐름을 기록했습니다. 수급은 외국인(+8,835원), 기관(+1,730만, 연기금(장기 스마트머니)), 개인(-1,931만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
+        "reaction": "금일 주가는 ▲ 70 (+0.79%) 흐름을 기록했습니다. 수급은 외국인(+1,925만), 기관(+1,070만, 연기금(장기 스마트머니)), 개인(-2,996만), 프로그램(0) 동향을 보였으며, 투자의견 매수 (Buy) 흐름입니다.",
         "upside": "PLUS 일본엔화초단기국채(합성)의 실적 개선 기대감 및 주요 수급 주체의 순매수 유입이 추가 상승 모멘텀을 지지하고 있습니다.",
         "downside": "단기 주가 반등에 따른 차익 실현 매물 출회 및 글로벌 거시경제 변동성을 점검할 필요가 있습니다.",
         "sentiment": "bull",
@@ -6757,19 +6643,19 @@ window.BRIEFING_DATA = {
           "is_report": false
         },
         {
-          "title": "줄줄이 마이너스인데…\"거꾸로 넣었더니\" 나홀로 웃은 정체 [투자톡]",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByVVFGVjA2ckF1U1hFWDk1cDNLeWlkX1FESTlCakpudEw2WDVtZlhVZl94T0V3OXZuNHBpN2c4YjR0WHlWTHpwT19qMzBrOXRBaUY5Rjctc1RhUQ?oc=5",
-          "publisher": "한국경제",
-          "date": "Sat, 15 Aug 2026",
-          "summary": "줄줄이 마이너스인데…\"거꾸로 넣었더니\" 나홀로 웃은 정체 [투자톡]",
-          "is_report": false
-        },
-        {
           "title": "40년 만에 최저치 찍은 엔화…ETF 수익률도 뚝뚝 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9SaVh2ejkybXpzaXl4M3VBXzM3OFFteDMyWnh3Vll2Ri1XNU05VHhqYlJXYnhkU3BvNkNrR0FMZTNyVW9BcUZMNmFIQ3NNcHZTQWVOM1FxRWVLLWVncE1SVEQ4Ny1GTGtJ0gFuQVVfeXFMTXJvYmcyWi1tUGFVUUdHQWpxTEN1Z1hkbFhBS0hILWMxQ3NVYWlXczBnZDhwWUVxbzZxUElMbjJUaFVPSmhBUDVFd1AtWTdIZUFFcFRkYnlrSlBjdmxrZmFGNEkyNzdTNUlGbG94RUE?oc=5",
           "publisher": "머니투데이",
           "date": "Mon, 27 Jul 2026",
           "summary": "40년 만에 최저치 찍은 엔화…ETF 수익률도 뚝뚝 - 머니투데이",
+          "is_report": false
+        },
+        {
+          "title": "줄줄이 마이너스인데…\"거꾸로 넣었더니\" 나홀로 웃은 정체 [투자톡]",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByVVFGVjA2ckF1U1hFWDk1cDNLeWlkX1FESTlCakpudEw2WDVtZlhVZl94T0V3OXZuNHBpN2c4YjR0WHlWTHpwT19qMzBrOXRBaUY5Rjctc1RhUQ?oc=5",
+          "publisher": "한국경제",
+          "date": "Sat, 15 Aug 2026",
+          "summary": "줄줄이 마이너스인데…\"거꾸로 넣었더니\" 나홀로 웃은 정체 [투자톡]",
           "is_report": false
         },
         {
